@@ -1,0 +1,701 @@
+{
+  "subject": "Computer Organization and Architecture",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "COA_01",
+      "concept_code": "COA_PIPE_01",
+      "topic": "Pipelining",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Pipelining mainly improves:",
+      "options": [
+        {"option_id": "A", "text": "Latency", "is_correct": false},
+        {"option_id": "B", "text": "Throughput", "is_correct": true},
+        {"option_id": "C", "text": "Memory size", "is_correct": false},
+        {"option_id": "D", "text": "Clock frequency", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Pipelining increases instruction throughput by overlapping execution."
+    },
+    {
+      "question_code": "COA_02",
+      "concept_code": "COA_PIPE_02",
+      "topic": "Pipelining",
+      "subtopic": "Stalls",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Pipeline stalls are caused due to:",
+      "options": [
+        {"option_id": "A", "text": "No dependencies", "is_correct": false},
+        {"option_id": "B", "text": "Data hazards", "is_correct": true},
+        {"option_id": "C", "text": "Faster CPU", "is_correct": false},
+        {"option_id": "D", "text": "Cache hit", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Stalls occur due to hazards like data dependencies."
+    },
+    {
+      "question_code": "COA_03",
+      "concept_code": "COA_PIPE_03",
+      "topic": "Pipelining",
+      "subtopic": "Hazards",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which is NOT a pipeline hazard?",
+      "options": [
+        {"option_id": "A", "text": "Data hazard", "is_correct": false},
+        {"option_id": "B", "text": "Control hazard", "is_correct": false},
+        {"option_id": "C", "text": "Structural hazard", "is_correct": false},
+        {"option_id": "D", "text": "Arithmetic hazard", "is_correct": true}
+      ],
+      "correct_answer": ["D"],
+      "explanation": "Only data, control, structural hazards exist."
+    },
+    {
+      "question_code": "COA_04",
+      "concept_code": "COA_CACHE_01",
+      "topic": "Cache Memory",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Cache memory is used to:",
+      "options": [
+        {"option_id": "A", "text": "Increase disk size", "is_correct": false},
+        {"option_id": "B", "text": "Reduce memory access time", "is_correct": true},
+        {"option_id": "C", "text": "Store programs permanently", "is_correct": false},
+        {"option_id": "D", "text": "Replace RAM", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Cache reduces average memory access time."
+    },
+    {
+      "question_code": "COA_05",
+      "concept_code": "COA_CACHE_02",
+      "topic": "Cache Memory",
+      "subtopic": "Locality",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Cache memory is based on:",
+      "options": [
+        {"option_id": "A", "text": "Random access", "is_correct": false},
+        {"option_id": "B", "text": "Locality of reference", "is_correct": true},
+        {"option_id": "C", "text": "Sequential execution only", "is_correct": false},
+        {"option_id": "D", "text": "Virtual memory", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Programs exhibit temporal and spatial locality."
+    },
+    {
+      "question_code": "COA_06",
+      "concept_code": "COA_CACHE_03",
+      "topic": "Cache Memory",
+      "subtopic": "Mapping",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Direct mapped cache means:",
+      "options": [
+        {"option_id": "A", "text": "Any block can go anywhere", "is_correct": false},
+        {"option_id": "B", "text": "Each block maps to exactly one cache line", "is_correct": true},
+        {"option_id": "C", "text": "Fully associative mapping", "is_correct": false},
+        {"option_id": "D", "text": "No mapping exists", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Direct mapping assigns fixed cache location."
+    },
+    {
+      "question_code": "COA_07",
+      "concept_code": "COA_CACHE_04",
+      "topic": "Cache Memory",
+      "subtopic": "Associative",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Fully associative cache allows:",
+      "options": [
+        {"option_id": "A", "text": "Fixed placement", "is_correct": false},
+        {"option_id": "B", "text": "Any block in any line", "is_correct": true},
+        {"option_id": "C", "text": "Only one block", "is_correct": false},
+        {"option_id": "D", "text": "No replacement", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Any memory block can go anywhere in cache."
+    },
+    {
+      "question_code": "COA_08",
+      "concept_code": "COA_CACHE_05",
+      "topic": "Cache Memory",
+      "subtopic": "Hit Ratio",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Hit ratio is defined as:",
+      "options": [
+        {"option_id": "A", "text": "Misses / accesses", "is_correct": false},
+        {"option_id": "B", "text": "Hits / total accesses", "is_correct": true},
+        {"option_id": "C", "text": "Access time / hits", "is_correct": false},
+        {"option_id": "D", "text": "Cache size / memory size", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Hit ratio = hits / total memory accesses."
+    },
+    {
+      "question_code": "COA_09",
+      "concept_code": "COA_MEM_01",
+      "topic": "Memory Hierarchy",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Fastest memory in hierarchy is:",
+      "options": [
+        {"option_id": "A", "text": "RAM", "is_correct": false},
+        {"option_id": "B", "text": "Cache", "is_correct": false},
+        {"option_id": "C", "text": "Registers", "is_correct": true},
+        {"option_id": "D", "text": "Hard disk", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Registers are fastest memory."
+    },
+    {
+      "question_code": "COA_10",
+      "concept_code": "COA_MEM_02",
+      "topic": "Memory Hierarchy",
+      "subtopic": "Levels",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Correct memory hierarchy order is:",
+      "options": [
+        {"option_id": "A", "text": "Disk → Cache → RAM → Registers", "is_correct": false},
+        {"option_id": "B", "text": "Registers → Cache → RAM → Disk", "is_correct": true},
+        {"option_id": "C", "text": "RAM → Registers → Cache → Disk", "is_correct": false},
+        {"option_id": "D", "text": "Cache → Disk → RAM → Registers", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Speed decreases from registers to disk."
+    },
+    {
+      "question_code": "COA_11",
+      "concept_code": "COA_IO_01",
+      "topic": "I/O Systems",
+      "subtopic": "Interrupts",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Interrupt is used for:",
+      "options": [
+        {"option_id": "A", "text": "Continuous polling", "is_correct": false},
+        {"option_id": "B", "text": "CPU notification from devices", "is_correct": true},
+        {"option_id": "C", "text": "Memory allocation", "is_correct": false},
+        {"option_id": "D", "text": "Cache replacement", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Interrupt signals CPU about events."
+    },
+    {
+      "question_code": "COA_12",
+      "concept_code": "COA_IO_02",
+      "topic": "I/O Systems",
+      "subtopic": "DMA",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "DMA stands for:",
+      "options": [
+        {"option_id": "A", "text": "Direct Memory Access", "is_correct": true},
+        {"option_id": "B", "text": "Dynamic Memory Allocation", "is_correct": false},
+        {"option_id": "C", "text": "Data Memory Array", "is_correct": false},
+        {"option_id": "D", "text": "Digital Machine Access", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "DMA allows direct device-memory transfer."
+    },
+    {
+      "question_code": "COA_13",
+      "concept_code": "COA_IO_03",
+      "topic": "I/O Systems",
+      "subtopic": "Polling",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Polling is:",
+      "options": [
+        {"option_id": "A", "text": "Interrupt-driven", "is_correct": false},
+        {"option_id": "B", "text": "CPU repeatedly checks device status", "is_correct": true},
+        {"option_id": "C", "text": "Memory mapping", "is_correct": false},
+        {"option_id": "D", "text": "Cache replacement", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Polling wastes CPU cycles by checking repeatedly."
+    },
+    {
+      "question_code": "COA_14",
+      "concept_code": "COA_PIPE_04",
+      "topic": "Pipelining",
+      "subtopic": "Speedup",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Ideal pipeline speedup is:",
+      "options": [
+        {"option_id": "A", "text": "1", "is_correct": false},
+        {"option_id": "B", "text": "Less than number of stages", "is_correct": false},
+        {"option_id": "C", "text": "Equal to number of stages", "is_correct": true},
+        {"option_id": "D", "text": "Zero", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Ideal speedup equals pipeline stages."
+    },
+    {
+      "question_code": "COA_15",
+      "concept_code": "COA_PIPE_05",
+      "topic": "Pipelining",
+      "subtopic": "Throughput",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Pipeline throughput means:",
+      "options": [
+        {"option_id": "A", "text": "Time per instruction", "is_correct": false},
+        {"option_id": "B", "text": "Instructions completed per unit time", "is_correct": true},
+        {"option_id": "C", "text": "Memory access time", "is_correct": false},
+        {"option_id": "D", "text": "Cache size", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Throughput measures output rate."
+    },
+    {
+      "question_code": "COA_16",
+      "concept_code": "COA_RISC_01",
+      "topic": "Instruction Set Architecture",
+      "subtopic": "RISC vs CISC",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "RISC stands for:",
+      "options": [
+        {"option_id": "A", "text": "Reduced Instruction Set Computer", "is_correct": true},
+        {"option_id": "B", "text": "Random Instruction Set Computer", "is_correct": false},
+        {"option_id": "C", "text": "Rapid Instruction System Code", "is_correct": false},
+        {"option_id": "D", "text": "Reduced Internal Storage Code", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "RISC uses simple instructions."
+    },
+    {
+      "question_code": "COA_17",
+      "concept_code": "COA_RISC_02",
+      "topic": "Instruction Set Architecture",
+      "subtopic": "CISC",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "CISC processors have:",
+      "options": [
+        {"option_id": "A", "text": "Simple instructions only", "is_correct": false},
+        {"option_id": "B", "text": "Complex instructions", "is_correct": true},
+        {"option_id": "C", "text": "No instructions", "is_correct": false},
+        {"option_id": "D", "text": "Only registers", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "CISC uses complex instruction set."
+    },
+    {
+      "question_code": "COA_18",
+      "concept_code": "COA_ALU_01",
+      "topic": "ALU",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "ALU performs:",
+      "options": [
+        {"option_id": "A", "text": "Only storage", "is_correct": false},
+        {"option_id": "B", "text": "Arithmetic and logic operations", "is_correct": true},
+        {"option_id": "C", "text": "Only I/O operations", "is_correct": false},
+        {"option_id": "D", "text": "Only memory allocation", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "ALU handles computation."
+    },
+    {
+      "question_code": "COA_19",
+      "concept_code": "COA_REG_01",
+      "topic": "Registers",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Registers are located in:",
+      "options": [
+        {"option_id": "A", "text": "Hard disk", "is_correct": false},
+        {"option_id": "B", "text": "CPU", "is_correct": true},
+        {"option_id": "C", "text": "Cache only", "is_correct": false},
+        {"option_id": "D", "text": "Main memory", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Registers are inside CPU."
+    },
+    {
+      "question_code": "COA_20",
+      "concept_code": "COA_MEM_03",
+      "topic": "Memory",
+      "subtopic": "Virtual Memory",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Virtual memory is used to:",
+      "options": [
+        {"option_id": "A", "text": "Increase CPU speed", "is_correct": false},
+        {"option_id": "B", "text": "Extend usable memory using disk", "is_correct": true},
+        {"option_id": "C", "text": "Replace cache", "is_correct": false},
+        {"option_id": "D", "text": "Eliminate RAM", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Virtual memory uses disk as extension of RAM."
+    },
+  {
+    "question_code": "COA_21",
+    "concept_code": "COA_PIPE_06",
+    "topic": "Pipelining",
+    "subtopic": "Speedup Calculation",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A 5-stage pipeline executes 100 instructions. Ignoring stalls, how many clock cycles are required to complete execution?",
+    "correct_answer": 104.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Pipeline cycles = k + n - 1 = 5 + 100 - 1 = 104."
+  },
+  {
+    "question_code": "COA_22",
+    "concept_code": "COA_CACHE_06",
+    "topic": "Cache Memory",
+    "subtopic": "Hit Ratio",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "A cache receives 1000 memory accesses and 920 of them are hits. What is the hit ratio?",
+    "correct_answer": 0.92,
+    "answer_tolerance": 0.001,
+    "explanation": "Hit ratio = Hits / Total Accesses = 920 / 1000 = 0.92."
+  },
+  {
+    "question_code": "COA_23",
+    "concept_code": "COA_CACHE_07",
+    "topic": "Cache Memory",
+    "subtopic": "Average Memory Access Time",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A cache has hit ratio 0.9, cache access time 2 ns and main memory access time 50 ns. Compute the average memory access time (AMAT) in ns.",
+    "correct_answer": 7.0,
+    "answer_tolerance": 0.01,
+    "explanation": "AMAT = Hit Time + Miss Rate × Miss Penalty = 2 + 0.1 × 50 = 7 ns."
+  },
+  {
+    "question_code": "COA_24",
+    "concept_code": "COA_MEM_04",
+    "topic": "Memory Hierarchy",
+    "subtopic": "Addressing",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "How many unique memory locations can be addressed using a 16-bit address bus?",
+    "correct_answer": 65536.0,
+    "answer_tolerance": 0.1,
+    "explanation": "Number of locations = 2^16 = 65536."
+  },
+  {
+    "question_code": "COA_25",
+    "concept_code": "COA_IO_04",
+    "topic": "I/O Systems",
+    "subtopic": "DMA Transfer",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A DMA controller transfers 8192 bytes at a rate of 2048 bytes/ms. Calculate the transfer time in milliseconds.",
+    "correct_answer": 4.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Transfer Time = 8192 / 2048 = 4 ms."
+  },
+  {
+    "question_code": "COA_26",
+    "concept_code": "COA_PIPE_07",
+    "topic": "Pipelining",
+    "subtopic": "CPI",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A processor executes 500 instructions in 600 clock cycles. Compute the CPI (Cycles Per Instruction).",
+    "correct_answer": 1.2,
+    "answer_tolerance": 0.01,
+    "explanation": "CPI = Total Cycles / Total Instructions = 600 / 500 = 1.2."
+  },
+  {
+    "question_code": "COA_27",
+    "concept_code": "COA_RISC_03",
+    "topic": "Instruction Set Architecture",
+    "subtopic": "Instruction Formats",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A fixed-length instruction format uses 32 bits. If the opcode field occupies 8 bits, how many bits remain for operands and addressing information?",
+    "correct_answer": 24.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Remaining bits = 32 − 8 = 24."
+  },
+  {
+    "question_code": "COA_28",
+    "concept_code": "COA_ALU_02",
+    "topic": "ALU",
+    "subtopic": "Arithmetic Operations",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "An ALU performs 250 million operations in 5 seconds. Calculate the throughput in million operations per second.",
+    "correct_answer": 50.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Throughput = 250 / 5 = 50 million operations per second."
+  },
+  {
+    "question_code": "COA_29",
+    "concept_code": "COA_MEM_05",
+    "topic": "Memory",
+    "subtopic": "Virtual Memory",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A system has a page size of 4 KB and a logical address space of 1 MB. How many pages are present in the logical address space?",
+    "correct_answer": 256.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Pages = 1 MB / 4 KB = 1024 KB / 4 KB = 256."
+  },
+  {
+    "question_code": "COA_30",
+    "concept_code": "COA_CACHE_08",
+    "topic": "Cache Memory",
+    "subtopic": "Miss Ratio",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A cache has a hit ratio of 0.85. Compute the miss ratio.",
+    "correct_answer": 0.15,
+    "answer_tolerance": 0.001,
+    "explanation": "Miss Ratio = 1 − Hit Ratio = 1 − 0.85 = 0.15."
+  },
+  {
+    "question_code": "COA_06",
+    "concept_code": "COA_PIPE_01",
+    "topic": "Pipelining",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Consider a k-stage instruction pipeline. Which of the following statements are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Pipelining improves instruction throughput",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Pipelining ideally reduces CPI towards 1",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Pipelining decreases the execution time of an individual instruction",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Multiple instructions can be in different pipeline stages simultaneously",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Pipelining overlaps instruction execution, improving throughput and ideally achieving CPI≈1. However, it does not reduce the latency of a single instruction."
+  },
+  {
+    "question_code": "COA_07",
+    "concept_code": "COA_PIPE_02",
+    "topic": "Pipelining",
+    "subtopic": "Stalls",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Pipeline stalls may occur due to which of the following reasons?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Load-use data dependency",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Branch instructions with unresolved outcomes",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Resource conflicts between instructions",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Perfect branch prediction",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Pipeline stalls can arise from data hazards, control hazards, and structural hazards. Perfect branch prediction helps avoid stalls rather than causing them."
+  },
+  {
+    "question_code": "COA_08",
+    "concept_code": "COA_PIPE_03",
+    "topic": "Pipelining",
+    "subtopic": "Hazards",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are recognized pipeline hazards?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "RAW (Read After Write) hazard",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Structural hazard",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Control hazard",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Virtual memory hazard",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "The classical pipeline hazards are data hazards (e.g., RAW), structural hazards, and control hazards."
+  },
+  {
+    "question_code": "COA_09",
+    "concept_code": "COA_CACHE_01",
+    "topic": "Cache Memory",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about cache memory are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Cache memory is typically implemented using SRAM",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Cache reduces average memory access time",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A cache hit occurs when requested data is found in the cache",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Cache memory is slower than main memory",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Caches are built using fast SRAM, reduce average memory access time, and produce cache hits when data is present. They are faster than main memory."
+  },
+  {
+    "question_code": "COA_10",
+    "concept_code": "COA_CACHE_02",
+    "topic": "Cache Memory",
+    "subtopic": "Locality",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements correctly describe locality of reference?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Temporal locality implies recently accessed data is likely to be accessed again soon",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Spatial locality implies nearby memory locations are likely to be accessed together",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Loops in programs often exhibit temporal locality",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Locality of reference is unrelated to cache performance",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Temporal and spatial locality form the foundation of cache effectiveness. Program loops often repeatedly access the same instructions and data, exhibiting temporal locality."
+  }
+]
+}

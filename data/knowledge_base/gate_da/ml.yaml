@@ -1,0 +1,539 @@
+subject: Machine Learning
+exam: GATE DA
+subject_weightage: 20
+
+topics:
+
+  - name: Introduction
+    topic_code: ML_INTRO
+    weightage: 5
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Definition
+        concepts:
+
+          - concept_code: ML_INTRO_01
+            name: Machine Learning Definition
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - define_machine_learning
+              - distinguish_ml_from_rule_based_systems
+
+            pyq_patterns:
+              - ml_definition
+              - basic_concept_identification
+
+            templates:
+              - pattern: "Machine Learning is best defined as:"
+                difficulty: easy
+
+
+  - name: Types of Learning
+    topic_code: ML_TYPES
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Learning Paradigms
+        concepts:
+
+          - concept_code: ML_TYPES_01
+            name: Supervised Learning
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_labeled_data_usage
+              - differentiate_supervised_learning
+            pyq_patterns: [supervised_learning_definition]
+            templates:
+              - pattern: "Supervised learning requires:"
+                difficulty: easy
+
+          - concept_code: ML_TYPES_02
+            name: Unsupervised Learning
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_pattern_discovery
+              - understand_unlabeled_data_usage
+            pyq_patterns: [unsupervised_learning_definition]
+            templates:
+              - pattern: "Unsupervised learning is used for:"
+                difficulty: easy
+
+          - concept_code: ML_TYPES_03
+            name: Reinforcement Learning
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_reward_based_learning
+              - distinguish_rl_from_supervised
+            pyq_patterns: [reinforcement_learning_principle]
+            templates:
+              - pattern: "Reinforcement learning is based on:"
+                difficulty: medium
+
+
+  - name: Regression
+    topic_code: ML_REG
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Regression Models
+        concepts:
+
+          - concept_code: ML_REG_01
+            name: Linear Regression
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - predict_continuous_values
+              - distinguish_regression_vs_classification
+            pyq_patterns: [linear_regression_usage]
+            templates:
+              - pattern: "Linear regression is used to predict:"
+                difficulty: easy
+
+          - concept_code: ML_REG_02
+            name: Cost Function (MSE)
+            weightage: 4
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_REG_01]
+            learning_outcomes:
+              - compute_error_function
+              - understand_mse
+            pyq_patterns: [cost_function_linear_regression]
+            templates:
+              - pattern: "In linear regression, cost function is typically:"
+                difficulty: medium
+
+          - concept_code: ML_REG_03
+            name: Overfitting
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_overfitting
+              - understand_generalization_issue
+            pyq_patterns: [overfitting_definition]
+            templates:
+              - pattern: "Overfitting occurs when model:"
+                difficulty: medium
+
+          - concept_code: ML_REG_04
+            name: Underfitting
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_underfitting
+              - understand_model_complexity_issue
+            pyq_patterns: [underfitting_definition]
+            templates:
+              - pattern: "Underfitting means model:"
+                difficulty: easy
+
+          - concept_code: ML_REG_05
+            name: Mean Squared Error (Computation)
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_REG_02]
+            learning_outcomes:
+              - compute_mse
+            pyq_patterns: [mse_calculation]
+            templates:
+              - pattern: "Compute MSE from given values"
+                difficulty: easy
+
+          - concept_code: ML_REG_06
+            name: Prediction Error
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compute_absolute_error
+            pyq_patterns: [error_calculation]
+            templates:
+              - pattern: "Compute absolute error"
+                difficulty: easy
+
+          - concept_code: ML_REG_07
+            name: Linear Prediction
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_REG_01]
+            learning_outcomes:
+              - compute_linear_output
+            pyq_patterns: [linear_model_prediction]
+            templates:
+              - pattern: "Compute output for linear model"
+                difficulty: easy
+
+
+  - name: Classification
+    topic_code: ML_CLASS
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Classification Models
+        concepts:
+
+          - concept_code: ML_CLASS_01
+            name: Logistic Regression
+            weightage: 5
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - classify_binary_outputs
+              - model_probabilities
+            pyq_patterns: [logistic_regression_usage]
+            templates:
+              - pattern: "Logistic regression is used for:"
+                difficulty: easy
+
+          - concept_code: ML_CLASS_02
+            name: Sigmoid Function
+            weightage: 4
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - map_values_to_probability_range
+              - understand_sigmoid_properties
+            pyq_patterns: [sigmoid_function_range]
+            templates:
+              - pattern: "Sigmoid function output range is:"
+                difficulty: easy
+
+          - concept_code: ML_CLASS_03
+            name: Decision Boundary
+            weightage: 6
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_class_separation
+              - visualize_decision_boundary
+            pyq_patterns: [decision_boundary_definition]
+            templates:
+              - pattern: "Decision boundary in classification is:"
+                difficulty: medium
+
+
+  - name: Evaluation Metrics
+    topic_code: ML_METRICS
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Performance Metrics
+        concepts:
+
+          - concept_code: ML_METRICS_01
+            name: Accuracy
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [compute_accuracy]
+            pyq_patterns: [accuracy_definition]
+            templates:
+              - pattern: "Accuracy is defined as:"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_02
+            name: Precision
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [compute_precision]
+            pyq_patterns: [precision_definition]
+            templates:
+              - pattern: "Precision is defined as:"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_03
+            name: Recall
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [compute_recall]
+            pyq_patterns: [recall_definition]
+            templates:
+              - pattern: "Recall is defined as:"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_04
+            name: F1 Score
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_METRICS_02, ML_METRICS_03]
+            learning_outcomes: [compute_f1_score]
+            pyq_patterns: [f1_score_definition]
+            templates:
+              - pattern: "F1 score is harmonic mean of:"
+                difficulty: medium
+
+          - concept_code: ML_METRICS_05
+            name: Accuracy Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_METRICS_01]
+            learning_outcomes: [compute_accuracy]
+            pyq_patterns: [accuracy_calculation]
+            templates:
+              - pattern: "Compute accuracy from given data"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_06
+            name: Error Rate
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [compute_error_rate]
+            pyq_patterns: [error_rate_calculation]
+            templates:
+              - pattern: "Compute error rate"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_07
+            name: Precision Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_METRICS_02]
+            learning_outcomes: [compute_precision]
+            pyq_patterns: [precision_calculation]
+            templates:
+              - pattern: "Compute precision"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_08
+            name: Recall Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_METRICS_03]
+            learning_outcomes: [compute_recall]
+            pyq_patterns: [recall_calculation]
+            templates:
+              - pattern: "Compute recall"
+                difficulty: easy
+
+          - concept_code: ML_METRICS_09
+            name: F1 Score Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_METRICS_04]
+            learning_outcomes: [compute_f1_score]
+            pyq_patterns: [f1_calculation]
+            templates:
+              - pattern: "Compute F1 score"
+                difficulty: easy
+
+
+  - name: Clustering
+    topic_code: ML_CLUSTER
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Clustering Algorithms
+        concepts:
+
+          - concept_code: ML_CLUSTER_01
+            name: K-Means Clustering
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [cluster_unsupervised_data]
+            pyq_patterns: [kmeans_definition]
+            templates:
+              - pattern: "K-Means is a:"
+                difficulty: easy
+
+          - concept_code: ML_CLUSTER_02
+            name: Centroid
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_CLUSTER_01]
+            learning_outcomes: [compute_centroid]
+            pyq_patterns: [centroid_definition]
+            templates:
+              - pattern: "Centroid in K-Means refers to:"
+                difficulty: easy
+
+          - concept_code: ML_CLUSTER_03
+            name: Distance Metric
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [compute_euclidean_distance]
+            pyq_patterns: [distance_metric]
+            templates:
+              - pattern: "K-Means commonly uses which distance metric?"
+                difficulty: easy
+
+          - concept_code: ML_CLUSTER_04
+            name: Centroid Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_CLUSTER_02]
+            learning_outcomes: [compute_centroid]
+            pyq_patterns: [centroid_calculation]
+            templates:
+              - pattern: "Compute centroid of given points"
+                difficulty: easy
+
+          - concept_code: ML_CLUSTER_05
+            name: Euclidean Distance Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: [ML_CLUSTER_03]
+            learning_outcomes: [compute_distance]
+            pyq_patterns: [euclidean_distance]
+            templates:
+              - pattern: "Compute Euclidean distance"
+                difficulty: easy
+
+
+  - name: Decision Trees
+    topic_code: ML_TREE
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Tree Models
+        concepts:
+
+          - concept_code: ML_TREE_01
+            name: Decision Tree Splitting
+            weightage: 5
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100, medium: 0, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [feature_based_splitting]
+            pyq_patterns: [decision_tree_split]
+            templates:
+              - pattern: "Decision tree splits data based on:"
+                difficulty: easy
+
+          - concept_code: ML_TREE_02
+            name: Overfitting in Trees
+            weightage: 5
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 0, medium: 100, hard: 0 }
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes: [tree_overfitting]
+            pyq_patterns: [tree_overfitting]
+            templates:
+              - pattern: "Decision trees are prone to:"
+                difficulty: medium

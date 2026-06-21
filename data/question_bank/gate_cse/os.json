@@ -1,0 +1,840 @@
+{
+  "subject": "Operating Systems",
+  "exam": "GATE CSE",
+  "total_questions": 30,
+  "question_bank": [
+    {
+      "question_code": "OS_PROC_01",
+      "concept_code": "OS_PROC_01",
+      "topic": "Processes",
+      "subtopic": "Process States",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which of the following is NOT a standard process state?",
+      "options": [
+        {"option_id": "A", "text": "Ready", "is_correct": false},
+        {"option_id": "B", "text": "Running", "is_correct": false},
+        {"option_id": "C", "text": "Waiting", "is_correct": false},
+        {"option_id": "D", "text": "Compiled", "is_correct": true}
+      ],
+      "correct_answer": ["D"],
+      "explanation": "Compiled is not a process state."
+    },
+    {
+      "question_code": "OS_PROC_02",
+      "concept_code": "OS_PROC_02",
+      "topic": "Processes",
+      "subtopic": "PCB",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "PCB stands for:",
+      "options": [
+        {"option_id": "A", "text": "Process Control Block", "is_correct": true},
+        {"option_id": "B", "text": "Program Control Buffer", "is_correct": false},
+        {"option_id": "C", "text": "Processor Control Block", "is_correct": false},
+        {"option_id": "D", "text": "Process Communication Buffer", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "PCB stores process-related information."
+    },
+    {
+      "question_code": "OS_SCH_01",
+      "concept_code": "OS_SCH_01",
+      "topic": "CPU Scheduling",
+      "subtopic": "FCFS",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "FCFS scheduling is based on:",
+      "options": [
+        {"option_id": "A", "text": "Shortest Burst Time", "is_correct": false},
+        {"option_id": "B", "text": "Arrival Order", "is_correct": true},
+        {"option_id": "C", "text": "Priority", "is_correct": false},
+        {"option_id": "D", "text": "Round Robin", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "FCFS executes processes in arrival order."
+    },
+    {
+      "question_code": "OS_SCH_02",
+      "concept_code": "OS_SCH_02",
+      "topic": "CPU Scheduling",
+      "subtopic": "SJF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which scheduling algorithm gives minimum average waiting time theoretically?",
+      "options": [
+        {"option_id": "A", "text": "FCFS", "is_correct": false},
+        {"option_id": "B", "text": "Round Robin", "is_correct": false},
+        {"option_id": "C", "text": "SJF", "is_correct": true},
+        {"option_id": "D", "text": "Priority", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Shortest Job First minimizes average waiting time."
+    },
+    {
+      "question_code": "OS_SCH_03",
+      "concept_code": "OS_SCH_03",
+      "topic": "CPU Scheduling",
+      "subtopic": "Round Robin",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Round Robin scheduling primarily uses:",
+      "options": [
+        {"option_id": "A", "text": "Time Quantum", "is_correct": true},
+        {"option_id": "B", "text": "Priority Number", "is_correct": false},
+        {"option_id": "C", "text": "Burst Estimate", "is_correct": false},
+        {"option_id": "D", "text": "Semaphore", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Each process gets CPU for a fixed time quantum."
+    },
+    {
+      "question_code": "OS_THREAD_01",
+      "concept_code": "OS_THREAD_01",
+      "topic": "Threads",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Threads of the same process share:",
+      "options": [
+        {"option_id": "A", "text": "Program Counter", "is_correct": false},
+        {"option_id": "B", "text": "Stack", "is_correct": false},
+        {"option_id": "C", "text": "Address Space", "is_correct": true},
+        {"option_id": "D", "text": "Registers", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Threads share code, data and address space."
+    },
+    {
+      "question_code": "OS_SYNC_01",
+      "concept_code": "OS_SYNC_01",
+      "topic": "Synchronization",
+      "subtopic": "Critical Section",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The critical section problem arises due to:",
+      "options": [
+        {"option_id": "A", "text": "Resource Sharing", "is_correct": true},
+        {"option_id": "B", "text": "Compilation", "is_correct": false},
+        {"option_id": "C", "text": "Linking", "is_correct": false},
+        {"option_id": "D", "text": "Loading", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Concurrent access to shared resources causes the problem."
+    },
+    {
+      "question_code": "OS_SYNC_02",
+      "concept_code": "OS_SYNC_02",
+      "topic": "Synchronization",
+      "subtopic": "Semaphore",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which operations are associated with semaphores?",
+      "options": [
+        {"option_id": "A", "text": "Open and Close", "is_correct": false},
+        {"option_id": "B", "text": "Wait and Signal", "is_correct": true},
+        {"option_id": "C", "text": "Push and Pop", "is_correct": false},
+        {"option_id": "D", "text": "Read and Write", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Semaphore operations are wait(P) and signal(V)."
+    },
+    {
+      "question_code": "OS_SYNC_03",
+      "concept_code": "OS_SYNC_03",
+      "topic": "Synchronization",
+      "subtopic": "Mutex",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A mutex allows access to a shared resource by:",
+      "options": [
+        {"option_id": "A", "text": "Many processes simultaneously", "is_correct": false},
+        {"option_id": "B", "text": "Only one process/thread at a time", "is_correct": true},
+        {"option_id": "C", "text": "Exactly two threads", "is_correct": false},
+        {"option_id": "D", "text": "No thread", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Mutex provides mutual exclusion."
+    },
+    {
+      "question_code": "OS_DEAD_01",
+      "concept_code": "OS_DEAD_01",
+      "topic": "Deadlocks",
+      "subtopic": "Conditions",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which is NOT a Coffman deadlock condition?",
+      "options": [
+        {"option_id": "A", "text": "Mutual Exclusion", "is_correct": false},
+        {"option_id": "B", "text": "Hold and Wait", "is_correct": false},
+        {"option_id": "C", "text": "Circular Wait", "is_correct": false},
+        {"option_id": "D", "text": "Preemptive Scheduling", "is_correct": true}
+      ],
+      "correct_answer": ["D"],
+      "explanation": "Preemptive scheduling is not a deadlock condition."
+    },
+    {
+      "question_code": "OS_DEAD_02",
+      "concept_code": "OS_DEAD_02",
+      "topic": "Deadlocks",
+      "subtopic": "Banker's Algorithm",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Banker's algorithm is used for:",
+      "options": [
+        {"option_id": "A", "text": "Deadlock Prevention", "is_correct": false},
+        {"option_id": "B", "text": "Deadlock Avoidance", "is_correct": true},
+        {"option_id": "C", "text": "Deadlock Detection", "is_correct": false},
+        {"option_id": "D", "text": "CPU Scheduling", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Banker's algorithm avoids unsafe states."
+    },
+    {
+      "question_code": "OS_MEM_01",
+      "concept_code": "OS_MEM_01",
+      "topic": "Memory Management",
+      "subtopic": "Paging",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Paging eliminates:",
+      "options": [
+        {"option_id": "A", "text": "Internal Fragmentation", "is_correct": false},
+        {"option_id": "B", "text": "External Fragmentation", "is_correct": true},
+        {"option_id": "C", "text": "Page Faults", "is_correct": false},
+        {"option_id": "D", "text": "Thrashing", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Paging removes external fragmentation."
+    },
+    {
+      "question_code": "OS_MEM_02",
+      "concept_code": "OS_MEM_02",
+      "topic": "Memory Management",
+      "subtopic": "Segmentation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Segmentation supports:",
+      "options": [
+        {"option_id": "A", "text": "Logical Division of Programs", "is_correct": true},
+        {"option_id": "B", "text": "Fixed Size Blocks", "is_correct": false},
+        {"option_id": "C", "text": "No Fragmentation", "is_correct": false},
+        {"option_id": "D", "text": "Cache Mapping", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Segments correspond to logical program units."
+    },
+    {
+      "question_code": "OS_MEM_03",
+      "concept_code": "OS_MEM_03",
+      "topic": "Memory Management",
+      "subtopic": "Virtual Memory",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Virtual memory enables:",
+      "options": [
+        {"option_id": "A", "text": "Execution of programs larger than physical memory", "is_correct": true},
+        {"option_id": "B", "text": "Faster CPU", "is_correct": false},
+        {"option_id": "C", "text": "Infinite Registers", "is_correct": false},
+        {"option_id": "D", "text": "Deadlock Avoidance", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Virtual memory extends apparent memory size."
+    },
+    {
+      "question_code": "OS_MEM_04",
+      "concept_code": "OS_MEM_04",
+      "topic": "Memory Management",
+      "subtopic": "Page Fault",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A page fault occurs when:",
+      "options": [
+        {"option_id": "A", "text": "Requested page is not in main memory", "is_correct": true},
+        {"option_id": "B", "text": "CPU crashes", "is_correct": false},
+        {"option_id": "C", "text": "Page table is empty", "is_correct": false},
+        {"option_id": "D", "text": "Disk is full", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "The page must be brought from secondary storage."
+    },
+    {
+      "question_code": "OS_MEM_05",
+      "concept_code": "OS_MEM_05",
+      "topic": "Memory Management",
+      "subtopic": "LRU",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "LRU page replacement removes:",
+      "options": [
+        {"option_id": "A", "text": "Most Recently Used Page", "is_correct": false},
+        {"option_id": "B", "text": "Least Recently Used Page", "is_correct": true},
+        {"option_id": "C", "text": "Random Page", "is_correct": false},
+        {"option_id": "D", "text": "Largest Page", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "LRU replaces the page unused for the longest time."
+    },
+    {
+      "question_code": "OS_DISK_01",
+      "concept_code": "OS_DISK_01",
+      "topic": "Disk Scheduling",
+      "subtopic": "FCFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which disk scheduling algorithm services requests in arrival order?",
+      "options": [
+        {"option_id": "A", "text": "SCAN", "is_correct": false},
+        {"option_id": "B", "text": "SSTF", "is_correct": false},
+        {"option_id": "C", "text": "FCFS", "is_correct": true},
+        {"option_id": "D", "text": "LOOK", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "FCFS follows request arrival sequence."
+    },
+    {
+      "question_code": "OS_DISK_02",
+      "concept_code": "OS_DISK_02",
+      "topic": "Disk Scheduling",
+      "subtopic": "SSTF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "SSTF stands for:",
+      "options": [
+        {"option_id": "A", "text": "Shortest Seek Time First", "is_correct": true},
+        {"option_id": "B", "text": "Shortest Service Time First", "is_correct": false},
+        {"option_id": "C", "text": "System Seek Time Function", "is_correct": false},
+        {"option_id": "D", "text": "Sector Scan Track First", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "SSTF selects the nearest track request."
+    },
+    {
+      "question_code": "OS_FILE_01",
+      "concept_code": "OS_FILE_01",
+      "topic": "File Systems",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A file is:",
+      "options": [
+        {"option_id": "A", "text": "Named collection of related information", "is_correct": true},
+        {"option_id": "B", "text": "A CPU instruction", "is_correct": false},
+        {"option_id": "C", "text": "A memory frame", "is_correct": false},
+        {"option_id": "D", "text": "A process state", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Files store related information persistently."
+    },
+    {
+      "question_code": "OS_FILE_02",
+      "concept_code": "OS_FILE_02",
+      "topic": "File Systems",
+      "subtopic": "Allocation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which file allocation method suffers from external fragmentation?",
+      "options": [
+        {"option_id": "A", "text": "Contiguous Allocation", "is_correct": true},
+        {"option_id": "B", "text": "Linked Allocation", "is_correct": false},
+        {"option_id": "C", "text": "Indexed Allocation", "is_correct": false},
+        {"option_id": "D", "text": "FAT", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Contiguous allocation requires consecutive disk blocks."
+    },
+    {
+      "question_code": "OS_IPC_01",
+      "concept_code": "OS_IPC_01",
+      "topic": "Inter Process Communication",
+      "subtopic": "Pipes",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A pipe is primarily used for:",
+      "options": [
+        {"option_id": "A", "text": "Process Communication", "is_correct": true},
+        {"option_id": "B", "text": "Memory Allocation", "is_correct": false},
+        {"option_id": "C", "text": "Scheduling", "is_correct": false},
+        {"option_id": "D", "text": "Compilation", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Pipes enable communication between processes."
+    },
+    {
+      "question_code": "OS_IPC_02",
+      "concept_code": "OS_IPC_02",
+      "topic": "Inter Process Communication",
+      "subtopic": "Shared Memory",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Fastest IPC mechanism is generally:",
+      "options": [
+        {"option_id": "A", "text": "Message Queue", "is_correct": false},
+        {"option_id": "B", "text": "Pipe", "is_correct": false},
+        {"option_id": "C", "text": "Shared Memory", "is_correct": true},
+        {"option_id": "D", "text": "Socket", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Processes directly access common memory."
+    },
+    {
+      "question_code": "OS_SYS_01",
+      "concept_code": "OS_SYS_01",
+      "topic": "System Calls",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "System calls provide an interface between:",
+      "options": [
+        {"option_id": "A", "text": "User Programs and OS", "is_correct": true},
+        {"option_id": "B", "text": "CPU and Memory", "is_correct": false},
+        {"option_id": "C", "text": "Disk and RAM", "is_correct": false},
+        {"option_id": "D", "text": "Compiler and Linker", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "System calls allow user programs to request OS services."
+    },
+    {
+      "question_code": "OS_SYS_02",
+      "concept_code": "OS_SYS_02",
+      "topic": "System Calls",
+      "subtopic": "fork()",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The fork() system call creates:",
+      "options": [
+        {"option_id": "A", "text": "A Child Process", "is_correct": true},
+        {"option_id": "B", "text": "A Thread", "is_correct": false},
+        {"option_id": "C", "text": "A File", "is_correct": false},
+        {"option_id": "D", "text": "A Semaphore", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "fork() duplicates the calling process."
+    },
+    {
+      "question_code": "OS_ARCH_01",
+      "concept_code": "OS_ARCH_01",
+      "topic": "OS Architecture",
+      "subtopic": "Kernel",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The core component of an operating system is called:",
+      "options": [
+        {"option_id": "A", "text": "Compiler", "is_correct": false},
+        {"option_id": "B", "text": "Kernel", "is_correct": true},
+        {"option_id": "C", "text": "Shell Script", "is_correct": false},
+        {"option_id": "D", "text": "Loader", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Kernel manages hardware and system resources."
+    },
+    {
+      "question_code": "OS_ARCH_02",
+      "concept_code": "OS_ARCH_02",
+      "topic": "OS Architecture",
+      "subtopic": "Monolithic Kernel",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "In a monolithic kernel:",
+      "options": [
+        {"option_id": "A", "text": "All OS services run in kernel space", "is_correct": true},
+        {"option_id": "B", "text": "No kernel exists", "is_correct": false},
+        {"option_id": "C", "text": "Everything runs in user space", "is_correct": false},
+        {"option_id": "D", "text": "Only drivers run in kernel space", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Monolithic kernels place most services in kernel mode."
+    },
+    {
+      "question_code": "OS_SEC_01",
+      "concept_code": "OS_SEC_01",
+      "topic": "Protection and Security",
+      "subtopic": "Access Matrix",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The access matrix model is used for:",
+      "options": [
+        {"option_id": "A", "text": "Memory Allocation", "is_correct": false},
+        {"option_id": "B", "text": "Protection and Access Rights", "is_correct": true},
+        {"option_id": "C", "text": "Scheduling", "is_correct": false},
+        {"option_id": "D", "text": "Deadlock Detection", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Access matrix specifies permissions of subjects over objects."
+    },
+    {
+      "question_code": "OS_SEC_02",
+      "concept_code": "OS_SEC_02",
+      "topic": "Protection and Security",
+      "subtopic": "Authentication",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Authentication verifies:",
+      "options": [
+        {"option_id": "A", "text": "Identity of a user", "is_correct": true},
+        {"option_id": "B", "text": "File Size", "is_correct": false},
+        {"option_id": "C", "text": "Memory Usage", "is_correct": false},
+        {"option_id": "D", "text": "CPU Utilization", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Authentication confirms who the user is."
+    },
+    {
+    "question_code": "OS_SCH_04",
+    "concept_code": "OS_SCH_04",
+    "topic": "CPU Scheduling",
+    "subtopic": "FCFS",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Consider three processes P1, P2, P3 with arrival times 0, 1, 2 and burst times 5, 3, 8 respectively. Using FCFS scheduling, compute the average waiting time.",
+    "correct_answer": 3.3333,
+    "answer_tolerance": 0.01,
+    "explanation": "Waiting times are P1=0, P2=4, P3=6. Average = (0+4+6)/3 = 3.3333."
+  },
+  {
+    "question_code": "OS_SCH_05",
+    "concept_code": "OS_SCH_05",
+    "topic": "CPU Scheduling",
+    "subtopic": "FCFS",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "For the same processes (P1:0,5), (P2:1,3), (P3:2,8), compute the average turnaround time using FCFS scheduling.",
+    "correct_answer": 8.6667,
+    "answer_tolerance": 0.01,
+    "explanation": "Turnaround times are P1=5, P2=7, P3=14. Average = 26/3 = 8.6667."
+  },
+  {
+    "question_code": "OS_MEM_06",
+    "concept_code": "OS_MEM_06",
+    "topic": "Memory Management",
+    "subtopic": "Page Replacement (LRU)",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Using LRU page replacement with 3 frames, compute the total number of page faults for the reference string: 1, 2, 3, 1, 4, 2, 5.",
+    "correct_answer": 6,
+    "answer_tolerance": 0.0,
+    "explanation": "Total page faults = 6 after simulating LRU with 3 frames."
+  },
+  {
+    "question_code": "OS_MEM_07",
+    "concept_code": "OS_MEM_07",
+    "topic": "Memory Management",
+    "subtopic": "Page Fault Rate",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Using the same reference string (1, 2, 3, 1, 4, 2, 5) and 3 frames, compute the page fault rate in percentage.",
+    "correct_answer": 100.0,
+    "answer_tolerance": 0.0,
+    "explanation": "All 6 references cause faults, so page fault rate = 100%."
+  },
+  {
+    "question_code": "OS_DISK_03",
+    "concept_code": "OS_DISK_03",
+    "topic": "Disk Scheduling",
+    "subtopic": "SSTF",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Using SSTF, compute total head movement for disk requests: 55, 58, 39, 18, 90, 160 with initial head position at 50.",
+    "correct_answer": 190,
+    "answer_tolerance": 0.1,
+    "explanation": "SSTF order gives total head movement = 190."
+  },
+  {
+    "question_code": "OS_SYS_03",
+    "concept_code": "OS_SYS_03",
+    "topic": "System Calls",
+    "subtopic": "fork",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "question_text": "A process executes fork() system call 3 times sequentially. Assuming no failures, how many total processes exist at the end?",
+    "correct_answer": 8,
+    "answer_tolerance": 0.0,
+    "explanation": "Each fork doubles processes: 2^3 = 8."
+  },
+  {
+    "question_code": "OS_MEM_08",
+    "concept_code": "OS_MEM_08",
+    "topic": "Memory Management",
+    "subtopic": "Paging",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.33,
+    "question_text": "A system has page size 4096 bytes. Find the page number for logical address 20500.",
+    "correct_answer": 5,
+    "answer_tolerance": 0.0,
+    "explanation": "Page number = floor(20500 / 4096) = 5."
+  },
+  {
+    "question_code": "OS_NUM_01",
+    "concept_code": "OS_NUM_01",
+    "topic": "CPU Scheduling",
+    "subtopic": "Utilization",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "If CPU is busy for 48 seconds in a total observation time of 60 seconds, compute CPU utilization percentage.",
+    "correct_answer": 80.0,
+    "answer_tolerance": 0.01,
+    "explanation": "CPU utilization = (48/60)*100 = 80%."
+  },
+  {
+    "question_code": "OS_QA_10",
+    "concept_code": "OS_QA_10",
+    "topic": "Memory Management",
+    "subtopic": "Address Translation",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "A system has page size 1024 bytes. Find the page number for logical address 8195.",
+    "correct_answer": 7,
+    "answer_tolerance": 0.0,
+    "explanation": "Page number = floor(8195 / 1024) = 7."
+  },
+  {
+    "question_code": "OS_PROC_03",
+    "concept_code": "OS_PROC_01",
+    "topic": "Processes",
+    "subtopic": "Process States",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are valid process states in a standard operating system lifecycle?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Ready",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Running",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Blocked (Waiting)",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Compiled",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Standard process states include Ready, Running, and Waiting/Blocked. 'Compiled' is not a process state."
+  },
+  {
+    "question_code": "OS_PROC_04",
+    "concept_code": "OS_PROC_02",
+    "topic": "Processes",
+    "subtopic": "PCB",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following information is typically stored in a Process Control Block (PCB)?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Process state",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Program counter",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "CPU registers",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Source code of the program",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "PCB stores execution context like process state, program counter, and CPU registers. It does not store source code."
+  },
+  {
+    "question_code": "OS_SCH_04",
+    "concept_code": "OS_SCH_01",
+    "topic": "CPU Scheduling",
+    "subtopic": "FCFS",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about FCFS scheduling are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "FCFS is a non-preemptive scheduling algorithm",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "FCFS may suffer from convoy effect",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "FCFS always provides minimum average waiting time",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "FCFS schedules processes based on arrival order",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "FCFS is non-preemptive and may cause convoy effect. It does not guarantee minimum waiting time."
+  },
+  {
+    "question_code": "OS_SCH_05",
+    "concept_code": "OS_SCH_02",
+    "topic": "CPU Scheduling",
+    "subtopic": "SJF",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about SJF scheduling are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "SJF is optimal in terms of average waiting time",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "SJF can be preemptive or non-preemptive",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "SJF requires knowledge of future CPU burst times",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "SJF eliminates starvation completely",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "SJF is optimal but may cause starvation and requires burst time prediction."
+  },
+  {
+    "question_code": "OS_SCH_06",
+    "concept_code": "OS_SCH_03",
+    "topic": "CPU Scheduling",
+    "subtopic": "Round Robin",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about Round Robin scheduling are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "It uses a fixed time quantum",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "It is designed for time-sharing systems",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "It is always more efficient than SJF",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "It is a preemptive scheduling algorithm",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Round Robin uses time quantum, is preemptive, and suitable for time-sharing systems."
+  }
+]
+}

@@ -1,0 +1,342 @@
+subject: Probability and Statistics
+exam: GATE DA
+subject_weightage: 15
+
+topics:
+
+  - name: Probability
+    topic_code: PS_PROB
+    weightage: 9
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic Probability Rules
+
+        concepts:
+
+          - concept_code: PS_PROB_01
+            name: Probability Axioms and Bounds
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_probability_range
+              - apply_basic_axioms
+
+          - concept_code: PS_PROB_02
+            name: Addition Rule
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - apply_union_rule
+
+      - name: Conditional Probability and Bayes Theorem
+
+        concepts:
+
+          - concept_code: PS_PROB_03
+            name: Conditional Probability
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - set_theory_basics
+            learning_outcomes:
+              - compute_conditional_probability
+
+          - concept_code: PS_PROB_04
+            name: Bayes Theorem
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 10
+              medium: 60
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - conditional_probability
+            learning_outcomes:
+              - apply_bayes_theorem
+
+      - name: Random Variables and Distributions
+
+        concepts:
+
+          - concept_code: PS_PROB_05
+            name: Independence of Events
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 60
+              medium: 40
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - probability_basics
+            learning_outcomes:
+              - test_independence_condition
+
+          - concept_code: PS_PROB_06
+            name: Random Variables
+            weightage: 1
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - probability_basics
+            learning_outcomes:
+              - define_random_variables
+
+          - concept_code: PS_PROB_07
+            name: Probability Mass Function
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 70
+              medium: 30
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - model_discrete_distributions
+
+          - concept_code: PS_PROB_08
+            name: Probability Density Function
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 50
+              medium: 50
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - work_with_continuous_distributions
+
+          - concept_code: PS_PROB_09
+            name: Expectation
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - compute_expected_value
+
+          - concept_code: PS_PROB_10
+            name: Binomial Distribution
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - model_binomial_processes
+
+          - concept_code: PS_PROB_11
+            name: Poisson Distribution
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - model_poisson_processes
+
+
+  - name: Statistics
+    topic_code: PS_STATS
+    weightage: 6
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Descriptive Statistics
+
+        concepts:
+
+          - concept_code: PS_STATS_01
+            name: Mean Median Mode
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 70
+              medium: 30
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - compute_central_tendency
+
+          - concept_code: PS_STATS_02
+            name: Median
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 80
+              medium: 20
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - find_median
+
+          - concept_code: PS_STATS_03
+            name: Mode
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 80
+              medium: 20
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - identify_mode
+
+          - concept_code: PS_STATS_04
+            name: Variance
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - measure_dispersion
+
+          - concept_code: PS_STATS_05
+            name: Standard Deviation
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - compute_standard_deviation
+
+          - concept_code: PS_STATS_06
+            name: Correlation
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - analyze_relationship_between_variables
+
+          - concept_code: PS_STATS_07
+            name: Regression
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - perform_prediction_analysis
+
+      - name: Sampling and Central Limit Theorem
+
+        concepts:
+
+          - concept_code: PS_STATS_08
+            name: Sampling Methods
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - understand_sampling_methods
+
+          - concept_code: PS_STATS_09
+            name: Central Limit Theorem
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 40
+              NAT: 60
+            difficulty_distribution:
+              easy: 0
+              medium: 40
+              hard: 60
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - apply_clt

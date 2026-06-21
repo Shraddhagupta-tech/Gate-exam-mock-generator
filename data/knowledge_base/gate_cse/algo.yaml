@@ -1,0 +1,700 @@
+subject: Algorithms
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: Complexity Analysis
+    topic_code: ALG_COMP
+    weightage: 12
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Asymptotic Notation
+
+        concepts:
+
+          - concept_code: ALG_COMP_02
+            name: Big-O Notation
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - identify_upper_bound
+              - compare_growth_rates
+              - classify_complexities
+
+            pyq_patterns:
+              - asymptotic_notation
+              - growth_comparison
+
+            templates:
+              - pattern: "Big-O notation represents which bound?"
+                difficulty: easy
+
+      - name: Recurrence Relations
+
+        concepts:
+
+          - concept_code: ALG_COMP_01
+            name: Master Theorem Applications
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            difficulty_distribution:
+              easy: 10
+              medium: 60
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - divide_and_conquer
+
+            learning_outcomes:
+              - solve_recurrences
+              - apply_master_theorem
+              - derive_complexity
+
+            pyq_patterns:
+              - recurrence_relation
+              - divide_and_conquer
+
+            templates:
+              - pattern: "Solve recurrence T(n)=2T(n/2)+n"
+                difficulty: medium
+
+          - concept_code: ALG_COMP_03
+            name: Logarithmic Recurrences
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 50
+              NAT: 50
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - asymptotic_notation
+
+            learning_outcomes:
+              - expand_recurrence
+              - derive_logarithmic_complexity
+
+            pyq_patterns:
+              - recurrence_expansion
+              - master_theorem
+
+          - concept_code: ALG_COMP_04
+            name: Polynomial Recurrence Analysis
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - master_theorem
+
+            learning_outcomes:
+              - identify_master_case
+              - analyze_polynomial_terms
+
+            pyq_patterns:
+              - recurrence_relation
+              - master_theorem_case3
+
+          - concept_code: ALG_COMP_05
+            name: Master Theorem NAT Problems
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 10
+              medium: 70
+              hard: 20
+
+            estimated_questions_per_year: 0
+
+            prerequisites:
+              - master_theorem
+
+            learning_outcomes:
+              - compute_exponent
+              - derive_theta_bound
+
+          - concept_code: ALG_COMP_06
+            name: Logarithmic Computation
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 70
+              medium: 30
+              hard: 0
+
+            estimated_questions_per_year: 0
+
+            prerequisites: []
+
+            learning_outcomes:
+              - evaluate_logarithms
+              - simplify_complexity_expressions
+
+  - name: Sorting Algorithms
+    topic_code: ALG_SORT
+    weightage: 12
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Merge Sort
+
+        concepts:
+
+          - concept_code: ALG_SORT_01
+            name: Merge Sort Complexity
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 80
+              NAT: 20
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - divide_and_conquer
+
+            learning_outcomes:
+              - analyze_merge_sort
+              - derive_recurrence
+              - determine_complexity
+
+          - concept_code: ALG_SORT_04
+            name: Merge Sort Recursion Depth
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              NAT: 70
+              MCQ: 30
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            estimated_questions_per_year: 0
+
+            prerequisites:
+              - merge_sort
+
+            learning_outcomes:
+              - determine_recursion_depth
+              - analyze_recursion_tree
+
+      - name: Quick Sort
+
+        concepts:
+
+          - concept_code: ALG_SORT_02
+            name: Quick Sort Complexity
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 80
+              NAT: 20
+
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - divide_and_conquer
+
+            learning_outcomes:
+              - analyze_partitioning
+              - determine_worst_case
+
+      - name: Heap Sort
+
+        concepts:
+
+          - concept_code: ALG_SORT_03
+            name: Heap Sort Fundamentals
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 90
+              NAT: 10
+
+            difficulty_distribution:
+              easy: 40
+              medium: 50
+              hard: 10
+
+            estimated_questions_per_year: 0
+
+            prerequisites:
+              - heap
+
+            learning_outcomes:
+              - build_heap
+              - perform_heap_sort
+
+  - name: Graph Algorithms
+    topic_code: ALG_GRAPH
+    weightage: 22
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Graph Traversal
+
+        concepts:
+
+          - concept_code: ALG_GRAPH_01
+            name: Breadth First Search
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 40
+              medium: 50
+              hard: 10
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - graph_representation
+
+            learning_outcomes:
+              - perform_bfs
+              - identify_levels
+              - compute_unweighted_shortest_paths
+
+          - concept_code: ALG_GRAPH_08
+            name: BFS Reachability Analysis
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 60
+              medium: 40
+              hard: 0
+
+          - concept_code: ALG_GRAPH_02
+            name: Depth First Search
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - graph_representation
+
+            learning_outcomes:
+              - perform_dfs
+              - detect_cycles
+
+      - name: Shortest Path Algorithms
+
+        concepts:
+
+          - concept_code: ALG_GRAPH_03
+            name: Dijkstra Algorithm
+            weightage: 6
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - priority_queue
+
+            learning_outcomes:
+              - compute_shortest_paths
+              - identify_limitations
+
+          - concept_code: ALG_GRAPH_09
+            name: Shortest Path Distance Computation
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+
+          - concept_code: ALG_GRAPH_04
+            name: Bellman Ford Algorithm
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            learning_outcomes:
+              - detect_negative_cycles
+              - compute_shortest_paths
+
+      - name: DAG Algorithms
+
+        concepts:
+
+          - concept_code: ALG_GRAPH_05
+            name: Topological Sorting
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            learning_outcomes:
+              - generate_topological_order
+              - verify_dag
+
+      - name: Minimum Spanning Trees
+
+        concepts:
+
+          - concept_code: ALG_GRAPH_06
+            name: Prim Algorithm
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+
+          - concept_code: ALG_GRAPH_07
+            name: Floyd Warshall Algorithm
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 50
+              NAT: 50
+
+            difficulty_distribution:
+              easy: 10
+              medium: 50
+              hard: 40
+
+          - concept_code: ALG_GRAPH_10
+            name: Floyd Warshall Complexity Analysis
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+  - name: Greedy Algorithms
+    topic_code: ALG_GREEDY
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Minimum Spanning Tree
+
+        concepts:
+
+          - concept_code: ALG_GREEDY_01
+            name: Kruskal Algorithm
+            weightage: 4
+            gate_frequency: high
+
+          - concept_code: ALG_GREEDY_04
+            name: MST Edge Count
+            weightage: 2
+            gate_frequency: medium
+
+      - name: Activity Selection
+
+        concepts:
+
+          - concept_code: ALG_GREEDY_02
+            name: Activity Selection Problem
+            weightage: 3
+            gate_frequency: medium
+
+      - name: Huffman Coding
+
+        concepts:
+
+          - concept_code: ALG_GREEDY_03
+            name: Huffman Coding
+            weightage: 4
+            gate_frequency: high
+
+  - name: Dynamic Programming
+    topic_code: ALG_DP
+    weightage: 16
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Sequence Problems
+
+        concepts:
+
+          - concept_code: ALG_DP_01
+            name: Longest Common Subsequence
+            weightage: 6
+            gate_frequency: high
+
+          - concept_code: ALG_DP_05
+            name: LCS Table Analysis
+            weightage: 3
+            gate_frequency: medium
+
+          - concept_code: ALG_DP_06
+            name: Fibonacci Dynamic Programming
+            weightage: 2
+            gate_frequency: medium
+
+      - name: Optimization Problems
+
+        concepts:
+
+          - concept_code: ALG_DP_02
+            name: 0/1 Knapsack
+            weightage: 6
+            gate_frequency: very_high
+
+          - concept_code: ALG_DP_03
+            name: Matrix Chain Multiplication
+            weightage: 5
+            gate_frequency: high
+
+          - concept_code: ALG_DP_04
+            name: Memoization
+            weightage: 2
+            gate_frequency: medium
+
+  - name: Divide and Conquer
+    topic_code: ALG_DIV
+    weightage: 6
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Binary Search
+
+        concepts:
+
+          - concept_code: ALG_DIV_01
+            name: Binary Search Preconditions
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: ALG_DIV_02
+            name: Binary Search Complexity
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: ALG_DIV_03
+            name: Binary Search Comparisons
+            weightage: 2
+            gate_frequency: medium
+
+  - name: Backtracking
+    topic_code: ALG_BACK
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Constraint Satisfaction
+
+        concepts:
+
+          - concept_code: ALG_BACK_01
+            name: N Queens Problem
+            weightage: 3
+            gate_frequency: medium
+
+          - concept_code: ALG_BACK_02
+            name: Subset Sum and NP Completeness
+            weightage: 4
+            gate_frequency: high
+
+  - name: String Algorithms
+    topic_code: ALG_STRING
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Pattern Matching
+
+        concepts:
+
+          - concept_code: ALG_STRING_01
+            name: KMP Algorithm
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: ALG_STRING_02
+            name: Rabin Karp Algorithm
+            weightage: 2
+            gate_frequency: medium
+
+  - name: Computational Complexity
+    topic_code: ALG_NP
+    weightage: 8
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Complexity Classes
+
+        concepts:
+
+          - concept_code: ALG_NP_01
+            name: SAT and NP Completeness
+            weightage: 4
+            gate_frequency: high
+
+          - concept_code: ALG_NP_02
+            name: P versus NP Basics
+            weightage: 4
+            gate_frequency: high
+
+  - name: Randomized Algorithms
+    topic_code: ALG_RANDOM
+    weightage: 4
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Randomized Quick Sort
+
+        concepts:
+
+          - concept_code: ALG_RANDOM_01
+            name: Expected Complexity Analysis
+            weightage: 4
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            estimated_questions_per_year: 0
+
+            prerequisites:
+              - quick_sort
+              - probability
+
+            learning_outcomes:
+              - analyze_expected_complexity
+              - compare_randomized_algorithms

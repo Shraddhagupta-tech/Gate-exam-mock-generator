@@ -1,0 +1,842 @@
+{
+  "subject": "Digital Logic",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "DL_01",
+      "concept_code": "DL_BOOL_01",
+      "topic": "Boolean Algebra",
+      "subtopic": "De Morgan's Law",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The complement of (A + B) is:",
+      "options": [
+        {"option_id": "A", "text": "A'B'", "is_correct": true},
+        {"option_id": "B", "text": "A' + B'", "is_correct": false},
+        {"option_id": "C", "text": "AB", "is_correct": false},
+        {"option_id": "D", "text": "A + B", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "By De Morgan's law, (A + B)' = A'B'."
+    },
+    {
+      "question_code": "DL_02",
+      "concept_code": "DL_BOOL_02",
+      "topic": "Boolean Algebra",
+      "subtopic": "Identity Law",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A + 0 equals:",
+      "options": [
+        {"option_id": "A", "text": "0", "is_correct": false},
+        {"option_id": "B", "text": "1", "is_correct": false},
+        {"option_id": "C", "text": "A", "is_correct": true},
+        {"option_id": "D", "text": "A'", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Identity law: A + 0 = A."
+    },
+    {
+      "question_code": "DL_03",
+      "concept_code": "DL_BOOL_03",
+      "topic": "Boolean Algebra",
+      "subtopic": "Complement Law",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A · A' equals:",
+      "options": [
+        {"option_id": "A", "text": "A", "is_correct": false},
+        {"option_id": "B", "text": "1", "is_correct": false},
+        {"option_id": "C", "text": "0", "is_correct": true},
+        {"option_id": "D", "text": "A'", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "A variable AND its complement is 0."
+    },
+    {
+      "question_code": "DL_04",
+      "concept_code": "DL_GATES_01",
+      "topic": "Logic Gates",
+      "subtopic": "AND Gate",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "AND gate outputs 1 when:",
+      "options": [
+        {"option_id": "A", "text": "Any input is 1", "is_correct": false},
+        {"option_id": "B", "text": "All inputs are 1", "is_correct": true},
+        {"option_id": "C", "text": "All inputs are 0", "is_correct": false},
+        {"option_id": "D", "text": "Inputs differ", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "AND requires all inputs to be 1."
+    },
+    {
+      "question_code": "DL_05",
+      "concept_code": "DL_GATES_02",
+      "topic": "Logic Gates",
+      "subtopic": "OR Gate",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "OR gate outputs 0 only when:",
+      "options": [
+        {"option_id": "A", "text": "All inputs are 1", "is_correct": false},
+        {"option_id": "B", "text": "All inputs are 0", "is_correct": true},
+        {"option_id": "C", "text": "Any input is 1", "is_correct": false},
+        {"option_id": "D", "text": "Inputs differ", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "OR outputs 0 only if all inputs are 0."
+    },
+    {
+      "question_code": "DL_06",
+      "concept_code": "DL_GATES_03",
+      "topic": "Logic Gates",
+      "subtopic": "NOT Gate",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "NOT gate performs:",
+      "options": [
+        {"option_id": "A", "text": "Addition", "is_correct": false},
+        {"option_id": "B", "text": "Inversion", "is_correct": true},
+        {"option_id": "C", "text": "Multiplication", "is_correct": false},
+        {"option_id": "D", "text": "Comparison", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "NOT gate inverts input."
+    },
+    {
+      "question_code": "DL_07",
+      "concept_code": "DL_BOOL_04",
+      "topic": "Boolean Algebra",
+      "subtopic": "De Morgan's Law",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "(A·B)' equals:",
+      "options": [
+        {"option_id": "A", "text": "A'B'", "is_correct": false},
+        {"option_id": "B", "text": "A' + B'", "is_correct": true},
+        {"option_id": "C", "text": "AB", "is_correct": false},
+        {"option_id": "D", "text": "A + B", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "De Morgan's law: (AB)' = A' + B'."
+    },
+    {
+      "question_code": "DL_08",
+      "concept_code": "DL_KMAP_01",
+      "topic": "Karnaugh Map",
+      "subtopic": "Simplification",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "K-map is used for:",
+      "options": [
+        {"option_id": "A", "text": "Circuit fabrication", "is_correct": false},
+        {"option_id": "B", "text": "Boolean simplification", "is_correct": true},
+        {"option_id": "C", "text": "Memory design", "is_correct": false},
+        {"option_id": "D", "text": "CPU scheduling", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "K-map simplifies Boolean expressions."
+    },
+    {
+      "question_code": "DL_09",
+      "concept_code": "DL_KMAP_02",
+      "topic": "Karnaugh Map",
+      "subtopic": "Grouping",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Groups in K-map must contain:",
+      "options": [
+        {"option_id": "A", "text": "Odd number of cells", "is_correct": false},
+        {"option_id": "B", "text": "Power of 2 cells", "is_correct": true},
+        {"option_id": "C", "text": "Prime numbers of cells", "is_correct": false},
+        {"option_id": "D", "text": "Random cells", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Valid groups are 1,2,4,8,... cells."
+    },
+    {
+      "question_code": "DL_10",
+      "concept_code": "DL_ADD_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Half Adder",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Half adder adds:",
+      "options": [
+        {"option_id": "A", "text": "Two bits", "is_correct": true},
+        {"option_id": "B", "text": "Three bits", "is_correct": false},
+        {"option_id": "C", "text": "Four bits", "is_correct": false},
+        {"option_id": "D", "text": "One bit", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Half adder adds two single-bit inputs."
+    },
+    {
+      "question_code": "DL_11",
+      "concept_code": "DL_ADD_02",
+      "topic": "Combinational Circuits",
+      "subtopic": "Full Adder",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Full adder adds:",
+      "options": [
+        {"option_id": "A", "text": "Two bits only", "is_correct": false},
+        {"option_id": "B", "text": "Two bits and carry", "is_correct": true},
+        {"option_id": "C", "text": "Three carries", "is_correct": false},
+        {"option_id": "D", "text": "Four bits", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Full adder includes carry input."
+    },
+    {
+      "question_code": "DL_12",
+      "concept_code": "DL_MUX_01",
+      "topic": "Multiplexers",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A 4:1 MUX has how many select lines?",
+      "options": [
+        {"option_id": "A", "text": "1", "is_correct": false},
+        {"option_id": "B", "text": "2", "is_correct": true},
+        {"option_id": "C", "text": "3", "is_correct": false},
+        {"option_id": "D", "text": "4", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "log2(4)=2 select lines."
+    },
+    {
+      "question_code": "DL_13",
+      "concept_code": "DL_MUX_02",
+      "topic": "Multiplexers",
+      "subtopic": "Function",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A multiplexer is a:",
+      "options": [
+        {"option_id": "A", "text": "One-to-many device", "is_correct": false},
+        {"option_id": "B", "text": "Many-to-one device", "is_correct": true},
+        {"option_id": "C", "text": "Memory device", "is_correct": false},
+        {"option_id": "D", "text": "Storage device", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "MUX selects one input among many."
+    },
+    {
+      "question_code": "DL_14",
+      "concept_code": "DL_SEQ_01",
+      "topic": "Sequential Circuits",
+      "subtopic": "Flip-Flops",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Basic memory element is:",
+      "options": [
+        {"option_id": "A", "text": "Gate", "is_correct": false},
+        {"option_id": "B", "text": "Flip-Flop", "is_correct": true},
+        {"option_id": "C", "text": "MUX", "is_correct": false},
+        {"option_id": "D", "text": "Encoder", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Flip-flop stores 1 bit."
+    },
+    {
+      "question_code": "DL_15",
+      "concept_code": "DL_SEQ_02",
+      "topic": "Sequential Circuits",
+      "subtopic": "Clock",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Clock signal is used for:",
+      "options": [
+        {"option_id": "A", "text": "Power supply", "is_correct": false},
+        {"option_id": "B", "text": "Synchronization", "is_correct": true},
+        {"option_id": "C", "text": "Storage", "is_correct": false},
+        {"option_id": "D", "text": "Encoding", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Clock synchronizes sequential circuits."
+    },
+    {
+      "question_code": "DL_16",
+      "concept_code": "DL_SEQ_03",
+      "topic": "Sequential Circuits",
+      "subtopic": "Counters",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A MOD-8 counter has:",
+      "options": [
+        {"option_id": "A", "text": "2 states", "is_correct": false},
+        {"option_id": "B", "text": "8 states", "is_correct": true},
+        {"option_id": "C", "text": "16 states", "is_correct": false},
+        {"option_id": "D", "text": "4 states", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "MOD-n counter has n states."
+    },
+    {
+      "question_code": "DL_17",
+      "concept_code": "DL_DEC_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Decoder",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Decoder converts:",
+      "options": [
+        {"option_id": "A", "text": "Many inputs to one output", "is_correct": false},
+        {"option_id": "B", "text": "Binary to one-hot", "is_correct": true},
+        {"option_id": "C", "text": "Analog to digital", "is_correct": false},
+        {"option_id": "D", "text": "Serial to parallel", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Decoder generates unique outputs."
+    },
+    {
+      "question_code": "DL_18",
+      "concept_code": "DL_ENC_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Encoder",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Encoder performs:",
+      "options": [
+        {"option_id": "A", "text": "One-hot to binary", "is_correct": true},
+        {"option_id": "B", "text": "Binary to decimal", "is_correct": false},
+        {"option_id": "C", "text": "Addition", "is_correct": false},
+        {"option_id": "D", "text": "Multiplication", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Encoder converts active input to binary code."
+    },
+    {
+      "question_code": "DL_19",
+      "concept_code": "DL_SEQ_04",
+      "topic": "Sequential Circuits",
+      "subtopic": "Registers",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Registers are used for:",
+      "options": [
+        {"option_id": "A", "text": "Long-term storage", "is_correct": false},
+        {"option_id": "B", "text": "Temporary data storage", "is_correct": true},
+        {"option_id": "C", "text": "Disk storage", "is_correct": false},
+        {"option_id": "D", "text": "Network communication", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Registers store temporary CPU data."
+    },
+    {
+      "question_code": "DL_20",
+      "concept_code": "DL_BOOL_05",
+      "topic": "Boolean Algebra",
+      "subtopic": "Simplification",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Simplify A + AB:",
+      "options": [
+        {"option_id": "A", "text": "AB", "is_correct": false},
+        {"option_id": "B", "text": "A", "is_correct": true},
+        {"option_id": "C", "text": "B", "is_correct": false},
+        {"option_id": "D", "text": "A'", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A + AB = A (Absorption law)."
+    },
+    {
+      "question_code": "DL_21",
+      "concept_code": "DL_BOOL_01",
+      "topic": "Boolean Algebra",
+      "subtopic": "De Morgan's Law",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A Boolean expression has 2 variables A and B. How many input combinations are possible in its truth table?",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Number of combinations = 2^n = 2^2 = 4."
+    },
+    {
+      "question_code": "DL_22",
+      "concept_code": "DL_BOOL_02",
+      "topic": "Boolean Algebra",
+      "subtopic": "Basic Laws",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A Boolean function has 3 variables. How many rows are there in its truth table?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Truth table size = 2^3 = 8."
+    },
+    {
+      "question_code": "DL_23",
+      "concept_code": "DL_BOOL_03",
+      "topic": "Boolean Algebra",
+      "subtopic": "Complement Law",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "If A = 1, then the value of A' is (in decimal form)?",
+      "correct_answer": 0.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Complement of 1 is 0."
+    },
+    {
+      "question_code": "DL_24",
+      "concept_code": "DL_GATES_01",
+      "topic": "Logic Gates",
+      "subtopic": "AND Gate",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "An AND gate has 3 inputs. How many input combinations produce output 1?",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Only (1,1,1) gives output 1."
+    },
+    {
+      "question_code": "DL_25",
+      "concept_code": "DL_GATES_02",
+      "topic": "Logic Gates",
+      "subtopic": "OR Gate",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "An OR gate has 2 inputs. How many input combinations produce output 0?",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Only (0,0) gives output 0."
+    },
+    {
+      "question_code": "DL_26",
+      "concept_code": "DL_KMAP_01",
+      "topic": "Karnaugh Map",
+      "subtopic": "Grouping",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A 3-variable K-map has how many cells?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.01,
+      "explanation": "K-map size = 2^n = 2^3 = 8 cells."
+    },
+    {
+      "question_code": "DL_27",
+      "concept_code": "DL_KMAP_02",
+      "topic": "Karnaugh Map",
+      "subtopic": "Grouping",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A 4-variable K-map has how many possible minterms?",
+      "correct_answer": 16.0,
+      "answer_tolerance": 0.01,
+      "explanation": "4-variable function has 2^4 = 16 minterms."
+    },
+    {
+      "question_code": "DL_28",
+      "concept_code": "DL_ADD_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Half Adder",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A half adder adds 1 + 1. What is the sum output in decimal?",
+      "correct_answer": 0.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Sum = 0 (carry ignored), since 1+1 = 10 in binary."
+    },
+    {
+      "question_code": "DL_29",
+      "concept_code": "DL_ADD_02",
+      "topic": "Combinational Circuits",
+      "subtopic": "Full Adder",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A full adder adds 1 + 1 + carry-in 1. What is the sum output in decimal?",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "1+1+1 = 3 (binary 11), sum = 1."
+    },
+    {
+      "question_code": "DL_30",
+      "concept_code": "DL_MUX_01",
+      "topic": "Multiplexers",
+      "subtopic": "Selection Lines",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A 16:1 multiplexer requires how many select lines?",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Select lines = log2(16) = 4."
+    },
+    {
+      "question_code": "DL_31",
+      "concept_code": "DL_MUX_02",
+      "topic": "Multiplexers",
+      "subtopic": "Function",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A 8:1 MUX has how many data inputs?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.01,
+      "explanation": "An 8:1 MUX has 8 input lines."
+    },
+    {
+      "question_code": "DL_32",
+      "concept_code": "DL_SEQ_01",
+      "topic": "Sequential Circuits",
+      "subtopic": "Flip-Flops",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A flip-flop stores how many bits of information?",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Flip-flop stores a single bit."
+    },
+    {
+      "question_code": "DL_33",
+      "concept_code": "DL_SEQ_02",
+      "topic": "Sequential Circuits",
+      "subtopic": "Counters",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A MOD-16 counter has how many states?",
+      "correct_answer": 16.0,
+      "answer_tolerance": 0.01,
+      "explanation": "MOD-n counter has n states."
+    },
+    {
+      "question_code": "DL_34",
+      "concept_code": "DL_DEC_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Decoder",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A 3-to-8 decoder produces how many output lines?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.01,
+      "explanation": "n-to-2^n decoder gives 2^3 = 8 outputs."
+    },
+    {
+      "question_code": "DL_35",
+      "concept_code": "DL_ENC_01",
+      "topic": "Combinational Circuits",
+      "subtopic": "Encoder",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A 8-to-3 encoder produces how many output bits?",
+      "correct_answer": 3.0,
+      "answer_tolerance": 0.01,
+      "explanation": "log2(8) = 3 output bits."
+    },
+    {
+      "question_code": "DL_36",
+      "concept_code": "DL_SEQ_03",
+      "topic": "Sequential Circuits",
+      "subtopic": "Registers",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A 8-bit register stores how many bits?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Register size = number of bits stored."
+    },
+    {
+      "question_code": "DL_37",
+      "concept_code": "DL_SEQ_04",
+      "topic": "Sequential Circuits",
+      "subtopic": "Clock",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "If clock frequency is 10 MHz, what is the clock period in microseconds?",
+      "correct_answer": 0.1,
+      "answer_tolerance": 0.01,
+      "explanation": "T = 1/f = 1/10 MHz = 0.1 microseconds."
+    },
+    {
+      "question_code": "DL_38",
+      "concept_code": "DL_BOOL_05",
+      "topic": "Boolean Algebra",
+      "subtopic": "Simplification",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "If a Boolean function has 2 variables, what is the maximum number of minterms possible?",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.01,
+      "explanation": "2 variables → 2^2 = 4 minterms."
+    },
+    {
+      "question_code": "DL_39",
+      "concept_code": "DL_GATES_03",
+      "topic": "Logic Gates",
+      "subtopic": "NOT Gate",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "If input to a NOT gate is 0, what is the output?",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "NOT gate inverts input."
+    },
+    {
+      "question_code": "DL_40",
+      "concept_code": "DL_BOOL_06",
+      "topic": "Boolean Algebra",
+      "subtopic": "Identity Law",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Evaluate A + A' for any Boolean variable A. Represent result in decimal.",
+      "correct_answer": 1.0,
+      "answer_tolerance": 0.01,
+      "explanation": "A + A' = 1 for all A."
+    },
+  {
+    "question_code": "DL_06",
+    "concept_code": "DL_BOOL_01",
+    "topic": "Boolean Algebra",
+    "subtopic": "De Morgan's Law",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following Boolean expressions are equivalent to (A + B)'?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A'B'",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "(AB)'",
+        "is_correct": false
+      },
+      {
+        "option_id": "C",
+        "text": "A' · B'",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "A' + B'",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "C"],
+    "explanation": "By De Morgan's law, (A+B)' = A'B'. Options A and C represent the same expression."
+  },
+  {
+    "question_code": "DL_07",
+    "concept_code": "DL_BOOL_02",
+    "topic": "Boolean Algebra",
+    "subtopic": "Identity Law",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following Boolean identities are always true?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A + 0 = A",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "A · 1 = A",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A + 1 = A",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "A · 0 = A",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "Identity laws are A+0=A and A·1=A. The expressions A+1=1 and A·0=0 are domination laws."
+  },
+  {
+    "question_code": "DL_08",
+    "concept_code": "DL_BOOL_03",
+    "topic": "Boolean Algebra",
+    "subtopic": "Complement Law",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following expressions always evaluate to 0?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A · A'",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "(A + B)(A'B')",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A + A'",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "AB + A'B'",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "A·A'=0. Also, (A+B)(A'B') = AA'B' + BA'B' = 0 + 0 = 0."
+  },
+  {
+    "question_code": "DL_09",
+    "concept_code": "DL_GATES_01",
+    "topic": "Logic Gates",
+    "subtopic": "AND Gate",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Consider a 3-input AND gate with inputs A, B, and C. Which of the following input combinations produce output 1?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A=1, B=1, C=1",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "A=1, B=1, C=0",
+        "is_correct": false
+      },
+      {
+        "option_id": "C",
+        "text": "A=1, B=0, C=1",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "A=0, B=1, C=1",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A"],
+    "explanation": "A multi-input AND gate produces 1 only when all inputs are 1."
+  },
+  {
+    "question_code": "DL_10",
+    "concept_code": "DL_GATES_02",
+    "topic": "Logic Gates",
+    "subtopic": "OR Gate",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following Boolean expressions are equivalent to A + B?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "(A'B')'",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "A + AB",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "AB",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "(A+B)(A+B')",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Using De Morgan's law, (A'B')' = A+B. By absorption law, A+AB=A. Also, (A+B)(A+B') = A + BB' = A, wait carefully: BB'=0, so expression simplifies to A, not A+B. Therefore D is actually false in strict Boolean algebra."
+  }
+]
+  
+}

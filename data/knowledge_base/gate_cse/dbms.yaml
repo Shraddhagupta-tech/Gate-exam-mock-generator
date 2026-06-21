@@ -1,0 +1,419 @@
+subject: Database Management Systems
+exam: GATE CSE
+subject_weightage: 20
+
+topics:
+  - name: SQL
+    topic_code: DBMS_SQL
+    weightage: 18
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Basic Queries
+        concepts:
+          - concept_code: DBMS_SQL_01
+            name: SELECT and WHERE Clause
+            weightage: 4
+            gate_frequency: very_high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 45, medium: 40, hard: 15}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - write_basic_queries
+              - filter_rows_using_where
+              - evaluate_query_results
+            pyq_patterns:
+              - where_clause_filtering
+              - query_output_prediction
+
+      - name: Aggregate Functions and Grouping
+        concepts:
+          - concept_code: DBMS_SQL_02
+            name: Aggregate Functions
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 65, MSQ: 10, NAT: 25}
+            difficulty_distribution: {easy: 35, medium: 45, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - use_count_sum_avg
+              - interpret_aggregate_results
+            pyq_patterns:
+              - aggregate_computation
+              - count_queries
+
+          - concept_code: DBMS_SQL_04
+            name: GROUP BY and HAVING
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 60, MSQ: 15, NAT: 25}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_SQL_02
+            learning_outcomes:
+              - group_records
+              - filter_groups_using_having
+            pyq_patterns:
+              - having_vs_where
+              - grouping_analysis
+
+      - name: Joins and Nested Queries
+        concepts:
+          - concept_code: DBMS_SQL_03
+            name: SQL Joins
+            weightage: 4
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 2
+            prerequisites:
+              - relational_model
+            learning_outcomes:
+              - perform_inner_outer_joins
+              - analyze_join_results
+            pyq_patterns:
+              - join_output
+              - join_cardinality
+
+          - concept_code: DBMS_SQL_05
+            name: Nested Queries and Subqueries
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 25, medium: 50, hard: 25}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_SQL_01
+            learning_outcomes:
+              - write_subqueries
+              - analyze_nested_query_execution
+            pyq_patterns:
+              - nested_query_output
+              - exists_in_any_all
+
+  - name: ER Model
+    topic_code: DBMS_ER
+    weightage: 10
+    gate_frequency: high
+    subtopics:
+
+      - name: Entities and Keys
+        concepts:
+          - concept_code: DBMS_ER_01
+            name: Entity Sets
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 50, medium: 40, hard: 10}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_entities
+              - model_real_world_objects
+            pyq_patterns:
+              - entity_identification
+              - er_diagram_questions
+
+          - concept_code: DBMS_ER_02
+            name: Candidate Keys and Superkeys
+            weightage: 6
+            gate_frequency: very_high
+            question_types: {MCQ: 70, MSQ: 15, NAT: 15}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_candidate_keys
+              - distinguish_superkeys
+            pyq_patterns:
+              - key_minimality
+              - candidate_key_detection
+
+  - name: Relational Model
+    topic_code: DBMS_REL
+    weightage: 8
+    gate_frequency: high
+    subtopics:
+
+      - name: Integrity Constraints
+        concepts:
+          - concept_code: DBMS_REL_01
+            name: Referential Integrity and Foreign Keys
+            weightage: 8
+            gate_frequency: high
+            question_types: {MCQ: 75, MSQ: 10, NAT: 15}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - enforce_foreign_keys
+              - analyze_referential_constraints
+            pyq_patterns:
+              - foreign_key_constraints
+              - integrity_violations
+
+  - name: Relational Algebra
+    topic_code: DBMS_RA
+    weightage: 12
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Core Operators
+        concepts:
+          - concept_code: DBMS_RA_01
+            name: Selection
+            weightage: 4
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - apply_selection_operator
+              - evaluate_predicates
+            pyq_patterns:
+              - sigma_operator
+              - tuple_filtering
+
+          - concept_code: DBMS_RA_02
+            name: Projection
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - apply_projection
+              - remove_duplicates
+            pyq_patterns:
+              - projection_result
+              - attribute_selection
+
+          - concept_code: DBMS_RA_03
+            name: Join Operations
+            weightage: 5
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 25, medium: 50, hard: 25}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_RA_01
+              - DBMS_RA_02
+            learning_outcomes:
+              - perform_natural_join
+              - analyze_join_expressions
+            pyq_patterns:
+              - natural_join
+              - theta_join
+
+  - name: Normalization
+    topic_code: DBMS_NORM
+    weightage: 18
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Normal Forms
+        concepts:
+          - concept_code: DBMS_NORM_01
+            name: First Normal Form (1NF)
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 50, medium: 35, hard: 15}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - ensure_atomicity_of_attributes
+              - identify_1nf_violations
+
+          - concept_code: DBMS_NORM_02
+            name: Second Normal Form (2NF)
+            weightage: 4
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_NORM_01
+            learning_outcomes:
+              - remove_partial_dependencies
+
+          - concept_code: DBMS_NORM_03
+            name: Third Normal Form (3NF)
+            weightage: 5
+            gate_frequency: very_high
+            question_types: {MCQ: 55, MSQ: 20, NAT: 25}
+            difficulty_distribution: {easy: 25, medium: 50, hard: 25}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_NORM_02
+            learning_outcomes:
+              - remove_transitive_dependencies
+
+          - concept_code: DBMS_NORM_04
+            name: Boyce-Codd Normal Form (BCNF)
+            weightage: 5
+            gate_frequency: very_high
+            question_types: {MCQ: 50, MSQ: 25, NAT: 25}
+            difficulty_distribution: {easy: 20, medium: 50, hard: 30}
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DBMS_NORM_03
+            learning_outcomes:
+              - test_bcnf_conditions
+              - perform_bcnf_decomposition
+
+  - name: Transactions and Concurrency Control
+    topic_code: DBMS_TXN
+    weightage: 22
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Transaction Fundamentals
+        concepts:
+          - concept_code: DBMS_TXN_01
+            name: ACID Properties
+            weightage: 5
+            gate_frequency: very_high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 45, medium: 40, hard: 15}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_TXN_05
+            name: Durability and Recovery Guarantees
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 5, NAT: 15}
+            difficulty_distribution: {easy: 50, medium: 35, hard: 15}
+            estimated_questions_per_year: 1
+
+      - name: Scheduling and Serializability
+        concepts:
+          - concept_code: DBMS_TXN_02
+            name: Serializability
+            weightage: 6
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 20, medium: 50, hard: 30}
+            estimated_questions_per_year: 2
+
+      - name: Locking and Deadlocks
+        concepts:
+          - concept_code: DBMS_TXN_03
+            name: Two Phase Locking
+            weightage: 4
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 20, medium: 50, hard: 30}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_TXN_04
+            name: Deadlock Detection
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 15, NAT: 15}
+            difficulty_distribution: {easy: 35, medium: 45, hard: 20}
+            estimated_questions_per_year: 1
+
+  - name: Recovery Systems
+    topic_code: DBMS_REC
+    weightage: 8
+    gate_frequency: high
+    subtopics:
+
+      - name: Logging and Checkpointing
+        concepts:
+          - concept_code: DBMS_REC_01
+            name: Write Ahead Logging (WAL)
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 65, MSQ: 15, NAT: 20}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_REC_02
+            name: Checkpointing
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 35, medium: 45, hard: 20}
+            estimated_questions_per_year: 1
+
+  - name: Indexing and File Organization
+    topic_code: DBMS_INDEX
+    weightage: 12
+    gate_frequency: high
+    subtopics:
+
+      - name: Index Structures
+        concepts:
+          - concept_code: DBMS_INDEX_01
+            name: B+ Trees
+            weightage: 5
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_INDEX_02
+            name: Hash Indexing
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_INDEX_03
+            name: Dense and Sparse Indexes
+            weightage: 3
+            gate_frequency: medium
+            question_types: {MCQ: 75, MSQ: 10, NAT: 15}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            estimated_questions_per_year: 1
+
+  - name: Functional Dependencies
+    topic_code: DBMS_DEP
+    weightage: 8
+    gate_frequency: high
+    subtopics:
+
+      - name: Dependency Theory
+        concepts:
+          - concept_code: DBMS_DEP_01
+            name: Attribute Closure
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 25, medium: 50, hard: 25}
+            estimated_questions_per_year: 1
+
+          - concept_code: DBMS_DEP_02
+            name: Armstrong's Axioms
+            weightage: 4
+            gate_frequency: medium
+            question_types: {MCQ: 70, MSQ: 15, NAT: 15}
+            difficulty_distribution: {easy: 35, medium: 45, hard: 20}
+            estimated_questions_per_year: 1
+
+  - name: DBMS Architecture
+    topic_code: DBMS_ARCH
+    weightage: 4
+    gate_frequency: medium
+    subtopics:
+
+      - name: Three Schema Architecture
+        concepts:
+          - concept_code: DBMS_ARCH_01
+            name: External Conceptual Internal Levels
+            weightage: 4
+            gate_frequency: medium
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 50, medium: 40, hard: 10}
+            estimated_questions_per_year: 1
+            learning_outcomes:
+              - understand_data_abstraction
+              - differentiate_schema_levels

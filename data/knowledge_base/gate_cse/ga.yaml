@@ -1,0 +1,357 @@
+subject: General Aptitude
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: English Grammar
+    topic_code: GA_GR
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Articles and Prepositions
+        concepts:
+
+          - concept_code: GA_VERB_01
+            name: Articles
+            weightage: 5
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+            learning_outcomes:
+              - apply_indefinite_articles
+              - identify_vowel_sounds
+            pyq_patterns:
+              - article_usage
+
+          - concept_code: GA_VERB_02
+            name: Prepositions
+            weightage: 5
+            gate_frequency: high
+            question_types: {MCQ: 85, MSQ: 10, NAT: 5}
+            difficulty_distribution: {easy: 85, medium: 15, hard: 0}
+            learning_outcomes:
+              - use_prepositions_of_place
+              - use_prepositions_of_time
+            pyq_patterns:
+              - preposition_selection
+
+      - name: Vocabulary Usage
+        concepts:
+
+          - concept_code: GA_VERB_03
+            name: Synonyms
+            weightage: 5
+            gate_frequency: medium
+            question_types: {MCQ: 90, MSQ: 5, NAT: 5}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+            learning_outcomes:
+              - identify_word_meanings
+              - improve_vocabulary_range
+            pyq_patterns:
+              - synonym_identification
+
+          - concept_code: GA_VERB_04
+            name: Antonyms
+            weightage: 5
+            gate_frequency: medium
+            question_types: {MCQ: 90, MSQ: 5, NAT: 5}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+            learning_outcomes:
+              - identify_opposite_words
+            pyq_patterns:
+              - antonym_questions
+
+  - name: Reading Comprehension
+    topic_code: GA_RC
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Passage Based Questions
+        concepts:
+
+          - concept_code: GA_RC_01
+            name: Inference and Facts
+            weightage: 10
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            learning_outcomes:
+              - distinguish_fact_vs_inference
+              - interpret_passage_statements
+            pyq_patterns:
+              - comprehension_inference
+
+  - name: Numerical Ability
+    topic_code: GA_NUM
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic Arithmetic
+        concepts:
+
+          - concept_code: GA_NUM_01
+            name: Percentages
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_02
+            name: Ratio
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_03
+            name: Profit and Loss
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+          - concept_code: GA_NUM_04
+            name: Simple Interest
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+      - name: Work and Motion
+        concepts:
+
+          - concept_code: GA_NUM_05
+            name: Time and Work
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 60, MSQ: 10, NAT: 30}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+          - concept_code: GA_NUM_06
+            name: Time and Distance
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 60, MSQ: 10, NAT: 30}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+
+      - name: Statistics and Probability
+        concepts:
+
+          - concept_code: GA_NUM_07
+            name: Averages
+            weightage: 3
+            gate_frequency: medium
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_08
+            name: Probability Basics
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 60, MSQ: 10, NAT: 30}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+
+      - name: Advanced Numerical (NAT)
+        concepts:
+
+          - concept_code: GA_NUM_10
+            name: Percentage Increase (NAT)
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 90, medium: 10, hard: 0}
+
+          - concept_code: GA_NUM_11
+            name: Ratio Application (NAT)
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 90, medium: 10, hard: 0}
+
+          - concept_code: GA_NUM_12
+            name: Simple Interest NAT
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_13
+            name: Speed Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 90, medium: 10, hard: 0}
+
+          - concept_code: GA_NUM_14
+            name: Averages NAT
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 90, medium: 10, hard: 0}
+
+          - concept_code: GA_NUM_15
+            name: Probability NAT
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+
+          - concept_code: GA_NUM_16
+            name: Algebra Equation
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_17
+            name: Compound Interest
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+          - concept_code: GA_NUM_18
+            name: Mixtures NAT
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+
+          - concept_code: GA_NUM_19
+            name: Time and Work NAT
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 80, medium: 20, hard: 0}
+
+          - concept_code: GA_NUM_20
+            name: Geometry NAT
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 90, medium: 10, hard: 0}
+
+  - name: Logical Reasoning
+    topic_code: GA_LOG
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Core Reasoning
+        concepts:
+
+          - concept_code: GA_LOG_01
+            name: Syllogisms
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 40, medium: 50, hard: 10}
+
+          - concept_code: GA_LOG_02
+            name: Number Series
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 50, medium: 40, hard: 10}
+
+          - concept_code: GA_LOG_03
+            name: Analogies
+            weightage: 4
+            gate_frequency: medium
+            question_types: {MCQ: 90, MSQ: 5, NAT: 5}
+            difficulty_distribution: {easy: 70, medium: 30, hard: 0}
+
+          - concept_code: GA_LOG_04
+            name: Coding-Decoding
+            weightage: 4
+            gate_frequency: medium
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+          - concept_code: GA_LOG_05
+            name: Blood Relations
+            weightage: 4
+            gate_frequency: medium
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+  - name: Data Interpretation
+    topic_code: GA_DI
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Data Analysis
+        concepts:
+
+          - concept_code: GA_DI_01
+            name: Percentage Change Interpretation
+            weightage: 10
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 60, medium: 40, hard: 0}
+
+  - name: Quantitative Aptitude
+    topic_code: GA_QA
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Core Aptitude
+        concepts:
+
+          - concept_code: GA_QA_01
+            name: Number System
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+
+          - concept_code: GA_QA_02
+            name: LCM and HCF
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: GA_QA_03
+            name: Permutation
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: GA_QA_04
+            name: Probability
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: GA_QA_05
+            name: Mixtures
+            weightage: 2
+            gate_frequency: medium
+
+          - concept_code: GA_QA_06
+            name: Geometry
+            weightage: 2
+            gate_frequency: medium
+
+          - concept_code: GA_QA_07
+            name: Algebra
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: GA_QA_08
+            name: Mensuration
+            weightage: 2
+            gate_frequency: medium
+
+          - concept_code: GA_QA_09
+            name: Data Sufficiency
+            weightage: 2
+            gate_frequency: high

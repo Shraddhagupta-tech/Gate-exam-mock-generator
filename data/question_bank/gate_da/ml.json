@@ -1,0 +1,621 @@
+{
+  "subject": "Machine Learning",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "ML_01",
+      "concept_code": "ML_INTRO_01",
+      "topic": "Introduction",
+      "subtopic": "Definition",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Machine Learning is best defined as:",
+      "options": [
+        { "option_id": "A", "text": "Programming computers with fixed rules", "is_correct": false },
+        { "option_id": "B", "text": "Ability of machines to learn from data", "is_correct": true },
+        { "option_id": "C", "text": "Manual computation of formulas", "is_correct": false },
+        { "option_id": "D", "text": "Hardware optimization technique", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "ML enables systems to learn patterns from data."
+    },
+    {
+      "question_code": "ML_02",
+      "concept_code": "ML_TYPES_01",
+      "topic": "Types of Learning",
+      "subtopic": "Supervised Learning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Supervised learning requires:",
+      "options": [
+        { "option_id": "A", "text": "Unlabeled data", "is_correct": false },
+        { "option_id": "B", "text": "Labeled input-output pairs", "is_correct": true },
+        { "option_id": "C", "text": "No data", "is_correct": false },
+        { "option_id": "D", "text": "Only clustering", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Supervised learning uses labeled datasets."
+    },
+    {
+      "question_code": "ML_03",
+      "concept_code": "ML_TYPES_02",
+      "topic": "Types of Learning",
+      "subtopic": "Unsupervised Learning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Unsupervised learning is used for:",
+      "options": [
+        { "option_id": "A", "text": "Classification with labels", "is_correct": false },
+        { "option_id": "B", "text": "Finding hidden patterns in unlabeled data", "is_correct": true },
+        { "option_id": "C", "text": "Regression only", "is_correct": false },
+        { "option_id": "D", "text": "Sorting data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "It discovers patterns without labels."
+    },
+    {
+      "question_code": "ML_04",
+      "concept_code": "ML_TYPES_03",
+      "topic": "Types of Learning",
+      "subtopic": "Reinforcement Learning",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Reinforcement learning is based on:",
+      "options": [
+        { "option_id": "A", "text": "Gradient descent only", "is_correct": false },
+        { "option_id": "B", "text": "Reward and penalty signals", "is_correct": true },
+        { "option_id": "C", "text": "Supervised labels", "is_correct": false },
+        { "option_id": "D", "text": "Clustering", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Agents learn via rewards and punishments."
+    },
+    {
+      "question_code": "ML_05",
+      "concept_code": "ML_REG_01",
+      "topic": "Regression",
+      "subtopic": "Linear Regression",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Linear regression is used to predict:",
+      "options": [
+        { "option_id": "A", "text": "Categorical values", "is_correct": false },
+        { "option_id": "B", "text": "Continuous values", "is_correct": true },
+        { "option_id": "C", "text": "Images", "is_correct": false },
+        { "option_id": "D", "text": "Clusters", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Regression predicts continuous outputs."
+    },
+    {
+      "question_code": "ML_06",
+      "concept_code": "ML_REG_02",
+      "topic": "Regression",
+      "subtopic": "Cost Function",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "In linear regression, cost function is typically:",
+      "options": [
+        { "option_id": "A", "text": "Accuracy", "is_correct": false },
+        { "option_id": "B", "text": "Mean Squared Error", "is_correct": true },
+        { "option_id": "C", "text": "Entropy", "is_correct": false },
+        { "option_id": "D", "text": "Precision", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "MSE measures prediction error."
+    },
+    {
+      "question_code": "ML_07",
+      "concept_code": "ML_REG_03",
+      "topic": "Regression",
+      "subtopic": "Overfitting",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Overfitting occurs when model:",
+      "options": [
+        { "option_id": "A", "text": "Performs well on test data", "is_correct": false },
+        { "option_id": "B", "text": "Learns noise in training data", "is_correct": true },
+        { "option_id": "C", "text": "Ignores training data", "is_correct": false },
+        { "option_id": "D", "text": "Has no parameters", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Overfitting means memorizing noise."
+    },
+    {
+      "question_code": "ML_08",
+      "concept_code": "ML_REG_04",
+      "topic": "Regression",
+      "subtopic": "Underfitting",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Underfitting means model:",
+      "options": [
+        { "option_id": "A", "text": "Learns training data too well", "is_correct": false },
+        { "option_id": "B", "text": "Fails to capture patterns", "is_correct": true },
+        { "option_id": "C", "text": "Has too much data", "is_correct": false },
+        { "option_id": "D", "text": "Has too many features", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Underfitting means poor learning."
+    },
+    {
+      "question_code": "ML_09",
+      "concept_code": "ML_CLASS_01",
+      "topic": "Classification",
+      "subtopic": "Logistic Regression",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Logistic regression is used for:",
+      "options": [
+        { "option_id": "A", "text": "Regression problems", "is_correct": false },
+        { "option_id": "B", "text": "Classification problems", "is_correct": true },
+        { "option_id": "C", "text": "Clustering", "is_correct": false },
+        { "option_id": "D", "text": "Sorting", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "It predicts class probabilities."
+    },
+    {
+      "question_code": "ML_10",
+      "concept_code": "ML_CLASS_02",
+      "topic": "Classification",
+      "subtopic": "Sigmoid Function",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Sigmoid function output range is:",
+      "options": [
+        { "option_id": "A", "text": "(-∞, ∞)", "is_correct": false },
+        { "option_id": "B", "text": "(0, 1)", "is_correct": true },
+        { "option_id": "C", "text": "(-1, 1)", "is_correct": false },
+        { "option_id": "D", "text": "(1, 10)", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Sigmoid maps values between 0 and 1."
+    },
+    {
+      "question_code": "ML_11",
+      "concept_code": "ML_CLASS_03",
+      "topic": "Classification",
+      "subtopic": "Decision Boundary",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Decision boundary in classification is:",
+      "options": [
+        { "option_id": "A", "text": "Line separating classes", "is_correct": true },
+        { "option_id": "B", "text": "Random threshold", "is_correct": false },
+        { "option_id": "C", "text": "Data storage area", "is_correct": false },
+        { "option_id": "D", "text": "Loss function", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "It separates different classes."
+    },
+    {
+      "question_code": "ML_12",
+      "concept_code": "ML_METRICS_01",
+      "topic": "Evaluation",
+      "subtopic": "Accuracy",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Accuracy is defined as:",
+      "options": [
+        { "option_id": "A", "text": "TP+TN / Total", "is_correct": true },
+        { "option_id": "B", "text": "TP / FP", "is_correct": false },
+        { "option_id": "C", "text": "FP / FN", "is_correct": false },
+        { "option_id": "D", "text": "TN / TP", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Accuracy measures correct predictions."
+    },
+    {
+      "question_code": "ML_13",
+      "concept_code": "ML_METRICS_02",
+      "topic": "Evaluation",
+      "subtopic": "Precision",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Precision is defined as:",
+      "options": [
+        { "option_id": "A", "text": "TP / (TP + FP)", "is_correct": true },
+        { "option_id": "B", "text": "TP / (TP + FN)", "is_correct": false },
+        { "option_id": "C", "text": "TN / FP", "is_correct": false },
+        { "option_id": "D", "text": "FP / TN", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Precision measures correctness of positive predictions."
+    },
+    {
+      "question_code": "ML_14",
+      "concept_code": "ML_METRICS_03",
+      "topic": "Evaluation",
+      "subtopic": "Recall",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Recall is defined as:",
+      "options": [
+        { "option_id": "A", "text": "TP / (TP + FN)", "is_correct": true },
+        { "option_id": "B", "text": "TP / (TP + FP)", "is_correct": false },
+        { "option_id": "C", "text": "TN / FP", "is_correct": false },
+        { "option_id": "D", "text": "FP / TP", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Recall measures detection of actual positives."
+    },
+    {
+      "question_code": "ML_15",
+      "concept_code": "ML_METRICS_04",
+      "topic": "Evaluation",
+      "subtopic": "F1 Score",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "F1 score is harmonic mean of:",
+      "options": [
+        { "option_id": "A", "text": "Accuracy and Recall", "is_correct": false },
+        { "option_id": "B", "text": "Precision and Recall", "is_correct": true },
+        { "option_id": "C", "text": "Precision and Accuracy", "is_correct": false },
+        { "option_id": "D", "text": "TP and TN", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "F1 balances precision and recall."
+    },
+    {
+      "question_code": "ML_16",
+      "concept_code": "ML_CLUSTER_01",
+      "topic": "Clustering",
+      "subtopic": "K-Means",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "K-Means is a:",
+      "options": [
+        { "option_id": "A", "text": "Supervised algorithm", "is_correct": false },
+        { "option_id": "B", "text": "Unsupervised clustering algorithm", "is_correct": true },
+        { "option_id": "C", "text": "Regression model", "is_correct": false },
+        { "option_id": "D", "text": "Search algorithm", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "K-Means groups unlabeled data."
+    },
+    {
+      "question_code": "ML_17",
+      "concept_code": "ML_CLUSTER_02",
+      "topic": "Clustering",
+      "subtopic": "Centroid",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Centroid in K-Means refers to:",
+      "options": [
+        { "option_id": "A", "text": "Random point", "is_correct": false },
+        { "option_id": "B", "text": "Mean of cluster points", "is_correct": true },
+        { "option_id": "C", "text": "Maximum value", "is_correct": false },
+        { "option_id": "D", "text": "Minimum value", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Centroid is cluster mean."
+    },
+    {
+      "question_code": "ML_18",
+      "concept_code": "ML_CLUSTER_03",
+      "topic": "Clustering",
+      "subtopic": "Distance Metric",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "K-Means commonly uses which distance metric?",
+      "options": [
+        { "option_id": "A", "text": "Hamming distance", "is_correct": false },
+        { "option_id": "B", "text": "Euclidean distance", "is_correct": true },
+        { "option_id": "C", "text": "Cosine similarity", "is_correct": false },
+        { "option_id": "D", "text": "Manhattan only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Euclidean distance is standard."
+    },
+    {
+      "question_code": "ML_19",
+      "concept_code": "ML_TREE_01",
+      "topic": "Decision Trees",
+      "subtopic": "Splitting",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Decision tree splits data based on:",
+      "options": [
+        { "option_id": "A", "text": "Random choice", "is_correct": false },
+        { "option_id": "B", "text": "Feature conditions", "is_correct": true },
+        { "option_id": "C", "text": "Sorting order", "is_correct": false },
+        { "option_id": "D", "text": "Memory size", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Splits are based on feature thresholds."
+    },
+    {
+      "question_code": "ML_20",
+      "concept_code": "ML_TREE_02",
+      "topic": "Decision Trees",
+      "subtopic": "Overfitting",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Decision trees are prone to:",
+      "options": [
+        { "option_id": "A", "text": "Underfitting always", "is_correct": false },
+        { "option_id": "B", "text": "Overfitting", "is_correct": true },
+        { "option_id": "C", "text": "No learning", "is_correct": false },
+        { "option_id": "D", "text": "Clustering only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Deep trees overfit training data."
+    },
+        {
+      "question_code": "ML_21",
+      "concept_code": "ML_METRICS_05",
+      "topic": "Evaluation",
+      "subtopic": "Accuracy Calculation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A model makes 80 correct predictions out of 100 total predictions. Compute the accuracy.",
+      "correct_answer": 0.8,
+      "tolerance": 0.01,
+      "explanation": "Accuracy = correct / total = 80 / 100 = 0.8"
+    },
+    {
+      "question_code": "ML_22",
+      "concept_code": "ML_METRICS_06",
+      "topic": "Evaluation",
+      "subtopic": "Error Rate",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A classifier makes 15 errors out of 60 predictions. Compute the error rate.",
+      "correct_answer": 0.25,
+      "tolerance": 0.01,
+      "explanation": "Error rate = errors / total = 15 / 60 = 0.25"
+    },
+    {
+      "question_code": "ML_23",
+      "concept_code": "ML_METRICS_07",
+      "topic": "Evaluation",
+      "subtopic": "Precision Calculation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "A classifier has TP = 30 and FP = 10. Compute precision.",
+      "correct_answer": 0.75,
+      "tolerance": 0.01,
+      "explanation": "Precision = TP / (TP + FP) = 30 / 40 = 0.75"
+    },
+    {
+      "question_code": "ML_24",
+      "concept_code": "ML_METRICS_08",
+      "topic": "Evaluation",
+      "subtopic": "Recall Calculation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "A classifier has TP = 24 and FN = 6. Compute recall.",
+      "correct_answer": 0.8,
+      "tolerance": 0.01,
+      "explanation": "Recall = TP / (TP + FN) = 24 / 30 = 0.8"
+    },
+    {
+      "question_code": "ML_25",
+      "concept_code": "ML_METRICS_09",
+      "topic": "Evaluation",
+      "subtopic": "F1 Score",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "A model has precision = 0.8 and recall = 0.6. Compute F1 score.",
+      "correct_answer": 0.6857,
+      "tolerance": 0.01,
+      "explanation": "F1 = 2PR/(P+R) = 2×0.8×0.6 / 1.4 = 0.6857"
+    },
+    {
+      "question_code": "ML_26",
+      "concept_code": "ML_REG_05",
+      "topic": "Regression",
+      "subtopic": "Mean Squared Error",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Actual values are [2, 4] and predicted values are [3, 5]. Compute MSE.",
+      "correct_answer": 1.0,
+      "tolerance": 0.01,
+      "explanation": "MSE = [(1^2 + 1^2)/2] = 1"
+    },
+    {
+      "question_code": "ML_27",
+      "concept_code": "ML_REG_06",
+      "topic": "Regression",
+      "subtopic": "Prediction Error",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Actual value is 10 and predicted value is 7. Compute absolute error.",
+      "correct_answer": 3.0,
+      "tolerance": 0.01,
+      "explanation": "Absolute error = |10 - 7| = 3"
+    },
+    {
+      "question_code": "ML_28",
+      "concept_code": "ML_CLUSTER_04",
+      "topic": "Clustering",
+      "subtopic": "Centroid Calculation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Find centroid of points (2,2), (4,4), (6,6). Compute x-coordinate of centroid.",
+      "correct_answer": 4.0,
+      "tolerance": 0.01,
+      "explanation": "Centroid x = (2+4+6)/3 = 4"
+    },
+    {
+      "question_code": "ML_29",
+      "concept_code": "ML_CLUSTER_05",
+      "topic": "Clustering",
+      "subtopic": "Distance",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Compute Euclidean distance between points (0,0) and (3,4).",
+      "correct_answer": 5.0,
+      "tolerance": 0.01,
+      "explanation": "Distance = √(3^2 + 4^2) = 5"
+    },
+    {
+      "question_code": "ML_30",
+      "concept_code": "ML_REG_07",
+      "topic": "Regression",
+      "subtopic": "Linear Prediction",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "For model y = 2x + 1, compute output when x = 3.",
+      "correct_answer": 7.0,
+      "tolerance": 0.01,
+      "explanation": "y = 2(3) + 1 = 7"
+    },
+  {
+    "question_code": "ML_06",
+    "concept_code": "ML_INTRO_01",
+    "topic": "Introduction",
+    "subtopic": "Definition",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about Machine Learning are correct?",
+    "options": [
+      { "option_id": "A", "text": "Machine Learning enables systems to learn patterns from data", "is_correct": true },
+      { "option_id": "B", "text": "Machine Learning models can improve performance with experience", "is_correct": true },
+      { "option_id": "C", "text": "Machine Learning always relies on explicitly programmed rules for every scenario", "is_correct": false },
+      { "option_id": "D", "text": "Machine Learning is a subfield of Artificial Intelligence", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "ML focuses on learning from data and is a major subfield of AI. It does not require explicit rules for every possible case."
+  },
+  {
+    "question_code": "ML_07",
+    "concept_code": "ML_TYPES_01",
+    "topic": "Types of Learning",
+    "subtopic": "Supervised Learning",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following are characteristics of supervised learning?",
+    "options": [
+      { "option_id": "A", "text": "Uses labeled input-output pairs", "is_correct": true },
+      { "option_id": "B", "text": "Can be used for classification tasks", "is_correct": true },
+      { "option_id": "C", "text": "Can be used for regression tasks", "is_correct": true },
+      { "option_id": "D", "text": "Requires completely unlabeled data", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Supervised learning uses labeled data and includes both classification and regression problems."
+  },
+  {
+    "question_code": "ML_08",
+    "concept_code": "ML_TYPES_02",
+    "topic": "Types of Learning",
+    "subtopic": "Unsupervised Learning",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following tasks are commonly associated with unsupervised learning?",
+    "options": [
+      { "option_id": "A", "text": "Clustering similar data points", "is_correct": true },
+      { "option_id": "B", "text": "Discovering hidden patterns in data", "is_correct": true },
+      { "option_id": "C", "text": "Dimensionality reduction", "is_correct": true },
+      { "option_id": "D", "text": "Predicting class labels using labeled training data", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Unsupervised learning works with unlabeled data and is commonly used for clustering, pattern discovery, and dimensionality reduction."
+  },
+  {
+    "question_code": "ML_09",
+    "concept_code": "ML_TYPES_03",
+    "topic": "Types of Learning",
+    "subtopic": "Reinforcement Learning",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which statements about reinforcement learning are correct?",
+    "options": [
+      { "option_id": "A", "text": "An agent learns by interacting with an environment", "is_correct": true },
+      { "option_id": "B", "text": "Learning is driven by reward and penalty signals", "is_correct": true },
+      { "option_id": "C", "text": "The objective is to maximize cumulative reward", "is_correct": true },
+      { "option_id": "D", "text": "Every training example must have a predefined correct label", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Reinforcement learning relies on agent-environment interaction and reward optimization rather than labeled examples."
+  },
+  {
+    "question_code": "ML_10",
+    "concept_code": "ML_REG_01",
+    "topic": "Regression",
+    "subtopic": "Linear Regression",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about linear regression are correct?",
+    "options": [
+      { "option_id": "A", "text": "It is used to predict continuous-valued outputs", "is_correct": true },
+      { "option_id": "B", "text": "It models the relationship between input variables and a target variable", "is_correct": true },
+      { "option_id": "C", "text": "It is a supervised learning algorithm", "is_correct": true },
+      { "option_id": "D", "text": "Its primary purpose is to perform clustering", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Linear regression is a supervised learning technique used to model relationships and predict continuous outcomes, not for clustering."
+  }
+]
+}

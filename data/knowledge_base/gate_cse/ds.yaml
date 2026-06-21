@@ -1,0 +1,593 @@
+subject: Programming and Data Structures
+exam: GATE CSE
+subject_weightage: 20
+
+topics:
+
+  - name: Arrays
+    topic_code: PDS_ARR
+    weightage: 8
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Array Fundamentals
+        concepts:
+
+          - concept_code: PDS_ARR_01
+            name: Array Access and Traversal
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 40
+              medium: 45
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_random_access
+              - analyze_traversal_complexity
+            pyq_patterns:
+              - indexing_operations
+              - access_complexity
+
+          - concept_code: PDS_ARR_02
+            name: Array Insertion and Deletion
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 25
+              medium: 50
+              hard: 25
+            estimated_questions_per_year: 1
+            prerequisites:
+              - array_basics
+            learning_outcomes:
+              - analyze_shift_operations
+              - compute_update_cost
+            pyq_patterns:
+              - insertion_complexity
+              - deletion_complexity
+
+          - concept_code: PDS_ARR_03
+            name: Array Address Calculation
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - memory_organization
+            learning_outcomes:
+              - compute_element_address
+              - understand_contiguous_storage
+            pyq_patterns:
+              - row_major_addressing
+              - offset_calculation
+
+  - name: Linked Lists
+    topic_code: PDS_LL
+    weightage: 8
+    gate_frequency: high
+    subtopics:
+
+      - name: Linked List Fundamentals
+        concepts:
+
+          - concept_code: PDS_LL_01
+            name: Linked List Types
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 80
+              MSQ: 10
+              NAT: 10
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compare_sll_dll_cll
+              - understand_node_structure
+            pyq_patterns:
+              - traversal_direction
+              - list_variants
+
+          - concept_code: PDS_LL_02
+            name: Linked List Operations
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pointers_basics
+            learning_outcomes:
+              - perform_insert_delete
+              - analyze_pointer_updates
+            pyq_patterns:
+              - insertion_cost
+              - deletion_cost
+
+          - concept_code: PDS_LL_03
+            name: Linked List Traversal
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 30
+              MSQ: 10
+              NAT: 60
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - linked_list_basics
+            learning_outcomes:
+              - perform_sequential_traversal
+              - analyze_access_cost
+            pyq_patterns:
+              - node_visit_count
+              - traversal_steps
+
+  - name: Stacks and Queues
+    topic_code: PDS_STACK_QUEUE
+    weightage: 10
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Stacks
+        concepts:
+
+          - concept_code: PDS_STACK_01
+            name: Stack Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 80
+              MSQ: 10
+              NAT: 10
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_lifo_behavior
+              - apply_push_pop_operations
+            pyq_patterns:
+              - stack_ordering
+              - stack_simulation
+
+          - concept_code: PDS_STACK_02
+            name: Stack Applications
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - stack_basics
+            learning_outcomes:
+              - analyze_recursion_stack
+              - evaluate_expression_processing
+            pyq_patterns:
+              - function_call_stack
+              - postfix_evaluation
+
+      - name: Queues
+        concepts:
+
+          - concept_code: PDS_QUEUE_01
+            name: Queue Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 80
+              MSQ: 10
+              NAT: 10
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_fifo_behavior
+              - perform_enqueue_dequeue
+            pyq_patterns:
+              - queue_discipline
+              - operation_order
+
+          - concept_code: PDS_QUEUE_02
+            name: Circular Queue
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - queue_basics
+            learning_outcomes:
+              - eliminate_space_wastage
+              - implement_circular_buffer
+            pyq_patterns:
+              - front_rear_updates
+              - circular_queue_logic
+
+  - name: Trees
+    topic_code: PDS_TREE
+    weightage: 14
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Binary Trees
+        concepts:
+
+          - concept_code: PDS_TREE_01
+            name: Binary Tree Properties
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites: []
+
+          - concept_code: PDS_TREE_04
+            name: Tree Edge Relationships
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 70
+              medium: 25
+              hard: 5
+            estimated_questions_per_year: 1
+            prerequisites: []
+
+          - concept_code: PDS_TREE_05
+            name: Complete Binary Trees
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 30
+              MSQ: 20
+              NAT: 50
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - binary_tree_properties
+
+      - name: BST and Traversals
+        concepts:
+
+          - concept_code: PDS_TREE_02
+            name: BST Traversals
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - binary_tree_basics
+
+          - concept_code: PDS_TREE_03
+            name: BST Search Complexity
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - bst_basics
+
+          - concept_code: PDS_TREE_06
+            name: Balanced BST Search
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 30
+              MSQ: 10
+              NAT: 60
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - bst_search
+
+  - name: AVL Trees
+    topic_code: PDS_AVL
+    weightage: 4
+    gate_frequency: high
+    subtopics:
+
+      - name: Self Balancing Trees
+        concepts:
+
+          - concept_code: PDS_AVL_01
+            name: AVL Balance Factor
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - bst_basics
+              - tree_height
+
+  - name: Heaps and Priority Queues
+    topic_code: PDS_HEAP
+    weightage: 8
+    gate_frequency: high
+    subtopics:
+
+      - name: Heap Fundamentals
+        concepts:
+
+          - concept_code: PDS_HEAP_01
+            name: Heap Properties
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: PDS_HEAP_02
+            name: Heap Operations
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: PDS_HEAP_03
+            name: Array Representation of Heap
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - heap_basics
+
+  - name: Graphs
+    topic_code: PDS_GRAPH
+    weightage: 12
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Graph Representation
+        concepts:
+
+          - concept_code: PDS_GRAPH_01
+            name: Graph Storage Methods
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: PDS_GRAPH_04
+            name: Adjacency List Analysis
+            weightage: 2
+            gate_frequency: medium
+
+      - name: Graph Traversals
+        concepts:
+
+          - concept_code: PDS_GRAPH_02
+            name: Breadth First Search
+            weightage: 3
+            gate_frequency: very_high
+
+          - concept_code: PDS_GRAPH_03
+            name: Depth First Search
+            weightage: 4
+            gate_frequency: very_high
+
+  - name: Hashing
+    topic_code: PDS_HASH
+    weightage: 6
+    gate_frequency: high
+    subtopics:
+
+      - name: Hash Tables
+        concepts:
+
+          - concept_code: PDS_HASH_01
+            name: Collision Resolution Techniques
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: PDS_HASH_02
+            name: Hash Table Performance
+            weightage: 3
+            gate_frequency: high
+
+  - name: Recursion
+    topic_code: PDS_RECUR
+    weightage: 5
+    gate_frequency: high
+    subtopics:
+
+      - name: Recursion Fundamentals
+        concepts:
+
+          - concept_code: PDS_RECUR_01
+            name: Base Cases and Recursive Structure
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: PDS_RECUR_02
+            name: Recursive Complexity Analysis
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: PDS_RECUR_03
+            name: Recursive Call Counting
+            weightage: 1
+            gate_frequency: medium
+
+  - name: C Programming
+    topic_code: PDS_C
+    weightage: 6
+    gate_frequency: high
+    subtopics:
+
+      - name: Pointers and Memory
+        concepts:
+
+          - concept_code: PDS_C_01
+            name: Pointer Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+
+          - concept_code: PDS_C_02
+            name: Dynamic Memory Allocation
+            weightage: 3
+            gate_frequency: high
+
+  - name: Searching and Sorting
+    topic_code: PDS_SEARCH_SORT
+    weightage: 10
+    gate_frequency: very_high
+    subtopics:
+
+      - name: Searching
+        concepts:
+
+          - concept_code: PDS_SEARCH_01
+            name: Binary Search Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+
+          - concept_code: PDS_SEARCH_02
+            name: Binary Search Complexity
+            weightage: 2
+            gate_frequency: very_high
+
+          - concept_code: PDS_SEARCH_03
+            name: Binary Search Comparison Count
+            weightage: 1
+            gate_frequency: high
+
+      - name: Sorting Algorithms
+        concepts:
+
+          - concept_code: PDS_SORT_01
+            name: Bubble Sort Analysis
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: PDS_SORT_02
+            name: Merge Sort and Divide-Conquer
+            weightage: 2
+            gate_frequency: very_high
+
+  - name: Abstract Data Types
+    topic_code: PDS_MISC
+    weightage: 2
+    gate_frequency: medium
+    subtopics:
+
+      - name: ADT Fundamentals
+        concepts:
+
+          - concept_code: PDS_MISC_01
+            name: Abstract Data Types
+            weightage: 2
+            gate_frequency: medium
+
+  - name: Mathematics for Programming
+    topic_code: PDS_MATH
+    weightage: 3
+    gate_frequency: medium
+    subtopics:
+
+      - name: Logarithms and Complexity
+        concepts:
+
+          - concept_code: PDS_MATH_01
+            name: Logarithmic Functions
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - evaluate_logarithms
+              - analyze_algorithm_growth
+            pyq_patterns:
+              - complexity_calculation
+              - logarithm_evaluation

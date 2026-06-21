@@ -1,0 +1,269 @@
+subject: Calculus and Optimization
+exam: GATE DA
+subject_weightage: 25
+
+topics:
+
+  - name: Limits
+    topic_code: CALC_LIMIT
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic and Standard Limits
+        concepts:
+
+          - concept_code: CALC_LIMIT_01
+            name: Algebraic Limit Simplification
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_LIMIT_02
+            name: Standard Trigonometric Limit
+            weightage: 2
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_LIMIT_03
+            name: Limit Evaluation (Trigonometric Expansion)
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_LIMIT_04
+            name: Exponential Limit
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+
+  - name: Differentiation
+    topic_code: CALC_DIFF
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic Differentiation Rules
+        concepts:
+
+          - concept_code: CALC_DIFF_01
+            name: Power Rule
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_DIFF_02
+            name: Product Rule
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_DIFF_03
+            name: Chain Rule
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_DIFF_04
+            name: Derivative Evaluation (Power Function)
+            weightage: 6
+            gate_frequency: very_high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+
+  - name: Integration
+    topic_code: CALC_INT
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic and Definite Integration
+        concepts:
+
+          - concept_code: CALC_INT_01
+            name: Basic Integral
+            weightage: 2
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_INT_02
+            name: Definite Integral Evaluation
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_INT_03
+            name: Substitution Method
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_INT_04
+            name: Definite Integral Evaluation (NAT)
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_INT_05
+            name: Polynomial Integration
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+
+  - name: Sequences and Series
+    topic_code: CALC_SER
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: AP and GP Concepts
+        concepts:
+
+          - concept_code: CALC_SER_01
+            name: Arithmetic Progression
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_SER_02
+            name: Geometric Progression
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_SER_03
+            name: Sum of AP
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_SER_04
+            name: Infinite Geometric Series
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+
+  - name: Optimization
+    topic_code: CALC_OPT
+    weightage: 35
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Classical Optimization
+        concepts:
+
+          - concept_code: CALC_OPT_01
+            name: Maxima and Minima (First Derivative Test)
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_02
+            name: Second Derivative Test
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_03
+            name: Convex Functions
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_04
+            name: Gradient
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_05
+            name: Gradient Descent
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_06
+            name: Learning Rate
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_07
+            name: Local Minimum
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_08
+            name: Global Minimum
+            weightage: 2
+            gate_frequency: medium
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_09
+            name: Lagrange Multipliers
+            weightage: 3
+            gate_frequency: very_high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_10
+            name: KKT Conditions
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 100, MSQ: 0, NAT: 0}
+            difficulty_distribution: {easy: 0, medium: 100, hard: 0}
+
+          - concept_code: CALC_OPT_11
+            name: Minimum of x^2
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}
+
+          - concept_code: CALC_OPT_12
+            name: Gradient Magnitude
+            weightage: 2
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 0, medium: 100, hard: 0}
+
+          - concept_code: CALC_OPT_13
+            name: Quadratic Optimization
+            weightage: 3
+            gate_frequency: high
+            question_types: {MCQ: 0, MSQ: 0, NAT: 100}
+            difficulty_distribution: {easy: 100, medium: 0, hard: 0}

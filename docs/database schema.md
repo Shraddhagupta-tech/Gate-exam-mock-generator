@@ -40,7 +40,7 @@ Question
 -- NAT specific
 - correct_answer_value DECIMAL(10,4) NULL
 - answer_tolerance DECIMAL(10,4) DEFAULT 0
-- source enum(PYQ / AI / curated)S
+- source enum(PYQ / AI / curated)
 - created_at timestamp default current_timestamp
 
 QuestionOption
@@ -67,11 +67,11 @@ MockTest
 - created_at timestamp default current_timestamp
 
 MockQuestion
-- id int primary key
+- id int auto-increment primary key
 - mocktest_id  int fk from mocktest
 - question_id int fk from question
 - question_order int 
-- marks
+- marks int
 - UNIQUE(mocktest_id, question_order)
 - UNIQUE(mocktest_id, question_id)
 

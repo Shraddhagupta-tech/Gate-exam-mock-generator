@@ -1,0 +1,621 @@
+{
+  "subject": "Probability and Statistics",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "PS_01",
+      "concept_code": "PS_PROB_01",
+      "topic": "Probability",
+      "subtopic": "Basic Probability",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The probability of an event A lies between:",
+      "options": [
+        {"option_id": "A", "text": "-1 and 1", "is_correct": false},
+        {"option_id": "B", "text": "0 and 1", "is_correct": true},
+        {"option_id": "C", "text": "1 and 2", "is_correct": false},
+        {"option_id": "D", "text": "-∞ and +∞", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Probability values always lie between 0 and 1."
+    },
+    {
+      "question_code": "PS_02",
+      "concept_code": "PS_PROB_02",
+      "topic": "Probability",
+      "subtopic": "Addition Rule",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "For two mutually exclusive events A and B, P(A ∪ B) equals:",
+      "options": [
+        {"option_id": "A", "text": "P(A)P(B)", "is_correct": false},
+        {"option_id": "B", "text": "P(A) + P(B)", "is_correct": true},
+        {"option_id": "C", "text": "P(A) - P(B)", "is_correct": false},
+        {"option_id": "D", "text": "P(A)/P(B)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "For mutually exclusive events, probabilities add."
+    },
+    {
+      "question_code": "PS_03",
+      "concept_code": "PS_PROB_03",
+      "topic": "Probability",
+      "subtopic": "Conditional Probability",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "P(A|B) is defined as:",
+      "options": [
+        {"option_id": "A", "text": "P(A ∩ B) / P(B)", "is_correct": true},
+        {"option_id": "B", "text": "P(A) + P(B)", "is_correct": false},
+        {"option_id": "C", "text": "P(A) / P(B)", "is_correct": false},
+        {"option_id": "D", "text": "P(B) / P(A)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Conditional probability formula."
+    },
+    {
+      "question_code": "PS_04",
+      "concept_code": "PS_PROB_04",
+      "topic": "Probability",
+      "subtopic": "Bayes Theorem",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Bayes theorem is used to compute:",
+      "options": [
+        {"option_id": "A", "text": "Forward probability", "is_correct": false},
+        {"option_id": "B", "text": "Conditional probability in reverse direction", "is_correct": true},
+        {"option_id": "C", "text": "Mean", "is_correct": false},
+        {"option_id": "D", "text": "Variance", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Bayes theorem reverses conditional probabilities."
+    },
+    {
+      "question_code": "PS_05",
+      "concept_code": "PS_PROB_05",
+      "topic": "Probability",
+      "subtopic": "Independence",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Two events A and B are independent if:",
+      "options": [
+        {"option_id": "A", "text": "P(A ∩ B) = P(A) + P(B)", "is_correct": false},
+        {"option_id": "B", "text": "P(A ∩ B) = P(A)P(B)", "is_correct": true},
+        {"option_id": "C", "text": "P(A) = P(B)", "is_correct": false},
+        {"option_id": "D", "text": "P(A ∪ B) = 1", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Independence implies multiplication rule."
+    },
+    {
+      "question_code": "PS_06",
+      "concept_code": "PS_PROB_06",
+      "topic": "Probability",
+      "subtopic": "Random Variables",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A random variable is:",
+      "options": [
+        {"option_id": "A", "text": "A constant value", "is_correct": false},
+        {"option_id": "B", "text": "A function mapping outcomes to real numbers", "is_correct": true},
+        {"option_id": "C", "text": "A probability always 1", "is_correct": false},
+        {"option_id": "D", "text": "A dataset", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Random variable assigns numeric values to outcomes."
+    },
+    {
+      "question_code": "PS_07",
+      "concept_code": "PS_PROB_07",
+      "topic": "Probability",
+      "subtopic": "Discrete RV",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Probability mass function is used for:",
+      "options": [
+        {"option_id": "A", "text": "Continuous variables", "is_correct": false},
+        {"option_id": "B", "text": "Discrete random variables", "is_correct": true},
+        {"option_id": "C", "text": "Only mean", "is_correct": false},
+        {"option_id": "D", "text": "Only variance", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "PMF is for discrete random variables."
+    },
+    {
+      "question_code": "PS_08",
+      "concept_code": "PS_PROB_08",
+      "topic": "Probability",
+      "subtopic": "Continuous RV",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Probability density function integrates to:",
+      "options": [
+        {"option_id": "A", "text": "0", "is_correct": false},
+        {"option_id": "B", "text": "1", "is_correct": true},
+        {"option_id": "C", "text": "Infinity", "is_correct": false},
+        {"option_id": "D", "text": "Mean", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Total probability is always 1."
+    },
+    {
+      "question_code": "PS_09",
+      "concept_code": "PS_STATS_01",
+      "topic": "Statistics",
+      "subtopic": "Mean",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Arithmetic mean is:",
+      "options": [
+        {"option_id": "A", "text": "Sum of values / number of values", "is_correct": true},
+        {"option_id": "B", "text": "Product of values", "is_correct": false},
+        {"option_id": "C", "text": "Difference of values", "is_correct": false},
+        {"option_id": "D", "text": "Square root of values", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Mean is sum divided by count."
+    },
+    {
+      "question_code": "PS_10",
+      "concept_code": "PS_STATS_02",
+      "topic": "Statistics",
+      "subtopic": "Median",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Median is:",
+      "options": [
+        {"option_id": "A", "text": "Most frequent value", "is_correct": false},
+        {"option_id": "B", "text": "Middle value in sorted data", "is_correct": true},
+        {"option_id": "C", "text": "Average of all values", "is_correct": false},
+        {"option_id": "D", "text": "Difference of max and min", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Median is central value."
+    },
+    {
+      "question_code": "PS_11",
+      "concept_code": "PS_STATS_03",
+      "topic": "Statistics",
+      "subtopic": "Mode",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Mode is:",
+      "options": [
+        {"option_id": "A", "text": "Average value", "is_correct": false},
+        {"option_id": "B", "text": "Most frequently occurring value", "is_correct": true},
+        {"option_id": "C", "text": "Middle value", "is_correct": false},
+        {"option_id": "D", "text": "Random value", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Mode is highest frequency value."
+    },
+    {
+      "question_code": "PS_12",
+      "concept_code": "PS_STATS_04",
+      "topic": "Statistics",
+      "subtopic": "Variance",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Variance measures:",
+      "options": [
+        {"option_id": "A", "text": "Central tendency", "is_correct": false},
+        {"option_id": "B", "text": "Spread of data", "is_correct": true},
+        {"option_id": "C", "text": "Frequency only", "is_correct": false},
+        {"option_id": "D", "text": "Probability", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Variance measures dispersion."
+    },
+    {
+      "question_code": "PS_13",
+      "concept_code": "PS_STATS_05",
+      "topic": "Statistics",
+      "subtopic": "Standard Deviation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Standard deviation is:",
+      "options": [
+        {"option_id": "A", "text": "Square of variance", "is_correct": false},
+        {"option_id": "B", "text": "Square root of variance", "is_correct": true},
+        {"option_id": "C", "text": "Sum of values", "is_correct": false},
+        {"option_id": "D", "text": "Difference of values", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "SD = sqrt(variance)."
+    },
+    {
+      "question_code": "PS_14",
+      "concept_code": "PS_STATS_06",
+      "topic": "Statistics",
+      "subtopic": "Correlation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Correlation coefficient measures:",
+      "options": [
+        {"option_id": "A", "text": "Causation", "is_correct": false},
+        {"option_id": "B", "text": "Linear relationship between variables", "is_correct": true},
+        {"option_id": "C", "text": "Variance only", "is_correct": false},
+        {"option_id": "D", "text": "Probability", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Correlation measures linear relationship."
+    },
+    {
+      "question_code": "PS_15",
+      "concept_code": "PS_STATS_07",
+      "topic": "Statistics",
+      "subtopic": "Regression",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Regression is used for:",
+      "options": [
+        {"option_id": "A", "text": "Classification only", "is_correct": false},
+        {"option_id": "B", "text": "Prediction of dependent variable", "is_correct": true},
+        {"option_id": "C", "text": "Sorting data", "is_correct": false},
+        {"option_id": "D", "text": "Sampling", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Regression predicts dependent variable."
+    },
+    {
+      "question_code": "PS_16",
+      "concept_code": "PS_PROB_09",
+      "topic": "Probability",
+      "subtopic": "Expectation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Expected value represents:",
+      "options": [
+        {"option_id": "A", "text": "Most frequent outcome", "is_correct": false},
+        {"option_id": "B", "text": "Long-run average", "is_correct": true},
+        {"option_id": "C", "text": "Maximum value", "is_correct": false},
+        {"option_id": "D", "text": "Minimum value", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Expectation is long-run mean."
+    },
+    {
+      "question_code": "PS_17",
+      "concept_code": "PS_PROB_10",
+      "topic": "Probability",
+      "subtopic": "Binomial Distribution",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Binomial distribution is used for:",
+      "options": [
+        {"option_id": "A", "text": "Continuous data", "is_correct": false},
+        {"option_id": "B", "text": "Number of successes in fixed trials", "is_correct": true},
+        {"option_id": "C", "text": "Mean only", "is_correct": false},
+        {"option_id": "D", "text": "Variance only", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Binomial counts successes."
+    },
+    {
+      "question_code": "PS_18",
+      "concept_code": "PS_PROB_11",
+      "topic": "Probability",
+      "subtopic": "Poisson Distribution",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Poisson distribution models:",
+      "options": [
+        {"option_id": "A", "text": "Binary outcomes", "is_correct": false},
+        {"option_id": "B", "text": "Events in fixed interval", "is_correct": true},
+        {"option_id": "C", "text": "Continuous values", "is_correct": false},
+        {"option_id": "D", "text": "Sorting algorithms", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Poisson models event counts in intervals."
+    },
+    {
+      "question_code": "PS_19",
+      "concept_code": "PS_STATS_08",
+      "topic": "Statistics",
+      "subtopic": "Sampling",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Sampling means:",
+      "options": [
+        {"option_id": "A", "text": "Studying full population", "is_correct": false},
+        {"option_id": "B", "text": "Selecting subset of population", "is_correct": true},
+        {"option_id": "C", "text": "Sorting data", "is_correct": false},
+        {"option_id": "D", "text": "Computing mean", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Sampling selects subset of data."
+    },
+    {
+      "question_code": "PS_20",
+      "concept_code": "PS_STATS_09",
+      "topic": "Statistics",
+      "subtopic": "Central Limit Theorem",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Central Limit Theorem states that:",
+      "options": [
+        {"option_id": "A", "text": "Data is always normal", "is_correct": false},
+        {"option_id": "B", "text": "Sample mean distribution approaches normal", "is_correct": true},
+        {"option_id": "C", "text": "Variance is zero", "is_correct": false},
+        {"option_id": "D", "text": "Mean equals median always", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "CLT gives normal approximation of sample means."
+    },
+        {
+      "question_code": "PS_21",
+      "concept_code": "PS_PROB_01",
+      "topic": "Probability",
+      "subtopic": "Basic Probability",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A fair die is rolled once. Find the probability of getting an even number.",
+      "correct_answer": 0.5,
+      "answer_tolerance": 0.001,
+      "explanation": "Even outcomes are {2,4,6}, so probability = 3/6 = 0.5."
+    },
+    {
+      "question_code": "PS_22",
+      "concept_code": "PS_STATS_01",
+      "topic": "Statistics",
+      "subtopic": "Mean",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the expected value of a fair six-sided die.",
+      "correct_answer": 3.5,
+      "answer_tolerance": 0.01,
+      "explanation": "Mean of 1 to 6 is (1+2+3+4+5+6)/6 = 3.5."
+    },
+    {
+      "question_code": "PS_23",
+      "concept_code": "PS_PROB_05",
+      "topic": "Probability",
+      "subtopic": "Random Variables",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A Bernoulli random variable has probability p = 0.5. Find its variance.",
+      "correct_answer": 0.25,
+      "answer_tolerance": 0.001,
+      "explanation": "Variance of Bernoulli is p(1-p) = 0.5 × 0.5 = 0.25."
+    },
+    {
+      "question_code": "PS_24",
+      "concept_code": "PS_PROB_02",
+      "topic": "Probability",
+      "subtopic": "Basic Probability",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A bag contains 2 red and 3 blue balls. One ball is drawn randomly. Find the probability of drawing a red ball.",
+      "correct_answer": 0.4,
+      "answer_tolerance": 0.001,
+      "explanation": "Probability = 2/5 = 0.4."
+    },
+    {
+      "question_code": "PS_25",
+      "concept_code": "PS_PROB_10",
+      "topic": "Probability",
+      "subtopic": "Binomial Distribution",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "For a binomial distribution with n = 10 and p = 0.2, find the mean.",
+      "correct_answer": 2.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Mean of binomial distribution is np = 10 × 0.2 = 2."
+    },
+    {
+      "question_code": "PS_26",
+      "concept_code": "PS_PROB_11",
+      "topic": "Probability",
+      "subtopic": "Poisson Distribution",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "For a Poisson distribution with λ = 3, compute P(X = 0).",
+      "correct_answer": 0.0498,
+      "answer_tolerance": 0.0001,
+      "explanation": "P(X=0)=e^-3 ≈ 0.049787."
+    },
+    {
+      "question_code": "PS_27",
+      "concept_code": "PS_STATS_05",
+      "topic": "Statistics",
+      "subtopic": "Standard Deviation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "If variance of a dataset is 16, find the standard deviation.",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Standard deviation is square root of variance = 4."
+    },
+    {
+      "question_code": "PS_28",
+      "concept_code": "PS_STATS_01",
+      "topic": "Statistics",
+      "subtopic": "Mean",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the mean of the dataset: 2, 4, 6, 8.",
+      "correct_answer": 5.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Mean = (2+4+6+8)/4 = 5."
+    },
+    {
+      "question_code": "PS_29",
+      "concept_code": "PS_STATS_07",
+      "topic": "Statistics",
+      "subtopic": "Regression",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "In a regression problem, covariance between X and Y is 8 and variance of X is 4. Find the slope of regression line Y on X.",
+      "correct_answer": 2.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Slope = Cov(X,Y)/Var(X) = 8/4 = 2."
+    },
+    {
+      "question_code": "PS_30",
+      "concept_code": "PS_STATS_09",
+      "topic": "Statistics",
+      "subtopic": "Central Limit Theorem",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "A population has standard deviation σ = 10 and sample size n = 25. Find the standard error of the mean.",
+      "correct_answer": 2.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Standard error = σ/√n = 10/5 = 2."
+    },
+  {
+    "question_code": "PS_06",
+    "concept_code": "PS_PROB_01",
+    "topic": "Probability",
+    "subtopic": "Basic Probability",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about probability are correct?",
+    "options": [
+      { "option_id": "A", "text": "For any event A, 0 ≤ P(A) ≤ 1", "is_correct": true },
+      { "option_id": "B", "text": "P(S) = 1, where S is the sample space", "is_correct": true },
+      { "option_id": "C", "text": "P(∅) = 0", "is_correct": true },
+      { "option_id": "D", "text": "Probability can be greater than 1", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Probabilities lie in [0,1], the sample space has probability 1, and the empty event has probability 0."
+  },
+  {
+    "question_code": "PS_07",
+    "concept_code": "PS_PROB_02",
+    "topic": "Probability",
+    "subtopic": "Addition Rule",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For two mutually exclusive events A and B, which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "P(A ∩ B) = 0", "is_correct": true },
+      { "option_id": "B", "text": "P(A ∪ B) = P(A) + P(B)", "is_correct": true },
+      { "option_id": "C", "text": "A and B cannot occur simultaneously", "is_correct": true },
+      { "option_id": "D", "text": "P(A ∩ B) = P(A)P(B)", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Mutually exclusive events have no common outcomes, so their intersection is zero and their probabilities add."
+  },
+  {
+    "question_code": "PS_08",
+    "concept_code": "PS_PROB_03",
+    "topic": "Probability",
+    "subtopic": "Conditional Probability",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements regarding conditional probability are correct?",
+    "options": [
+      { "option_id": "A", "text": "P(A|B) = P(A ∩ B) / P(B), provided P(B) > 0", "is_correct": true },
+      { "option_id": "B", "text": "Conditional probability measures the probability of A given that B has occurred", "is_correct": true },
+      { "option_id": "C", "text": "If A and B are independent, then P(A|B) = P(A)", "is_correct": true },
+      { "option_id": "D", "text": "P(A|B) = P(A) + P(B)", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Conditional probability quantifies the likelihood of A after observing B. Independence implies P(A|B)=P(A)."
+  },
+  {
+    "question_code": "PS_09",
+    "concept_code": "PS_PROB_04",
+    "topic": "Probability",
+    "subtopic": "Bayes Theorem",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about Bayes' theorem are correct?",
+    "options": [
+      { "option_id": "A", "text": "It relates P(A|B) and P(B|A)", "is_correct": true },
+      { "option_id": "B", "text": "It is useful for updating probabilities when new evidence is observed", "is_correct": true },
+      { "option_id": "C", "text": "It is widely used in probabilistic machine learning models", "is_correct": true },
+      { "option_id": "D", "text": "It is used to calculate variance directly", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Bayes' theorem reverses conditional probabilities and updates beliefs using observed evidence."
+  },
+  {
+    "question_code": "PS_10",
+    "concept_code": "PS_PROB_05",
+    "topic": "Probability",
+    "subtopic": "Independence",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following conditions imply that events A and B are independent?",
+    "options": [
+      { "option_id": "A", "text": "P(A ∩ B) = P(A)P(B)", "is_correct": true },
+      { "option_id": "B", "text": "P(A|B) = P(A), provided P(B) > 0", "is_correct": true },
+      { "option_id": "C", "text": "P(B|A) = P(B), provided P(A) > 0", "is_correct": true },
+      { "option_id": "D", "text": "P(A ∪ B) = P(A) + P(B)", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "All three conditions are equivalent definitions of independence. The addition rule alone characterizes mutually exclusive events, not independent events."
+  }
+]
+}

@@ -1,0 +1,702 @@
+{
+  "subject": "Theory of Computation",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "TOC_01",
+      "concept_code": "TOC_FA_01",
+      "topic": "Finite Automata",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A finite automaton has:",
+      "options": [
+        {"option_id": "A", "text": "Infinite memory", "is_correct": false},
+        {"option_id": "B", "text": "Finite number of states", "is_correct": true},
+        {"option_id": "C", "text": "Stack memory", "is_correct": false},
+        {"option_id": "D", "text": "Turing tape", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Finite automata consist of a finite number of states."
+    },
+    {
+      "question_code": "TOC_02",
+      "concept_code": "TOC_RE_01",
+      "topic": "Regular Expressions",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Regular expressions are used to describe:",
+      "options": [
+        {"option_id": "A", "text": "Algorithms", "is_correct": false},
+        {"option_id": "B", "text": "Regular languages", "is_correct": true},
+        {"option_id": "C", "text": "Graphs", "is_correct": false},
+        {"option_id": "D", "text": "Trees", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "RE represents regular languages."
+    },
+    {
+      "question_code": "TOC_03",
+      "concept_code": "TOC_RE_02",
+      "topic": "Regular Expressions",
+      "subtopic": "Union",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The expression (a + b) means:",
+      "options": [
+        {"option_id": "A", "text": "Concatenation", "is_correct": false},
+        {"option_id": "B", "text": "Union", "is_correct": true},
+        {"option_id": "C", "text": "Kleene star", "is_correct": false},
+        {"option_id": "D", "text": "Empty string", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "+ represents union in regular expressions."
+    },
+    {
+      "question_code": "TOC_04",
+      "concept_code": "TOC_FA_02",
+      "topic": "Finite Automata",
+      "subtopic": "DFA",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "DFA stands for:",
+      "options": [
+        {"option_id": "A", "text": "Deterministic Finite Automaton", "is_correct": true},
+        {"option_id": "B", "text": "Dual Finite Algorithm", "is_correct": false},
+        {"option_id": "C", "text": "Direct Finite Array", "is_correct": false},
+        {"option_id": "D", "text": "Deterministic Flow Automaton", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "DFA has exactly one transition per input per state."
+    },
+    {
+      "question_code": "TOC_05",
+      "concept_code": "TOC_FA_03",
+      "topic": "Finite Automata",
+      "subtopic": "NFA",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In NFA, a state can have:",
+      "options": [
+        {"option_id": "A", "text": "Exactly one transition", "is_correct": false},
+        {"option_id": "B", "text": "No transitions", "is_correct": false},
+        {"option_id": "C", "text": "Multiple transitions for same input", "is_correct": true},
+        {"option_id": "D", "text": "Only epsilon transitions", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "NFA allows multiple transitions for same input."
+    },
+    {
+      "question_code": "TOC_06",
+      "concept_code": "TOC_FA_04",
+      "topic": "Finite Automata",
+      "subtopic": "Acceptance",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A string is accepted by DFA if:",
+      "options": [
+        {"option_id": "A", "text": "It ends in any state", "is_correct": false},
+        {"option_id": "B", "text": "It reaches final state after input", "is_correct": true},
+        {"option_id": "C", "text": "It has even length", "is_correct": false},
+        {"option_id": "D", "text": "It contains only zeros", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Acceptance requires ending in a final state."
+    },
+    {
+      "question_code": "TOC_07",
+      "concept_code": "TOC_RE_03",
+      "topic": "Regular Expressions",
+      "subtopic": "Kleene Star",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "a* represents:",
+      "options": [
+        {"option_id": "A", "text": "One a only", "is_correct": false},
+        {"option_id": "B", "text": "Zero or more a's", "is_correct": true},
+        {"option_id": "C", "text": "One or more a's", "is_correct": false},
+        {"option_id": "D", "text": "Exactly two a's", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Kleene star allows zero or more occurrences."
+    },
+    {
+      "question_code": "TOC_08",
+      "concept_code": "TOC_RG_01",
+      "topic": "Regular Grammar",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Regular grammar generates:",
+      "options": [
+        {"option_id": "A", "text": "Context-free languages", "is_correct": false},
+        {"option_id": "B", "text": "Regular languages", "is_correct": true},
+        {"option_id": "C", "text": "Context-sensitive languages", "is_correct": false},
+        {"option_id": "D", "text": "Recursively enumerable languages", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Regular grammars define regular languages."
+    },
+    {
+      "question_code": "TOC_09",
+      "concept_code": "TOC_CFG_01",
+      "topic": "Context Free Grammar",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "CFG stands for:",
+      "options": [
+        {"option_id": "A", "text": "Context Free Grammar", "is_correct": true},
+        {"option_id": "B", "text": "Control Flow Graph", "is_correct": false},
+        {"option_id": "C", "text": "Compiled Function Grammar", "is_correct": false},
+        {"option_id": "D", "text": "Core Functional Generator", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "CFG defines syntax of programming languages."
+    },
+    {
+      "question_code": "TOC_10",
+      "concept_code": "TOC_CFG_02",
+      "topic": "Context Free Grammar",
+      "subtopic": "Derivation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Leftmost derivation expands:",
+      "options": [
+        {"option_id": "A", "text": "Rightmost non-terminal first", "is_correct": false},
+        {"option_id": "B", "text": "Leftmost non-terminal first", "is_correct": true},
+        {"option_id": "C", "text": "Random non-terminal", "is_correct": false},
+        {"option_id": "D", "text": "Terminal symbols", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Leftmost derivation expands leftmost non-terminal."
+    },
+    {
+      "question_code": "TOC_11",
+      "concept_code": "TOC_CFG_03",
+      "topic": "Context Free Grammar",
+      "subtopic": "Parse Tree",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Parse tree represents:",
+      "options": [
+        {"option_id": "A", "text": "Execution of program", "is_correct": false},
+        {"option_id": "B", "text": "Derivation structure", "is_correct": true},
+        {"option_id": "C", "text": "Memory layout", "is_correct": false},
+        {"option_id": "D", "text": "Machine instructions", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Parse tree shows syntactic structure."
+    },
+    {
+      "question_code": "TOC_12",
+      "concept_code": "TOC_CFG_04",
+      "topic": "Context Free Grammar",
+      "subtopic": "Ambiguity",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A grammar is ambiguous if:",
+      "options": [
+        {"option_id": "A", "text": "It has no production rules", "is_correct": false},
+        {"option_id": "B", "text": "It generates multiple parse trees for a string", "is_correct": true},
+        {"option_id": "C", "text": "It is regular", "is_correct": false},
+        {"option_id": "D", "text": "It has epsilon transitions", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Ambiguity means multiple parse trees exist."
+    },
+    {
+      "question_code": "TOC_13",
+      "concept_code": "TOC_PDA_01",
+      "topic": "Pushdown Automata",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "PDA uses which memory structure?",
+      "options": [
+        {"option_id": "A", "text": "Queue", "is_correct": false},
+        {"option_id": "B", "text": "Stack", "is_correct": true},
+        {"option_id": "C", "text": "Array", "is_correct": false},
+        {"option_id": "D", "text": "Heap", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "PDA uses stack memory."
+    },
+    {
+      "question_code": "TOC_14",
+      "concept_code": "TOC_PDA_02",
+      "topic": "Pushdown Automata",
+      "subtopic": "Acceptance",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "PDA accepts language by:",
+      "options": [
+        {"option_id": "A", "text": "Final state or empty stack", "is_correct": true},
+        {"option_id": "B", "text": "Only final state", "is_correct": false},
+        {"option_id": "C", "text": "Only empty input", "is_correct": false},
+        {"option_id": "D", "text": "Only transitions", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Two acceptance methods exist."
+    },
+    {
+      "question_code": "TOC_15",
+      "concept_code": "TOC_PDA_03",
+      "topic": "Pushdown Automata",
+      "subtopic": "Power",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "PDA recognizes:",
+      "options": [
+        {"option_id": "A", "text": "Regular languages only", "is_correct": false},
+        {"option_id": "B", "text": "Context-free languages", "is_correct": true},
+        {"option_id": "C", "text": "Context-sensitive languages", "is_correct": false},
+        {"option_id": "D", "text": "Recursive languages", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "PDA is equivalent to CFG."
+    },
+    {
+      "question_code": "TOC_16",
+      "concept_code": "TOC_TM_01",
+      "topic": "Turing Machine",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Turing machine is more powerful than:",
+      "options": [
+        {"option_id": "A", "text": "Finite automata", "is_correct": true},
+        {"option_id": "B", "text": "Stack", "is_correct": false},
+        {"option_id": "C", "text": "Queue", "is_correct": false},
+        {"option_id": "D", "text": "Heap", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "TM has unlimited memory via tape."
+    },
+    {
+      "question_code": "TOC_17",
+      "concept_code": "TOC_TM_02",
+      "topic": "Turing Machine",
+      "subtopic": "Acceptance",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A Turing machine accepts input if it:",
+      "options": [
+        {"option_id": "A", "text": "Halts in accept state", "is_correct": true},
+        {"option_id": "B", "text": "Loops forever", "is_correct": false},
+        {"option_id": "C", "text": "Rejects immediately", "is_correct": false},
+        {"option_id": "D", "text": "Never starts", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Acceptance requires halting in accept state."
+    },
+    {
+      "question_code": "TOC_18",
+      "concept_code": "TOC_TM_03",
+      "topic": "Turing Machine",
+      "subtopic": "Halting Problem",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The halting problem is:",
+      "options": [
+        {"option_id": "A", "text": "Decidable", "is_correct": false},
+        {"option_id": "B", "text": "Undecidable", "is_correct": true},
+        {"option_id": "C", "text": "Regular", "is_correct": false},
+        {"option_id": "D", "text": "Finite", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "No algorithm can solve halting problem."
+    },
+    {
+      "question_code": "TOC_19",
+      "concept_code": "TOC_CHOM_01",
+      "topic": "Chomsky Hierarchy",
+      "subtopic": "Types",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Type-3 grammars are:",
+      "options": [
+        {"option_id": "A", "text": "Context-free", "is_correct": false},
+        {"option_id": "B", "text": "Regular", "is_correct": true},
+        {"option_id": "C", "text": "Context-sensitive", "is_correct": false},
+        {"option_id": "D", "text": "Unrestricted", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Type-3 = Regular grammar."
+    },
+    {
+      "question_code": "TOC_20",
+      "concept_code": "TOC_CHOM_02",
+      "topic": "Chomsky Hierarchy",
+      "subtopic": "Hierarchy",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Most powerful grammar type is:",
+      "options": [
+        {"option_id": "A", "text": "Type 3", "is_correct": false},
+        {"option_id": "B", "text": "Type 2", "is_correct": false},
+        {"option_id": "C", "text": "Type 0", "is_correct": true},
+        {"option_id": "D", "text": "Type 1", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Type-0 is unrestricted grammar."
+    },
+     {
+      "question_code": "TOC_21",
+      "concept_code": "TOC_FA_05",
+      "topic": "Finite Automata",
+      "subtopic": "Counting Strings",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Number of binary strings of length 5 is:",
+      "correct_answer": 32,
+      "answer_tolerance": 0.0,
+      "explanation": "Each position has 2 choices, so total = 2^5 = 32."
+    },
+    {
+      "question_code": "TOC_22",
+      "concept_code": "TOC_FA_06",
+      "topic": "Finite Automata",
+      "subtopic": "String Constraints",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Number of binary strings of length 5 that start with 1 is:",
+      "correct_answer": 16,
+      "answer_tolerance": 0.0,
+      "explanation": "First bit fixed as 1, remaining 4 bits free => 2^4 = 16."
+    },
+    {
+      "question_code": "TOC_23",
+      "concept_code": "TOC_FA_07",
+      "topic": "Finite Automata",
+      "subtopic": "Combinatorics",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Number of binary strings of length 5 containing exactly 2 ones is:",
+      "correct_answer": 10,
+      "answer_tolerance": 0.0,
+      "explanation": "Choose 2 positions out of 5 for ones: C(5,2) = 10."
+    },
+    {
+      "question_code": "TOC_24",
+      "concept_code": "TOC_FA_08",
+      "topic": "Finite Automata",
+      "subtopic": "DFA Transitions",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Number of transitions in a complete DFA with 3 states over input alphabet {0,1} is:",
+      "correct_answer": 6,
+      "answer_tolerance": 0.0,
+      "explanation": "Each state has 2 transitions, so total = 3 × 2 = 6."
+    },
+    {
+      "question_code": "TOC_25",
+      "concept_code": "TOC_FA_09",
+      "topic": "Finite Automata",
+      "subtopic": "Language Counting",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Number of binary strings of length 3 is:",
+      "correct_answer": 8,
+      "answer_tolerance": 0.0,
+      "explanation": "Each position has 2 choices, so 2^3 = 8."
+    },
+    {
+      "question_code": "TOC_26",
+      "concept_code": "TOC_CFG_05",
+      "topic": "Context Free Grammar",
+      "subtopic": "String Generation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Number of strings of length 2 generated over alphabet {a,b} is:",
+      "correct_answer": 4,
+      "answer_tolerance": 0.0,
+      "explanation": "Each position has 2 choices, so 2^2 = 4."
+    },
+    {
+      "question_code": "TOC_27",
+      "concept_code": "TOC_CFG_06",
+      "topic": "Context Free Grammar",
+      "subtopic": "Derivation Counting",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If a grammar generates all binary strings of length 2, the number of such strings is:",
+      "correct_answer": 4,
+      "answer_tolerance": 0.0,
+      "explanation": "Binary strings of length 2 are 2^2 = 4."
+    },
+    {
+      "question_code": "TOC_28",
+      "concept_code": "TOC_TM_04",
+      "topic": "Turing Machine",
+      "subtopic": "Transition Function",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Number of possible transition functions for a machine with 3 states mapping to 3 states for a single input symbol is:",
+      "correct_answer": 27,
+      "answer_tolerance": 0.0,
+      "explanation": "Each of 3 states can go to any of 3 states => 3^3 = 27."
+    },
+    {
+      "question_code": "TOC_29",
+      "concept_code": "TOC_FA_10",
+      "topic": "Finite Automata",
+      "subtopic": "Acceptance Counting",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Number of binary strings of length 4 is:",
+      "correct_answer": 16,
+      "answer_tolerance": 0.0,
+      "explanation": "Each position has 2 choices, so 2^4 = 16."
+    },
+    {
+      "question_code": "TOC_30",
+      "concept_code": "TOC_FA_11",
+      "topic": "Finite Automata",
+      "subtopic": "Product Automata",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If one DFA has 2 states and another DFA has 3 states, the number of states in their product automaton is:",
+      "correct_answer": 6,
+      "answer_tolerance": 0.0,
+      "explanation": "Product automaton has m × n states = 2 × 3 = 6."
+    },
+  {
+    "question_code": "TOC_06",
+    "concept_code": "TOC_FA_01",
+    "topic": "Finite Automata",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about finite automata are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A finite automaton has a finite number of states",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Finite automata are used to recognize regular languages",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Finite automata have unlimited stack memory",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Finite automata are more powerful than Turing machines",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "Finite automata have finite states and recognize exactly the class of regular languages; they are less powerful than Turing machines."
+  },
+  {
+    "question_code": "TOC_07",
+    "concept_code": "TOC_RE_01",
+    "topic": "Regular Expressions",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about regular expressions are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Regular expressions define regular languages",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "They are equivalent in power to finite automata",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "They can describe all context-free languages",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "They are used in lexical analysis",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Regular expressions are equivalent to finite automata and are widely used in lexical analysis, but cannot represent all context-free languages."
+  },
+  {
+    "question_code": "TOC_08",
+    "concept_code": "TOC_RE_02",
+    "topic": "Regular Expressions",
+    "subtopic": "Operations",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following interpretations of regular expression operators are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "a + b represents union of languages",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "ab represents concatenation",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "a* represents zero or more occurrences of a",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "a + b represents multiplication of symbols",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "In regular expressions, + denotes union, concatenation is juxtaposition, and * is Kleene star."
+  },
+  {
+    "question_code": "TOC_09",
+    "concept_code": "TOC_FA_02",
+    "topic": "Finite Automata",
+    "subtopic": "DFA",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about DFA are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "For each state and input symbol, DFA has exactly one transition",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "DFA does not allow epsilon transitions",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "DFA can have multiple transitions for the same input from a state",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "DFA always has deterministic computation",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "DFA is deterministic with exactly one transition per input per state and no epsilon moves."
+  },
+  {
+    "question_code": "TOC_10",
+    "concept_code": "TOC_FA_03",
+    "topic": "Finite Automata",
+    "subtopic": "NFA",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about NFA are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "An NFA can have multiple transitions for the same input symbol",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "An NFA may include epsilon transitions",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "An NFA is more powerful than a DFA",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Every NFA can be converted to an equivalent DFA",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "NFAs allow multiple and epsilon transitions but are equivalent in power to DFAs."
+  }
+]
+
+}

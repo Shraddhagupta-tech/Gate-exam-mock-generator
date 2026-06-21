@@ -1,0 +1,421 @@
+subject: Artificial Intelligence
+exam: GATE DA
+subject_weightage: 12
+
+topics:
+
+  - name: Introduction
+    topic_code: AI_INTRO
+    weightage: 10
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Definition
+        concepts:
+
+          - concept_code: AI_INTRO_01
+            name: Fundamentals of Artificial Intelligence
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - define_artificial_intelligence
+              - identify_ai_characteristics
+              - distinguish_ai_systems
+
+          - concept_code: AI_INTRO_02
+            name: AI Applications
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - fundamentals_of_ai
+            learning_outcomes:
+              - identify_ai_applications
+              - classify_real_world_ai_systems
+
+  - name: Search Algorithms
+    topic_code: AI_SEARCH
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Uninformed Search
+        concepts:
+
+          - concept_code: AI_SEARCH_01
+            name: Breadth First Search
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - graph_representation
+            learning_outcomes:
+              - perform_bfs
+              - identify_bfs_properties
+              - solve_state_space_search
+
+          - concept_code: AI_SEARCH_02
+            name: Depth First Search
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - graph_representation
+            learning_outcomes:
+              - perform_dfs
+              - analyze_dfs_behavior
+
+          - concept_code: AI_SEARCH_06
+            name: BFS Properties
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - breadth_first_search
+            learning_outcomes:
+              - analyze_bfs_optimality
+              - identify_shortest_paths
+
+          - concept_code: AI_SEARCH_07
+            name: BFS Complexity Analysis
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - bfs_basics
+            learning_outcomes:
+              - compute_bfs_time_complexity
+              - analyze_node_expansion
+
+          - concept_code: AI_SEARCH_08
+            name: DFS Node Exploration
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - dfs_basics
+            learning_outcomes:
+              - count_dfs_nodes
+              - analyze_tree_traversal
+
+      - name: Informed Search
+        concepts:
+
+          - concept_code: AI_SEARCH_03
+            name: A Star Search
+            weightage: 6
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - heuristic_search
+            learning_outcomes:
+              - apply_a_star
+              - compute_evaluation_function
+
+          - concept_code: AI_SEARCH_04
+            name: Heuristic Functions
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - search_algorithms
+            learning_outcomes:
+              - define_heuristic
+              - estimate_goal_cost
+
+          - concept_code: AI_SEARCH_05
+            name: Greedy Best First Search
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - heuristic_search
+            learning_outcomes:
+              - apply_greedy_search
+
+          - concept_code: AI_SEARCH_09
+            name: A* Evaluation Computation
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - a_star_search
+            learning_outcomes:
+              - compute_f_value
+
+          - concept_code: AI_SEARCH_10
+            name: Heuristic Error Analysis
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - heuristic_functions
+            learning_outcomes:
+              - compute_heuristic_error
+
+  - name: Knowledge Representation
+    topic_code: AI_KB
+    weightage: 20
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Logic
+        concepts:
+
+          - concept_code: AI_KB_01
+            name: Propositional Logic
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - represent_knowledge
+              - evaluate_statements
+
+          - concept_code: AI_KB_02
+            name: First Order Logic
+            weightage: 6
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - propositional_logic
+            learning_outcomes:
+              - use_quantifiers
+              - formulate_predicates
+
+      - name: Inference
+        concepts:
+
+          - concept_code: AI_KB_03
+            name: Inference Mechanisms
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - logic
+            learning_outcomes:
+              - derive_new_facts
+              - apply_reasoning
+
+      - name: Ontologies
+        concepts:
+
+          - concept_code: AI_KB_04
+            name: Ontology Based Knowledge Representation
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - knowledge_representation
+            learning_outcomes:
+              - model_domain_knowledge
+
+          - concept_code: AI_KB_05
+            name: Logical Inference Combinations
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - inference_mechanisms
+            learning_outcomes:
+              - compute_inference_pairs
+
+  - name: Machine Learning
+    topic_code: AI_LR
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Learning Paradigms
+        concepts:
+
+          - concept_code: AI_LR_01
+            name: Machine Learning Basics
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - artificial_intelligence
+            learning_outcomes:
+              - explain_ml
+
+          - concept_code: AI_LR_02
+            name: Supervised Learning
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - machine_learning_basics
+
+          - concept_code: AI_LR_03
+            name: Unsupervised Learning
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+
+          - concept_code: AI_LR_04
+            name: Reinforcement Learning
+            weightage: 6
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              medium: 100
+
+          - concept_code: AI_LR_05
+            name: Accuracy Calculation
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+
+          - concept_code: AI_LR_06
+            name: Error Rate Calculation
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+
+  - name: Neural Networks
+    topic_code: AI_NN
+    weightage: 15
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Fundamentals
+        concepts:
+
+          - concept_code: AI_NN_01
+            name: Perceptron
+            weightage: 5
+            gate_frequency: high
+
+          - concept_code: AI_NN_02
+            name: Activation Functions
+            weightage: 5
+            gate_frequency: high
+
+          - concept_code: AI_NN_03
+            name: Backpropagation
+            weightage: 5
+            gate_frequency: very_high
+
+          - concept_code: AI_NN_04
+            name: Weighted Sum Computation
+            weightage: 3
+            gate_frequency: medium
+
+          - concept_code: AI_NN_05
+            name: Perceptron Output Calculation
+            weightage: 3
+            gate_frequency: medium
+
+  - name: Planning
+    topic_code: AI_PLAN
+    weightage: 10
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Goal Based Planning
+        concepts:
+
+          - concept_code: AI_PLANNING_01
+            name: Goal States
+            weightage: 10
+            gate_frequency: medium
+
+          - concept_code: AI_PLANNING_02
+            name: State Space Planning
+            weightage: 5
+            gate_frequency: medium

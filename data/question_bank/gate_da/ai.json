@@ -1,0 +1,621 @@
+{
+  "subject": "Artificial Intelligence",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "AI_01",
+      "concept_code": "AI_INTRO_01",
+      "topic": "Introduction",
+      "subtopic": "Definition",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Artificial Intelligence primarily deals with:",
+      "options": [
+        { "option_id": "A", "text": "Manual computation", "is_correct": false },
+        { "option_id": "B", "text": "Machines simulating human intelligence", "is_correct": true },
+        { "option_id": "C", "text": "Only hardware design", "is_correct": false },
+        { "option_id": "D", "text": "Operating systems", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "AI focuses on simulating human intelligence in machines."
+    },
+    {
+      "question_code": "AI_02",
+      "concept_code": "AI_INTRO_02",
+      "topic": "AI Applications",
+      "subtopic": "Examples",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which is an example of AI application?",
+      "options": [
+        { "option_id": "A", "text": "Calculator", "is_correct": false },
+        { "option_id": "B", "text": "Voice assistants", "is_correct": true },
+        { "option_id": "C", "text": "Simple stopwatch", "is_correct": false },
+        { "option_id": "D", "text": "Text editor", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Voice assistants use AI techniques."
+    },
+    {
+      "question_code": "AI_03",
+      "concept_code": "AI_SEARCH_01",
+      "topic": "Search Algorithms",
+      "subtopic": "Uninformed Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which is an uninformed search algorithm?",
+      "options": [
+        { "option_id": "A", "text": "A* search", "is_correct": false },
+        { "option_id": "B", "text": "Breadth First Search", "is_correct": true },
+        { "option_id": "C", "text": "Greedy search", "is_correct": false },
+        { "option_id": "D", "text": "Hill climbing", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "BFS does not use heuristic information."
+    },
+    {
+      "question_code": "AI_04",
+      "concept_code": "AI_SEARCH_02",
+      "topic": "Search Algorithms",
+      "subtopic": "DFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Depth First Search uses:",
+      "options": [
+        { "option_id": "A", "text": "Queue", "is_correct": false },
+        { "option_id": "B", "text": "Stack or recursion", "is_correct": true },
+        { "option_id": "C", "text": "Heap", "is_correct": false },
+        { "option_id": "D", "text": "Hash table", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DFS uses stack or recursion."
+    },
+    {
+      "question_code": "AI_05",
+      "concept_code": "AI_SEARCH_03",
+      "topic": "Search Algorithms",
+      "subtopic": "A* Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A* search uses which function?",
+      "options": [
+        { "option_id": "A", "text": "g(n)", "is_correct": false },
+        { "option_id": "B", "text": "h(n)", "is_correct": false },
+        { "option_id": "C", "text": "f(n) = g(n) + h(n)", "is_correct": true },
+        { "option_id": "D", "text": "g(n) - h(n)", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "A* uses cost + heuristic."
+    },
+    {
+      "question_code": "AI_06",
+      "concept_code": "AI_SEARCH_04",
+      "topic": "Search Algorithms",
+      "subtopic": "Heuristic",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A heuristic function estimates:",
+      "options": [
+        { "option_id": "A", "text": "Exact cost", "is_correct": false },
+        { "option_id": "B", "text": "Cost to reach goal", "is_correct": true },
+        { "option_id": "C", "text": "Memory usage", "is_correct": false },
+        { "option_id": "D", "text": "CPU speed", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Heuristics estimate goal distance."
+    },
+    {
+      "question_code": "AI_07",
+      "concept_code": "AI_SEARCH_05",
+      "topic": "Search Algorithms",
+      "subtopic": "Greedy Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Greedy best-first search uses:",
+      "options": [
+        { "option_id": "A", "text": "Only g(n)", "is_correct": false },
+        { "option_id": "B", "text": "Only h(n)", "is_correct": true },
+        { "option_id": "C", "text": "g(n) + h(n)", "is_correct": false },
+        { "option_id": "D", "text": "Random selection", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Greedy search uses heuristic only."
+    },
+    {
+      "question_code": "AI_08",
+      "concept_code": "AI_SEARCH_06",
+      "topic": "Search Algorithms",
+      "subtopic": "BFS Properties",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "BFS is guaranteed to find:",
+      "options": [
+        { "option_id": "A", "text": "Any path", "is_correct": false },
+        { "option_id": "B", "text": "Shortest path in unweighted graph", "is_correct": true },
+        { "option_id": "C", "text": "Random path", "is_correct": false },
+        { "option_id": "D", "text": "Longest path", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "BFS finds shortest path in unweighted graphs."
+    },
+    {
+      "question_code": "AI_09",
+      "concept_code": "AI_KB_01",
+      "topic": "Knowledge Representation",
+      "subtopic": "Propositional Logic",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Propositional logic deals with:",
+      "options": [
+        { "option_id": "A", "text": "Objects and relations", "is_correct": false },
+        { "option_id": "B", "text": "True/false statements", "is_correct": true },
+        { "option_id": "C", "text": "Graphs only", "is_correct": false },
+        { "option_id": "D", "text": "Numbers only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Propositional logic uses boolean statements."
+    },
+    {
+      "question_code": "AI_10",
+      "concept_code": "AI_KB_02",
+      "topic": "Knowledge Representation",
+      "subtopic": "First Order Logic",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "First Order Logic includes:",
+      "options": [
+        { "option_id": "A", "text": "Only variables", "is_correct": false },
+        { "option_id": "B", "text": "Predicates and quantifiers", "is_correct": true },
+        { "option_id": "C", "text": "Only constants", "is_correct": false },
+        { "option_id": "D", "text": "Only numbers", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "FOL uses predicates and quantifiers."
+    },
+    {
+      "question_code": "AI_11",
+      "concept_code": "AI_KB_03",
+      "topic": "Knowledge Representation",
+      "subtopic": "Inference",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Inference in AI means:",
+      "options": [
+        { "option_id": "A", "text": "Storing data", "is_correct": false },
+        { "option_id": "B", "text": "Deriving new facts from known facts", "is_correct": true },
+        { "option_id": "C", "text": "Deleting data", "is_correct": false },
+        { "option_id": "D", "text": "Compressing data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Inference derives new knowledge."
+    },
+    {
+      "question_code": "AI_12",
+      "concept_code": "AI_LR_01",
+      "topic": "Learning",
+      "subtopic": "Machine Learning Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Machine learning is a subset of:",
+      "options": [
+        { "option_id": "A", "text": "Operating systems", "is_correct": false },
+        { "option_id": "B", "text": "Artificial Intelligence", "is_correct": true },
+        { "option_id": "C", "text": "Databases", "is_correct": false },
+        { "option_id": "D", "text": "Networking", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "ML is part of AI."
+    },
+    {
+      "question_code": "AI_13",
+      "concept_code": "AI_LR_02",
+      "topic": "Learning",
+      "subtopic": "Supervised Learning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Supervised learning uses:",
+      "options": [
+        { "option_id": "A", "text": "Unlabeled data", "is_correct": false },
+        { "option_id": "B", "text": "Labeled data", "is_correct": true },
+        { "option_id": "C", "text": "No data", "is_correct": false },
+        { "option_id": "D", "text": "Random data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Supervised learning uses labeled datasets."
+    },
+    {
+      "question_code": "AI_14",
+      "concept_code": "AI_LR_03",
+      "topic": "Learning",
+      "subtopic": "Unsupervised Learning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Unsupervised learning deals with:",
+      "options": [
+        { "option_id": "A", "text": "Labeled data", "is_correct": false },
+        { "option_id": "B", "text": "Unlabeled data", "is_correct": true },
+        { "option_id": "C", "text": "Only outputs", "is_correct": false },
+        { "option_id": "D", "text": "Only inputs", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "It finds patterns in unlabeled data."
+    },
+    {
+      "question_code": "AI_15",
+      "concept_code": "AI_LR_04",
+      "topic": "Learning",
+      "subtopic": "Reinforcement Learning",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Reinforcement learning is based on:",
+      "options": [
+        { "option_id": "A", "text": "Supervision", "is_correct": false },
+        { "option_id": "B", "text": "Reward and punishment", "is_correct": true },
+        { "option_id": "C", "text": "Clustering", "is_correct": false },
+        { "option_id": "D", "text": "Sorting", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "RL learns via rewards."
+    },
+    {
+      "question_code": "AI_16",
+      "concept_code": "AI_NN_01",
+      "topic": "Neural Networks",
+      "subtopic": "Perceptron",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A perceptron is:",
+      "options": [
+        { "option_id": "A", "text": "Sorting algorithm", "is_correct": false },
+        { "option_id": "B", "text": "Basic neural network unit", "is_correct": true },
+        { "option_id": "C", "text": "Database model", "is_correct": false },
+        { "option_id": "D", "text": "Search algorithm", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Perceptron is simplest neural unit."
+    },
+    {
+      "question_code": "AI_17",
+      "concept_code": "AI_NN_02",
+      "topic": "Neural Networks",
+      "subtopic": "Activation Function",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Activation functions introduce:",
+      "options": [
+        { "option_id": "A", "text": "Linearity", "is_correct": false },
+        { "option_id": "B", "text": "Non-linearity", "is_correct": true },
+        { "option_id": "C", "text": "Sorting", "is_correct": false },
+        { "option_id": "D", "text": "Memory", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Activation adds non-linearity."
+    },
+    {
+      "question_code": "AI_18",
+      "concept_code": "AI_NN_03",
+      "topic": "Neural Networks",
+      "subtopic": "Backpropagation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Backpropagation is used for:",
+      "options": [
+        { "option_id": "A", "text": "Forward pass only", "is_correct": false },
+        { "option_id": "B", "text": "Training neural networks", "is_correct": true },
+        { "option_id": "C", "text": "Sorting data", "is_correct": false },
+        { "option_id": "D", "text": "Graph traversal", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Backprop updates weights."
+    },
+    {
+      "question_code": "AI_19",
+      "concept_code": "AI_KB_04",
+      "topic": "Knowledge Representation",
+      "subtopic": "Ontologies",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Ontology in AI refers to:",
+      "options": [
+        { "option_id": "A", "text": "Sorting method", "is_correct": false },
+        { "option_id": "B", "text": "Structured representation of knowledge", "is_correct": true },
+        { "option_id": "C", "text": "Search algorithm", "is_correct": false },
+        { "option_id": "D", "text": "Hardware design", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Ontologies define knowledge structures."
+    },
+    {
+      "question_code": "AI_20",
+      "concept_code": "AI_PLANNING_01",
+      "topic": "Planning",
+      "subtopic": "Goal State",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "In AI planning, a goal state is:",
+      "options": [
+        { "option_id": "A", "text": "Initial state", "is_correct": false },
+        { "option_id": "B", "text": "Desired final state", "is_correct": true },
+        { "option_id": "C", "text": "Random state", "is_correct": false },
+        { "option_id": "D", "text": "Intermediate state", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Goal state is target outcome."
+    },
+     {
+      "question_code": "AI_21",
+      "concept_code": "AI_SEARCH_07",
+      "topic": "Search Algorithms",
+      "subtopic": "BFS Complexity",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If branching factor is 3 and depth is 2, number of nodes expanded in BFS (tree search) is:",
+      "correct_answer": 13,
+      "answer_tolerance": 0.0,
+      "explanation": "Nodes = 1 + 3 + 9 = 13."
+    },
+    {
+      "question_code": "AI_22",
+      "concept_code": "AI_SEARCH_08",
+      "topic": "Search Algorithms",
+      "subtopic": "DFS Nodes",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If DFS explores a binary tree of depth 3 fully, total nodes visited are:",
+      "correct_answer": 15,
+      "answer_tolerance": 0.0,
+      "explanation": "Total nodes = 2^(4) - 1 = 15."
+    },
+    {
+      "question_code": "AI_23",
+      "concept_code": "AI_SEARCH_09",
+      "topic": "Search Algorithms",
+      "subtopic": "A* Evaluation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If g(n) = 5 and h(n) = 7, compute f(n) for A* search:",
+      "correct_answer": 12,
+      "answer_tolerance": 0.0,
+      "explanation": "f(n) = g(n) + h(n) = 5 + 7 = 12."
+    },
+    {
+      "question_code": "AI_24",
+      "concept_code": "AI_SEARCH_10",
+      "topic": "Search Algorithms",
+      "subtopic": "Heuristic Error",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If actual cost is 20 and heuristic estimates 15, heuristic error is:",
+      "correct_answer": 5,
+      "answer_tolerance": 0.0,
+      "explanation": "Error = |20 - 15| = 5."
+    },
+    {
+      "question_code": "AI_25",
+      "concept_code": "AI_LR_05",
+      "topic": "Learning",
+      "subtopic": "Accuracy Calculation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If a classifier correctly predicts 80 out of 100 samples, accuracy is:",
+      "correct_answer": 0.8,
+      "answer_tolerance": 0.01,
+      "explanation": "Accuracy = 80/100 = 0.8."
+    },
+    {
+      "question_code": "AI_26",
+      "concept_code": "AI_LR_06",
+      "topic": "Learning",
+      "subtopic": "Error Rate",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If accuracy is 0.85, error rate is:",
+      "correct_answer": 0.15,
+      "answer_tolerance": 0.01,
+      "explanation": "Error rate = 1 - accuracy = 0.15."
+    },
+    {
+      "question_code": "AI_27",
+      "concept_code": "AI_NN_04",
+      "topic": "Neural Networks",
+      "subtopic": "Weighted Sum",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Compute weighted sum: (2×3) + (4×5) =",
+      "correct_answer": 26,
+      "answer_tolerance": 0.0,
+      "explanation": "6 + 20 = 26."
+    },
+    {
+      "question_code": "AI_28",
+      "concept_code": "AI_NN_05",
+      "topic": "Neural Networks",
+      "subtopic": "Perceptron Output",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If input = 3, weight = 2, bias = 1, compute output before activation:",
+      "correct_answer": 7,
+      "answer_tolerance": 0.0,
+      "explanation": "Output = (3×2) + 1 = 7."
+    },
+    {
+      "question_code": "AI_29",
+      "concept_code": "AI_KB_05",
+      "topic": "Knowledge Representation",
+      "subtopic": "Logical Inference Count",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If 4 facts each combine pairwise for inference, number of pairs is:",
+      "correct_answer": 6,
+      "answer_tolerance": 0.0,
+      "explanation": "C(4,2) = 6."
+    },
+    {
+      "question_code": "AI_30",
+      "concept_code": "AI_PLANNING_02",
+      "topic": "Planning",
+      "subtopic": "State Space",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If each state has 2 actions and depth is 3, total possible paths are:",
+      "correct_answer": 8,
+      "answer_tolerance": 0.0,
+      "explanation": "2^3 = 8 possible paths."
+    },
+  {
+    "question_code": "AI_06",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search Algorithms",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about A* search are correct?",
+    "options": [
+      { "option_id": "A", "text": "It uses both path cost and heuristic information", "is_correct": true },
+      { "option_id": "B", "text": "Its evaluation function is f(n) = g(n) + h(n)", "is_correct": true },
+      { "option_id": "C", "text": "It ignores the cost incurred from the start node", "is_correct": false },
+      { "option_id": "D", "text": "With an admissible heuristic, it can find an optimal solution", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "A* combines actual path cost g(n) and heuristic estimate h(n). With an admissible heuristic, it is optimal."
+  },
+  {
+    "question_code": "AI_07",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search Algorithms",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For the A* evaluation function f(n) = g(n) + h(n), which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "g(n) denotes the cost from the start node to node n", "is_correct": true },
+      { "option_id": "B", "text": "h(n) estimates the cost from node n to a goal", "is_correct": true },
+      { "option_id": "C", "text": "f(n) is used to prioritize node expansion", "is_correct": true },
+      { "option_id": "D", "text": "h(n) is always equal to the true remaining cost", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "A* expands nodes based on f(n). The heuristic h(n) is only an estimate and need not equal the true remaining cost."
+  },
+  {
+    "question_code": "AI_08",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search Algorithms",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following are special cases related to A* search?",
+    "options": [
+      { "option_id": "A", "text": "If h(n) = 0 for all nodes, A* behaves like Uniform Cost Search", "is_correct": true },
+      { "option_id": "B", "text": "If g(n) is ignored, A* behaves like Greedy Best-First Search", "is_correct": true },
+      { "option_id": "C", "text": "If h(n) is negative for all nodes, A* becomes Breadth First Search", "is_correct": false },
+      { "option_id": "D", "text": "Uniform Cost Search can be viewed as a special case of A*", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "A* reduces to Uniform Cost Search when h(n)=0 and to Greedy Best-First Search when only h(n) is considered."
+  },
+  {
+    "question_code": "AI_09",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search Algorithms",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which properties are generally associated with A* search when using an admissible heuristic?",
+    "options": [
+      { "option_id": "A", "text": "Optimality", "is_correct": true },
+      { "option_id": "B", "text": "Completeness (under standard assumptions)", "is_correct": true },
+      { "option_id": "C", "text": "Guaranteed expansion of the fewest possible nodes among all algorithms", "is_correct": false },
+      { "option_id": "D", "text": "Use of heuristic guidance toward the goal", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "A* is complete and optimal under standard conditions and uses heuristic guidance, but it does not always expand the minimum number of nodes among all possible algorithms."
+  },
+  {
+    "question_code": "AI_10",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search Algorithms",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Consider the evaluation function f(n) = g(n) + h(n). Which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "A lower f(n) value generally indicates a more promising node", "is_correct": true },
+      { "option_id": "B", "text": "Nodes are typically selected for expansion based on minimum f(n)", "is_correct": true },
+      { "option_id": "C", "text": "g(n) represents heuristic information only", "is_correct": false },
+      { "option_id": "D", "text": "Both accumulated cost and estimated future cost influence node selection", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "A* selects nodes with the lowest f(n), which combines accumulated cost g(n) and estimated remaining cost h(n)."
+  }
+  ]
+}

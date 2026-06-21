@@ -1,0 +1,356 @@
+subject: Programming, Data Structures & Algorithms
+exam: GATE DA
+subject_weightage: 15
+
+topics:
+
+  - name: Programming Fundamentals
+    topic_code: PRG_CORE
+    weightage: 35
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Time Complexity Analysis
+        concepts:
+
+          - concept_code: PRG_TIME_01
+            name: Big-O Basics (Single Loop)
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "What is the time complexity of a single loop from 1 to n?"
+                difficulty: easy
+
+          - concept_code: PRG_TIME_02
+            name: Nested Loop Complexity
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "What is the time complexity of two nested loops each running n times?"
+                difficulty: easy
+
+          - concept_code: PRG_TIME_03
+            name: Loop Iteration Counting
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "A loop runs from 1 to 100 with step size 2. How many times does the loop execute?"
+                difficulty: easy
+
+          - concept_code: PRG_TIME_04
+            name: Summation Formula Applications
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "What is the value of sum of integers from 1 to 10?"
+                difficulty: easy
+
+          - concept_code: PRG_TIME_05
+            name: Traversal Cost Analysis
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "A linked list contains 7 nodes. How many steps are required to traverse the entire list?"
+                difficulty: easy
+
+      - name: Recursion
+        concepts:
+
+          - concept_code: PRG_RECUR_01
+            name: Recursion Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Recursion is defined as:"
+                difficulty: easy
+
+          - concept_code: PRG_RECUR_02
+            name: Base Case and Termination
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "What is the purpose of a base case in recursion?"
+                difficulty: easy
+
+          - concept_code: PRG_RECUR_03
+            name: Recursive Call Counting
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "A recursive function computes factorial of 5. How many function calls are made including the initial call?"
+                difficulty: easy
+
+      - name: Linear Data Structures
+        concepts:
+
+          - concept_code: PRG_DS_01
+            name: Arrays
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Array elements are stored in:"
+                difficulty: easy
+
+          - concept_code: PRG_DS_02
+            name: Linked Lists
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "In a linked list, each node contains:"
+                difficulty: easy
+
+          - concept_code: PRG_DS_03
+            name: Stack Operations
+            weightage: 2
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Stack follows:"
+                difficulty: easy
+
+          - concept_code: PRG_DS_04
+            name: Queue Operations
+            weightage: 2
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Queue follows:"
+                difficulty: easy
+
+          - concept_code: PRG_DS_06
+            name: Array Indexing and Addressing
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "If an array index starts at 0 and has elements at indices 0 to 9, how many elements are present?"
+                difficulty: easy
+
+      - name: Tree Data Structures
+        concepts:
+
+          - concept_code: PRG_DS_05
+            name: Binary Trees
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "A binary tree node has at most:"
+                difficulty: easy
+
+
+  - name: Algorithms
+    topic_code: PRG_ALGO
+    weightage: 45
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Sorting Algorithms
+        concepts:
+
+          - concept_code: PRG_SORT_01
+            name: Bubble Sort Complexity
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Worst case time complexity of bubble sort is:"
+                difficulty: easy
+
+          - concept_code: PRG_SORT_02
+            name: Quick Sort Analysis
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "Average time complexity of quicksort is:"
+                difficulty: medium
+
+          - concept_code: PRG_SORT_03
+            name: Comparison Counting in Sorting
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "In bubble sort, how many comparisons are needed for 4 elements?"
+                difficulty: easy
+
+      - name: Searching Algorithms
+        concepts:
+
+          - concept_code: PRG_SEARCH_01
+            name: Linear Search
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Linear search works on:"
+                difficulty: easy
+
+          - concept_code: PRG_SEARCH_02
+            name: Binary Search
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Binary search requires:"
+                difficulty: easy
+
+          - concept_code: PRG_SEARCH_03
+            name: Binary Search Iteration Analysis
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "In worst case, how many comparisons are required in binary search for 16 elements?"
+                difficulty: easy
+
+      - name: Hashing
+        concepts:
+
+          - concept_code: PRG_HASH_01
+            name: Hashing Fundamentals
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Hashing is used for:"
+                difficulty: easy
+
+          - concept_code: PRG_HASH_02
+            name: Hash Collisions
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "Collision in hashing occurs when:"
+                difficulty: medium
+
+          - concept_code: PRG_HASH_03
+            name: Load Factor Analysis
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "A hash table has 50 elements stored in 100 slots. What is the load factor?"
+                difficulty: easy
+
+      - name: Graph Algorithms
+        concepts:
+
+          - concept_code: PRG_GRAPH_01
+            name: Breadth First Search (BFS)
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "BFS uses:"
+                difficulty: easy
+
+          - concept_code: PRG_GRAPH_02
+            name: Depth First Search (DFS)
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "DFS uses:"
+                difficulty: easy
+
+          - concept_code: PRG_GRAPH_03
+            name: Graph Traversal Coverage
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "A BFS traversal visits 7 nodes in a connected graph. How many nodes are in the connected component?"
+                difficulty: medium
+
+
+  - name: Dynamic Programming and Optimization
+    topic_code: PRG_DP
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Dynamic Programming
+
+        concepts:
+
+          - concept_code: PRG_DP_01
+            name: Dynamic Programming Basics
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "Dynamic programming is used when:"
+                difficulty: medium
+
+          - concept_code: PRG_DP_02
+            name: Memoization Technique
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "Memoization means:"
+                difficulty: medium
+
+          - concept_code: PRG_DP_03
+            name: Tabulation Technique
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+            templates:
+              - pattern: "Tabulation is:"
+                difficulty: medium
+
+          - concept_code: PRG_DP_04
+            name: Fibonacci Dynamic Programming
+            weightage: 2
+            gate_frequency: high
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "What is the value of the 6th Fibonacci number (F0 = 0, F1 = 1)?"
+                difficulty: easy

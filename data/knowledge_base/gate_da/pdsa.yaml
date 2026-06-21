@@ -1,0 +1,749 @@
+subject: Python Programming
+exam: GATE DA
+subject_weightage: 15
+
+topics:
+
+  - name: Basics
+    topic_code: PY_BASIC
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Variables and Data Types
+        concepts:
+
+          - concept_code: PY_BASIC_01
+            name: Python Data Types (int)
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_python_types
+              - use_type_function
+            pyq_patterns:
+              - type_identification
+            templates:
+              - pattern: "What is the output of: print(type(10))"
+                difficulty: easy
+
+          - concept_code: PY_BASIC_02
+            name: Immutable Data Types
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - distinguish_mutable_immutable
+              - identify_tuple_properties
+            pyq_patterns:
+              - immutability
+            templates:
+              - pattern: "Which of the following is immutable?"
+                difficulty: easy
+
+      - name: Operators
+        concepts:
+
+          - concept_code: PY_BASIC_03
+            name: Python Operators
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_exponent_operator
+              - evaluate_expressions
+            pyq_patterns:
+              - arithmetic_operations
+            templates:
+              - pattern: "What is the output of 3 ** 2 in Python?"
+                difficulty: easy
+
+          - concept_code: PY_BASIC_04
+            name: Floor Division and Arithmetic Operators
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_floor_division
+              - evaluate_integer_operations
+            pyq_patterns:
+              - floor_division
+            templates:
+              - pattern: "What is the output of: 17 // 5 ?"
+                difficulty: easy
+
+  - name: Control Flow
+    topic_code: PY_CONTROL
+    weightage: 5
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Conditional Statements
+        concepts:
+
+          - concept_code: PY_CONTROL_01
+            name: If-Else Statements
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - evaluate_conditions
+              - understand_branching_logic
+            pyq_patterns:
+              - if_else_execution
+            templates:
+              - pattern: "What is the output of: if 5 > 3: print('A') else: print('B')"
+                difficulty: easy
+
+  - name: Loops
+    topic_code: PY_LOOP
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: For Loop
+        concepts:
+
+          - concept_code: PY_LOOP_01
+            name: Range Function
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_range_function
+            pyq_patterns:
+              - range_usage
+            templates:
+              - pattern: "What does range(3) produce?"
+                difficulty: easy
+
+          - concept_code: PY_LOOP_03
+            name: Loop Summation
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - trace_loop_execution
+            pyq_patterns:
+              - summation_loop
+            templates:
+              - pattern: "What is the value of s after executing: s=0; for i in range(1,6): s += i ?"
+                difficulty: medium
+
+      - name: While Loop
+        concepts:
+
+          - concept_code: PY_LOOP_02
+            name: While Loop Execution
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - trace_loop_execution
+            pyq_patterns:
+              - while_loop_tracing
+            templates:
+              - pattern: "What is output of: i=0; while i<3: i+=1; print(i)"
+                difficulty: medium
+
+  - name: Functions
+    topic_code: PY_FUNC
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Function Basics
+        concepts:
+
+          - concept_code: PY_FUNC_01
+            name: Function Definition
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - define_functions
+            pyq_patterns:
+              - function_definition
+            templates:
+              - pattern: "Which keyword defines a function in Python?"
+                difficulty: easy
+
+          - concept_code: PY_FUNC_03
+            name: Recursion
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_FUNC_01
+            learning_outcomes:
+              - understand_recursion
+            pyq_patterns:
+              - factorial_recursion
+            templates:
+              - pattern: "What is factorial(5)?"
+                difficulty: medium
+
+      - name: Return Values
+        concepts:
+
+          - concept_code: PY_FUNC_02
+            name: Return Behavior
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_FUNC_01
+            learning_outcomes:
+              - understand_return_behavior
+            pyq_patterns:
+              - return_value
+            templates:
+              - pattern: "What does a function return if no return statement is used?"
+                difficulty: medium
+
+  - name: Data Structures
+    topic_code: PY_DS
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Lists
+        concepts:
+
+          - concept_code: PY_DS_01
+            name: List Methods
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - use_list_methods
+            pyq_patterns:
+              - append_method
+            templates:
+              - pattern: "Which method adds element to list?"
+                difficulty: easy
+
+          - concept_code: PY_DS_05
+            name: List Length
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compute_length
+            pyq_patterns:
+              - length_function
+            templates:
+              - pattern: "What is the length of the list [1,2,3,4,5,6]?"
+                difficulty: easy
+
+      - name: Tuples and Sets
+        concepts:
+
+          - concept_code: PY_DS_02
+            name: Tuples
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_immutability
+            pyq_patterns:
+              - tuple_properties
+            templates:
+              - pattern: "Tuple is:"
+                difficulty: easy
+
+          - concept_code: PY_DS_04
+            name: Sets
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_sets
+            pyq_patterns:
+              - set_uniqueness
+            templates:
+              - pattern: "A set contains:"
+                difficulty: easy
+
+      - name: Dictionaries
+        concepts:
+
+          - concept_code: PY_DS_03
+            name: Dictionaries
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - key_value_mapping
+            pyq_patterns:
+              - dictionary_usage
+            templates:
+              - pattern: "Dictionary stores data in:"
+                difficulty: easy
+
+          - concept_code: PY_DS_06
+            name: Dictionary Operations
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_DS_03
+            learning_outcomes:
+              - dictionary_operations
+            pyq_patterns:
+              - dictionary_sum
+            templates:
+              - pattern: "Compute d['a'] + d['b'] + d['c']"
+                difficulty: medium
+
+  - name: OOP
+    topic_code: PY_OOP
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Classes and Objects
+        concepts:
+
+          - concept_code: PY_OOP_01
+            name: Classes
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - define_classes
+            pyq_patterns:
+              - class_keyword
+            templates:
+              - pattern: "Which keyword is used to define a class?"
+                difficulty: easy
+
+          - concept_code: PY_OOP_02
+            name: Objects
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_OOP_01
+            learning_outcomes:
+              - instantiate_objects
+            pyq_patterns:
+              - object_creation
+            templates:
+              - pattern: "An object is:"
+                difficulty: easy
+
+          - concept_code: PY_OOP_05
+            name: Object Count
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_OOP_01
+            learning_outcomes:
+              - count_objects
+            pyq_patterns:
+              - instantiation_count
+            templates:
+              - pattern: "How many objects are created if class is instantiated 7 times?"
+                difficulty: easy
+
+      - name: Inheritance and Polymorphism
+        concepts:
+
+          - concept_code: PY_OOP_03
+            name: Inheritance
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_OOP_01
+            learning_outcomes:
+              - code_reuse
+            pyq_patterns:
+              - inheritance
+            templates:
+              - pattern: "Inheritance allows:"
+                difficulty: medium
+
+          - concept_code: PY_OOP_04
+            name: Polymorphism
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_OOP_01
+            learning_outcomes:
+              - multiple_forms
+            pyq_patterns:
+              - polymorphism
+            templates:
+              - pattern: "Polymorphism means:"
+                difficulty: medium
+
+  - name: Exceptions
+    topic_code: PY_EXC
+    weightage: 5
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Error Handling
+        concepts:
+
+          - concept_code: PY_EXC_01
+            name: Try Except
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - handle_errors
+            pyq_patterns:
+              - exception_handling
+            templates:
+              - pattern: "Which block handles exceptions?"
+                difficulty: medium
+
+  - name: File Handling
+    topic_code: PY_FILE
+    weightage: 5
+    gate_frequency: high
+
+    subtopics:
+
+      - name: File Operations
+        concepts:
+
+          - concept_code: PY_FILE_01
+            name: File Reading
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - read_files
+            pyq_patterns:
+              - file_mode
+            templates:
+              - pattern: "Which mode is used to read file?"
+                difficulty: medium
+
+          - concept_code: PY_FILE_02
+            name: File Writing
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - write_files
+            pyq_patterns:
+              - overwrite_mode
+            templates:
+              - pattern: "Which mode overwrites file?"
+                difficulty: medium
+
+          - concept_code: PY_FILE_03
+            name: File Size Calculation
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compute_file_size
+            pyq_patterns:
+              - file_append
+            templates:
+              - pattern: "A file has 125 characters and 25 are appended. What is total size?"
+                difficulty: easy
+
+  - name: Modules
+    topic_code: PY_MODULES
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Imports
+        concepts:
+
+          - concept_code: PY_IMPORT_01
+            name: Module Importing
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - import_modules
+            pyq_patterns:
+              - import_statement
+            templates:
+              - pattern: "How do you import math module?"
+                difficulty: easy
+
+  - name: Strings
+    topic_code: PY_STRING
+    weightage: 5
+    gate_frequency: high
+
+    subtopics:
+
+      - name: String Indexing
+        concepts:
+
+          - concept_code: PY_STRING_01
+            name: String Indexing
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - string_indexing
+            pyq_patterns:
+              - indexing
+            templates:
+              - pattern: "What is the index of 't' in 'python'?"
+                difficulty: medium
+
+  - name: Python for Data Science
+    topic_code: PY_DATA_SCI
+    weightage: 10
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: NumPy Basics
+        concepts:
+
+          - concept_code: PY_NUMPY_01
+            name: Array Shape
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compute_array_size
+            pyq_patterns:
+              - numpy_shape
+            templates:
+              - pattern: "A NumPy array has shape (4,5). How many elements?"
+                difficulty: easy
+
+      - name: Pandas Basics
+        concepts:
+
+          - concept_code: PY_PANDAS_01
+            name: DataFrame Operations
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 0
+              hard: 100
+            estimated_questions_per_year: 1
+            prerequisites:
+              - PY_NUMPY_01
+            learning_outcomes:
+              - percentage_row_removal
+            pyq_patterns:
+              - dataframe_filtering
+            templates:
+              - pattern: "A DataFrame has 250 rows, 12% removed. How many remain?"
+                difficulty: hard

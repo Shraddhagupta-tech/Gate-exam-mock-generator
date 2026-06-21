@@ -1,0 +1,863 @@
+{
+  "subject": "General Aptitude",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "GA_VERB_01",
+      "concept_code": "GA_VERB_01",
+      "topic": "English Grammar",
+      "subtopic": "Articles",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Choose the correct article: 'He is ___ honest man.'",
+      "options": [
+        {"option_id": "A", "text": "a", "is_correct": false},
+        {"option_id": "B", "text": "an", "is_correct": true},
+        {"option_id": "C", "text": "the", "is_correct": false},
+        {"option_id": "D", "text": "no article", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The word 'honest' begins with a vowel sound."
+    },
+    {
+      "question_code": "GA_VERB_02",
+      "concept_code": "GA_VERB_02",
+      "topic": "English Grammar",
+      "subtopic": "Prepositions",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Choose the correct preposition: 'She arrived ___ the station at 9 AM.'",
+      "options": [
+        {"option_id": "A", "text": "in", "is_correct": false},
+        {"option_id": "B", "text": "at", "is_correct": true},
+        {"option_id": "C", "text": "on", "is_correct": false},
+        {"option_id": "D", "text": "for", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "We use 'at' for specific locations."
+    },
+    {
+      "question_code": "GA_VERB_03",
+      "concept_code": "GA_VERB_03",
+      "topic": "Vocabulary",
+      "subtopic": "Synonyms",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Choose the synonym of 'Abundant'.",
+      "options": [
+        {"option_id": "A", "text": "Scarce", "is_correct": false},
+        {"option_id": "B", "text": "Plentiful", "is_correct": true},
+        {"option_id": "C", "text": "Rare", "is_correct": false},
+        {"option_id": "D", "text": "Limited", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Abundant means plentiful or available in large quantities."
+    },
+    {
+      "question_code": "GA_VERB_04",
+      "concept_code": "GA_VERB_04",
+      "topic": "Vocabulary",
+      "subtopic": "Antonyms",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Choose the antonym of 'Optimistic'.",
+      "options": [
+        {"option_id": "A", "text": "Hopeful", "is_correct": false},
+        {"option_id": "B", "text": "Positive", "is_correct": false},
+        {"option_id": "C", "text": "Pessimistic", "is_correct": true},
+        {"option_id": "D", "text": "Confident", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Pessimistic is the opposite of optimistic."
+    },
+    {
+      "question_code": "GA_RC_01",
+      "concept_code": "GA_RC_01",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A statement directly supported by the given passage is called:",
+      "options": [
+        {"option_id": "A", "text": "Inference", "is_correct": false},
+        {"option_id": "B", "text": "Fact", "is_correct": true},
+        {"option_id": "C", "text": "Opinion", "is_correct": false},
+        {"option_id": "D", "text": "Assumption", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Facts are explicitly stated or directly supported."
+    },
+    {
+      "question_code": "GA_NUM_01",
+      "concept_code": "GA_NUM_01",
+      "topic": "Numerical Ability",
+      "subtopic": "Percentages",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is 20% of 250?",
+      "options": [
+        {"option_id": "A", "text": "25", "is_correct": false},
+        {"option_id": "B", "text": "40", "is_correct": false},
+        {"option_id": "C", "text": "50", "is_correct": true},
+        {"option_id": "D", "text": "60", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "20% × 250 = 50."
+    },
+    {
+      "question_code": "GA_NUM_02",
+      "concept_code": "GA_NUM_02",
+      "topic": "Numerical Ability",
+      "subtopic": "Ratio",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If A:B = 3:5 and A = 15, then B = ?",
+      "options": [
+        {"option_id": "A", "text": "20", "is_correct": false},
+        {"option_id": "B", "text": "25", "is_correct": true},
+        {"option_id": "C", "text": "30", "is_correct": false},
+        {"option_id": "D", "text": "35", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "One ratio unit = 15/3 = 5, hence B = 5×5 = 25."
+    },
+    {
+      "question_code": "GA_NUM_03",
+      "concept_code": "GA_NUM_03",
+      "topic": "Numerical Ability",
+      "subtopic": "Profit and Loss",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "An item bought for ₹500 is sold for ₹600. What is the profit percentage?",
+      "options": [
+        {"option_id": "A", "text": "10%", "is_correct": false},
+        {"option_id": "B", "text": "15%", "is_correct": false},
+        {"option_id": "C", "text": "20%", "is_correct": true},
+        {"option_id": "D", "text": "25%", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Profit = 100. Profit% = (100/500)×100 = 20%."
+    },
+    {
+      "question_code": "GA_NUM_04",
+      "concept_code": "GA_NUM_04",
+      "topic": "Numerical Ability",
+      "subtopic": "Simple Interest",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Find the simple interest on ₹1000 at 10% per annum for 2 years.",
+      "options": [
+        {"option_id": "A", "text": "₹100", "is_correct": false},
+        {"option_id": "B", "text": "₹150", "is_correct": false},
+        {"option_id": "C", "text": "₹200", "is_correct": true},
+        {"option_id": "D", "text": "₹250", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "SI = (P×R×T)/100 = 200."
+    },
+    {
+      "question_code": "GA_NUM_05",
+      "concept_code": "GA_NUM_05",
+      "topic": "Numerical Ability",
+      "subtopic": "Time and Work",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A can complete a job in 10 days. What fraction of work does A complete in one day?",
+      "options": [
+        {"option_id": "A", "text": "1/5", "is_correct": false},
+        {"option_id": "B", "text": "1/10", "is_correct": true},
+        {"option_id": "C", "text": "1/15", "is_correct": false},
+        {"option_id": "D", "text": "1/20", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Work rate = 1/10 per day."
+    },
+    {
+      "question_code": "GA_NUM_06",
+      "concept_code": "GA_NUM_06",
+      "topic": "Numerical Ability",
+      "subtopic": "Time and Distance",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A car travels 120 km in 2 hours. Its average speed is:",
+      "options": [
+        {"option_id": "A", "text": "50 km/h", "is_correct": false},
+        {"option_id": "B", "text": "60 km/h", "is_correct": true},
+        {"option_id": "C", "text": "70 km/h", "is_correct": false},
+        {"option_id": "D", "text": "80 km/h", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Speed = Distance / Time = 120/2 = 60 km/h."
+    },
+    {
+      "question_code": "GA_NUM_07",
+      "concept_code": "GA_NUM_07",
+      "topic": "Numerical Ability",
+      "subtopic": "Averages",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Average of 5, 10, 15, 20 is:",
+      "options": [
+        {"option_id": "A", "text": "10", "is_correct": false},
+        {"option_id": "B", "text": "12.5", "is_correct": true},
+        {"option_id": "C", "text": "15", "is_correct": false},
+        {"option_id": "D", "text": "20", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "(5+10+15+20)/4 = 12.5."
+    },
+    {
+      "question_code": "GA_NUM_08",
+      "concept_code": "GA_NUM_08",
+      "topic": "Numerical Ability",
+      "subtopic": "Probability",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Probability of getting a head in a fair coin toss is:",
+      "options": [
+        {"option_id": "A", "text": "0", "is_correct": false},
+        {"option_id": "B", "text": "1/4", "is_correct": false},
+        {"option_id": "C", "text": "1/2", "is_correct": true},
+        {"option_id": "D", "text": "1", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "A fair coin has two equally likely outcomes."
+    },
+    {
+      "question_code": "GA_LOG_01",
+      "concept_code": "GA_LOG_01",
+      "topic": "Logical Reasoning",
+      "subtopic": "Syllogisms",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "All cats are animals. Some animals are pets. Which conclusion is definitely true?",
+      "options": [
+        {"option_id": "A", "text": "All pets are cats", "is_correct": false},
+        {"option_id": "B", "text": "Some cats are pets", "is_correct": false},
+        {"option_id": "C", "text": "All cats are animals", "is_correct": true},
+        {"option_id": "D", "text": "No pets are cats", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Only the given statement can be concluded."
+    },
+    {
+      "question_code": "GA_LOG_02",
+      "concept_code": "GA_LOG_02",
+      "topic": "Logical Reasoning",
+      "subtopic": "Series",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Find the next number: 2, 4, 8, 16, ?",
+      "options": [
+        {"option_id": "A", "text": "20", "is_correct": false},
+        {"option_id": "B", "text": "24", "is_correct": false},
+        {"option_id": "C", "text": "32", "is_correct": true},
+        {"option_id": "D", "text": "64", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Each term is multiplied by 2."
+    },
+    {
+      "question_code": "GA_LOG_03",
+      "concept_code": "GA_LOG_03",
+      "topic": "Logical Reasoning",
+      "subtopic": "Analogy",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Book : Reading :: Knife : ?",
+      "options": [
+        {"option_id": "A", "text": "Writing", "is_correct": false},
+        {"option_id": "B", "text": "Cutting", "is_correct": true},
+        {"option_id": "C", "text": "Drawing", "is_correct": false},
+        {"option_id": "D", "text": "Cooking", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A knife is primarily used for cutting."
+    },
+    {
+      "question_code": "GA_LOG_04",
+      "concept_code": "GA_LOG_04",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-Decoding",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If CAT is coded as DBU, then DOG is coded as:",
+      "options": [
+        {"option_id": "A", "text": "EPH", "is_correct": true},
+        {"option_id": "B", "text": "FQI", "is_correct": false},
+        {"option_id": "C", "text": "EOH", "is_correct": false},
+        {"option_id": "D", "text": "DPG", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Each letter is shifted by one position."
+    },
+    {
+      "question_code": "GA_LOG_05",
+      "concept_code": "GA_LOG_05",
+      "topic": "Logical Reasoning",
+      "subtopic": "Blood Relations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A is the brother of B. B is the mother of C. How is A related to C?",
+      "options": [
+        {"option_id": "A", "text": "Father", "is_correct": false},
+        {"option_id": "B", "text": "Uncle", "is_correct": true},
+        {"option_id": "C", "text": "Brother", "is_correct": false},
+        {"option_id": "D", "text": "Grandfather", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Brother of the mother is maternal uncle."
+    },
+    {
+      "question_code": "GA_DI_01",
+      "concept_code": "GA_DI_01",
+      "topic": "Data Interpretation",
+      "subtopic": "Percentage Change",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A company's sales increased from 200 units to 260 units. Percentage increase is:",
+      "options": [
+        {"option_id": "A", "text": "20%", "is_correct": false},
+        {"option_id": "B", "text": "25%", "is_correct": false},
+        {"option_id": "C", "text": "30%", "is_correct": true},
+        {"option_id": "D", "text": "35%", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Increase = 60. Percentage increase = 60/200 × 100 = 30%."
+    },
+    {
+      "question_code": "GA_QA_01",
+      "concept_code": "GA_QA_01",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Number System",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which of the following is a prime number?",
+      "options": [
+        {"option_id": "A", "text": "21", "is_correct": false},
+        {"option_id": "B", "text": "27", "is_correct": false},
+        {"option_id": "C", "text": "29", "is_correct": true},
+        {"option_id": "D", "text": "33", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "29 has no divisors other than 1 and itself."
+    },
+    {
+      "question_code": "GA_QA_02",
+      "concept_code": "GA_QA_02",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "LCM and HCF",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "HCF of 12 and 18 is:",
+      "options": [
+        {"option_id": "A", "text": "2", "is_correct": false},
+        {"option_id": "B", "text": "3", "is_correct": false},
+        {"option_id": "C", "text": "6", "is_correct": true},
+        {"option_id": "D", "text": "9", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Greatest common divisor of 12 and 18 is 6."
+    },
+    {
+      "question_code": "GA_QA_03",
+      "concept_code": "GA_QA_03",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Permutation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "In how many ways can 3 people be arranged in a row?",
+      "options": [
+        {"option_id": "A", "text": "3", "is_correct": false},
+        {"option_id": "B", "text": "6", "is_correct": true},
+        {"option_id": "C", "text": "9", "is_correct": false},
+        {"option_id": "D", "text": "12", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "3! = 6."
+    },
+    {
+      "question_code": "GA_QA_04",
+      "concept_code": "GA_QA_04",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Probability",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A die is rolled once. Probability of getting an even number is:",
+      "options": [
+        {"option_id": "A", "text": "1/6", "is_correct": false},
+        {"option_id": "B", "text": "1/3", "is_correct": false},
+        {"option_id": "C", "text": "1/2", "is_correct": true},
+        {"option_id": "D", "text": "2/3", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Even outcomes are 2, 4, 6."
+    },
+    {
+      "question_code": "GA_QA_05",
+      "concept_code": "GA_QA_05",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Mixtures",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A mixture contains milk and water in the ratio 4:1. What percentage of the mixture is milk?",
+      "options": [
+        {"option_id": "A", "text": "60%", "is_correct": false},
+        {"option_id": "B", "text": "70%", "is_correct": false},
+        {"option_id": "C", "text": "80%", "is_correct": true},
+        {"option_id": "D", "text": "90%", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Milk fraction = 4/(4+1) = 80%."
+    },
+    {
+      "question_code": "GA_QA_06",
+      "concept_code": "GA_QA_06",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Geometry",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Area of a square with side 5 cm is:",
+      "options": [
+        {"option_id": "A", "text": "10 cm²", "is_correct": false},
+        {"option_id": "B", "text": "20 cm²", "is_correct": false},
+        {"option_id": "C", "text": "25 cm²", "is_correct": true},
+        {"option_id": "D", "text": "30 cm²", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Area = side² = 25 cm²."
+    },
+    {
+      "question_code": "GA_QA_07",
+      "concept_code": "GA_QA_07",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Algebra",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If x + 5 = 12, then x = ?",
+      "options": [
+        {"option_id": "A", "text": "5", "is_correct": false},
+        {"option_id": "B", "text": "6", "is_correct": false},
+        {"option_id": "C", "text": "7", "is_correct": true},
+        {"option_id": "D", "text": "8", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "x = 12 − 5 = 7."
+    },
+    {
+      "question_code": "GA_QA_08",
+      "concept_code": "GA_QA_08",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Mensuration",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Circumference of a circle of radius 7 cm is:",
+      "options": [
+        {"option_id": "A", "text": "14π", "is_correct": false},
+        {"option_id": "B", "text": "28π", "is_correct": false},
+        {"option_id": "C", "text": "44 cm", "is_correct": true},
+        {"option_id": "D", "text": "49π", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "2πr = 14π ≈ 44 cm."
+    },
+    {
+      "question_code": "GA_QA_09",
+      "concept_code": "GA_QA_09",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Data Sufficiency",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which type of question evaluates whether given statements are sufficient to answer a question?",
+      "options": [
+        {"option_id": "A", "text": "Analogy", "is_correct": false},
+        {"option_id": "B", "text": "Data Sufficiency", "is_correct": true},
+        {"option_id": "C", "text": "Series", "is_correct": false},
+        {"option_id": "D", "text": "Coding-Decoding", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Data sufficiency tests adequacy of information."
+    },
+      {
+    "question_code": "GA_NUM_10",
+    "concept_code": "GA_NUM_10",
+    "topic": "Numerical Ability",
+    "subtopic": "Percentages",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.0,
+    "question_text": "A value increases from 80 to 100. Compute the percentage increase.",
+    "correct_answer": 25.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Increase = 20. Percentage increase = (20/80)*100 = 25%."
+  },
+  {
+    "question_code": "GA_NUM_11",
+    "concept_code": "GA_NUM_11",
+    "topic": "Numerical Ability",
+    "subtopic": "Ratio",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.0,
+    "question_text": "If A:B = 5:7 and A = 35, find B.",
+    "correct_answer": 49.0,
+    "answer_tolerance": 0.01,
+    "explanation": "One part = 35/5 = 7, so B = 7×7 = 49."
+  },
+  {
+    "question_code": "GA_NUM_12",
+    "concept_code": "GA_NUM_12",
+    "topic": "Numerical Ability",
+    "subtopic": "Simple Interest",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "Find simple interest on ₹1500 at 8% per annum for 2 years.",
+    "correct_answer": 240.0,
+    "answer_tolerance": 0.01,
+    "explanation": "SI = (1500×8×2)/100 = 240."
+  },
+  {
+    "question_code": "GA_NUM_13",
+    "concept_code": "GA_NUM_13",
+    "topic": "Numerical Ability",
+    "subtopic": "Time and Distance",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.0,
+    "question_text": "A train covers 180 km in 3 hours. Find its speed in km/h.",
+    "correct_answer": 60.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Speed = Distance/Time = 180/3 = 60 km/h."
+  },
+  {
+    "question_code": "GA_NUM_14",
+    "concept_code": "GA_NUM_14",
+    "topic": "Numerical Ability",
+    "subtopic": "Averages",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.0,
+    "question_text": "Find the average of 12, 18, 24, 30.",
+    "correct_answer": 21.0,
+    "answer_tolerance": 0.01,
+    "explanation": "(12+18+24+30)/4 = 84/4 = 21."
+  },
+  {
+    "question_code": "GA_NUM_15",
+    "concept_code": "GA_NUM_15",
+    "topic": "Numerical Ability",
+    "subtopic": "Probability",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "A fair die is rolled. Find the probability of getting a number greater than 4.",
+    "correct_answer": 0.3333,
+    "answer_tolerance": 0.01,
+    "explanation": "Favorable outcomes = {5,6} = 2/6 = 1/3 ≈ 0.3333."
+  },
+  {
+    "question_code": "GA_NUM_16",
+    "concept_code": "GA_NUM_16",
+    "topic": "Numerical Ability",
+    "subtopic": "Algebra",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "Solve for x: 3x + 7 = 22",
+    "correct_answer": 5.0,
+    "answer_tolerance": 0.01,
+    "explanation": "3x = 15 ⇒ x = 5."
+  },
+  {
+    "question_code": "GA_NUM_17",
+    "concept_code": "GA_NUM_17",
+    "topic": "Numerical Ability",
+    "subtopic": "Compound Interest",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "Find compound interest on ₹1000 at 10% per annum for 2 years.",    "correct_answer": 210.0,
+    "answer_tolerance": 0.01,
+    "explanation": "CI = 1000(1.1^2 − 1) = 210."
+  },
+  {
+    "question_code": "GA_NUM_18",
+    "concept_code": "GA_NUM_18",
+    "topic": "Numerical Ability",
+    "subtopic": "Mixtures",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "A mixture has milk and water in ratio 3:2. If total mixture is 50 L, find quantity of milk in liters.",    "correct_answer": 30.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Milk fraction = 3/5, so milk = (3/5)*50 = 30 L."
+  },
+  {
+    "question_code": "GA_NUM_19",
+    "concept_code": "GA_NUM_19",
+    "topic": "Numerical Ability",
+    "subtopic": "Time and Work",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.0,
+    "question_text": "A completes a work in 12 days. What fraction of work does A complete in one day?",    "correct_answer": 0.0833,
+    "answer_tolerance": 0.01,
+    "explanation": "Work per day = 1/12 ≈ 0.0833."
+  },
+  {
+    "question_code": "GA_NUM_20",
+    "concept_code": "GA_NUM_20",
+    "topic": "Numerical Ability",
+    "subtopic": "Geometry",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0.0,
+    "question_text": "Find the area of a circle with radius 7 cm (use π = 3.14).",    "correct_answer": 153.86,
+    "answer_tolerance": 0.01,
+    "explanation": "Area = πr² = 3.14 × 49 = 153.86."
+  },
+  {
+    "question_code": "GA_VERB_05",
+    "concept_code": "GA_VERB_01",
+    "topic": "English Grammar",
+    "subtopic": "Articles",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following sentences use articles correctly?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "He is an honest man",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "She is a university student",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "He is a engineer",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "She is an umbrella carrier",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "Correct article usage depends on sound: 'honest' takes 'an', 'university' takes 'a' due to consonant sound 'yu'."
+  },
+  {
+    "question_code": "GA_VERB_06",
+    "concept_code": "GA_VERB_02",
+    "topic": "English Grammar",
+    "subtopic": "Prepositions",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following sentences use prepositions correctly?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "She is good at mathematics",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "He arrived at the station on time",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "She is interested on music",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "They live in New York",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Correct prepositions: good at, arrive at, interested in, live in."
+  },
+  {
+    "question_code": "GA_VERB_07",
+    "concept_code": "GA_VERB_03",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are synonyms of 'Abundant'?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Plentiful",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Plenty",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Scarce",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Copious",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Abundant means existing in large quantities; synonyms include plentiful, copious, etc."
+  },
+  {
+    "question_code": "GA_VERB_08",
+    "concept_code": "GA_VERB_04",
+    "topic": "Vocabulary",
+    "subtopic": "Antonyms",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are antonyms of 'Optimistic'?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Pessimistic",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Doubtful",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Hopeful",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Cynical",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Optimistic relates to positive expectation; antonyms include pessimistic, cynical, doubtful."
+  },
+  {
+    "question_code": "GA_RC_02",
+    "concept_code": "GA_RC_01",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements can be considered facts in a reading comprehension passage?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Statements directly stated in the passage",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Statements logically supported by explicit information",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Personal opinions of the reader",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Assumptions not supported by text",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "Facts are explicitly stated or directly supported by the passage; opinions and assumptions are not facts."
+  }
+  ]
+}

@@ -1,0 +1,512 @@
+subject: Engineering Mathematics
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: Linear Algebra
+    topic_code: EM_LA
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Matrices, Determinants and Rank
+        concepts:
+
+          - concept_code: EM_LA_01
+            name: Matrix Invertibility
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 50
+              medium: 50
+              hard: 0
+            learning_outcomes:
+              - determine_matrix_invertibility
+              - use_determinant_properties
+            pyq_patterns:
+              - determinant_non_zero_condition
+              - inverse_existence_questions
+
+          - concept_code: EM_LA_02
+            name: Rank of Matrix
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 30
+              medium: 60
+              hard: 10
+            learning_outcomes:
+              - compute_matrix_rank
+              - relate_rank_and_linear_dependence
+            pyq_patterns:
+              - echelon_form_rank
+              - row_column_space_dimension
+
+          - concept_code: EM_LA_06
+            name: Determinants
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 70
+              medium: 30
+              hard: 0
+            learning_outcomes:
+              - evaluate_determinants
+              - apply_determinant_properties
+            pyq_patterns:
+              - 2x2_determinant_computation
+              - determinant_based_reasoning
+
+      - name: Eigenvalues and Vector Spaces
+        concepts:
+
+          - concept_code: EM_LA_03
+            name: Eigenvalues and Trace
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            learning_outcomes:
+              - compute_eigenvalue_properties
+              - relate_trace_and_eigenvalues
+            pyq_patterns:
+              - characteristic_equation
+              - trace_eigenvalue_relation
+
+          - concept_code: EM_LA_04
+            name: Linear Independence
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            learning_outcomes:
+              - test_linear_independence
+              - identify_basis_vectors
+            pyq_patterns:
+              - trivial_solution_tests
+              - vector_space_questions
+
+          - concept_code: EM_LA_05
+            name: Orthogonality
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            learning_outcomes:
+              - compute_dot_products
+              - identify_orthogonal_vectors
+            pyq_patterns:
+              - dot_product_based_questions
+
+          - concept_code: EM_LA_07
+            name: Trace of Matrix
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 80
+              medium: 20
+              hard: 0
+            learning_outcomes:
+              - compute_matrix_trace
+              - relate_trace_to_eigenvalues
+            pyq_patterns:
+              - direct_trace_calculation
+
+  - name: Calculus
+    topic_code: EM_CAL
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Limits and Differentiation
+        concepts:
+
+          - concept_code: EM_CAL_01
+            name: Standard Limits
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 80
+              medium: 20
+              hard: 0
+            learning_outcomes:
+              - evaluate_trigonometric_limits
+            pyq_patterns:
+              - sinx_by_x_limit
+
+          - concept_code: EM_CAL_02
+            name: Differentiation Rules
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_basic_derivatives
+              - differentiate_exponential_functions
+            pyq_patterns:
+              - derivative_of_exponential_functions
+
+          - concept_code: EM_CAL_06
+            name: Limit Evaluation
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - solve_standard_limit_problems
+            pyq_patterns:
+              - tanx_by_x_limit
+
+          - concept_code: EM_CAL_07
+            name: Derivative Evaluation at a Point
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - evaluate_derivatives_numerically
+            pyq_patterns:
+              - derivative_value_questions
+
+      - name: Integration and Optimization
+        concepts:
+
+          - concept_code: EM_CAL_03
+            name: Integration
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_basic_integration_rules
+            pyq_patterns:
+              - power_rule_integration
+
+          - concept_code: EM_CAL_04
+            name: Maxima and Minima
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_second_derivative_test
+              - identify_local_extrema
+            pyq_patterns:
+              - optimization_problems
+
+          - concept_code: EM_CAL_05
+            name: Partial Differentiation
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_partial_derivatives
+              - differentiate_multivariable_functions
+            pyq_patterns:
+              - multivariable_calculus
+
+  - name: Differential Equations
+    topic_code: EM_DE
+    weightage: 12
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Ordinary Differential Equations
+        concepts:
+
+          - concept_code: EM_DE_01
+            name: Order of Differential Equation
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - identify_order_and_degree
+            pyq_patterns:
+              - differential_equation_classification
+
+          - concept_code: EM_DE_02
+            name: First Order Linear ODE
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - solve_first_order_linear_odes
+              - model_exponential_growth
+            pyq_patterns:
+              - dy_dx_equals_ky
+
+          - concept_code: EM_DE_03
+            name: Initial Value Problems
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - solve_ivp_problems
+              - evaluate_solution_at_given_point
+            pyq_patterns:
+              - exponential_growth_ivp
+
+  - name: Probability
+    topic_code: EM_PROB
+    weightage: 18
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Probability Theory
+        concepts:
+
+          - concept_code: EM_PROB_01
+            name: Basic Probability
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - understand_probability_axioms
+
+          - concept_code: EM_PROB_02
+            name: Conditional Probability
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_conditional_probability
+
+          - concept_code: EM_PROB_03
+            name: Bayes Theorem
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_bayes_theorem
+
+          - concept_code: EM_PROB_05
+            name: Independent Events
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - test_independence_of_events
+
+      - name: Random Variables
+        concepts:
+
+          - concept_code: EM_PROB_04
+            name: Expectation of Random Variables
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_expected_value
+
+          - concept_code: EM_PROB_06
+            name: Expected Value Computation
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - compute_expectation_from_distribution
+
+          - concept_code: EM_PROB_07
+            name: Variance of Random Variables
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - compute_variance_using_expectation
+
+  - name: Statistics
+    topic_code: EM_STATS
+    weightage: 8
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Descriptive Statistics
+        concepts:
+
+          - concept_code: EM_STATS_01
+            name: Mean
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_arithmetic_mean
+
+          - concept_code: EM_STATS_02
+            name: Variance
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_variance
+
+          - concept_code: EM_STATS_03
+            name: Standard Deviation
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_standard_deviation
+
+          - concept_code: EM_STATS_04
+            name: Correlation Coefficient
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - interpret_correlation_values
+
+          - concept_code: EM_STATS_05
+            name: Mean Computation
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - compute_mean_from_dataset
+
+  - name: Discrete Mathematics
+    topic_code: EM_DIS
+    weightage: 8
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Logic and Set Theory
+        concepts:
+
+          - concept_code: EM_DIS_01
+            name: Propositional Logic
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_de_morgan_laws
+
+          - concept_code: EM_DIS_02
+            name: Set Theory
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - analyze_subset_relations
+
+      - name: Relations, Counting and Graphs
+        concepts:
+
+          - concept_code: EM_DIS_03
+            name: Equivalence Relations
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - identify_equivalence_relations
+
+          - concept_code: EM_DIS_04
+            name: Permutations
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - compute_permutations
+
+          - concept_code: EM_DIS_05
+            name: Trees and Graphs
+            weightage: 1
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_tree_properties
+
+          - concept_code: EM_DIS_06
+            name: Factorial Based Counting
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - compute_arrangements_using_factorials
+
+  - name: Numerical Methods
+    topic_code: EM_NUM
+    weightage: 4
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Root Finding and Approximation
+        concepts:
+
+          - concept_code: EM_NUM_01
+            name: Newton-Raphson Method
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - apply_newton_raphson_method
+
+          - concept_code: EM_NUM_02
+            name: Lagrange Interpolation
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - construct_interpolating_polynomials
+
+          - concept_code: EM_NUM_03
+            name: Newton-Raphson Iteration
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - perform_single_iteration_updates

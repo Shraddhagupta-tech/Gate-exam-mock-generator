@@ -1,0 +1,621 @@
+{
+  "subject": "Basic AI (Search, Logic, Reasoning)",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "AI_01",
+      "concept_code": "AI_SEARCH_01",
+      "topic": "Search",
+      "subtopic": "Uninformed Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which search algorithm explores nodes level by level?",
+      "options": [
+        { "option_id": "A", "text": "DFS", "is_correct": false },
+        { "option_id": "B", "text": "BFS", "is_correct": true },
+        { "option_id": "C", "text": "A*", "is_correct": false },
+        { "option_id": "D", "text": "Greedy Search", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Breadth First Search explores level by level."
+    },
+    {
+      "question_code": "AI_02",
+      "concept_code": "AI_SEARCH_02",
+      "topic": "Search",
+      "subtopic": "DFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "DFS uses which data structure?",
+      "options": [
+        { "option_id": "A", "text": "Queue", "is_correct": false },
+        { "option_id": "B", "text": "Stack", "is_correct": true },
+        { "option_id": "C", "text": "Heap", "is_correct": false },
+        { "option_id": "D", "text": "Graph", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DFS uses stack (explicit or recursion)."
+    },
+    {
+      "question_code": "AI_03",
+      "concept_code": "AI_SEARCH_03",
+      "topic": "Search",
+      "subtopic": "Uniform Cost Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Uniform Cost Search expands nodes based on:",
+      "options": [
+        { "option_id": "A", "text": "Depth", "is_correct": false },
+        { "option_id": "B", "text": "Path cost", "is_correct": true },
+        { "option_id": "C", "text": "Heuristic only", "is_correct": false },
+        { "option_id": "D", "text": "Random choice", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "UCS selects lowest path cost node."
+    },
+    {
+      "question_code": "AI_04",
+      "concept_code": "AI_SEARCH_04",
+      "topic": "Search",
+      "subtopic": "A* Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A* search uses which evaluation function?",
+      "options": [
+        { "option_id": "A", "text": "f(n)=g(n)+h(n)", "is_correct": true },
+        { "option_id": "B", "text": "f(n)=g(n)-h(n)", "is_correct": false },
+        { "option_id": "C", "text": "f(n)=h(n)", "is_correct": false },
+        { "option_id": "D", "text": "f(n)=g(n)*h(n)", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "A* combines cost so far and heuristic."
+    },
+    {
+      "question_code": "AI_05",
+      "concept_code": "AI_SEARCH_05",
+      "topic": "Search",
+      "subtopic": "Heuristic",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A heuristic function estimates:",
+      "options": [
+        { "option_id": "A", "text": "Exact cost", "is_correct": false },
+        { "option_id": "B", "text": "Distance to goal", "is_correct": true },
+        { "option_id": "C", "text": "Memory usage", "is_correct": false },
+        { "option_id": "D", "text": "Time complexity", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Heuristic estimates goal distance."
+    },
+    {
+      "question_code": "AI_06",
+      "concept_code": "AI_SEARCH_06",
+      "topic": "Search",
+      "subtopic": "Greedy Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Greedy best-first search uses:",
+      "options": [
+        { "option_id": "A", "text": "g(n)", "is_correct": false },
+        { "option_id": "B", "text": "h(n)", "is_correct": true },
+        { "option_id": "C", "text": "f(n)=g+h", "is_correct": false },
+        { "option_id": "D", "text": "Random function", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Greedy uses heuristic only."
+    },
+    {
+      "question_code": "AI_07",
+      "concept_code": "AI_SEARCH_07",
+      "topic": "Search",
+      "subtopic": "Optimality",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which algorithm is optimal if heuristic is admissible?",
+      "options": [
+        { "option_id": "A", "text": "DFS", "is_correct": false },
+        { "option_id": "B", "text": "A*", "is_correct": true },
+        { "option_id": "C", "text": "Greedy Search", "is_correct": false },
+        { "option_id": "D", "text": "Random Search", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A* is optimal with admissible heuristic."
+    },
+    {
+      "question_code": "AI_08",
+      "concept_code": "AI_LOGIC_01",
+      "topic": "Logic",
+      "subtopic": "Propositional Logic",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A proposition is:",
+      "options": [
+        { "option_id": "A", "text": "A question", "is_correct": false },
+        { "option_id": "B", "text": "A statement with truth value", "is_correct": true },
+        { "option_id": "C", "text": "A function", "is_correct": false },
+        { "option_id": "D", "text": "A loop", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Propositions are true/false statements."
+    },
+    {
+      "question_code": "AI_09",
+      "concept_code": "AI_LOGIC_02",
+      "topic": "Logic",
+      "subtopic": "AND Operator",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "P AND Q is true when:",
+      "options": [
+        { "option_id": "A", "text": "Either P or Q is true", "is_correct": false },
+        { "option_id": "B", "text": "Both P and Q are true", "is_correct": true },
+        { "option_id": "C", "text": "Both are false", "is_correct": false },
+        { "option_id": "D", "text": "Only one is false", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "AND requires both true."
+    },
+    {
+      "question_code": "AI_10",
+      "concept_code": "AI_LOGIC_03",
+      "topic": "Logic",
+      "subtopic": "OR Operator",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "P OR Q is false when:",
+      "options": [
+        { "option_id": "A", "text": "Both are true", "is_correct": false },
+        { "option_id": "B", "text": "Both are false", "is_correct": true },
+        { "option_id": "C", "text": "One is true", "is_correct": false },
+        { "option_id": "D", "text": "Always true", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "OR is false only if both false."
+    },
+    {
+      "question_code": "AI_11",
+      "concept_code": "AI_LOGIC_04",
+      "topic": "Logic",
+      "subtopic": "Implication",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "P → Q is false when:",
+      "options": [
+        { "option_id": "A", "text": "P false, Q true", "is_correct": false },
+        { "option_id": "B", "text": "P true, Q false", "is_correct": true },
+        { "option_id": "C", "text": "Both true", "is_correct": false },
+        { "option_id": "D", "text": "Both false", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Implication false only when T→F."
+    },
+    {
+      "question_code": "AI_12",
+      "concept_code": "AI_LOGIC_05",
+      "topic": "Logic",
+      "subtopic": "Negation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Negation of true is:",
+      "options": [
+        { "option_id": "A", "text": "True", "is_correct": false },
+        { "option_id": "B", "text": "False", "is_correct": true },
+        { "option_id": "C", "text": "Unknown", "is_correct": false },
+        { "option_id": "D", "text": "Both", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "NOT flips truth value."
+    },
+    {
+      "question_code": "AI_13",
+      "concept_code": "AI_LOGIC_06",
+      "topic": "Logic",
+      "subtopic": "Tautology",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A tautology is:",
+      "options": [
+        { "option_id": "A", "text": "Always false", "is_correct": false },
+        { "option_id": "B", "text": "Always true", "is_correct": true },
+        { "option_id": "C", "text": "Sometimes true", "is_correct": false },
+        { "option_id": "D", "text": "Undefined", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Tautology is always true."
+    },
+    {
+      "question_code": "AI_14",
+      "concept_code": "AI_REASON_01",
+      "topic": "Reasoning",
+      "subtopic": "Deductive Reasoning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Deductive reasoning goes from:",
+      "options": [
+        { "option_id": "A", "text": "Specific to general", "is_correct": false },
+        { "option_id": "B", "text": "General to specific", "is_correct": true },
+        { "option_id": "C", "text": "Random to structured", "is_correct": false },
+        { "option_id": "D", "text": "False to true", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Deduction applies general rules."
+    },
+    {
+      "question_code": "AI_15",
+      "concept_code": "AI_REASON_02",
+      "topic": "Reasoning",
+      "subtopic": "Inductive Reasoning",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Inductive reasoning goes from:",
+      "options": [
+        { "option_id": "A", "text": "General to specific", "is_correct": false },
+        { "option_id": "B", "text": "Specific to general", "is_correct": true },
+        { "option_id": "C", "text": "True to false", "is_correct": false },
+        { "option_id": "D", "text": "Logic to numbers", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Induction generalizes from examples."
+    },
+    {
+      "question_code": "AI_16",
+      "concept_code": "AI_REASON_03",
+      "topic": "Reasoning",
+      "subtopic": "Abduction",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Abductive reasoning is:",
+      "options": [
+        { "option_id": "A", "text": "Best explanation inference", "is_correct": true },
+        { "option_id": "B", "text": "Exact proof", "is_correct": false },
+        { "option_id": "C", "text": "Random guessing", "is_correct": false },
+        { "option_id": "D", "text": "Deduction only", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Abduction finds best explanation."
+    },
+    {
+      "question_code": "AI_17",
+      "concept_code": "AI_REASON_04",
+      "topic": "Reasoning",
+      "subtopic": "Inference",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Inference in AI means:",
+      "options": [
+        { "option_id": "A", "text": "Storing data", "is_correct": false },
+        { "option_id": "B", "text": "Deriving conclusions", "is_correct": true },
+        { "option_id": "C", "text": "Deleting data", "is_correct": false },
+        { "option_id": "D", "text": "Sorting data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Inference derives new knowledge."
+    },
+    {
+      "question_code": "AI_18",
+      "concept_code": "AI_REASON_05",
+      "topic": "Reasoning",
+      "subtopic": "Knowledge Representation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Knowledge representation in AI is used for:",
+      "options": [
+        { "option_id": "A", "text": "Storing knowledge in usable form", "is_correct": true },
+        { "option_id": "B", "text": "Sorting arrays", "is_correct": false },
+        { "option_id": "C", "text": "Compiling programs", "is_correct": false },
+        { "option_id": "D", "text": "Networking", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "KR enables machine reasoning."
+    },
+    {
+      "question_code": "AI_19",
+      "concept_code": "AI_REASON_06",
+      "topic": "Reasoning",
+      "subtopic": "Resolution",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Resolution in logic is used for:",
+      "options": [
+        { "option_id": "A", "text": "Database indexing", "is_correct": false },
+        { "option_id": "B", "text": "Proving statements", "is_correct": true },
+        { "option_id": "C", "text": "Sorting data", "is_correct": false },
+        { "option_id": "D", "text": "Encryption", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Resolution is a proof technique."
+    },
+    {
+      "question_code": "AI_20",
+      "concept_code": "AI_REASON_07",
+      "topic": "Reasoning",
+      "subtopic": "Forward Chaining",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Forward chaining is:",
+      "options": [
+        { "option_id": "A", "text": "Goal-driven reasoning", "is_correct": false },
+        { "option_id": "B", "text": "Data-driven reasoning", "is_correct": true },
+        { "option_id": "C", "text": "Random search", "is_correct": false },
+        { "option_id": "D", "text": "Heuristic search", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Forward chaining starts from facts."
+    },
+     {
+      "question_code": "AI_21",
+      "concept_code": "AI_SEARCH_01",
+      "topic": "Search",
+      "subtopic": "Tree Properties",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "A complete binary tree has depth 3 (root at level 0). The total number of nodes in the tree is:",
+      "correct_answer": 15,
+      "answer_tolerance": 0.01,
+      "explanation": "Total nodes in a full binary tree = 2^(d+1) - 1 = 2^4 - 1 = 15."
+    },
+    {
+      "question_code": "AI_22",
+      "concept_code": "AI_SEARCH_03",
+      "topic": "Search",
+      "subtopic": "Uniform Cost Search",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "In a path, the edge costs are 3, 5, and 2. The total path cost is:",
+      "correct_answer": 10,
+      "answer_tolerance": 0.01,
+      "explanation": "Uniform Cost Search sums edge costs: 3 + 5 + 2 = 10."
+    },
+    {
+      "question_code": "AI_23",
+      "concept_code": "AI_SEARCH_04",
+      "topic": "Search",
+      "subtopic": "A* Evaluation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Given g(n)=4 and h(n)=6, compute f(n) for A* search.",
+      "correct_answer": 10,
+      "answer_tolerance": 0.01,
+      "explanation": "A* uses f(n)=g(n)+h(n)=4+6=10."
+    },
+    {
+      "question_code": "AI_24",
+      "concept_code": "AI_REASON_02",
+      "topic": "Reasoning",
+      "subtopic": "Probability",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Two independent events A and B have probabilities 0.5 and 0.4. The probability of A and B both occurring is:",
+      "correct_answer": 0.2,
+      "answer_tolerance": 0.01,
+      "explanation": "For independent events, P(A ∩ B) = 0.5 × 0.4 = 0.2."
+    },
+    {
+      "question_code": "AI_25",
+      "concept_code": "AI_LOGIC_04",
+      "topic": "Logic",
+      "subtopic": "Implication",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "For a single implication P → Q, how many truth assignments make it false?",
+      "correct_answer": 1,
+      "answer_tolerance": 0.01,
+      "explanation": "P → Q is false only when P is true and Q is false, which is 1 case."
+    },
+    {
+      "question_code": "AI_26",
+      "concept_code": "AI_REASON_04",
+      "topic": "Reasoning",
+      "subtopic": "Heuristic Error",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "If heuristic value h(n)=7 and actual cost to goal is 5, the absolute error is:",
+      "correct_answer": 2,
+      "answer_tolerance": 0.01,
+      "explanation": "Absolute error = |7 − 5| = 2."
+    },
+    {
+      "question_code": "AI_27",
+      "concept_code": "AI_REASON_07",
+      "topic": "Reasoning",
+      "subtopic": "Forward Chaining",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "In a rule-based system, if 3 inference steps are required to reach the goal using forward chaining, the number of steps is:",
+      "correct_answer": 3,
+      "answer_tolerance": 0.01,
+      "explanation": "Forward chaining counts the number of rule applications, here 3."
+    },
+    {
+      "question_code": "AI_28",
+      "concept_code": "AI_REASON_06",
+      "topic": "Reasoning",
+      "subtopic": "Resolution",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "If 2 clauses are resolved in a single resolution step, the number of resulting clauses is:",
+      "correct_answer": 1,
+      "answer_tolerance": 0.01,
+      "explanation": "Resolution combines two clauses to produce one resolvent."
+    },
+    {
+      "question_code": "AI_29",
+      "concept_code": "AI_SEARCH_01",
+      "topic": "Search",
+      "subtopic": "BFS Path Length",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "In an unweighted graph, the shortest path from source to goal has 4 edges. The BFS distance is:",
+      "correct_answer": 4,
+      "answer_tolerance": 0.01,
+      "explanation": "BFS measures shortest path in terms of number of edges."
+    },
+    {
+      "question_code": "AI_30",
+      "concept_code": "AI_SEARCH_05",
+      "topic": "Search",
+      "subtopic": "Perceptron Computation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "A perceptron computes output as (2 × 1) + (3 × 0.5). The final weighted sum is:",
+      "correct_answer": 3.5,
+      "answer_tolerance": 0.01,
+      "explanation": "Weighted sum = 2 + 1.5 = 3.5."
+    },
+  {
+    "question_code": "AI_06",
+    "concept_code": "AI_SEARCH_01",
+    "topic": "Search",
+    "subtopic": "Uninformed Search",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about Breadth First Search (BFS) are correct?",
+    "options": [
+      { "option_id": "A", "text": "BFS explores nodes level by level", "is_correct": true },
+      { "option_id": "B", "text": "BFS uses a queue data structure", "is_correct": true },
+      { "option_id": "C", "text": "BFS is guaranteed to find a shallowest goal node in an unweighted graph", "is_correct": true },
+      { "option_id": "D", "text": "BFS always uses heuristic information", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "BFS explores nodes level-wise using a queue and finds the shallowest solution in unweighted graphs. It does not use heuristics."
+  },
+  {
+    "question_code": "AI_07",
+    "concept_code": "AI_SEARCH_02",
+    "topic": "Search",
+    "subtopic": "DFS",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following are true for Depth First Search (DFS)?",
+    "options": [
+      { "option_id": "A", "text": "DFS can be implemented using recursion", "is_correct": true },
+      { "option_id": "B", "text": "DFS uses a stack explicitly or implicitly", "is_correct": true },
+      { "option_id": "C", "text": "DFS always finds the shortest path in an unweighted graph", "is_correct": false },
+      { "option_id": "D", "text": "DFS may get trapped in deep branches before exploring alternatives", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "DFS uses a stack/recursion and explores deeply before backtracking. It does not guarantee shortest paths."
+  },
+  {
+    "question_code": "AI_08",
+    "concept_code": "AI_SEARCH_03",
+    "topic": "Search",
+    "subtopic": "Uniform Cost Search",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which statements about Uniform Cost Search (UCS) are correct?",
+    "options": [
+      { "option_id": "A", "text": "UCS expands the node with the lowest cumulative path cost", "is_correct": true },
+      { "option_id": "B", "text": "UCS can be implemented using a priority queue", "is_correct": true },
+      { "option_id": "C", "text": "When all step costs are equal, UCS behaves similarly to BFS", "is_correct": true },
+      { "option_id": "D", "text": "UCS relies entirely on heuristic estimates", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "UCS selects nodes based on path cost, typically using a priority queue. It does not use heuristics."
+  },
+  {
+    "question_code": "AI_09",
+    "concept_code": "AI_SEARCH_04",
+    "topic": "Search",
+    "subtopic": "A* Search",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For A* search with evaluation function f(n)=g(n)+h(n), which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "g(n) represents the cost from the start node to node n", "is_correct": true },
+      { "option_id": "B", "text": "h(n) estimates the remaining cost to a goal", "is_correct": true },
+      { "option_id": "C", "text": "If h(n)=0 for all nodes, A* reduces to Uniform Cost Search", "is_correct": true },
+      { "option_id": "D", "text": "A* ignores path cost information", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "A* combines actual path cost and heuristic estimate. With h(n)=0, it becomes UCS."
+  },
+  {
+    "question_code": "AI_10",
+    "concept_code": "AI_SEARCH_05",
+    "topic": "Search",
+    "subtopic": "Heuristic",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about heuristic functions are correct?",
+    "options": [
+      { "option_id": "A", "text": "A heuristic estimates the cost from the current node to a goal", "is_correct": true },
+      { "option_id": "B", "text": "A heuristic can guide the search toward promising states", "is_correct": true },
+      { "option_id": "C", "text": "An admissible heuristic never overestimates the true cost to reach a goal", "is_correct": true },
+      { "option_id": "D", "text": "Every heuristic must equal the exact remaining cost", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Heuristics estimate goal distance and guide search. Admissible heuristics never overestimate but need not be exact."
+  }
+]
+}

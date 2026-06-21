@@ -1,0 +1,621 @@
+{
+  "subject": "Programming, Data Structures & Algorithms",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "PRG_01",
+      "concept_code": "PRG_TIME_01",
+      "topic": "Time Complexity",
+      "subtopic": "Big-O Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the time complexity of a single loop from 1 to n?",
+      "options": [
+        { "option_id": "A", "text": "O(1)", "is_correct": false },
+        { "option_id": "B", "text": "O(n)", "is_correct": true },
+        { "option_id": "C", "text": "O(log n)", "is_correct": false },
+        { "option_id": "D", "text": "O(n^2)", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A single loop over n elements runs in linear time."
+    },
+    {
+      "question_code": "PRG_02",
+      "concept_code": "PRG_TIME_02",
+      "topic": "Time Complexity",
+      "subtopic": "Nested Loops",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the time complexity of two nested loops each running n times?",
+      "options": [
+        { "option_id": "A", "text": "O(n)", "is_correct": false },
+        { "option_id": "B", "text": "O(n log n)", "is_correct": false },
+        { "option_id": "C", "text": "O(n^2)", "is_correct": true },
+        { "option_id": "D", "text": "O(log n)", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Nested loops multiply to n × n = n^2."
+    },
+    {
+      "question_code": "PRG_03",
+      "concept_code": "PRG_RECUR_01",
+      "topic": "Recursion",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Recursion is defined as:",
+      "options": [
+        { "option_id": "A", "text": "Function calling itself", "is_correct": true },
+        { "option_id": "B", "text": "Loop inside function", "is_correct": false },
+        { "option_id": "C", "text": "Array processing", "is_correct": false },
+        { "option_id": "D", "text": "Sorting method", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Recursion occurs when a function calls itself."
+    },
+    {
+      "question_code": "PRG_04",
+      "concept_code": "PRG_RECUR_02",
+      "topic": "Recursion",
+      "subtopic": "Base Case",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the purpose of a base case in recursion?",
+      "options": [
+        { "option_id": "A", "text": "Increase recursion depth", "is_correct": false },
+        { "option_id": "B", "text": "Terminate recursion", "is_correct": true },
+        { "option_id": "C", "text": "Optimize memory", "is_correct": false },
+        { "option_id": "D", "text": "Sort data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Base case stops infinite recursion."
+    },
+    {
+      "question_code": "PRG_05",
+      "concept_code": "PRG_DS_01",
+      "topic": "Data Structures",
+      "subtopic": "Arrays",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Array elements are stored in:",
+      "options": [
+        { "option_id": "A", "text": "Random memory locations", "is_correct": false },
+        { "option_id": "B", "text": "Contiguous memory locations", "is_correct": true },
+        { "option_id": "C", "text": "Linked nodes", "is_correct": false },
+        { "option_id": "D", "text": "Stack only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Arrays use contiguous memory."
+    },
+    {
+      "question_code": "PRG_06",
+      "concept_code": "PRG_DS_02",
+      "topic": "Data Structures",
+      "subtopic": "Linked List",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In a linked list, each node contains:",
+      "options": [
+        { "option_id": "A", "text": "Only data", "is_correct": false },
+        { "option_id": "B", "text": "Data and pointer", "is_correct": true },
+        { "option_id": "C", "text": "Only pointer", "is_correct": false },
+        { "option_id": "D", "text": "Index only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Linked list nodes store data and next pointer."
+    },
+    {
+      "question_code": "PRG_07",
+      "concept_code": "PRG_DS_03",
+      "topic": "Stacks",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Stack follows:",
+      "options": [
+        { "option_id": "A", "text": "FIFO", "is_correct": false },
+        { "option_id": "B", "text": "LIFO", "is_correct": true },
+        { "option_id": "C", "text": "Random order", "is_correct": false },
+        { "option_id": "D", "text": "Priority order", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Stack is Last-In First-Out."
+    },
+    {
+      "question_code": "PRG_08",
+      "concept_code": "PRG_DS_04",
+      "topic": "Queues",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Queue follows:",
+      "options": [
+        { "option_id": "A", "text": "LIFO", "is_correct": false },
+        { "option_id": "B", "text": "FIFO", "is_correct": true },
+        { "option_id": "C", "text": "Random order", "is_correct": false },
+        { "option_id": "D", "text": "Stack order", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Queue is First-In First-Out."
+    },
+    {
+      "question_code": "PRG_09",
+      "concept_code": "PRG_DS_05",
+      "topic": "Trees",
+      "subtopic": "Binary Tree",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A binary tree node has at most:",
+      "options": [
+        { "option_id": "A", "text": "1 child", "is_correct": false },
+        { "option_id": "B", "text": "2 children", "is_correct": true },
+        { "option_id": "C", "text": "3 children", "is_correct": false },
+        { "option_id": "D", "text": "4 children", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Binary tree nodes have at most two children."
+    },
+    {
+      "question_code": "PRG_10",
+      "concept_code": "PRG_SORT_01",
+      "topic": "Sorting",
+      "subtopic": "Bubble Sort",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Worst case time complexity of bubble sort is:",
+      "options": [
+        { "option_id": "A", "text": "O(n)", "is_correct": false },
+        { "option_id": "B", "text": "O(n log n)", "is_correct": false },
+        { "option_id": "C", "text": "O(n^2)", "is_correct": true },
+        { "option_id": "D", "text": "O(log n)", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Bubble sort is quadratic in worst case."
+    },
+    {
+      "question_code": "PRG_11",
+      "concept_code": "PRG_SORT_02",
+      "topic": "Sorting",
+      "subtopic": "Quick Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Average time complexity of quicksort is:",
+      "options": [
+        { "option_id": "A", "text": "O(n)", "is_correct": false },
+        { "option_id": "B", "text": "O(n^2)", "is_correct": false },
+        { "option_id": "C", "text": "O(n log n)", "is_correct": true },
+        { "option_id": "D", "text": "O(log n)", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Quicksort is O(n log n) on average."
+    },
+    {
+      "question_code": "PRG_12",
+      "concept_code": "PRG_SEARCH_01",
+      "topic": "Searching",
+      "subtopic": "Linear Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Linear search works on:",
+      "options": [
+        { "option_id": "A", "text": "Sorted arrays only", "is_correct": false },
+        { "option_id": "B", "text": "Unsorted arrays", "is_correct": true },
+        { "option_id": "C", "text": "Only trees", "is_correct": false },
+        { "option_id": "D", "text": "Graphs only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Linear search works on any list."
+    },
+    {
+      "question_code": "PRG_13",
+      "concept_code": "PRG_SEARCH_02",
+      "topic": "Searching",
+      "subtopic": "Binary Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Binary search requires:",
+      "options": [
+        { "option_id": "A", "text": "Unsorted array", "is_correct": false },
+        { "option_id": "B", "text": "Sorted array", "is_correct": true },
+        { "option_id": "C", "text": "Linked list", "is_correct": false },
+        { "option_id": "D", "text": "Stack", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Binary search works only on sorted data."
+    },
+    {
+      "question_code": "PRG_14",
+      "concept_code": "PRG_HASH_01",
+      "topic": "Hashing",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Hashing is used for:",
+      "options": [
+        { "option_id": "A", "text": "Sorting data", "is_correct": false },
+        { "option_id": "B", "text": "Fast data retrieval", "is_correct": true },
+        { "option_id": "C", "text": "Tree traversal", "is_correct": false },
+        { "option_id": "D", "text": "Recursion", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Hashing enables fast lookup."
+    },
+    {
+      "question_code": "PRG_15",
+      "concept_code": "PRG_HASH_02",
+      "topic": "Hashing",
+      "subtopic": "Collision",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Collision in hashing occurs when:",
+      "options": [
+        { "option_id": "A", "text": "Two keys map to same index", "is_correct": true },
+        { "option_id": "B", "text": "No key exists", "is_correct": false },
+        { "option_id": "C", "text": "Array is sorted", "is_correct": false },
+        { "option_id": "D", "text": "Stack overflows", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Collision means same hash index."
+    },
+    {
+      "question_code": "PRG_16",
+      "concept_code": "PRG_GRAPH_01",
+      "topic": "Graphs",
+      "subtopic": "BFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "BFS uses:",
+      "options": [
+        { "option_id": "A", "text": "Stack", "is_correct": false },
+        { "option_id": "B", "text": "Queue", "is_correct": true },
+        { "option_id": "C", "text": "Heap", "is_correct": false },
+        { "option_id": "D", "text": "Tree", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "BFS uses a queue."
+    },
+    {
+      "question_code": "PRG_17",
+      "concept_code": "PRG_GRAPH_02",
+      "topic": "Graphs",
+      "subtopic": "DFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "DFS uses:",
+      "options": [
+        { "option_id": "A", "text": "Queue", "is_correct": false },
+        { "option_id": "B", "text": "Stack/recursion", "is_correct": true },
+        { "option_id": "C", "text": "Heap", "is_correct": false },
+        { "option_id": "D", "text": "Array only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DFS uses recursion or stack."
+    },
+    {
+      "question_code": "PRG_18",
+      "concept_code": "PRG_DP_01",
+      "topic": "Dynamic Programming",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Dynamic programming is used when:",
+      "options": [
+        { "option_id": "A", "text": "No overlapping subproblems", "is_correct": false },
+        { "option_id": "B", "text": "Overlapping subproblems exist", "is_correct": true },
+        { "option_id": "C", "text": "Only recursion is used", "is_correct": false },
+        { "option_id": "D", "text": "No optimization needed", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DP is used for overlapping subproblems."
+    },
+    {
+      "question_code": "PRG_19",
+      "concept_code": "PRG_DP_02",
+      "topic": "Dynamic Programming",
+      "subtopic": "Memoization",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Memoization means:",
+      "options": [
+        { "option_id": "A", "text": "Iterative sorting", "is_correct": false },
+        { "option_id": "B", "text": "Storing computed results", "is_correct": true },
+        { "option_id": "C", "text": "Deleting recursion", "is_correct": false },
+        { "option_id": "D", "text": "Using queues", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Memoization stores results to avoid recomputation."
+    },
+    {
+      "question_code": "PRG_20",
+      "concept_code": "PRG_DP_03",
+      "topic": "Dynamic Programming",
+      "subtopic": "Tabulation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Tabulation is:",
+      "options": [
+        { "option_id": "A", "text": "Top-down approach", "is_correct": false },
+        { "option_id": "B", "text": "Bottom-up approach", "is_correct": true },
+        { "option_id": "C", "text": "Random approach", "is_correct": false },
+        { "option_id": "D", "text": "Greedy method", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Tabulation builds solution bottom-up."
+    },
+     {
+      "question_code": "PRG_21",
+      "concept_code": "PRG_TIME_03",
+      "topic": "Time Complexity",
+      "subtopic": "Loop Analysis",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A loop runs from 1 to 100 with step size 2. How many times does the loop execute?",
+      "correct_answer": 50.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Number of iterations = (100 - 1) / 2 + 1 = 50."
+    },
+    {
+      "question_code": "PRG_22",
+      "concept_code": "PRG_TIME_04",
+      "topic": "Time Complexity",
+      "subtopic": "Summation Loop",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the value of sum of integers from 1 to 10?",
+      "correct_answer": 55.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Sum = n(n+1)/2 = 10×11/2 = 55."
+    },
+    {
+      "question_code": "PRG_23",
+      "concept_code": "PRG_RECUR_03",
+      "topic": "Recursion",
+      "subtopic": "Call Count",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A recursive function computes factorial of 5. How many function calls are made including the initial call?",
+      "correct_answer": 5.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Factorial recursion makes calls for 5, 4, 3, 2, 1 (5 calls)."
+    },
+    {
+      "question_code": "PRG_24",
+      "concept_code": "PRG_DS_06",
+      "topic": "Arrays",
+      "subtopic": "Index Calculation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If an array index starts at 0 and has elements at indices 0 to 9, how many elements are present?",
+      "correct_answer": 10.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Total elements = 9 - 0 + 1 = 10."
+    },
+    {
+      "question_code": "PRG_25",
+      "concept_code": "PRG_SORT_03",
+      "topic": "Sorting",
+      "subtopic": "Comparisons",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In bubble sort, how many comparisons are needed for 4 elements?",
+      "correct_answer": 6.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Comparisons = n(n-1)/2 = 4×3/2 = 6."
+    },
+    {
+      "question_code": "PRG_26",
+      "concept_code": "PRG_SEARCH_03",
+      "topic": "Searching",
+      "subtopic": "Binary Search Iterations",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In worst case, how many comparisons are required in binary search for 16 elements?",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.0,
+      "explanation": "log2(16) = 4 comparisons."
+    },
+    {
+      "question_code": "PRG_27",
+      "concept_code": "PRG_GRAPH_03",
+      "topic": "Graphs",
+      "subtopic": "Traversal Count",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A BFS traversal visits 7 nodes in a connected graph. How many nodes are in the connected component?",
+      "correct_answer": 7.0,
+      "answer_tolerance": 0.0,
+      "explanation": "BFS visits all nodes in the connected component."
+    },
+    {
+      "question_code": "PRG_28",
+      "concept_code": "PRG_DP_04",
+      "topic": "Dynamic Programming",
+      "subtopic": "Fibonacci",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the value of the 6th Fibonacci number (F0 = 0, F1 = 1)?",
+      "correct_answer": 8.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Fibonacci sequence: 0,1,1,2,3,5,8 → F6 = 8."
+    },
+    {
+      "question_code": "PRG_29",
+      "concept_code": "PRG_HASH_03",
+      "topic": "Hashing",
+      "subtopic": "Load Factor",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A hash table has 50 elements stored in 100 slots. What is the load factor?",
+      "correct_answer": 0.5,
+      "answer_tolerance": 0.01,
+      "explanation": "Load factor = number of elements / table size = 50/100 = 0.5."
+    },
+    {
+      "question_code": "PRG_30",
+      "concept_code": "PRG_TIME_05",
+      "topic": "Time Complexity",
+      "subtopic": "Linked List Traversal",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A linked list contains 7 nodes. How many steps are required to traverse the entire list?",
+      "correct_answer": 7.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Each node is visited once, so total steps = 7."
+    },
+  {
+    "question_code": "PRG_06",
+    "concept_code": "PRG_TIME_01",
+    "topic": "Time Complexity",
+    "subtopic": "Big-O Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following code fragments have time complexity O(n)?",
+    "options": [
+      { "option_id": "A", "text": "A single loop iterating from 1 to n", "is_correct": true },
+      { "option_id": "B", "text": "Two consecutive loops, each iterating n times", "is_correct": true },
+      { "option_id": "C", "text": "A loop where i doubles every iteration until n", "is_correct": false },
+      { "option_id": "D", "text": "Traversing all elements of an array of size n once", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Single traversal and consecutive linear loops result in O(n). A doubling loop has O(log n) complexity."
+  },
+  {
+    "question_code": "PRG_07",
+    "concept_code": "PRG_TIME_02",
+    "topic": "Time Complexity",
+    "subtopic": "Nested Loops",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following code structures have time complexity O(n²)?",
+    "options": [
+      { "option_id": "A", "text": "Two nested loops each running n times", "is_correct": true },
+      { "option_id": "B", "text": "For each element in an array, scanning the entire array", "is_correct": true },
+      { "option_id": "C", "text": "A single loop from 1 to n", "is_correct": false },
+      { "option_id": "D", "text": "A nested loop where both loops execute n iterations independently", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Nested loops with n iterations each perform n × n operations, resulting in O(n²)."
+  },
+  {
+    "question_code": "PRG_08",
+    "concept_code": "PRG_RECUR_01",
+    "topic": "Recursion",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which statements about recursion are correct?",
+    "options": [
+      { "option_id": "A", "text": "A recursive function directly or indirectly calls itself", "is_correct": true },
+      { "option_id": "B", "text": "Recursion uses the function call stack", "is_correct": true },
+      { "option_id": "C", "text": "Every recursive algorithm can potentially be converted into an iterative one", "is_correct": true },
+      { "option_id": "D", "text": "Recursion never consumes extra memory", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Recursive calls are managed through the call stack and can often be rewritten iteratively. Recursion generally requires additional stack memory."
+  },
+  {
+    "question_code": "PRG_09",
+    "concept_code": "PRG_RECUR_02",
+    "topic": "Recursion",
+    "subtopic": "Base Case",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements regarding the base case in recursion are correct?",
+    "options": [
+      { "option_id": "A", "text": "It defines a condition under which recursion stops", "is_correct": true },
+      { "option_id": "B", "text": "Absence of a base case may lead to infinite recursion", "is_correct": true },
+      { "option_id": "C", "text": "A recursive function may contain more than one base case", "is_correct": true },
+      { "option_id": "D", "text": "The base case is executed only after all recursive calls return", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Base cases terminate recursion. Multiple base cases are common, and they are reached before recursive calls begin returning."
+  },
+  {
+    "question_code": "PRG_10",
+    "concept_code": "PRG_DS_01",
+    "topic": "Data Structures",
+    "subtopic": "Arrays",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about arrays are correct?",
+    "options": [
+      { "option_id": "A", "text": "Array elements are stored in contiguous memory locations", "is_correct": true },
+      { "option_id": "B", "text": "Random access to an element by index is O(1)", "is_correct": true },
+      { "option_id": "C", "text": "Insertion at an arbitrary position may require shifting elements", "is_correct": true },
+      { "option_id": "D", "text": "Arrays store each element in a separate linked node", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Arrays use contiguous memory, support constant-time indexing, and insertions may require shifting elements. Linked nodes are used in linked lists, not arrays."
+  }
+]
+}

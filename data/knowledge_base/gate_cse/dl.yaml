@@ -1,0 +1,580 @@
+subject: Digital Logic
+exam: GATE CSE
+subject_weightage: 18
+
+topics:
+
+  - name: Boolean Algebra
+    topic_code: DL_BOOL
+    weightage: 22
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: De Morgan's Laws
+        concepts:
+
+          - concept_code: DL_BOOL_01
+            name: De Morgan's Law for Sum Terms
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 45
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - apply_de_morgan_theorem
+              - complement_boolean_expressions
+            pyq_patterns:
+              - complement_of_sum_terms
+              - expression_transformation
+            templates:
+              - pattern: "The complement of (A + B) is?"
+                difficulty: easy
+
+          - concept_code: DL_BOOL_04
+            name: De Morgan's Law for Product Terms
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 75
+              MSQ: 10
+              NAT: 15
+            difficulty_distribution:
+              easy: 35
+              medium: 45
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_BOOL_01
+            learning_outcomes:
+              - simplify_product_complements
+              - derive_dual_forms
+            pyq_patterns:
+              - complement_of_product
+              - gate_conversion_questions
+            templates:
+              - pattern: "(AB)' equals?"
+                difficulty: easy
+
+      - name: Basic Boolean Laws
+        concepts:
+
+          - concept_code: DL_BOOL_02
+            name: Identity and Null Laws
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - apply_identity_law
+              - simplify_boolean_functions
+            pyq_patterns:
+              - identity_law
+              - truth_table_verification
+            templates:
+              - pattern: "A + 0 equals?"
+                difficulty: easy
+
+          - concept_code: DL_BOOL_03
+            name: Complement Law
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 80
+              MSQ: 10
+              NAT: 10
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - use_complement_property
+              - simplify_logic_expressions
+            pyq_patterns:
+              - complement_pair
+              - theorem_based_simplification
+            templates:
+              - pattern: "A · A' equals?"
+                difficulty: easy
+
+          - concept_code: DL_BOOL_05
+            name: Absorption and Simplification Laws
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 35
+              medium: 45
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_BOOL_02
+            learning_outcomes:
+              - simplify_complex_expressions
+              - identify_absorption_patterns
+            pyq_patterns:
+              - absorption_law
+              - algebraic_minimization
+            templates:
+              - pattern: "Simplify A + AB"
+                difficulty: medium
+
+          - concept_code: DL_BOOL_06
+            name: Complementarity Theorem
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 60
+              MSQ: 10
+              NAT: 30
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - evaluate_complementarity
+              - derive_boolean_constants
+            pyq_patterns:
+              - A_plus_A_complement
+              - theorem_verification
+            templates:
+              - pattern: "Evaluate A + A'"
+                difficulty: easy
+
+  - name: Logic Gates
+    topic_code: DL_GATES
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic Gate Operations
+        concepts:
+
+          - concept_code: DL_GATES_01
+            name: AND Gate
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 75
+              MSQ: 10
+              NAT: 15
+            difficulty_distribution:
+              easy: 55
+              medium: 35
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - analyze_and_gate_behavior
+              - construct_truth_tables
+            pyq_patterns:
+              - output_evaluation
+              - truth_table_questions
+            templates:
+              - pattern: "AND gate outputs 1 when?"
+                difficulty: easy
+
+          - concept_code: DL_GATES_02
+            name: OR Gate
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 75
+              MSQ: 10
+              NAT: 15
+            difficulty_distribution:
+              easy: 55
+              medium: 35
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - analyze_or_gate_behavior
+              - evaluate_logic_outputs
+            pyq_patterns:
+              - truth_table_based
+              - output_conditions
+            templates:
+              - pattern: "OR gate outputs 0 only when?"
+                difficulty: easy
+
+          - concept_code: DL_GATES_03
+            name: NOT Gate
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 80
+              MSQ: 5
+              NAT: 15
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_inversion
+              - analyze_complement_generation
+            pyq_patterns:
+              - inverter_output
+              - complement_generation
+            templates:
+              - pattern: "NOT gate performs?"
+                difficulty: easy
+
+  - name: Karnaugh Maps
+    topic_code: DL_KMAP
+    weightage: 12
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Boolean Function Minimization
+        concepts:
+
+          - concept_code: DL_KMAP_01
+            name: K-Map Simplification
+            weightage: 6
+            gate_frequency: very_high
+            question_types:
+              MCQ: 55
+              MSQ: 15
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 2
+            prerequisites:
+              - DL_BOOL_01
+              - DL_BOOL_05
+            learning_outcomes:
+              - minimize_boolean_functions
+              - derive_minimal_sop_pos
+            pyq_patterns:
+              - expression_minimization
+              - prime_implicant_selection
+            templates:
+              - pattern: "K-map is used for?"
+                difficulty: easy
+
+          - concept_code: DL_KMAP_02
+            name: K-Map Grouping Rules
+            weightage: 6
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 35
+              medium: 45
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_KMAP_01
+            learning_outcomes:
+              - create_valid_groups
+              - identify_power_of_two_patterns
+            pyq_patterns:
+              - grouping_rules
+              - minterm_grouping
+            templates:
+              - pattern: "Groups in K-map must contain?"
+                difficulty: easy
+
+  - name: Combinational Circuits
+    topic_code: DL_COMB
+    weightage: 28
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Arithmetic Circuits
+        concepts:
+
+          - concept_code: DL_ADD_01
+            name: Half Adder
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 55
+              medium: 35
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_GATES_01
+              - DL_GATES_02
+            learning_outcomes:
+              - derive_half_adder_equations
+              - analyze_sum_carry
+            pyq_patterns:
+              - half_adder_design
+              - output_computation
+            templates:
+              - pattern: "Half adder adds?"
+                difficulty: easy
+
+          - concept_code: DL_ADD_02
+            name: Full Adder
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 65
+              MSQ: 20
+              NAT: 15
+            difficulty_distribution:
+              easy: 45
+              medium: 40
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_ADD_01
+            learning_outcomes:
+              - derive_full_adder_logic
+              - analyze_carry_propagation
+            pyq_patterns:
+              - full_adder_truth_table
+              - carry_generation
+            templates:
+              - pattern: "Full adder adds?"
+                difficulty: easy
+
+      - name: Data Selection Circuits
+        concepts:
+
+          - concept_code: DL_MUX_01
+            name: Multiplexer Structure
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 45
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - calculate_select_lines
+              - determine_mux_size
+            pyq_patterns:
+              - select_line_questions
+              - mux_dimensions
+            templates:
+              - pattern: "A 4:1 MUX has how many select lines?"
+                difficulty: easy
+
+          - concept_code: DL_MUX_02
+            name: Multiplexer Functionality
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 15
+              NAT: 15
+            difficulty_distribution:
+              easy: 45
+              medium: 40
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_MUX_01
+            learning_outcomes:
+              - understand_data_selection
+              - implement_logic_using_mux
+            pyq_patterns:
+              - many_to_one_device
+              - logic_realization
+            templates:
+              - pattern: "A multiplexer is a?"
+                difficulty: medium
+
+      - name: Coding Circuits
+        concepts:
+
+          - concept_code: DL_DEC_01
+            name: Decoder
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 75
+              MSQ: 10
+              NAT: 15
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - design_decoders
+              - analyze_one_hot_outputs
+            pyq_patterns:
+              - binary_to_one_hot
+              - decoder_output_count
+            templates:
+              - pattern: "Decoder converts?"
+                difficulty: easy
+
+          - concept_code: DL_ENC_01
+            name: Encoder
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 75
+              MSQ: 10
+              NAT: 15
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - encode_active_inputs
+              - derive_binary_codes
+            pyq_patterns:
+              - one_hot_to_binary
+              - encoder_design
+            templates:
+              - pattern: "Encoder performs?"
+                difficulty: easy
+
+  - name: Sequential Circuits
+    topic_code: DL_SEQ
+    weightage: 23
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Memory Elements
+        concepts:
+
+          - concept_code: DL_SEQ_01
+            name: Flip-Flops
+            weightage: 6
+            gate_frequency: very_high
+            question_types:
+              MCQ: 65
+              MSQ: 20
+              NAT: 15
+            difficulty_distribution:
+              easy: 35
+              medium: 45
+              hard: 20
+            estimated_questions_per_year: 2
+            prerequisites: []
+            learning_outcomes:
+              - understand_storage_elements
+              - analyze_flip_flop_operations
+            pyq_patterns:
+              - state_transition
+              - characteristic_equations
+            templates:
+              - pattern: "Basic memory element is?"
+                difficulty: easy
+
+          - concept_code: DL_SEQ_02
+            name: Clocking and Synchronization
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_SEQ_01
+            learning_outcomes:
+              - analyze_clock_signals
+              - understand_synchronization
+            pyq_patterns:
+              - clock_frequency_period
+              - synchronization_questions
+            templates:
+              - pattern: "Clock signal is used for?"
+                difficulty: easy
+
+          - concept_code: DL_SEQ_03
+            name: Counters
+            weightage: 6
+            gate_frequency: very_high
+            question_types:
+              MCQ: 65
+              MSQ: 15
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 45
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_SEQ_01
+            learning_outcomes:
+              - analyze_mod_counters
+              - determine_counter_states
+            pyq_patterns:
+              - mod_n_counter
+              - state_count_questions
+            templates:
+              - pattern: "A MOD-8 counter has?"
+                difficulty: easy
+
+          - concept_code: DL_SEQ_04
+            name: Registers
+            weightage: 6
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 35
+              hard: 15
+            estimated_questions_per_year: 1
+            prerequisites:
+              - DL_SEQ_01
+            learning_outcomes:
+              - understand_register_operations
+              - analyze_data_storage
+            pyq_patterns:
+              - register_capacity
+              - temporary_storage
+            templates:
+              - pattern: "Registers are used for?"
+                difficulty: easy

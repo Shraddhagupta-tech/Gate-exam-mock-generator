@@ -1,0 +1,1001 @@
+{
+  "subject": "Database Management Systems and Data Warehousing",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "DBMS_01",
+      "concept_code": "DBMS_INTRO_01",
+      "topic": "Introduction",
+      "subtopic": "DBMS Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A DBMS is primarily used for:",
+      "options": [
+        { "option_id": "A", "text": "Managing hardware", "is_correct": false },
+        { "option_id": "B", "text": "Storing and managing data", "is_correct": true },
+        { "option_id": "C", "text": "Compiling programs", "is_correct": false },
+        { "option_id": "D", "text": "Networking systems", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DBMS is used to store, retrieve, and manage data efficiently."
+    },
+    {
+      "question_code": "DBMS_02",
+      "concept_code": "DBMS_MODEL_01",
+      "topic": "Data Models",
+      "subtopic": "Relational Model",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In relational model, data is stored in:",
+      "options": [
+        { "option_id": "A", "text": "Graphs", "is_correct": false },
+        { "option_id": "B", "text": "Tables", "is_correct": true },
+        { "option_id": "C", "text": "Trees", "is_correct": false },
+        { "option_id": "D", "text": "Files only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Relational DB stores data in table format."
+    },
+    {
+      "question_code": "DBMS_03",
+      "concept_code": "DBMS_KEYS_01",
+      "topic": "Keys",
+      "subtopic": "Primary Key",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A primary key is used to:",
+      "options": [
+        { "option_id": "A", "text": "Allow duplicate rows", "is_correct": false },
+        { "option_id": "B", "text": "Uniquely identify a record", "is_correct": true },
+        { "option_id": "C", "text": "Sort data", "is_correct": false },
+        { "option_id": "D", "text": "Encrypt data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Primary key uniquely identifies tuples."
+    },
+    {
+      "question_code": "DBMS_04",
+      "concept_code": "DBMS_KEYS_02",
+      "topic": "Keys",
+      "subtopic": "Foreign Key",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A foreign key is used to:",
+      "options": [
+        { "option_id": "A", "text": "Encrypt table", "is_correct": false },
+        { "option_id": "B", "text": "Link two tables", "is_correct": true },
+        { "option_id": "C", "text": "Delete rows", "is_correct": false },
+        { "option_id": "D", "text": "Sort records", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Foreign keys establish relationships between tables."
+    },
+    {
+      "question_code": "DBMS_05",
+      "concept_code": "DBMS_KEYS_03",
+      "topic": "Keys",
+      "subtopic": "Candidate Key",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A candidate key is:",
+      "options": [
+        { "option_id": "A", "text": "Any attribute set that can uniquely identify a tuple", "is_correct": true },
+        { "option_id": "B", "text": "Only primary key", "is_correct": false },
+        { "option_id": "C", "text": "Foreign key only", "is_correct": false },
+        { "option_id": "D", "text": "Duplicate attribute set", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Candidate keys uniquely identify rows."
+    },
+    {
+      "question_code": "DBMS_06",
+      "concept_code": "DBMS_NORMAL_01",
+      "topic": "Normalization",
+      "subtopic": "1NF",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "First Normal Form (1NF) requires:",
+      "options": [
+        { "option_id": "A", "text": "No repeating groups", "is_correct": true },
+        { "option_id": "B", "text": "Transitive dependency", "is_correct": false },
+        { "option_id": "C", "text": "Multiple tables only", "is_correct": false },
+        { "option_id": "D", "text": "No primary key", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "1NF removes repeating groups."
+    },
+    {
+      "question_code": "DBMS_07",
+      "concept_code": "DBMS_NORMAL_02",
+      "topic": "Normalization",
+      "subtopic": "2NF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "2NF removes:",
+      "options": [
+        { "option_id": "A", "text": "Transitive dependency", "is_correct": false },
+        { "option_id": "B", "text": "Partial dependency", "is_correct": true },
+        { "option_id": "C", "text": "Multivalued dependency", "is_correct": false },
+        { "option_id": "D", "text": "Foreign key", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "2NF eliminates partial dependency."
+    },
+    {
+      "question_code": "DBMS_08",
+      "concept_code": "DBMS_NORMAL_03",
+      "topic": "Normalization",
+      "subtopic": "3NF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "3NF removes:",
+      "options": [
+        { "option_id": "A", "text": "Partial dependency", "is_correct": false },
+        { "option_id": "B", "text": "Transitive dependency", "is_correct": true },
+        { "option_id": "C", "text": "Primary key", "is_correct": false },
+        { "option_id": "D", "text": "Foreign key", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "3NF removes transitive dependencies."
+    },
+    {
+      "question_code": "DBMS_09",
+      "concept_code": "DBMS_TRANS_01",
+      "topic": "Transactions",
+      "subtopic": "ACID Properties",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "ACID stands for:",
+      "options": [
+        { "option_id": "A", "text": "Atomicity, Consistency, Isolation, Durability", "is_correct": true },
+        { "option_id": "B", "text": "Access, Control, Integrity, Data", "is_correct": false },
+        { "option_id": "C", "text": "Algorithm, Cache, Index, Data", "is_correct": false },
+        { "option_id": "D", "text": "None", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "ACID ensures reliable transactions."
+    },
+    {
+      "question_code": "DBMS_10",
+      "concept_code": "DBMS_TRANS_02",
+      "topic": "Transactions",
+      "subtopic": "Atomicity",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Atomicity ensures:",
+      "options": [
+        { "option_id": "A", "text": "Partial execution", "is_correct": false },
+        { "option_id": "B", "text": "All or nothing execution", "is_correct": true },
+        { "option_id": "C", "text": "Fast execution", "is_correct": false },
+        { "option_id": "D", "text": "Parallel execution", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Transaction is fully completed or rolled back."
+    },
+    {
+      "question_code": "DBMS_11",
+      "concept_code": "DBMS_TRANS_03",
+      "topic": "Transactions",
+      "subtopic": "Isolation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Isolation ensures:",
+      "options": [
+        { "option_id": "A", "text": "Transactions run independently", "is_correct": true },
+        { "option_id": "B", "text": "Data is deleted", "is_correct": false },
+        { "option_id": "C", "text": "Faster queries", "is_correct": false },
+        { "option_id": "D", "text": "Data duplication", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Transactions do not interfere with each other."
+    },
+    {
+      "question_code": "DBMS_12",
+      "concept_code": "DBMS_SCHEDULE_01",
+      "topic": "Concurrency Control",
+      "subtopic": "Schedule",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A schedule in DBMS is:",
+      "options": [
+        { "option_id": "A", "text": "Order of transaction execution", "is_correct": true },
+        { "option_id": "B", "text": "Database schema", "is_correct": false },
+        { "option_id": "C", "text": "Query result", "is_correct": false },
+        { "option_id": "D", "text": "Index structure", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Schedule defines execution order of transactions."
+    },
+    {
+      "question_code": "DBMS_13",
+      "concept_code": "DBMS_LOCK_01",
+      "topic": "Concurrency Control",
+      "subtopic": "Locking",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Locking is used to:",
+      "options": [
+        { "option_id": "A", "text": "Increase storage", "is_correct": false },
+        { "option_id": "B", "text": "Prevent concurrent conflicts", "is_correct": true },
+        { "option_id": "C", "text": "Delete records", "is_correct": false },
+        { "option_id": "D", "text": "Sort tables", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Locks control concurrent access."
+    },
+    {
+      "question_code": "DBMS_14",
+      "concept_code": "DBMS_DEADLOCK_01",
+      "topic": "Deadlocks",
+      "subtopic": "Definition",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Deadlock occurs when:",
+      "options": [
+        { "option_id": "A", "text": "Transactions complete successfully", "is_correct": false },
+        { "option_id": "B", "text": "Transactions wait indefinitely for each other", "is_correct": true },
+        { "option_id": "C", "text": "Data is deleted", "is_correct": false },
+        { "option_id": "D", "text": "System crashes always", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Circular waiting leads to deadlock."
+    },
+    {
+      "question_code": "DBMS_15",
+      "concept_code": "DBMS_DEADLOCK_02",
+      "topic": "Deadlocks",
+      "subtopic": "Prevention",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Deadlock prevention ensures:",
+      "options": [
+        { "option_id": "A", "text": "Deadlock never occurs", "is_correct": true },
+        { "option_id": "B", "text": "Deadlock always occurs", "is_correct": false },
+        { "option_id": "C", "text": "Faster queries", "is_correct": false },
+        { "option_id": "D", "text": "Data redundancy", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Prevention avoids deadlock conditions."
+    },
+    {
+      "question_code": "DBMS_16",
+      "concept_code": "DBMS_INDEX_01",
+      "topic": "Indexing",
+      "subtopic": "Purpose",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Indexing is used to:",
+      "options": [
+        { "option_id": "A", "text": "Slow down queries", "is_correct": false },
+        { "option_id": "B", "text": "Speed up data retrieval", "is_correct": true },
+        { "option_id": "C", "text": "Delete data", "is_correct": false },
+        { "option_id": "D", "text": "Normalize tables", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Indexes improve query performance."
+    },
+    {
+      "question_code": "DBMS_17",
+      "concept_code": "DBMS_INDEX_02",
+      "topic": "Indexing",
+      "subtopic": "B-Tree",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "B-Tree is used for:",
+      "options": [
+        { "option_id": "A", "text": "Sorting OS processes", "is_correct": false },
+        { "option_id": "B", "text": "Database indexing", "is_correct": true },
+        { "option_id": "C", "text": "Networking", "is_correct": false },
+        { "option_id": "D", "text": "Encryption", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "B-Trees are widely used in DB indexing."
+    },
+    {
+      "question_code": "DBMS_18",
+      "concept_code": "DBMS_SQL_01",
+      "topic": "SQL",
+      "subtopic": "SELECT",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which SQL command is used to retrieve data?",
+      "options": [
+        { "option_id": "A", "text": "INSERT", "is_correct": false },
+        { "option_id": "B", "text": "SELECT", "is_correct": true },
+        { "option_id": "C", "text": "DELETE", "is_correct": false },
+        { "option_id": "D", "text": "UPDATE", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "SELECT retrieves data from tables."
+    },
+    {
+      "question_code": "DBMS_19",
+      "concept_code": "DBMS_SQL_02",
+      "topic": "SQL",
+      "subtopic": "JOIN",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "JOIN is used to:",
+      "options": [
+        { "option_id": "A", "text": "Delete tables", "is_correct": false },
+        { "option_id": "B", "text": "Combine rows from multiple tables", "is_correct": true },
+        { "option_id": "C", "text": "Sort database", "is_correct": false },
+        { "option_id": "D", "text": "Encrypt data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "JOIN combines related tables."
+    },
+    {
+      "question_code": "DBMS_20",
+      "concept_code": "DBMS_SQL_03",
+      "topic": "SQL",
+      "subtopic": "GROUP BY",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "GROUP BY is used for:",
+      "options": [
+        { "option_id": "A", "text": "Sorting rows", "is_correct": false },
+        { "option_id": "B", "text": "Grouping rows with same values", "is_correct": true },
+        { "option_id": "C", "text": "Deleting rows", "is_correct": false },
+        { "option_id": "D", "text": "Indexing", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "GROUP BY aggregates data."
+    },
+    {
+      "question_code": "DW_01",
+      "concept_code": "DW_INTRO_01",
+      "topic": "Introduction",
+      "subtopic": "Data Warehouse Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A data warehouse is primarily used for:",
+      "options": [
+        { "option_id": "A", "text": "Real-time transaction processing", "is_correct": false },
+        { "option_id": "B", "text": "Analytical processing and reporting", "is_correct": true },
+        { "option_id": "C", "text": "Operating system management", "is_correct": false },
+        { "option_id": "D", "text": "Network routing", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Data warehouses are used for OLAP and analytics."
+    },
+    {
+      "question_code": "DW_02",
+      "concept_code": "DW_INTRO_02",
+      "topic": "Introduction",
+      "subtopic": "OLTP vs OLAP",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "OLTP systems are optimized for:",
+      "options": [
+        { "option_id": "A", "text": "Analytical queries", "is_correct": false },
+        { "option_id": "B", "text": "Transaction processing", "is_correct": true },
+        { "option_id": "C", "text": "Data mining only", "is_correct": false },
+        { "option_id": "D", "text": "Data visualization", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "OLTP handles day-to-day transactions."
+    },
+    {
+      "question_code": "DW_03",
+      "concept_code": "DW_INTRO_03",
+      "topic": "Introduction",
+      "subtopic": "OLAP",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "OLAP stands for:",
+      "options": [
+        { "option_id": "A", "text": "Online Analytical Processing", "is_correct": true },
+        { "option_id": "B", "text": "Online Access Processing", "is_correct": false },
+        { "option_id": "C", "text": "Offline Analytical Protocol", "is_correct": false },
+        { "option_id": "D", "text": "Operational Logic Access Program", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "OLAP is used for analytical queries."
+    },
+    {
+      "question_code": "DW_04",
+      "concept_code": "DW_ARCH_01",
+      "topic": "Architecture",
+      "subtopic": "Data Warehouse Architecture",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A typical data warehouse architecture includes:",
+      "options": [
+        { "option_id": "A", "text": "One tier", "is_correct": false },
+        { "option_id": "B", "text": "Two tier only", "is_correct": false },
+        { "option_id": "C", "text": "Three tier architecture", "is_correct": true },
+        { "option_id": "D", "text": "No architecture", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Common architecture is three-tier (source, warehouse, front-end)."
+    },
+    {
+      "question_code": "DW_05",
+      "concept_code": "DW_ARCH_02",
+      "topic": "Architecture",
+      "subtopic": "ETL Layer",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "ETL stands for:",
+      "options": [
+        { "option_id": "A", "text": "Extract, Transform, Load", "is_correct": true },
+        { "option_id": "B", "text": "Execute, Transfer, Link", "is_correct": false },
+        { "option_id": "C", "text": "Extract, Transfer, Log", "is_correct": false },
+        { "option_id": "D", "text": "Evaluate, Test, Load", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "ETL is the data integration process."
+    },
+    {
+      "question_code": "DW_06",
+      "concept_code": "DW_ARCH_03",
+      "topic": "Architecture",
+      "subtopic": "Data Sources",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Data in a warehouse comes from:",
+      "options": [
+        { "option_id": "A", "text": "Only one database", "is_correct": false },
+        { "option_id": "B", "text": "Multiple heterogeneous sources", "is_correct": true },
+        { "option_id": "C", "text": "Only files", "is_correct": false },
+        { "option_id": "D", "text": "Only cloud apps", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DW integrates multiple sources."
+    },
+    {
+      "question_code": "DW_07",
+      "concept_code": "DW_MODEL_01",
+      "topic": "Data Modeling",
+      "subtopic": "Star Schema",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Star schema consists of:",
+      "options": [
+        { "option_id": "A", "text": "Only fact tables", "is_correct": false },
+        { "option_id": "B", "text": "Fact table and dimension tables", "is_correct": true },
+        { "option_id": "C", "text": "Only dimension tables", "is_correct": false },
+        { "option_id": "D", "text": "Graphs", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Star schema has central fact table."
+    },
+    {
+      "question_code": "DW_08",
+      "concept_code": "DW_MODEL_02",
+      "topic": "Data Modeling",
+      "subtopic": "Snowflake Schema",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Snowflake schema is:",
+      "options": [
+        { "option_id": "A", "text": "Denormalized schema", "is_correct": false },
+        { "option_id": "B", "text": "Normalized version of star schema", "is_correct": true },
+        { "option_id": "C", "text": "Graph model", "is_correct": false },
+        { "option_id": "D", "text": "Flat file system", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Snowflake schema normalizes dimensions."
+    },
+    {
+      "question_code": "DW_09",
+      "concept_code": "DW_MODEL_03",
+      "topic": "Data Modeling",
+      "subtopic": "Fact Table",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Fact table contains:",
+      "options": [
+        { "option_id": "A", "text": "Only descriptive attributes", "is_correct": false },
+        { "option_id": "B", "text": "Measures and metrics", "is_correct": true },
+        { "option_id": "C", "text": "Only keys", "is_correct": false },
+        { "option_id": "D", "text": "Indexes only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Fact tables store quantitative data."
+    },
+    {
+      "question_code": "DW_10",
+      "concept_code": "DW_MODEL_04",
+      "topic": "Data Modeling",
+      "subtopic": "Dimension Table",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Dimension tables contain:",
+      "options": [
+        { "option_id": "A", "text": "Measures", "is_correct": false },
+        { "option_id": "B", "text": "Descriptive attributes", "is_correct": true },
+        { "option_id": "C", "text": "Aggregates only", "is_correct": false },
+        { "option_id": "D", "text": "Indexes only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Dimensions describe facts."
+    },
+    {
+      "question_code": "DW_11",
+      "concept_code": "DW_MODEL_05",
+      "topic": "Data Modeling",
+      "subtopic": "Slowly Changing Dimensions",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "SCD is used to handle:",
+      "options": [
+        { "option_id": "A", "text": "Fast data changes", "is_correct": false },
+        { "option_id": "B", "text": "Changing dimension data over time", "is_correct": true },
+        { "option_id": "C", "text": "Query optimization", "is_correct": false },
+        { "option_id": "D", "text": "Index creation", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "SCD tracks historical changes."
+    },
+    {
+      "question_code": "DW_12",
+      "concept_code": "DW_MODEL_06",
+      "topic": "Data Modeling",
+      "subtopic": "SCD Types",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Type 2 SCD means:",
+      "options": [
+        { "option_id": "A", "text": "Overwrite old data", "is_correct": false },
+        { "option_id": "B", "text": "Keep full history", "is_correct": true },
+        { "option_id": "C", "text": "Delete old data", "is_correct": false },
+        { "option_id": "D", "text": "No change tracking", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Type 2 stores historical records."
+    },
+    {
+      "question_code": "DW_13",
+      "concept_code": "DW_PROCESS_01",
+      "topic": "ETL",
+      "subtopic": "Extraction",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Extraction phase in ETL means:",
+      "options": [
+        { "option_id": "A", "text": "Deleting data", "is_correct": false },
+        { "option_id": "B", "text": "Collecting data from sources", "is_correct": true },
+        { "option_id": "C", "text": "Loading data", "is_correct": false },
+        { "option_id": "D", "text": "Encrypting data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Extraction pulls data from sources."
+    },
+    {
+      "question_code": "DW_14",
+      "concept_code": "DW_PROCESS_02",
+      "topic": "ETL",
+      "subtopic": "Transformation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Transformation in ETL involves:",
+      "options": [
+        { "option_id": "A", "text": "Data cleaning and formatting", "is_correct": true },
+        { "option_id": "B", "text": "Deleting tables", "is_correct": false },
+        { "option_id": "C", "text": "Only storage", "is_correct": false },
+        { "option_id": "D", "text": "Network routing", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Data is cleaned and converted."
+    },
+    {
+      "question_code": "DW_15",
+      "concept_code": "DW_PROCESS_03",
+      "topic": "ETL",
+      "subtopic": "Loading",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Loading phase means:",
+      "options": [
+        { "option_id": "A", "text": "Moving data into warehouse", "is_correct": true },
+        { "option_id": "B", "text": "Deleting data", "is_correct": false },
+        { "option_id": "C", "text": "Encrypting data", "is_correct": false },
+        { "option_id": "D", "text": "Query execution", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Final step of ETL process."
+    },
+    {
+      "question_code": "DW_16",
+      "concept_code": "DW_OLAP_01",
+      "topic": "OLAP Operations",
+      "subtopic": "Roll-up",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Roll-up in OLAP is used for:",
+      "options": [
+        { "option_id": "A", "text": "Drilling down data", "is_correct": false },
+        { "option_id": "B", "text": "Aggregating data", "is_correct": true },
+        { "option_id": "C", "text": "Deleting data", "is_correct": false },
+        { "option_id": "D", "text": "Encrypting data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Roll-up aggregates data."
+    },
+    {
+      "question_code": "DW_17",
+      "concept_code": "DW_OLAP_02",
+      "topic": "OLAP Operations",
+      "subtopic": "Drill-down",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Drill-down means:",
+      "options": [
+        { "option_id": "A", "text": "Going to higher abstraction", "is_correct": false },
+        { "option_id": "B", "text": "Increasing detail level", "is_correct": true },
+        { "option_id": "C", "text": "Deleting data", "is_correct": false },
+        { "option_id": "D", "text": "Sorting data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Drill-down shows detailed data."
+    },
+    {
+      "question_code": "DW_18",
+      "concept_code": "DW_OLAP_03",
+      "topic": "OLAP Operations",
+      "subtopic": "Slice",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Slice operation in OLAP:",
+      "options": [
+        { "option_id": "A", "text": "Removes dimensions", "is_correct": false },
+        { "option_id": "B", "text": "Fixes one dimension to analyze data", "is_correct": true },
+        { "option_id": "C", "text": "Deletes data", "is_correct": false },
+        { "option_id": "D", "text": "Encrypts data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Slice selects a single dimension value."
+    },
+    {
+      "question_code": "DW_19",
+      "concept_code": "DW_OLAP_04",
+      "topic": "OLAP Operations",
+      "subtopic": "Dice",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Dice operation selects:",
+      "options": [
+        { "option_id": "A", "text": "Single dimension", "is_correct": false },
+        { "option_id": "B", "text": "Multiple dimension ranges", "is_correct": true },
+        { "option_id": "C", "text": "Only rows", "is_correct": false },
+        { "option_id": "D", "text": "Only columns", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Dice filters multiple dimensions."
+    },
+    {
+      "question_code": "DW_20",
+      "concept_code": "DW_OLAP_05",
+      "topic": "OLAP Operations",
+      "subtopic": "Pivot",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Pivot operation is used to:",
+      "options": [
+        { "option_id": "A", "text": "Rotate data view", "is_correct": true },
+        { "option_id": "B", "text": "Delete tables", "is_correct": false },
+        { "option_id": "C", "text": "Sort rows", "is_correct": false },
+        { "option_id": "D", "text": "Encrypt data", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Pivot changes data orientation."
+    },
+     {
+      "question_code": "DW_21",
+      "concept_code": "DW_PROCESS_04",
+      "topic": "ETL",
+      "subtopic": "Throughput Calculation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A data warehouse processes 500 GB of data in 5 hours. What is the processing rate in GB per hour?",
+      "correct_answer": 100.0,
+      "answer_tolerance": 0.1,
+      "explanation": "Throughput = total data / time = 500 / 5 = 100 GB/hour."
+    },
+    {
+      "question_code": "DW_22",
+      "concept_code": "DW_MODEL_07",
+      "topic": "Data Modeling",
+      "subtopic": "Fact Table Size",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A fact table is formed using 10 customers, 5 products, and 2 time periods. How many total rows are generated?",
+      "correct_answer": 100.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Total combinations = 10 × 5 × 2 = 100."
+    },
+    {
+      "question_code": "DW_23",
+      "concept_code": "DW_MODEL_08",
+      "topic": "Data Modeling",
+      "subtopic": "SCD Probability",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If a dimension has an 85% chance of remaining unchanged in a year, express this probability as a decimal.",
+      "correct_answer": 0.85,
+      "answer_tolerance": 0.01,
+      "explanation": "85% = 85/100 = 0.85."
+    },
+    {
+      "question_code": "DW_24",
+      "concept_code": "DW_OLAP_06",
+      "topic": "OLAP Operations",
+      "subtopic": "Cube Size",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A data cube has dimensions of size 4, 3, and 2. What is the total number of cube cells?",
+      "correct_answer": 24.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Total cells = 4 × 3 × 2 = 24."
+    },
+    {
+      "question_code": "DW_25",
+      "concept_code": "DW_INDEX_03",
+      "topic": "Indexing",
+      "subtopic": "B-Tree Height",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Approximate height of a B-tree indexing 1000 records (log base 2 approximation).",
+      "correct_answer": 10.0,
+      "answer_tolerance": 0.5,
+      "explanation": "log2(1000) ≈ 9.97 ≈ 10."
+    },
+    {
+      "question_code": "DW_26",
+      "concept_code": "DBMS_QUERY_01",
+      "topic": "Query Processing",
+      "subtopic": "Selectivity",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If 200 rows satisfy a condition out of 1000 total rows, what is the selectivity?",
+      "correct_answer": 0.2,
+      "answer_tolerance": 0.01,
+      "explanation": "Selectivity = 200 / 1000 = 0.2."
+    },
+    {
+      "question_code": "DW_27",
+      "concept_code": "DBMS_TRANS_04",
+      "topic": "Transactions",
+      "subtopic": "Throughput",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A system processes 1200 transactions in 60 minutes. What is the transaction rate per minute?",
+      "correct_answer": 20.0,
+      "answer_tolerance": 0.1,
+      "explanation": "Throughput = 1200 / 60 = 20 transactions per minute."
+    },
+    {
+      "question_code": "DW_28",
+      "concept_code": "DBMS_NORMAL_04",
+      "topic": "Normalization",
+      "subtopic": "Decomposition",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A relation is decomposed into 3 tables to achieve normalization. How many relations exist after decomposition?",
+      "correct_answer": 3.0,
+      "answer_tolerance": 0.0,
+      "explanation": "Decomposition results in 3 relations."
+    },
+    {
+      "question_code": "DW_29",
+      "concept_code": "DBMS_JOIN_01",
+      "topic": "SQL",
+      "subtopic": "Join Cardinality",
+      "question_type": "NAT",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Two tables with 50 and 20 rows respectively are joined with a 10% match rate. What is the expected number of output rows?",
+      "correct_answer": 100.0,
+      "answer_tolerance": 1.0,
+      "explanation": "Expected joins = 50 × 20 × 0.1 = 100."
+    },
+    {
+      "question_code": "DW_30",
+      "concept_code": "DW_ARCH_04",
+      "topic": "Architecture",
+      "subtopic": "Data Size Conversion",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Convert 2 TB into GB (1 TB = 1024 GB).",
+      "correct_answer": 2048.0,
+      "answer_tolerance": 0.0,
+      "explanation": "2 × 1024 = 2048 GB."
+    },
+  {
+    "question_code": "DBMS_06",
+    "concept_code": "DBMS_INTRO_01",
+    "topic": "Introduction",
+    "subtopic": "DBMS Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following are functions of a DBMS?",
+    "options": [
+      { "option_id": "A", "text": "Data storage and retrieval", "is_correct": true },
+      { "option_id": "B", "text": "Data integrity enforcement", "is_correct": true },
+      { "option_id": "C", "text": "Concurrency control", "is_correct": true },
+      { "option_id": "D", "text": "Direct execution of machine code", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "A DBMS manages storage, retrieval, integrity, security, and concurrent access to data. Executing machine code is not a DBMS function."
+  },
+  {
+    "question_code": "DBMS_07",
+    "concept_code": "DBMS_MODEL_01",
+    "topic": "Data Models",
+    "subtopic": "Relational Model",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which statements about the relational model are correct?",
+    "options": [
+      { "option_id": "A", "text": "Data is represented using tables (relations)", "is_correct": true },
+      { "option_id": "B", "text": "Rows are called tuples", "is_correct": true },
+      { "option_id": "C", "text": "Columns represent attributes", "is_correct": true },
+      { "option_id": "D", "text": "Data is stored only in tree structures", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "The relational model organizes data into relations (tables) consisting of tuples (rows) and attributes (columns)."
+  },
+  {
+    "question_code": "DBMS_08",
+    "concept_code": "DBMS_KEYS_01",
+    "topic": "Keys",
+    "subtopic": "Primary Key",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following properties must be satisfied by a primary key?",
+    "options": [
+      { "option_id": "A", "text": "Uniquely identifies each tuple", "is_correct": true },
+      { "option_id": "B", "text": "Cannot contain NULL values", "is_correct": true },
+      { "option_id": "C", "text": "There can be at most one primary key for a relation", "is_correct": true },
+      { "option_id": "D", "text": "Must always consist of a single attribute", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "A primary key uniquely identifies tuples, cannot be NULL, and a relation has only one designated primary key, which may be composite."
+  },
+  {
+    "question_code": "DBMS_09",
+    "concept_code": "DBMS_KEYS_02",
+    "topic": "Keys",
+    "subtopic": "Foreign Key",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which statements regarding foreign keys are correct?",
+    "options": [
+      { "option_id": "A", "text": "They help establish relationships between tables", "is_correct": true },
+      { "option_id": "B", "text": "They enforce referential integrity", "is_correct": true },
+      { "option_id": "C", "text": "A foreign key may reference a primary key in another table", "is_correct": true },
+      { "option_id": "D", "text": "Foreign key values must always be unique", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Foreign keys link relations and enforce referential integrity. Multiple tuples may share the same foreign key value."
+  },
+  {
+    "question_code": "DBMS_10",
+    "concept_code": "DBMS_KEYS_03",
+    "topic": "Keys",
+    "subtopic": "Candidate Key",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about candidate keys are correct?",
+    "options": [
+      { "option_id": "A", "text": "Every candidate key can uniquely identify a tuple", "is_correct": true },
+      { "option_id": "B", "text": "A primary key is selected from candidate keys", "is_correct": true },
+      { "option_id": "C", "text": "A relation can have multiple candidate keys", "is_correct": true },
+      { "option_id": "D", "text": "All candidate keys are foreign keys", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Candidate keys are minimal superkeys. One of them is chosen as the primary key, and a relation may have several candidate keys."
+  }
+]
+}

@@ -1,0 +1,622 @@
+{
+  "subject": "General Aptitude",
+  "exam": "GATE DA",
+  "total_questions": 30,
+  "question_bank": [
+    {
+      "question_code": "GA_01",
+      "concept_code": "GA_QUANT_01",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Percentages",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is 20% of 250?",
+      "options": [
+        { "option_id": "A", "text": "25", "is_correct": false },
+        { "option_id": "B", "text": "50", "is_correct": true },
+        { "option_id": "C", "text": "75", "is_correct": false },
+        { "option_id": "D", "text": "100", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "20% of 250 = 50"
+    },
+    {
+      "question_code": "GA_02",
+      "concept_code": "GA_QUANT_02",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Profit and Loss",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If cost price is 100 and selling price is 120, profit is:",
+      "options": [
+        { "option_id": "A", "text": "10%", "is_correct": false },
+        { "option_id": "B", "text": "20%", "is_correct": true },
+        { "option_id": "C", "text": "30%", "is_correct": false },
+        { "option_id": "D", "text": "40%", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Profit = (20/100)*100 = 20%"
+    },
+    {
+      "question_code": "GA_03",
+      "concept_code": "GA_QUANT_03",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Time and Work",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If A can do a work in 10 days, B in 20 days, together they take:",
+      "options": [
+        { "option_id": "A", "text": "5 days", "is_correct": false },
+        { "option_id": "B", "text": "6.67 days", "is_correct": true },
+        { "option_id": "C", "text": "10 days", "is_correct": false },
+        { "option_id": "D", "text": "15 days", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "1/10 + 1/20 = 3/20 → 20/3 ≈ 6.67 days"
+    },
+    {
+      "question_code": "GA_04",
+      "concept_code": "GA_QUANT_04",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Averages",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Average of 10, 20, 30 is:",
+      "options": [
+        { "option_id": "A", "text": "10", "is_correct": false },
+        { "option_id": "B", "text": "20", "is_correct": true },
+        { "option_id": "C", "text": "25", "is_correct": false },
+        { "option_id": "D", "text": "30", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "(10+20+30)/3 = 20"
+    },
+    {
+      "question_code": "GA_05",
+      "concept_code": "GA_QUANT_05",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Ratio and Proportion",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If a:b = 2:3 and b:c = 4:5, then a:c is:",
+      "options": [
+        { "option_id": "A", "text": "8:15", "is_correct": true },
+        { "option_id": "B", "text": "2:5", "is_correct": false },
+        { "option_id": "C", "text": "3:5", "is_correct": false },
+        { "option_id": "D", "text": "4:5", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "a:b:c = 8:12:15 → a:c = 8:15"
+    },
+    {
+      "question_code": "GA_06",
+      "concept_code": "GA_LOGIC_01",
+      "topic": "Logical Reasoning",
+      "subtopic": "Series",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find next number: 2, 4, 8, 16, ?",
+      "options": [
+        { "option_id": "A", "text": "18", "is_correct": false },
+        { "option_id": "B", "text": "24", "is_correct": false },
+        { "option_id": "C", "text": "32", "is_correct": true },
+        { "option_id": "D", "text": "64", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Each term is multiplied by 2"
+    },
+    {
+      "question_code": "GA_07",
+      "concept_code": "GA_LOGIC_02",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-Decoding",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If CAT = DBU, then DOG = ?",
+      "options": [
+        { "option_id": "A", "text": "EPH", "is_correct": true },
+        { "option_id": "B", "text": "DPH", "is_correct": false },
+        { "option_id": "C", "text": "EOF", "is_correct": false },
+        { "option_id": "D", "text": "FQI", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Each letter is shifted by +1"
+    },
+    {
+      "question_code": "GA_08",
+      "concept_code": "GA_LOGIC_03",
+      "topic": "Logical Reasoning",
+      "subtopic": "Direction Sense",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A walks 10m north, then 10m east. Distance from start?",
+      "options": [
+        { "option_id": "A", "text": "10m", "is_correct": false },
+        { "option_id": "B", "text": "20m", "is_correct": false },
+        { "option_id": "C", "text": "14.14m", "is_correct": true },
+        { "option_id": "D", "text": "15m", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "√(10² + 10²)"
+    },
+    {
+      "question_code": "GA_09",
+      "concept_code": "GA_VERBAL_01",
+      "topic": "Verbal Ability",
+      "subtopic": "Synonyms",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Synonym of 'Rapid' is:",
+      "options": [
+        { "option_id": "A", "text": "Slow", "is_correct": false },
+        { "option_id": "B", "text": "Fast", "is_correct": true },
+        { "option_id": "C", "text": "Late", "is_correct": false },
+        { "option_id": "D", "text": "Weak", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Rapid means fast"
+    },
+    {
+      "question_code": "GA_10",
+      "concept_code": "GA_VERBAL_02",
+      "topic": "Verbal Ability",
+      "subtopic": "Antonyms",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Antonym of 'Expand' is:",
+      "options": [
+        { "option_id": "A", "text": "Enlarge", "is_correct": false },
+        { "option_id": "B", "text": "Increase", "is_correct": false },
+        { "option_id": "C", "text": "Contract", "is_correct": true },
+        { "option_id": "D", "text": "Grow", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Contract is opposite of expand"
+    },
+    {
+      "question_code": "GA_11",
+      "concept_code": "GA_VERBAL_03",
+      "topic": "Verbal Ability",
+      "subtopic": "Grammar",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Choose correct sentence:",
+      "options": [
+        { "option_id": "A", "text": "He go to school", "is_correct": false },
+        { "option_id": "B", "text": "He goes to school", "is_correct": true },
+        { "option_id": "C", "text": "He going school", "is_correct": false },
+        { "option_id": "D", "text": "He gone school", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Subject-verb agreement"
+    },
+    {
+      "question_code": "GA_12",
+      "concept_code": "GA_LOGIC_04",
+      "topic": "Logical Reasoning",
+      "subtopic": "Blood Relations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A is B's father. B is C's mother. A is C's?",
+      "options": [
+        { "option_id": "A", "text": "Grandfather", "is_correct": true },
+        { "option_id": "B", "text": "Uncle", "is_correct": false },
+        { "option_id": "C", "text": "Brother", "is_correct": false },
+        { "option_id": "D", "text": "Cousin", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "A is grandfather of C"
+    },
+    {
+      "question_code": "GA_13",
+      "concept_code": "GA_QUANT_06",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Simple Interest",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "SI on 1000 at 10% for 2 years is:",
+      "options": [
+        { "option_id": "A", "text": "100", "is_correct": false },
+        { "option_id": "B", "text": "200", "is_correct": true },
+        { "option_id": "C", "text": "150", "is_correct": false },
+        { "option_id": "D", "text": "250", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "SI = (1000*10*2)/100 = 200"
+    },
+    {
+      "question_code": "GA_14",
+      "concept_code": "GA_QUANT_07",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Speed Distance Time",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Speed = 60 km/h, time = 2h. Distance?",
+      "options": [
+        { "option_id": "A", "text": "100 km", "is_correct": false },
+        { "option_id": "B", "text": "120 km", "is_correct": true },
+        { "option_id": "C", "text": "150 km", "is_correct": false },
+        { "option_id": "D", "text": "200 km", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Distance = speed × time"
+    },
+    {
+      "question_code": "GA_15",
+      "concept_code": "GA_QUANT_08",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Probability",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Probability of head in fair coin:",
+      "options": [
+        { "option_id": "A", "text": "0", "is_correct": false },
+        { "option_id": "B", "text": "1", "is_correct": false },
+        { "option_id": "C", "text": "1/2", "is_correct": true },
+        { "option_id": "D", "text": "1/3", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Fair coin has equal outcomes"
+    },
+    {
+      "question_code": "GA_16",
+      "concept_code": "GA_LOGIC_05",
+      "topic": "Logical Reasoning",
+      "subtopic": "Syllogism",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "All cats are animals. Some animals are dogs. Conclusion?",
+      "options": [
+        { "option_id": "A", "text": "All cats are dogs", "is_correct": false },
+        { "option_id": "B", "text": "Some cats are dogs", "is_correct": false },
+        { "option_id": "C", "text": "No valid conclusion", "is_correct": true },
+        { "option_id": "D", "text": "All animals are cats", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "No direct relation between cats and dogs"
+    },
+    {
+      "question_code": "GA_17",
+      "concept_code": "GA_VERBAL_04",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Correction",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Identify correct sentence:",
+      "options": [
+        { "option_id": "A", "text": "She don’t like tea", "is_correct": false },
+        { "option_id": "B", "text": "She doesn’t like tea", "is_correct": true },
+        { "option_id": "C", "text": "She not like tea", "is_correct": false },
+        { "option_id": "D", "text": "She no like tea", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Correct grammar uses doesn't"
+    },
+    {
+      "question_code": "GA_18",
+      "concept_code": "GA_QUANT_09",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Mensuration",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Area of square with side 5:",
+      "options": [
+        { "option_id": "A", "text": "10", "is_correct": false },
+        { "option_id": "B", "text": "20", "is_correct": false },
+        { "option_id": "C", "text": "25", "is_correct": true },
+        { "option_id": "D", "text": "30", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Area = side²"
+    },
+    {
+      "question_code": "GA_19",
+      "concept_code": "GA_LOGIC_06",
+      "topic": "Logical Reasoning",
+      "subtopic": "Puzzle",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "If 1=3, 2=3, 3=5, 4=4, then 5=?",
+      "options": [
+        { "option_id": "A", "text": "4", "is_correct": false },
+        { "option_id": "B", "text": "5", "is_correct": true },
+        { "option_id": "C", "text": "6", "is_correct": false },
+        { "option_id": "D", "text": "7", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Based on number of letters."
+    },
+    {
+      "question_code": "GA_20",
+      "concept_code": "GA_VERBAL_05",
+      "topic": "Verbal Ability",
+      "subtopic": "Reading Comprehension",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Main purpose of reading comprehension is to:",
+      "options": [
+        { "option_id": "A", "text": "Test memory", "is_correct": false },
+        { "option_id": "B", "text": "Understand passage meaning", "is_correct": true },
+        { "option_id": "C", "text": "Improve handwriting", "is_correct": false },
+        { "option_id": "D", "text": "Learn grammar rules", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "It tests understanding skills"
+    },
+     {
+      "question_code": "GA_21",
+      "concept_code": "GA_QUANT_10",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Percentages",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find the value of 15% of 200.",
+      "correct_answer": 30,
+      "answer_tolerance": 0.1,
+      "explanation": "15% of 200 = (15/100)*200 = 30"
+    },
+    {
+      "question_code": "GA_22",
+      "concept_code": "GA_QUANT_11",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Time and Work",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A can complete a work in 12 days and B in 18 days. Find the number of days required to complete the work together.",
+      "correct_answer": 7.2,
+      "answer_tolerance": 0.05,
+      "explanation": "1/12 + 1/18 = 5/36, so time = 36/5 = 7.2 days"
+    },
+    {
+      "question_code": "GA_23",
+      "concept_code": "GA_QUANT_12",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Averages",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find the average of 5, 10, 15, and 20.",
+      "correct_answer": 12.5,
+      "answer_tolerance": 0.01,
+      "explanation": "(5 + 10 + 15 + 20) / 4 = 12.5"
+    },
+    {
+      "question_code": "GA_24",
+      "concept_code": "GA_QUANT_13",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Ratio and Proportion",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If x:y = 3:5 and x = 18, find y.",
+      "correct_answer": 30,
+      "answer_tolerance": 0.1,
+      "explanation": "x = 3k = 18 => k = 6, so y = 5k = 30"
+    },
+    {
+      "question_code": "GA_25",
+      "concept_code": "GA_QUANT_14",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Speed Distance Time",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A car travels at 90 km/h for 1.5 hours. Find the distance covered.",
+      "correct_answer": 135,
+      "answer_tolerance": 0.1,
+      "explanation": "Distance = Speed × Time = 90 × 1.5 = 135 km"
+    },
+    {
+      "question_code": "GA_26",
+      "concept_code": "GA_LOGIC_07",
+      "topic": "Logical Reasoning",
+      "subtopic": "Number Series",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find the missing number in the series: 3, 6, 12, 24, __",
+      "correct_answer": 48,
+      "answer_tolerance": 0.1,
+      "explanation": "Each term is multiplied by 2"
+    },
+    {
+      "question_code": "GA_27",
+      "concept_code": "GA_QUANT_15",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Profit and Loss",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If cost price is 500 and profit is 12%, find the selling price.",
+      "correct_answer": 560,
+      "answer_tolerance": 0.1,
+      "explanation": "SP = 500 × 1.12 = 560"
+    },
+    {
+      "question_code": "GA_28",
+      "concept_code": "GA_QUANT_16",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Probability",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Find the probability of getting two heads when two fair coins are tossed.",
+      "correct_answer": 0.25,
+      "answer_tolerance": 0.01,
+      "explanation": "HH outcome probability = 1/4 = 0.25"
+    },
+    {
+      "question_code": "GA_29",
+      "concept_code": "GA_QUANT_17",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Mensuration",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find the area of a circle with radius 7 (use π = 22/7).",
+      "correct_answer": 154,
+      "answer_tolerance": 0.1,
+      "explanation": "Area = πr² = (22/7) × 49 = 154"
+    },
+    {
+      "question_code": "GA_30",
+      "concept_code": "GA_QUANT_18",
+      "topic": "Quantitative Aptitude",
+      "subtopic": "Number System",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Find the sum of first 10 natural numbers.",
+      "correct_answer": 55,
+      "answer_tolerance": 0.1,
+      "explanation": "Sum = n(n+1)/2 = 10×11/2 = 55"
+    },
+  {
+    "question_code": "GA_06",
+    "concept_code": "GA_QUANT_01",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Percentages",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "20% of 250 is 50", "is_correct": true },
+      { "option_id": "B", "text": "50 is 20% of 250", "is_correct": true },
+      { "option_id": "C", "text": "25% of 200 is 50", "is_correct": true },
+      { "option_id": "D", "text": "10% of 250 is 50", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "20% of 250 = 50, and 25% of 200 = 50. However, 10% of 250 = 25."
+  },
+  {
+    "question_code": "GA_07",
+    "concept_code": "GA_QUANT_02",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Profit and Loss",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A shopkeeper buys an item for Rs.100 and sells it for Rs.120. Which of the following statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "The profit is Rs.20", "is_correct": true },
+      { "option_id": "B", "text": "The profit percentage is 20%", "is_correct": true },
+      { "option_id": "C", "text": "The selling price is 120% of the cost price", "is_correct": true },
+      { "option_id": "D", "text": "The loss percentage is 20%", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Profit = 120 - 100 = 20. Profit% = (20/100)×100 = 20%. Selling price is 120% of cost price."
+  },
+  {
+    "question_code": "GA_08",
+    "concept_code": "GA_QUANT_03",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Time and Work",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "If A can complete a work in 10 days and B can complete the same work in 20 days, which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "A's work rate is 1/10 of the work per day", "is_correct": true },
+      { "option_id": "B", "text": "B's work rate is 1/20 of the work per day", "is_correct": true },
+      { "option_id": "C", "text": "Together they complete 3/20 of the work per day", "is_correct": true },
+      { "option_id": "D", "text": "Together they finish the work in exactly 5 days", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Combined rate = 1/10 + 1/20 = 3/20. Hence time taken = 20/3 ≈ 6.67 days."
+  },
+  {
+    "question_code": "GA_09",
+    "concept_code": "GA_QUANT_04",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Averages",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following sets have an average value of 20?",
+    "options": [
+      { "option_id": "A", "text": "10, 20, 30", "is_correct": true },
+      { "option_id": "B", "text": "15, 20, 25", "is_correct": true },
+      { "option_id": "C", "text": "5, 20, 35", "is_correct": true },
+      { "option_id": "D", "text": "10, 15, 20", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "The averages are 20, 20, 20, and 15 respectively."
+  },
+  {
+    "question_code": "GA_10",
+    "concept_code": "GA_QUANT_05",
+    "topic": "Quantitative Aptitude",
+    "subtopic": "Ratio and Proportion",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Given a:b = 2:3 and b:c = 4:5, which of the following statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "a:c = 8:15", "is_correct": true },
+      { "option_id": "B", "text": "a:b:c can be expressed as 8:12:15", "is_correct": true },
+      { "option_id": "C", "text": "c:a = 15:8", "is_correct": true },
+      { "option_id": "D", "text": "a:c = 4:5", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Using LCM of b-values, a:b:c = 8:12:15. Therefore a:c = 8:15 and c:a = 15:8."
+  }
+]
+}

@@ -1,0 +1,541 @@
+subject: General Aptitude
+exam: GATE DA
+subject_weightage: 15
+section_type: fixed
+total_questions: 30
+
+topics:
+
+  - name: Quantitative Aptitude
+    topic_code: GA_QUANT
+    weightage: 50
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Percentages
+        concepts:
+
+          - concept_code: GA_QUANT_01
+            name: Basic Percentage Computation
+            weightage: 3
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "What is 20% of 250?"
+                difficulty: easy
+
+          - concept_code: GA_QUANT_10
+            name: Percentage Application (NAT)
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find the value of 15% of 200."
+                difficulty: easy
+
+      - name: Profit and Loss
+        concepts:
+
+          - concept_code: GA_QUANT_02
+            name: Profit Percentage Calculation
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "If cost price is 100 and selling price is 120, profit is:"
+                difficulty: easy
+
+          - concept_code: GA_QUANT_15
+            name: Selling Price Determination
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "If cost price is 500 and profit is 12%, find the selling price."
+                difficulty: easy
+
+      - name: Time and Work
+        concepts:
+
+          - concept_code: GA_QUANT_03
+            name: Combined Work Rate
+            weightage: 3
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "If A can do a work in 10 days, B in 20 days, together they take:"
+                difficulty: medium
+
+          - concept_code: GA_QUANT_11
+            name: Work Efficiency Problems
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "A can complete a work in 12 days and B in 18 days. Find the number of days required together."
+                difficulty: medium
+
+      - name: Averages
+        concepts:
+
+          - concept_code: GA_QUANT_04
+            name: Arithmetic Mean Basics
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Average of 10, 20, 30 is:"
+                difficulty: easy
+
+          - concept_code: GA_QUANT_12
+            name: Average Calculation (NAT)
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find the average of 5, 10, 15 and 20."
+                difficulty: easy
+
+      - name: Ratio and Proportion
+        concepts:
+
+          - concept_code: GA_QUANT_05
+            name: Ratio Combination
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "If a:b = 2:3 and b:c = 4:5, then a:c is:"
+                difficulty: easy
+
+          - concept_code: GA_QUANT_13
+            name: Ratio-Based Variable Evaluation
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "If x:y = 3:5 and x = 18, find y."
+                difficulty: easy
+
+      - name: Simple Interest
+        concepts:
+
+          - concept_code: GA_QUANT_06
+            name: Simple Interest Computation
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "SI on 1000 at 10% for 2 years is:"
+                difficulty: easy
+
+      - name: Speed Distance Time
+        concepts:
+
+          - concept_code: GA_QUANT_07
+            name: Distance Calculation
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Speed = 60 km/h, time = 2h. Distance?"
+                difficulty: easy
+
+          - concept_code: GA_QUANT_14
+            name: Uniform Motion Problems
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "A car travels at 90 km/h for 1.5 hours. Find the distance covered."
+                difficulty: easy
+
+      - name: Probability
+        concepts:
+
+          - concept_code: GA_QUANT_08
+            name: Basic Probability
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "Probability of head in fair coin:"
+                difficulty: medium
+
+          - concept_code: GA_QUANT_16
+            name: Multiple Event Probability
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "Find the probability of getting two heads when two fair coins are tossed."
+                difficulty: medium
+
+      - name: Mensuration
+        concepts:
+
+          - concept_code: GA_QUANT_09
+            name: Area of Square
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "Area of square with side 5:"
+                difficulty: medium
+
+          - concept_code: GA_QUANT_17
+            name: Area of Circle
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find the area of a circle with radius 7."
+                difficulty: easy
+
+      - name: Number System
+        concepts:
+
+          - concept_code: GA_QUANT_18
+            name: Sum of Natural Numbers
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find the sum of first 10 natural numbers."
+                difficulty: easy
+
+
+  - name: Logical Reasoning
+    topic_code: GA_LOGIC
+    weightage: 30
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Number Series
+        concepts:
+
+          - concept_code: GA_LOGIC_01
+            name: Pattern Recognition in Series
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find next number: 2, 4, 8, 16, ?"
+                difficulty: easy
+
+          - concept_code: GA_LOGIC_07
+            name: Number Series Completion
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Find the missing number in the series: 3, 6, 12, 24, __"
+                difficulty: easy
+
+      - name: Coding Decoding
+        concepts:
+
+          - concept_code: GA_LOGIC_02
+            name: Letter Transformation Logic
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "If CAT = DBU, then DOG = ?"
+                difficulty: medium
+
+      - name: Direction Sense
+        concepts:
+
+          - concept_code: GA_LOGIC_03
+            name: Coordinate Distance Reasoning
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "A walks 10m north, then 10m east. Distance from start?"
+                difficulty: medium
+
+      - name: Blood Relations
+        concepts:
+
+          - concept_code: GA_LOGIC_04
+            name: Family Relationship Deduction
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "A is B's father. B is C's mother. A is C's?"
+                difficulty: medium
+
+      - name: Syllogism
+        concepts:
+
+          - concept_code: GA_LOGIC_05
+            name: Logical Deduction and Conclusions
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "All cats are animals. Some animals are dogs. Conclusion?"
+                difficulty: medium
+
+      - name: Puzzle
+        concepts:
+
+          - concept_code: GA_LOGIC_06
+            name: Pattern-Based Puzzles
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "If 1=3, 2=3, 3=5, 4=4, then 5=?"
+                difficulty: medium
+
+
+  - name: Verbal Ability
+    topic_code: GA_VERBAL
+    weightage: 20
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Synonyms
+        concepts:
+
+          - concept_code: GA_VERBAL_01
+            name: Vocabulary and Synonyms
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Synonym of 'Rapid' is:"
+                difficulty: easy
+
+      - name: Antonyms
+        concepts:
+
+          - concept_code: GA_VERBAL_02
+            name: Opposite Meaning Recognition
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Antonym of 'Expand' is:"
+                difficulty: easy
+
+      - name: Grammar
+        concepts:
+
+          - concept_code: GA_VERBAL_03
+            name: Subject-Verb Agreement
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 100
+
+            templates:
+              - pattern: "Choose correct sentence:"
+                difficulty: easy
+
+          - concept_code: GA_VERBAL_04
+            name: Sentence Correction
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "Identify correct sentence:"
+                difficulty: medium
+
+      - name: Reading Comprehension
+        concepts:
+
+          - concept_code: GA_VERBAL_05
+            name: Passage Interpretation
+            weightage: 4
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              medium: 100
+
+            templates:
+              - pattern: "Main purpose of reading comprehension is to:"
+                difficulty: medium

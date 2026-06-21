@@ -1,0 +1,623 @@
+{
+  "subject": "Linear Algebra",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "LA_01",
+      "concept_code": "LA_MATRIX_01",
+      "topic": "Matrices",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A matrix is defined as:",
+      "options": [
+        { "option_id": "A", "text": "A scalar value", "is_correct": false },
+        { "option_id": "B", "text": "A rectangular array of numbers", "is_correct": true },
+        { "option_id": "C", "text": "A single vector only", "is_correct": false },
+        { "option_id": "D", "text": "A graph structure", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A matrix is a rectangular arrangement of elements."
+    },
+    {
+      "question_code": "LA_02",
+      "concept_code": "LA_MATRIX_02",
+      "topic": "Matrices",
+      "subtopic": "Order",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The order of a matrix with 3 rows and 4 columns is:",
+      "options": [
+        { "option_id": "A", "text": "3×4", "is_correct": true },
+        { "option_id": "B", "text": "4×3", "is_correct": false },
+        { "option_id": "C", "text": "3×3", "is_correct": false },
+        { "option_id": "D", "text": "4×4", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Order is rows × columns."
+    },
+    {
+      "question_code": "LA_03",
+      "concept_code": "LA_MATRIX_03",
+      "topic": "Matrices",
+      "subtopic": "Addition",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Matrix addition is defined only when:",
+      "options": [
+        { "option_id": "A", "text": "Matrices have same dimensions", "is_correct": true },
+        { "option_id": "B", "text": "Matrices are square", "is_correct": false },
+        { "option_id": "C", "text": "Matrices are invertible", "is_correct": false },
+        { "option_id": "D", "text": "Matrices are diagonal", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Addition requires same order matrices."
+    },
+    {
+      "question_code": "LA_04",
+      "concept_code": "LA_MATRIX_04",
+      "topic": "Matrices",
+      "subtopic": "Multiplication",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Matrix multiplication is possible when:",
+      "options": [
+        { "option_id": "A", "text": "Columns of first = rows of second", "is_correct": true },
+        { "option_id": "B", "text": "Rows of both are equal", "is_correct": false },
+        { "option_id": "C", "text": "Both are square", "is_correct": false },
+        { "option_id": "D", "text": "Both are diagonal", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Inner dimensions must match."
+    },
+    {
+      "question_code": "LA_05",
+      "concept_code": "LA_MATRIX_05",
+      "topic": "Matrices",
+      "subtopic": "Identity Matrix",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Identity matrix has:",
+      "options": [
+        { "option_id": "A", "text": "All zeros", "is_correct": false },
+        { "option_id": "B", "text": "All ones", "is_correct": false },
+        { "option_id": "C", "text": "1s on diagonal and 0 elsewhere", "is_correct": true },
+        { "option_id": "D", "text": "Random values", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Identity matrix has diagonal ones."
+    },
+    {
+      "question_code": "LA_06",
+      "concept_code": "LA_MATRIX_06",
+      "topic": "Matrices",
+      "subtopic": "Determinant",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Determinant is defined only for:",
+      "options": [
+        { "option_id": "A", "text": "Rectangular matrices", "is_correct": false },
+        { "option_id": "B", "text": "Square matrices", "is_correct": true },
+        { "option_id": "C", "text": "Vectors", "is_correct": false },
+        { "option_id": "D", "text": "Scalars", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Determinant exists only for square matrices."
+    },
+    {
+      "question_code": "LA_07",
+      "concept_code": "LA_MATRIX_07",
+      "topic": "Matrices",
+      "subtopic": "Singular Matrix",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A matrix is singular if:",
+      "options": [
+        { "option_id": "A", "text": "Determinant is zero", "is_correct": true },
+        { "option_id": "B", "text": "Determinant is one", "is_correct": false },
+        { "option_id": "C", "text": "Matrix is diagonal", "is_correct": false },
+        { "option_id": "D", "text": "Matrix is identity", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Singular matrix has zero determinant."
+    },
+    {
+      "question_code": "LA_08",
+      "concept_code": "LA_MATRIX_08",
+      "topic": "Matrices",
+      "subtopic": "Transpose",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Transpose of a matrix is obtained by:",
+      "options": [
+        { "option_id": "A", "text": "Swapping rows and columns", "is_correct": true },
+        { "option_id": "B", "text": "Adding rows", "is_correct": false },
+        { "option_id": "C", "text": "Multiplying rows", "is_correct": false },
+        { "option_id": "D", "text": "Finding determinant", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Transpose flips rows and columns."
+    },
+    {
+      "question_code": "LA_09",
+      "concept_code": "LA_MATRIX_09",
+      "topic": "Matrices",
+      "subtopic": "Symmetric Matrix",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A symmetric matrix satisfies:",
+      "options": [
+        { "option_id": "A", "text": "A = Aᵀ", "is_correct": true },
+        { "option_id": "B", "text": "A = -Aᵀ", "is_correct": false },
+        { "option_id": "C", "text": "A is diagonal", "is_correct": false },
+        { "option_id": "D", "text": "A is singular", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Symmetric matrices equal their transpose."
+    },
+    {
+      "question_code": "LA_10",
+      "concept_code": "LA_MATRIX_10",
+      "topic": "Matrices",
+      "subtopic": "Skew-Symmetric",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A skew-symmetric matrix satisfies:",
+      "options": [
+        { "option_id": "A", "text": "A = Aᵀ", "is_correct": false },
+        { "option_id": "B", "text": "A = -Aᵀ", "is_correct": true },
+        { "option_id": "C", "text": "A = I", "is_correct": false },
+        { "option_id": "D", "text": "A = 0 only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Skew-symmetric matrices satisfy A = -Aᵀ."
+    },
+    {
+      "question_code": "LA_11",
+      "concept_code": "LA_VECTOR_01",
+      "topic": "Vectors",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A vector represents:",
+      "options": [
+        { "option_id": "A", "text": "Only magnitude", "is_correct": false },
+        { "option_id": "B", "text": "Magnitude and direction", "is_correct": true },
+        { "option_id": "C", "text": "Only direction", "is_correct": false },
+        { "option_id": "D", "text": "Scalar quantity", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Vectors have both magnitude and direction."
+    },
+    {
+      "question_code": "LA_12",
+      "concept_code": "LA_VECTOR_02",
+      "topic": "Vectors",
+      "subtopic": "Dot Product",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Dot product of orthogonal vectors is:",
+      "options": [
+        { "option_id": "A", "text": "1", "is_correct": false },
+        { "option_id": "B", "text": "0", "is_correct": true },
+        { "option_id": "C", "text": "Infinity", "is_correct": false },
+        { "option_id": "D", "text": "Undefined", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Orthogonal vectors have zero dot product."
+    },
+    {
+      "question_code": "LA_13",
+      "concept_code": "LA_VECTOR_03",
+      "topic": "Vectors",
+      "subtopic": "Cross Product",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Cross product of two parallel vectors is:",
+      "options": [
+        { "option_id": "A", "text": "1", "is_correct": false },
+        { "option_id": "B", "text": "0 vector", "is_correct": true },
+        { "option_id": "C", "text": "Infinity", "is_correct": false },
+        { "option_id": "D", "text": "Scalar", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Parallel vectors give zero cross product."
+    },
+    {
+      "question_code": "LA_14",
+      "concept_code": "LA_SYSTEM_01",
+      "topic": "Linear Equations",
+      "subtopic": "Consistency",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A system of equations is consistent if:",
+      "options": [
+        { "option_id": "A", "text": "No solution exists", "is_correct": false },
+        { "option_id": "B", "text": "At least one solution exists", "is_correct": true },
+        { "option_id": "C", "text": "Infinite variables", "is_correct": false },
+        { "option_id": "D", "text": "Determinant is zero always", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Consistency means solution exists."
+    },
+    {
+      "question_code": "LA_15",
+      "concept_code": "LA_SYSTEM_02",
+      "topic": "Linear Equations",
+      "subtopic": "Unique Solution",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A system has a unique solution when:",
+      "options": [
+        { "option_id": "A", "text": "Determinant is zero", "is_correct": false },
+        { "option_id": "B", "text": "Determinant is non-zero", "is_correct": true },
+        { "option_id": "C", "text": "Matrix is rectangular", "is_correct": false },
+        { "option_id": "D", "text": "Matrix is zero", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Non-zero determinant implies unique solution."
+    },
+    {
+      "question_code": "LA_16",
+      "concept_code": "LA_EIG_01",
+      "topic": "Eigenvalues",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Eigenvalues are found by solving:",
+      "options": [
+        { "option_id": "A", "text": "det(A - λI) = 0", "is_correct": true },
+        { "option_id": "B", "text": "A + λI = 0", "is_correct": false },
+        { "option_id": "C", "text": "Aλ = I", "is_correct": false },
+        { "option_id": "D", "text": "A = λI", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Characteristic equation defines eigenvalues."
+    },
+    {
+      "question_code": "LA_17",
+      "concept_code": "LA_EIG_02",
+      "topic": "Eigenvalues",
+      "subtopic": "Eigenvectors",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Eigenvector satisfies:",
+      "options": [
+        { "option_id": "A", "text": "Av = λv", "is_correct": true },
+        { "option_id": "B", "text": "Av = 0", "is_correct": false },
+        { "option_id": "C", "text": "A = vλ", "is_correct": false },
+        { "option_id": "D", "text": "v = λA", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Eigenvector scales under transformation."
+    },
+    {
+      "question_code": "LA_18",
+      "concept_code": "LA_RANK_01",
+      "topic": "Matrix Rank",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Rank of a matrix represents:",
+      "options": [
+        { "option_id": "A", "text": "Number of rows", "is_correct": false },
+        { "option_id": "B", "text": "Number of independent rows/columns", "is_correct": true },
+        { "option_id": "C", "text": "Determinant value", "is_correct": false },
+        { "option_id": "D", "text": "Trace only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Rank measures linear independence."
+    },
+    {
+      "question_code": "LA_19",
+      "concept_code": "LA_RANK_02",
+      "topic": "Matrix Rank",
+      "subtopic": "Full Rank",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A matrix is full rank if:",
+      "options": [
+        { "option_id": "A", "text": "Rank = 0", "is_correct": false },
+        { "option_id": "B", "text": "Rank = min(m,n)", "is_correct": true },
+        { "option_id": "C", "text": "Rank = determinant", "is_correct": false },
+        { "option_id": "D", "text": "Rank = trace", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Full rank means maximum rank possible."
+    },
+    {
+      "question_code": "LA_20",
+      "concept_code": "LA_TRANSFORM_01",
+      "topic": "Linear Transformations",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A linear transformation preserves:",
+      "options": [
+        { "option_id": "A", "text": "Only addition", "is_correct": false },
+        { "option_id": "B", "text": "Addition and scalar multiplication", "is_correct": true },
+        { "option_id": "C", "text": "Only multiplication", "is_correct": false },
+        { "option_id": "D", "text": "Determinant only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Linearity preserves both operations."
+    },
+        {
+      "question_code": "LA_21",
+      "concept_code": "LA_MATRIX_11",
+      "topic": "Matrices",
+      "subtopic": "Determinant",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the determinant of the matrix [[1, 2], [3, 4]].",
+      "correct_answer": -2.0,
+      "tolerance": 0.01,
+      "explanation": "Det = (1×4 − 2×3) = -2."
+    },
+    {
+      "question_code": "LA_22",
+      "concept_code": "LA_MATRIX_12",
+      "topic": "Matrices",
+      "subtopic": "Trace",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the trace of the matrix [[2, 0, 0], [0, 3, 0], [0, 0, 5]].",
+      "correct_answer": 10.0,
+      "tolerance": 0.01,
+      "explanation": "Trace = sum of diagonal elements = 2 + 3 + 5 = 10."
+    },
+    {
+      "question_code": "LA_23",
+      "concept_code": "LA_EIG_03",
+      "topic": "Eigenvalues",
+      "subtopic": "Diagonal Matrix",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the largest eigenvalue of the matrix [[2, 0], [0, 7]].",
+      "correct_answer": 7.0,
+      "tolerance": 0.01,
+      "explanation": "Eigenvalues of diagonal matrix are diagonal entries."
+    },
+    {
+      "question_code": "LA_24",
+      "concept_code": "LA_VECTOR_04",
+      "topic": "Vectors",
+      "subtopic": "Magnitude",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the magnitude of vector (3, 4).",
+      "correct_answer": 5.0,
+      "tolerance": 0.01,
+      "explanation": "√(3² + 4²) = 5."
+    },
+    {
+      "question_code": "LA_25",
+      "concept_code": "LA_VECTOR_05",
+      "topic": "Vectors",
+      "subtopic": "Dot Product",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Find the dot product of vectors (1, 2, 3) and (4, 5, 6).",
+      "correct_answer": 32.0,
+      "tolerance": 0.01,
+      "explanation": "1×4 + 2×5 + 3×6 = 32."
+    },
+    {
+      "question_code": "LA_26",
+      "concept_code": "LA_RANK_03",
+      "topic": "Matrix Rank",
+      "subtopic": "Full Rank",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the rank of the matrix [[1, 2], [3, 4]].",
+      "correct_answer": 2.0,
+      "tolerance": 0.0,
+      "explanation": "Determinant is non-zero, so rank is 2."
+    },
+    {
+      "question_code": "LA_27",
+      "concept_code": "LA_SYSTEM_03",
+      "topic": "Linear Equations",
+      "subtopic": "Solution",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Solve for x: x + y = 5 and x - y = 1. Find the value of x.",
+      "correct_answer": 3.0,
+      "tolerance": 0.01,
+      "explanation": "Adding equations: 2x = 6 ⇒ x = 3."
+    },
+    {
+      "question_code": "LA_28",
+      "concept_code": "LA_MATRIX_13",
+      "topic": "Matrices",
+      "subtopic": "Determinant",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Find the determinant of the matrix [[1, 0, 2], [0, 1, 3], [0, 0, 4]].",
+      "correct_answer": 4.0,
+      "tolerance": 0.01,
+      "explanation": "Upper triangular matrix determinant = product of diagonal = 4."
+    },
+    {
+      "question_code": "LA_29",
+      "concept_code": "LA_EIG_04",
+      "topic": "Eigenvalues",
+      "subtopic": "Diagonal Matrix",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.0,
+      "question_text": "Find the largest eigenvalue of the matrix [[2, 0], [0, 8]].",
+      "correct_answer": 8.0,
+      "tolerance": 0.01,
+      "explanation": "Eigenvalues are diagonal entries."
+    },
+    {
+      "question_code": "LA_30",
+      "concept_code": "LA_TRANSFORM_02",
+      "topic": "Linear Transformations",
+      "subtopic": "Matrix Transformation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.0,
+      "question_text": "Let A = [[1, 2], [3, 4]] and x = (1, 1). Find the sum of components of Ax.",
+      "correct_answer": 10.0,
+      "tolerance": 0.01,
+      "explanation": "Ax = (3, 7), sum = 10."
+    },
+  {
+    "question_code": "LA_06",
+    "concept_code": "LA_MATRIX_01",
+    "topic": "Matrices",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about matrices are correct?",
+    "options": [
+      { "option_id": "A", "text": "A matrix is a rectangular array of numbers arranged in rows and columns", "is_correct": true },
+      { "option_id": "B", "text": "A matrix can have any number of rows and columns", "is_correct": true },
+      { "option_id": "C", "text": "A vector can be viewed as a special case of a matrix", "is_correct": true },
+      { "option_id": "D", "text": "Every matrix must be square", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Matrices may be rectangular or square. Row and column vectors are special cases of matrices."
+  },
+  {
+    "question_code": "LA_07",
+    "concept_code": "LA_MATRIX_02",
+    "topic": "Matrices",
+    "subtopic": "Order",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Consider a matrix A of order 3×4. Which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "A has 3 rows", "is_correct": true },
+      { "option_id": "B", "text": "A has 4 columns", "is_correct": true },
+      { "option_id": "C", "text": "A contains 12 elements", "is_correct": true },
+      { "option_id": "D", "text": "A is necessarily a square matrix", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "A 3×4 matrix has 3 rows, 4 columns, and 3×4 = 12 elements. It is not square."
+  },
+  {
+    "question_code": "LA_08",
+    "concept_code": "LA_MATRIX_03",
+    "topic": "Matrices",
+    "subtopic": "Addition",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following conditions are sufficient for matrix addition A + B to be defined?",
+    "options": [
+      { "option_id": "A", "text": "A and B have the same number of rows", "is_correct": false },
+      { "option_id": "B", "text": "A and B have the same dimensions", "is_correct": true },
+      { "option_id": "C", "text": "Corresponding elements of A and B can be paired", "is_correct": true },
+      { "option_id": "D", "text": "Both matrices are square of the same order", "is_correct": true }
+    ],
+    "correct_answer": ["B", "C", "D"],
+    "explanation": "Matrix addition requires equal dimensions. Square matrices of the same order satisfy this condition."
+  },
+  {
+    "question_code": "LA_09",
+    "concept_code": "LA_MATRIX_04",
+    "topic": "Matrices",
+    "subtopic": "Multiplication",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For matrix multiplication AB to be defined, which statements are correct?",
+    "options": [
+      { "option_id": "A", "text": "The number of columns of A must equal the number of rows of B", "is_correct": true },
+      { "option_id": "B", "text": "If A is m×n and B is n×p, then AB is m×p", "is_correct": true },
+      { "option_id": "C", "text": "If AB is defined, then BA must also be defined", "is_correct": false },
+      { "option_id": "D", "text": "Matrix multiplication is generally not commutative", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "AB may be defined while BA is not. Matrix multiplication is generally non-commutative."
+  },
+  {
+    "question_code": "LA_10",
+    "concept_code": "LA_MATRIX_05",
+    "topic": "Matrices",
+    "subtopic": "Identity Matrix",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about an identity matrix I are correct?",
+    "options": [
+      { "option_id": "A", "text": "All diagonal entries are 1", "is_correct": true },
+      { "option_id": "B", "text": "All non-diagonal entries are 0", "is_correct": true },
+      { "option_id": "C", "text": "For any compatible matrix A, AI = IA = A", "is_correct": true },
+      { "option_id": "D", "text": "Every identity matrix contains only 1s", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "An identity matrix has 1s on the main diagonal and 0s elsewhere, and acts as the multiplicative identity for matrices."
+  }
+]
+
+
+}

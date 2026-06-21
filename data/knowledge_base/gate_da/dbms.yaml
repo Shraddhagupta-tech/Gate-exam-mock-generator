@@ -1,0 +1,402 @@
+subject: Database Management Systems and Data Warehousing
+exam: GATE DA
+subject_weightage: 12
+
+topics:
+
+  - name: Database Management Systems
+    topic_code: DBMS
+    weightage: 65
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Introduction to DBMS
+        concepts:
+          - concept_code: DBMS_INTRO_01
+            name: DBMS Basics
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+            templates:
+              - pattern: "Primary purpose of a DBMS"
+                difficulty: easy
+
+      - name: Data Models
+        concepts:
+          - concept_code: DBMS_MODEL_01
+            name: Relational Model
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+      - name: Keys and Constraints
+        concepts:
+          - concept_code: DBMS_KEYS_01
+            name: Primary Key
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_KEYS_02
+            name: Foreign Key
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_KEYS_03
+            name: Candidate Key
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: Normalization
+        concepts:
+          - concept_code: DBMS_NORMAL_01
+            name: First Normal Form (1NF)
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_NORMAL_02
+            name: Second Normal Form (2NF)
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_NORMAL_03
+            name: Third Normal Form (3NF)
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_NORMAL_04
+            name: Relation Decomposition
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: Transactions and ACID Properties
+        concepts:
+          - concept_code: DBMS_TRANS_01
+            name: ACID Properties
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_TRANS_02
+            name: Atomicity
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_TRANS_03
+            name: Isolation
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_TRANS_04
+            name: Transaction Throughput
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: Concurrency Control
+        concepts:
+          - concept_code: DBMS_SCHEDULE_01
+            name: Transaction Schedules
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_LOCK_01
+            name: Locking Protocols
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: Deadlocks
+        concepts:
+          - concept_code: DBMS_DEADLOCK_01
+            name: Deadlock Detection and Definition
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_DEADLOCK_02
+            name: Deadlock Prevention
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: Indexing and Access Methods
+        concepts:
+          - concept_code: DBMS_INDEX_01
+            name: Indexing Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_INDEX_02
+            name: B-Tree Indexing
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: SQL and Query Processing
+        concepts:
+          - concept_code: DBMS_SQL_01
+            name: SELECT Queries
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DBMS_SQL_02
+            name: SQL JOIN Operations
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_SQL_03
+            name: GROUP BY and Aggregation
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DBMS_JOIN_01
+            name: Join Cardinality Estimation
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { hard: 100 }
+
+          - concept_code: DBMS_QUERY_01
+            name: Query Selectivity
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+
+  - name: Data Warehousing and OLAP
+    topic_code: DW
+    weightage: 35
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Introduction to Data Warehousing
+        concepts:
+          - concept_code: DW_INTRO_01
+            name: Data Warehouse Basics
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_INTRO_02
+            name: OLTP vs OLAP
+            weightage: 3
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_INTRO_03
+            name: Online Analytical Processing (OLAP)
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+      - name: Data Warehouse Architecture
+        concepts:
+          - concept_code: DW_ARCH_01
+            name: Three-Tier Architecture
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_ARCH_02
+            name: ETL Framework
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_ARCH_03
+            name: Data Sources Integration
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_ARCH_04
+            name: Data Size Conversion
+            weightage: 1
+            gate_frequency: low
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+
+      - name: Data Modeling
+        concepts:
+          - concept_code: DW_MODEL_01
+            name: Star Schema
+            weightage: 4
+            gate_frequency: very_high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_MODEL_02
+            name: Snowflake Schema
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_MODEL_03
+            name: Fact Tables
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_MODEL_04
+            name: Dimension Tables
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_MODEL_05
+            name: Slowly Changing Dimensions
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_MODEL_06
+            name: SCD Type 2
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_MODEL_07
+            name: Fact Table Cardinality
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_MODEL_08
+            name: SCD Probability Applications
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: ETL Processes
+        concepts:
+          - concept_code: DW_PROCESS_01
+            name: Data Extraction
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_PROCESS_02
+            name: Data Transformation
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_PROCESS_03
+            name: Data Loading
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_PROCESS_04
+            name: ETL Throughput Calculation
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }
+
+      - name: OLAP Operations
+        concepts:
+          - concept_code: DW_OLAP_01
+            name: Roll-Up
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_OLAP_02
+            name: Drill-Down
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_OLAP_03
+            name: Slice Operation
+            weightage: 2
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { easy: 100 }
+
+          - concept_code: DW_OLAP_04
+            name: Dice Operation
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_OLAP_05
+            name: Pivot Operation
+            weightage: 3
+            gate_frequency: high
+            question_types: { MCQ: 100 }
+            difficulty_distribution: { medium: 100 }
+
+          - concept_code: DW_OLAP_06
+            name: Data Cube Size Computation
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { easy: 100 }
+
+      - name: Performance and Indexing
+        concepts:
+          - concept_code: DW_INDEX_03
+            name: B-Tree Height Estimation
+            weightage: 2
+            gate_frequency: medium
+            question_types: { NAT: 100 }
+            difficulty_distribution: { medium: 100 }

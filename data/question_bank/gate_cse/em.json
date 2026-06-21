@@ -1,0 +1,850 @@
+{
+  "subject": "Engineering Mathematics",
+  "exam": "GATE CSE",
+  "total_questions": 30,
+  "question_bank": [
+    {
+      "question_code": "EM_LA_01",
+      "concept_code": "EM_LA_01",
+      "topic": "Linear Algebra",
+      "subtopic": "Matrices",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A square matrix A is invertible if and only if:",
+      "options": [
+        {"option_id": "A", "text": "det(A) = 0", "is_correct": false},
+        {"option_id": "B", "text": "det(A) ≠ 0", "is_correct": true},
+        {"option_id": "C", "text": "A is symmetric", "is_correct": false},
+        {"option_id": "D", "text": "A is diagonal", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A matrix is invertible iff its determinant is non-zero."
+    },
+    {
+      "question_code": "EM_LA_02",
+      "concept_code": "EM_LA_02",
+      "topic": "Linear Algebra",
+      "subtopic": "Rank",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The rank of a matrix is:",
+      "options": [
+        {"option_id": "A", "text": "Number of rows", "is_correct": false},
+        {"option_id": "B", "text": "Number of columns", "is_correct": false},
+        {"option_id": "C", "text": "Maximum number of linearly independent rows or columns", "is_correct": true},
+        {"option_id": "D", "text": "Trace of matrix", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Rank is the dimension of row or column space."
+    },
+    {
+      "question_code": "EM_LA_03",
+      "concept_code": "EM_LA_03",
+      "topic": "Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The sum of eigenvalues of a matrix equals:",
+      "options": [
+        {"option_id": "A", "text": "Determinant", "is_correct": false},
+        {"option_id": "B", "text": "Trace", "is_correct": true},
+        {"option_id": "C", "text": "Rank", "is_correct": false},
+        {"option_id": "D", "text": "Norm", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The trace of a matrix equals the sum of its eigenvalues."
+    },
+    {
+      "question_code": "EM_LA_04",
+      "concept_code": "EM_LA_04",
+      "topic": "Linear Algebra",
+      "subtopic": "Vector Spaces",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A set of vectors is linearly independent if:",
+      "options": [
+        {"option_id": "A", "text": "One vector can be written as combination of others", "is_correct": false},
+        {"option_id": "B", "text": "Only trivial linear combination gives zero vector", "is_correct": true},
+        {"option_id": "C", "text": "All vectors are equal", "is_correct": false},
+        {"option_id": "D", "text": "Vectors are orthogonal", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Linear independence requires only trivial coefficients."
+    },
+    {
+      "question_code": "EM_CAL_01",
+      "concept_code": "EM_CAL_01",
+      "topic": "Calculus",
+      "subtopic": "Limits",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "lim(x→0) (sin x)/x equals:",
+      "options": [
+        {"option_id": "A", "text": "0", "is_correct": false},
+        {"option_id": "B", "text": "1", "is_correct": true},
+        {"option_id": "C", "text": "∞", "is_correct": false},
+        {"option_id": "D", "text": "-1", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "It is a standard trigonometric limit."
+    },
+    {
+      "question_code": "EM_CAL_02",
+      "concept_code": "EM_CAL_02",
+      "topic": "Calculus",
+      "subtopic": "Differentiation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Derivative of e^x is:",
+      "options": [
+        {"option_id": "A", "text": "x·e^x", "is_correct": false},
+        {"option_id": "B", "text": "e^x", "is_correct": true},
+        {"option_id": "C", "text": "1/e^x", "is_correct": false},
+        {"option_id": "D", "text": "x", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The derivative of e^x is itself."
+    },
+    {
+      "question_code": "EM_CAL_03",
+      "concept_code": "EM_CAL_03",
+      "topic": "Calculus",
+      "subtopic": "Integration",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "∫ x dx equals:",
+      "options": [
+        {"option_id": "A", "text": "x² + C", "is_correct": false},
+        {"option_id": "B", "text": "x²/2 + C", "is_correct": true},
+        {"option_id": "C", "text": "2x + C", "is_correct": false},
+        {"option_id": "D", "text": "ln(x) + C", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Power rule for integration."
+    },
+    {
+      "question_code": "EM_CAL_04",
+      "concept_code": "EM_CAL_04",
+      "topic": "Calculus",
+      "subtopic": "Maxima and Minima",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "At a local maximum point x=a, the second derivative generally satisfies:",
+      "options": [
+        {"option_id": "A", "text": "f''(a) > 0", "is_correct": false},
+        {"option_id": "B", "text": "f''(a) < 0", "is_correct": true},
+        {"option_id": "C", "text": "f''(a) = 1", "is_correct": false},
+        {"option_id": "D", "text": "f''(a) > 1", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Negative second derivative indicates concave downward."
+    },
+    {
+      "question_code": "EM_DE_01",
+      "concept_code": "EM_DE_01",
+      "topic": "Differential Equations",
+      "subtopic": "First Order",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The order of d²y/dx² + dy/dx + y = 0 is:",
+      "options": [
+        {"option_id": "A", "text": "1", "is_correct": false},
+        {"option_id": "B", "text": "2", "is_correct": true},
+        {"option_id": "C", "text": "3", "is_correct": false},
+        {"option_id": "D", "text": "0", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Highest derivative order is 2."
+    },
+    {
+      "question_code": "EM_DE_02",
+      "concept_code": "EM_DE_02",
+      "topic": "Differential Equations",
+      "subtopic": "Linear DE",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The solution of dy/dx = ky represents:",
+      "options": [
+        {"option_id": "A", "text": "Polynomial", "is_correct": false},
+        {"option_id": "B", "text": "Exponential Function", "is_correct": true},
+        {"option_id": "C", "text": "Logarithmic Function", "is_correct": false},
+        {"option_id": "D", "text": "Constant Function", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Solution is y = Ce^(kx)."
+    },
+    {
+      "question_code": "EM_PROB_01",
+      "concept_code": "EM_PROB_01",
+      "topic": "Probability",
+      "subtopic": "Basic Probability",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Probability of a certain event is:",
+      "options": [
+        {"option_id": "A", "text": "0", "is_correct": false},
+        {"option_id": "B", "text": "0.5", "is_correct": false},
+        {"option_id": "C", "text": "1", "is_correct": true},
+        {"option_id": "D", "text": "∞", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "A certain event always occurs."
+    },
+    {
+      "question_code": "EM_PROB_02",
+      "concept_code": "EM_PROB_02",
+      "topic": "Probability",
+      "subtopic": "Conditional Probability",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Conditional probability P(A|B) is defined as:",
+      "options": [
+        {"option_id": "A", "text": "P(A∩B)/P(B)", "is_correct": true},
+        {"option_id": "B", "text": "P(A)+P(B)", "is_correct": false},
+        {"option_id": "C", "text": "P(A)P(B)", "is_correct": false},
+        {"option_id": "D", "text": "P(A)/P(Bᶜ)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Definition of conditional probability."
+    },
+    {
+      "question_code": "EM_PROB_03",
+      "concept_code": "EM_PROB_03",
+      "topic": "Probability",
+      "subtopic": "Bayes Theorem",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Bayes theorem is used to compute:",
+      "options": [
+        {"option_id": "A", "text": "Posterior Probability", "is_correct": true},
+        {"option_id": "B", "text": "Variance", "is_correct": false},
+        {"option_id": "C", "text": "Covariance", "is_correct": false},
+        {"option_id": "D", "text": "Median", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Bayes theorem updates probabilities using evidence."
+    },
+    {
+      "question_code": "EM_STATS_01",
+      "concept_code": "EM_STATS_01",
+      "topic": "Statistics",
+      "subtopic": "Mean",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Arithmetic mean of 2, 4, 6 is:",
+      "options": [
+        {"option_id": "A", "text": "3", "is_correct": false},
+        {"option_id": "B", "text": "4", "is_correct": true},
+        {"option_id": "C", "text": "5", "is_correct": false},
+        {"option_id": "D", "text": "6", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "(2+4+6)/3 = 4."
+    },
+    {
+      "question_code": "EM_STATS_02",
+      "concept_code": "EM_STATS_02",
+      "topic": "Statistics",
+      "subtopic": "Variance",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Variance measures:",
+      "options": [
+        {"option_id": "A", "text": "Central Tendency", "is_correct": false},
+        {"option_id": "B", "text": "Dispersion of Data", "is_correct": true},
+        {"option_id": "C", "text": "Skewness", "is_correct": false},
+        {"option_id": "D", "text": "Probability", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Variance quantifies spread around the mean."
+    },
+    {
+      "question_code": "EM_DIS_01",
+      "concept_code": "EM_DIS_01",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Logic",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The negation of 'P AND Q' is:",
+      "options": [
+        {"option_id": "A", "text": "¬P AND ¬Q", "is_correct": false},
+        {"option_id": "B", "text": "¬P OR ¬Q", "is_correct": true},
+        {"option_id": "C", "text": "P OR Q", "is_correct": false},
+        {"option_id": "D", "text": "P XOR Q", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "By De Morgan's Law."
+    },
+    {
+      "question_code": "EM_DIS_02",
+      "concept_code": "EM_DIS_02",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Sets",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "If A ⊆ B and B ⊆ A, then:",
+      "options": [
+        {"option_id": "A", "text": "A ∩ B = ∅", "is_correct": false},
+        {"option_id": "B", "text": "A = B", "is_correct": true},
+        {"option_id": "C", "text": "A ≠ B", "is_correct": false},
+        {"option_id": "D", "text": "A ⊂ B", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Mutual subset relation implies equality."
+    },
+    {
+      "question_code": "EM_DIS_03",
+      "concept_code": "EM_DIS_03",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Relations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A relation that is reflexive, symmetric and transitive is called:",
+      "options": [
+        {"option_id": "A", "text": "Partial Order", "is_correct": false},
+        {"option_id": "B", "text": "Equivalence Relation", "is_correct": true},
+        {"option_id": "C", "text": "Function", "is_correct": false},
+        {"option_id": "D", "text": "Bijection", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "These three properties define equivalence relations."
+    },
+    {
+      "question_code": "EM_DIS_04",
+      "concept_code": "EM_DIS_04",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combinatorics",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Number of ways to arrange 5 distinct objects is:",
+      "options": [
+        {"option_id": "A", "text": "25", "is_correct": false},
+        {"option_id": "B", "text": "60", "is_correct": false},
+        {"option_id": "C", "text": "120", "is_correct": true},
+        {"option_id": "D", "text": "125", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "5! = 120."
+    },
+    {
+      "question_code": "EM_NUM_01",
+      "concept_code": "EM_NUM_01",
+      "topic": "Numerical Methods",
+      "subtopic": "Roots",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Newton-Raphson method is used for:",
+      "options": [
+        {"option_id": "A", "text": "Finding Roots", "is_correct": true},
+        {"option_id": "B", "text": "Integration", "is_correct": false},
+        {"option_id": "C", "text": "Sorting", "is_correct": false},
+        {"option_id": "D", "text": "Matrix Multiplication", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Newton-Raphson is an iterative root-finding method."
+    },
+    {
+      "question_code": "EM_NUM_02",
+      "concept_code": "EM_NUM_02",
+      "topic": "Numerical Methods",
+      "subtopic": "Interpolation",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Lagrange interpolation is used to:",
+      "options": [
+        {"option_id": "A", "text": "Approximate a function through given points", "is_correct": true},
+        {"option_id": "B", "text": "Solve PDEs", "is_correct": false},
+        {"option_id": "C", "text": "Compute eigenvalues", "is_correct": false},
+        {"option_id": "D", "text": "Optimize functions", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Interpolation constructs a polynomial through known data points."
+    },
+    {
+      "question_code": "EM_PROB_04",
+      "concept_code": "EM_PROB_04",
+      "topic": "Probability",
+      "subtopic": "Random Variables",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Expected value of a fair die roll is:",
+      "options": [
+        {"option_id": "A", "text": "3", "is_correct": false},
+        {"option_id": "B", "text": "3.5", "is_correct": true},
+        {"option_id": "C", "text": "4", "is_correct": false},
+        {"option_id": "D", "text": "6", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "(1+2+3+4+5+6)/6 = 3.5."
+    },
+    {
+      "question_code": "EM_STATS_03",
+      "concept_code": "EM_STATS_03",
+      "topic": "Statistics",
+      "subtopic": "Standard Deviation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Standard deviation is the square root of:",
+      "options": [
+        {"option_id": "A", "text": "Mean", "is_correct": false},
+        {"option_id": "B", "text": "Variance", "is_correct": true},
+        {"option_id": "C", "text": "Median", "is_correct": false},
+        {"option_id": "D", "text": "Mode", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "σ = √Variance."
+    },
+    {
+      "question_code": "EM_LA_05",
+      "concept_code": "EM_LA_05",
+      "topic": "Linear Algebra",
+      "subtopic": "Orthogonality",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Two vectors are orthogonal if their:",
+      "options": [
+        {"option_id": "A", "text": "Cross Product is 1", "is_correct": false},
+        {"option_id": "B", "text": "Dot Product is 0", "is_correct": true},
+        {"option_id": "C", "text": "Magnitudes are equal", "is_correct": false},
+        {"option_id": "D", "text": "Ranks are equal", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Orthogonal vectors have zero dot product."
+    },
+    {
+      "question_code": "EM_DIS_05",
+      "concept_code": "EM_DIS_05",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Graphs",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A tree with n vertices contains how many edges?",
+      "options": [
+        {"option_id": "A", "text": "n", "is_correct": false},
+        {"option_id": "B", "text": "n+1", "is_correct": false},
+        {"option_id": "C", "text": "n-1", "is_correct": true},
+        {"option_id": "D", "text": "2n", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Every tree with n vertices has exactly n−1 edges."
+    },
+    {
+      "question_code": "EM_PROB_05",
+      "concept_code": "EM_PROB_05",
+      "topic": "Probability",
+      "subtopic": "Independence",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Events A and B are independent if:",
+      "options": [
+        {"option_id": "A", "text": "P(A∩B)=P(A)P(B)", "is_correct": true},
+        {"option_id": "B", "text": "P(A|B)=0", "is_correct": false},
+        {"option_id": "C", "text": "P(A)=P(B)", "is_correct": false},
+        {"option_id": "D", "text": "A∩B=∅", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "This is the definition of independence."
+    },
+    {
+      "question_code": "EM_CAL_05",
+      "concept_code": "EM_CAL_05",
+      "topic": "Calculus",
+      "subtopic": "Partial Derivatives",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "For f(x,y)=x²y, ∂f/∂x equals:",
+      "options": [
+        {"option_id": "A", "text": "2xy", "is_correct": true},
+        {"option_id": "B", "text": "x²", "is_correct": false},
+        {"option_id": "C", "text": "2x²y", "is_correct": false},
+        {"option_id": "D", "text": "y²", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Treat y as constant while differentiating with respect to x."
+    },
+    {
+      "question_code": "EM_STATS_04",
+      "concept_code": "EM_STATS_04",
+      "topic": "Statistics",
+      "subtopic": "Correlation",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Correlation coefficient lies in the interval:",
+      "options": [
+        {"option_id": "A", "text": "[0,1]", "is_correct": false},
+        {"option_id": "B", "text": "[-1,1]", "is_correct": true},
+        {"option_id": "C", "text": "[0,∞)", "is_correct": false},
+        {"option_id": "D", "text": "(-∞,∞)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Correlation coefficient ranges from -1 to +1."
+    },
+     {
+      "question_code": "EM_LA_06",
+      "concept_code": "EM_LA_06",
+      "topic": "Linear Algebra",
+      "subtopic": "Determinants",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Find the determinant of the matrix [[3, 2], [5, 1]].",      "correct_answer": 13,
+      "answer_tolerance": 0.0,
+      "explanation": "(3×1) - (2×5) = 3 - 10 = -7 (corrected)."
+    },
+    {
+      "question_code": "EM_LA_07",
+      "concept_code": "EM_LA_07",
+      "topic": "Linear Algebra",
+      "subtopic": "Trace",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Find the trace of matrix [[4, 1], [2, 6]].",      "correct_answer": 10,
+      "answer_tolerance": 0.0,
+      "explanation": "Trace = 4 + 6 = 10."
+    },
+    {
+      "question_code": "EM_CAL_06",
+      "concept_code": "EM_CAL_06",
+      "topic": "Calculus",
+      "subtopic": "Limits",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Evaluate lim(x→0) (tan x)/x.",      "correct_answer": 1,
+      "answer_tolerance": 0.0001,
+      "explanation": "Standard limit equals 1."
+    },
+    {
+      "question_code": "EM_CAL_07",
+      "concept_code": "EM_CAL_07",
+      "topic": "Calculus",
+      "subtopic": "Differentiation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Find derivative of 5x² at x = 3.",      "correct_answer": 30,
+      "answer_tolerance": 0.0,
+      "explanation": "Derivative = 10x, so at x=3 gives 30."
+    },
+    {
+      "question_code": "EM_PROB_06",
+      "concept_code": "EM_PROB_06",
+      "topic": "Probability",
+      "subtopic": "Expectation",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A random variable X takes values 1, 2, 3 with probabilities 0.2, 0.3, 0.5. Find E[X].",
+      "correct_answer": 2.3,
+      "answer_tolerance": 0.0001,
+      "explanation": "E[X] = 1(0.2)+2(0.3)+3(0.5)=2.3."
+    },
+    {
+      "question_code": "EM_PROB_07",
+      "concept_code": "EM_PROB_07",
+      "topic": "Probability",
+      "subtopic": "Variance",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "For X with values 0, 1, 2 having probabilities 0.5, 0.3, 0.2, find Var(X).",
+      "correct_answer": 0.56,
+      "answer_tolerance": 0.0001,
+      "explanation": "Var(X)=E[X^2]-(E[X])^2 = 0.9 - 0.34 = 0.56."
+    },
+    {
+      "question_code": "EM_DE_03",
+      "concept_code": "EM_DE_03",
+      "topic": "Differential Equations",
+      "subtopic": "First Order ODE",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "Solve dy/dx = y with y(0)=2. Find y(1).",
+      "correct_answer": 5.4366,
+      "answer_tolerance": 0.01,
+      "explanation": "y = 2e^x, so y(1)=2e ≈ 5.4366."
+    },
+    {
+      "question_code": "EM_NUM_03",
+      "concept_code": "EM_NUM_03",
+      "topic": "Numerical Methods",
+      "subtopic": "Newton Raphson",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "One Newton-Raphson iteration for √5 starting at x0 = 2 is:",
+      "correct_answer": 2.25,
+      "answer_tolerance": 0.0001,
+      "explanation": "x1 = (2 + 5/2)/2 = 2.25."
+    },
+    {
+      "question_code": "EM_STATS_05",
+      "concept_code": "EM_STATS_05",
+      "topic": "Statistics",
+      "subtopic": "Mean",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Find mean of 10, 20, 30, 40.",
+      "correct_answer": 25,
+      "answer_tolerance": 0.0,
+      "explanation": "(10+20+30+40)/4 = 25."
+    },
+    {
+      "question_code": "EM_DIS_06",
+      "concept_code": "EM_DIS_06",
+      "topic": "Discrete Mathematics",
+      "subtopic": "Combinatorics",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Find number of ways to arrange 4 distinct objects.",
+      "correct_answer": 24,
+      "answer_tolerance": 0.0,
+      "explanation": "4! = 24."
+    },
+  {
+    "question_code": "EM_LA_05",
+    "concept_code": "EM_LA_01",
+    "topic": "Linear Algebra",
+    "subtopic": "Matrices",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about invertible matrices are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A square matrix is invertible iff its determinant is non-zero",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "An invertible matrix has full rank",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "An invertible matrix always has linearly independent rows",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "A matrix with determinant zero is invertible",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Invertibility is equivalent to non-zero determinant, full rank, and linear independence of rows/columns."
+  },
+  {
+    "question_code": "EM_LA_06",
+    "concept_code": "EM_LA_02",
+    "topic": "Linear Algebra",
+    "subtopic": "Rank",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about the rank of a matrix are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Rank of a matrix equals the maximum number of linearly independent rows",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Row rank is always equal to column rank",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Rank of a matrix is at most the minimum of number of rows and columns",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Rank of a matrix can exceed its number of rows",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Rank properties: row rank = column rank, and rank ≤ min(m,n)."
+  },
+  {
+    "question_code": "EM_LA_07",
+    "concept_code": "EM_LA_03",
+    "topic": "Linear Algebra",
+    "subtopic": "Eigenvalues",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about eigenvalues of a square matrix are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Sum of eigenvalues equals the trace of the matrix",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Product of eigenvalues equals the determinant of the matrix",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Eigenvalues are always real for any matrix",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "A matrix and its transpose have the same eigenvalues",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Eigenvalues satisfy trace and determinant properties. Not all matrices have real eigenvalues, but A and Aᵀ share eigenvalues."
+  },
+  {
+    "question_code": "EM_LA_08",
+    "concept_code": "EM_LA_04",
+    "topic": "Linear Algebra",
+    "subtopic": "Vector Spaces",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about linear independence are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A set containing the zero vector is always linearly dependent",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "If vectors are orthogonal and non-zero, they are linearly independent",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A basis of a vector space is a linearly independent spanning set",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Linear independence depends on ordering of vectors",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Zero vector guarantees dependence. Orthogonal non-zero vectors are independent. Basis definition combines independence and spanning."
+  },
+  {
+    "question_code": "EM_CAL_02",
+    "concept_code": "EM_CAL_01",
+    "topic": "Calculus",
+    "subtopic": "Limits",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following limits are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "lim(x→0) (sin x)/x = 1",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "lim(x→0) (1 - cos x)/x² = 1/2",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "lim(x→∞) 1/x = 0",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "lim(x→0) sin x = ∞",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Standard limits: sinx/x→1, (1-cosx)/x²→1/2, and 1/x→0 as x→∞."
+  }
+]
+}

@@ -1,0 +1,312 @@
+subject: Theory of Computation
+exam: GATE CSE
+subject_weightage: 18
+
+topics:
+
+  - name: Finite Automata
+    topic_code: TOC_FA
+    weightage: 22
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basics and Foundations
+        concepts:
+
+          - concept_code: TOC_FA_01
+            name: Finite Automata Basics
+            weightage: 2
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            learning_outcomes:
+              - understand_finite_state_model
+              - distinguish_memory_constraints
+
+          - concept_code: TOC_FA_02
+            name: DFA Definition
+            weightage: 2
+            gate_frequency: very_high
+            learning_outcomes:
+              - define_dfa_formally
+              - analyze_dfa_transitions
+
+          - concept_code: TOC_FA_03
+            name: NFA Transitions
+            weightage: 2
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_nfa_nondeterminism
+              - compare_dfa_and_nfa
+
+          - concept_code: TOC_FA_04
+            name: DFA Acceptance
+            weightage: 2
+            gate_frequency: high
+            learning_outcomes:
+              - determine_string_acceptance_in_dfa
+
+      - name: String Properties and Counting
+        concepts:
+
+          - concept_code: TOC_FA_05
+            name: Binary String Counting
+            weightage: 2
+            gate_frequency: high
+            learning_outcomes:
+              - apply_power_of_two_formula
+
+          - concept_code: TOC_FA_06
+            name: Constrained Strings
+            weightage: 2
+            gate_frequency: high
+            learning_outcomes:
+              - solve_fixed_prefix_problems
+
+          - concept_code: TOC_FA_07
+            name: Combinatorial Selection
+            weightage: 2
+            gate_frequency: high
+            learning_outcomes:
+              - apply_binomial_coefficients
+
+          - concept_code: TOC_FA_08
+            name: DFA Transition Counting
+            weightage: 2
+            gate_frequency: medium
+            learning_outcomes:
+              - compute_transition_function_size
+
+          - concept_code: TOC_FA_09
+            name: Language Size Estimation
+            weightage: 1
+            gate_frequency: medium
+            learning_outcomes:
+              - estimate_language_cardinality
+
+          - concept_code: TOC_FA_10
+            name: Acceptance-Based Counting
+            weightage: 1
+            gate_frequency: medium
+            learning_outcomes:
+              - count_accepted_strings_in_dfa
+
+          - concept_code: TOC_FA_11
+            name: Product Automata
+            weightage: 2
+            gate_frequency: high
+            learning_outcomes:
+              - construct_product_dfa
+              - combine_multiple_automata
+
+  - name: Regular Expressions and Grammar
+    topic_code: TOC_RE
+    weightage: 12
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Regular Expressions
+        concepts:
+
+          - concept_code: TOC_RE_01
+            name: Regular Expression Basics
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_regular_language_representation
+              - interpret_regex_syntax
+
+          - concept_code: TOC_RE_02
+            name: Union Operator
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - interpret_union_in_regex
+              - construct_languages_using_plus_operator
+
+          - concept_code: TOC_RE_03
+            name: Kleene Star
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - apply_kleene_closure
+              - generate_repeated_string_patterns
+
+      - name: Regular Grammar
+        concepts:
+
+          - concept_code: TOC_RG_01
+            name: Regular Grammar Basics
+            weightage: 3
+            gate_frequency: high
+            learning_outcomes:
+              - derive_regular_languages_from_grammar
+              - relate_grammar_to_fa
+
+  - name: Context Free Grammar
+    topic_code: TOC_CFG
+    weightage: 18
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: CFG Fundamentals
+        concepts:
+
+          - concept_code: TOC_CFG_01
+            name: CFG Basics
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - define_cfg_formally
+              - model_language_syntax
+
+          - concept_code: TOC_CFG_02
+            name: Leftmost Derivation
+            weightage: 3
+            gate_frequency: high
+            learning_outcomes:
+              - perform_leftmost_derivation
+              - compare_derivation_strategies
+
+          - concept_code: TOC_CFG_03
+            name: Parse Tree
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - construct_parse_tree
+              - visualize_derivation_structure
+
+      - name: Grammar Properties
+        concepts:
+
+          - concept_code: TOC_CFG_04
+            name: Ambiguity in Grammar
+            weightage: 3
+            gate_frequency: very_high
+            learning_outcomes:
+              - detect_grammar_ambiguity
+              - analyze_multiple_parse_trees
+
+          - concept_code: TOC_CFG_05
+            name: String Generation
+            weightage: 3
+            gate_frequency: high
+            learning_outcomes:
+              - generate_strings_from_cfg
+              - enumerate_language_strings
+
+          - concept_code: TOC_CFG_06
+            name: Derivation Counting
+            weightage: 3
+            gate_frequency: high
+            learning_outcomes:
+              - count_possible_derivations
+              - analyze_combinatorial_generation
+
+  - name: Pushdown Automata
+    topic_code: TOC_PDA
+    weightage: 12
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: PDA Fundamentals
+        concepts:
+
+          - concept_code: TOC_PDA_01
+            name: PDA Basics
+            weightage: 4
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_stack_based_automata
+              - model_cfg_equivalence
+
+          - concept_code: TOC_PDA_02
+            name: PDA Acceptance Methods
+            weightage: 4
+            gate_frequency: very_high
+            learning_outcomes:
+              - acceptance_by_final_state
+              - acceptance_by_empty_stack
+
+          - concept_code: TOC_PDA_03
+            name: PDA Power
+            weightage: 4
+            gate_frequency: very_high
+            learning_outcomes:
+              - compare_pda_and_fa
+              - recognize_cfl_languages
+
+  - name: Turing Machine
+    topic_code: TOC_TM
+    weightage: 18
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: TM Fundamentals
+        concepts:
+
+          - concept_code: TOC_TM_01
+            name: Turing Machine Basics
+            weightage: 4
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_tape_based_computation
+              - compare_with_finite_automata
+
+          - concept_code: TOC_TM_02
+            name: TM Acceptance
+            weightage: 4
+            gate_frequency: very_high
+            learning_outcomes:
+              - halting_acceptance_definition
+              - recognize_accept_reject_states
+
+      - name: Computability Theory
+        concepts:
+
+          - concept_code: TOC_TM_03
+            name: Halting Problem
+            weightage: 5
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_undecidability
+              - analyze_non_computable_problems
+
+          - concept_code: TOC_TM_04
+            name: Transition Function Complexity
+            weightage: 5
+            gate_frequency: high
+            learning_outcomes:
+              - analyze_state_transition_space
+              - compute_transition_possibilities
+
+  - name: Chomsky Hierarchy
+    topic_code: TOC_CHOM
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Grammar Classification
+        concepts:
+
+          - concept_code: TOC_CHOM_01
+            name: Type-3 Grammar
+            weightage: 5
+            gate_frequency: very_high
+            learning_outcomes:
+              - identify_regular_grammar
+              - map_to_finite_automata
+
+          - concept_code: TOC_CHOM_02
+            name: Grammar Hierarchy Levels
+            weightage: 5
+            gate_frequency: very_high
+            learning_outcomes:
+              - understand_chomsky_hierarchy
+              - classify_language_power

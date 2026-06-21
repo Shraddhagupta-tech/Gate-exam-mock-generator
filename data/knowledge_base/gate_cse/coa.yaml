@@ -1,0 +1,775 @@
+subject: Computer Organization and Architecture
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: Pipelining
+    topic_code: COA_PIPE
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Pipeline Fundamentals
+        concepts:
+
+          - concept_code: COA_PIPE_01
+            name: Pipeline Basics
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_pipeline_execution
+              - differentiate_latency_and_throughput
+              - identify_pipeline_advantages
+            pyq_patterns:
+              - throughput_improvement
+              - pipeline_definition
+            templates:
+              - pattern: "Pipelining mainly improves {{metric}}"
+                difficulty: easy
+
+          - concept_code: COA_PIPE_02
+            name: Pipeline Stalls and Dependencies
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pipeline_basics
+            learning_outcomes:
+              - identify_data_dependencies
+              - analyze_pipeline_stalls
+            pyq_patterns:
+              - stall_reasons
+              - dependency_analysis
+            templates:
+              - pattern: "Pipeline stalls are caused due to {{hazard}}"
+                difficulty: medium
+
+          - concept_code: COA_PIPE_03
+            name: Pipeline Hazards
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pipeline_execution
+            learning_outcomes:
+              - identify_structural_hazards
+              - identify_data_hazards
+              - identify_control_hazards
+            pyq_patterns:
+              - hazard_classification
+            templates:
+              - pattern: "Which is NOT a pipeline hazard?"
+                difficulty: medium
+
+          - concept_code: COA_PIPE_04
+            name: Pipeline Speedup
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 50
+              MSQ: 20
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 40
+              hard: 40
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pipeline_stages
+            learning_outcomes:
+              - compute_ideal_speedup
+              - analyze_pipeline_efficiency
+            pyq_patterns:
+              - ideal_speedup
+              - stage_based_speedup
+            templates:
+              - pattern: "Ideal pipeline speedup is {{value}}"
+                difficulty: hard
+
+          - concept_code: COA_PIPE_05
+            name: Pipeline Throughput
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 10
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pipeline_basics
+            learning_outcomes:
+              - compute_throughput
+              - compare_pipeline_performance
+            pyq_patterns:
+              - throughput_measurement
+            templates:
+              - pattern: "Pipeline throughput means {{definition}}"
+                difficulty: medium
+
+          - concept_code: COA_PIPE_06
+            name: Pipeline Cycle Calculation
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - pipeline_stages
+            learning_outcomes:
+              - calculate_pipeline_cycles
+              - apply_k_plus_n_minus_1_formula
+            pyq_patterns:
+              - cycle_count_problems
+            templates:
+              - pattern: "A {{k}} stage pipeline executes {{n}} instructions"
+                difficulty: medium
+
+          - concept_code: COA_PIPE_07
+            name: CPI Analysis
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 10
+              medium: 50
+              hard: 40
+            estimated_questions_per_year: 1
+            prerequisites:
+              - processor_performance
+            learning_outcomes:
+              - calculate_cpi
+              - evaluate_execution_efficiency
+            pyq_patterns:
+              - cpi_computation
+            templates:
+              - pattern: "Compute CPI from instructions and cycles"
+                difficulty: hard
+
+  - name: Cache Memory
+    topic_code: COA_CACHE
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Cache Fundamentals
+        concepts:
+
+          - concept_code: COA_CACHE_01
+            name: Cache Basics
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_cache_usage
+              - reduce_memory_access_time
+            pyq_patterns:
+              - cache_definition
+            templates:
+              - pattern: "Cache memory is used to {{purpose}}"
+                difficulty: easy
+
+          - concept_code: COA_CACHE_02
+            name: Locality of Reference
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_temporal_locality
+              - understand_spatial_locality
+            pyq_patterns:
+              - locality_questions
+            templates:
+              - pattern: "Cache memory is based on {{principle}}"
+                difficulty: easy
+
+      - name: Cache Mapping Techniques
+        concepts:
+
+          - concept_code: COA_CACHE_03
+            name: Direct Mapped Cache
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 50
+              MSQ: 20
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - cache_basics
+            learning_outcomes:
+              - analyze_direct_mapping
+              - compute_cache_indices
+            pyq_patterns:
+              - direct_mapping
+            templates:
+              - pattern: "Direct mapped cache means {{definition}}"
+                difficulty: medium
+
+          - concept_code: COA_CACHE_04
+            name: Fully Associative Cache
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 50
+              MSQ: 20
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - cache_mapping
+            learning_outcomes:
+              - compare_associative_mappings
+              - evaluate_flexibility
+            pyq_patterns:
+              - associative_mapping
+            templates:
+              - pattern: "Fully associative cache allows {{property}}"
+                difficulty: medium
+
+      - name: Cache Performance
+        concepts:
+
+          - concept_code: COA_CACHE_05
+            name: Hit Ratio
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 50
+              MSQ: 10
+              NAT: 40
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - cache_basics
+            learning_outcomes:
+              - compute_hit_ratio
+            pyq_patterns:
+              - hit_ratio_formula
+            templates:
+              - pattern: "Hit ratio is defined as {{formula}}"
+                difficulty: medium
+
+          - concept_code: COA_CACHE_06
+            name: Hit Ratio Computation
+            weightage: 2
+            gate_frequency: high
+            question_types:
+              MCQ: 10
+              MSQ: 10
+              NAT: 80
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - hit_ratio
+            learning_outcomes:
+              - solve_hit_ratio_problems
+            pyq_patterns:
+              - numerical_hit_ratio
+            templates:
+              - pattern: "Given hits and accesses compute hit ratio"
+                difficulty: easy
+
+          - concept_code: COA_CACHE_07
+            name: Average Memory Access Time
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - hit_ratio
+              - miss_penalty
+            learning_outcomes:
+              - compute_amat
+            pyq_patterns:
+              - amat_calculation
+            templates:
+              - pattern: "Compute AMAT using hit ratio and miss penalty"
+                difficulty: medium
+
+          - concept_code: COA_CACHE_08
+            name: Miss Ratio
+            weightage: 1
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 40
+              medium: 50
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites:
+              - hit_ratio
+            learning_outcomes:
+              - compute_miss_ratio
+            pyq_patterns:
+              - miss_ratio_questions
+            templates:
+              - pattern: "A cache has hit ratio {{value}}"
+                difficulty: easy
+
+  - name: Memory Hierarchy
+    topic_code: COA_MEM
+    weightage: 18
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Memory Organization
+        concepts:
+
+          - concept_code: COA_MEM_01
+            name: Memory Hierarchy Basics
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_fastest_memory
+              - compare_memory_levels
+            pyq_patterns:
+              - hierarchy_questions
+            templates:
+              - pattern: "Fastest memory in hierarchy is {{memory}}"
+                difficulty: easy
+
+          - concept_code: COA_MEM_02
+            name: Memory Hierarchy Ordering
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - arrange_memory_levels
+            pyq_patterns:
+              - hierarchy_order
+            templates:
+              - pattern: "Correct memory hierarchy order is {{order}}"
+                difficulty: easy
+
+          - concept_code: COA_MEM_03
+            name: Virtual Memory Fundamentals
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 50
+              MSQ: 20
+              NAT: 30
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            estimated_questions_per_year: 1
+            prerequisites:
+              - paging
+            learning_outcomes:
+              - understand_virtual_memory
+              - explain_demand_paging
+            pyq_patterns:
+              - virtual_memory_usage
+            templates:
+              - pattern: "Virtual memory is used to {{purpose}}"
+                difficulty: medium
+
+          - concept_code: COA_MEM_04
+            name: Address Space and Addressing
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - binary_numbers
+            learning_outcomes:
+              - calculate_addressable_memory
+            pyq_patterns:
+              - address_bus_questions
+            templates:
+              - pattern: "How many locations can be addressed using {{bits}} bits?"
+                difficulty: easy
+
+          - concept_code: COA_MEM_05
+            name: Paging and Page Calculations
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 10
+              medium: 50
+              hard: 40
+            estimated_questions_per_year: 1
+            prerequisites:
+              - virtual_memory
+            learning_outcomes:
+              - calculate_number_of_pages
+              - analyze_page_size_relationships
+            pyq_patterns:
+              - paging_numericals
+            templates:
+              - pattern: "A system has page size {{page_size}}"
+                difficulty: hard
+
+  - name: I/O Systems
+    topic_code: COA_IO
+    weightage: 12
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Interrupts and Device Communication
+        concepts:
+
+          - concept_code: COA_IO_01
+            name: Interrupts
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_interrupt_handling
+            pyq_patterns:
+              - interrupt_definition
+            templates:
+              - pattern: "Interrupt is used for {{purpose}}"
+                difficulty: easy
+
+          - concept_code: COA_IO_02
+            name: Direct Memory Access
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              MSQ: 10
+              NAT: 30
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_dma_operation
+            pyq_patterns:
+              - dma_definition
+            templates:
+              - pattern: "DMA stands for {{full_form}}"
+                difficulty: easy
+
+          - concept_code: COA_IO_03
+            name: Polling
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 60
+              MSQ: 10
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compare_polling_and_interrupts
+            pyq_patterns:
+              - polling_behavior
+            templates:
+              - pattern: "Polling is {{definition}}"
+                difficulty: medium
+
+          - concept_code: COA_IO_04
+            name: DMA Transfer Calculations
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 10
+              MSQ: 10
+              NAT: 80
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - dma
+            learning_outcomes:
+              - compute_transfer_time
+            pyq_patterns:
+              - dma_numericals
+            templates:
+              - pattern: "A DMA controller transfers {{bytes}} bytes"
+                difficulty: medium
+
+  - name: Instruction Set Architecture
+    topic_code: COA_ISA
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: RISC and CISC
+        concepts:
+
+          - concept_code: COA_RISC_01
+            name: RISC Architecture
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_risc_design
+            pyq_patterns:
+              - risc_features
+            templates:
+              - pattern: "RISC stands for {{full_form}}"
+                difficulty: easy
+
+          - concept_code: COA_RISC_02
+            name: CISC Architecture
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_cisc_features
+            pyq_patterns:
+              - risc_vs_cisc
+            templates:
+              - pattern: "CISC processors have {{feature}}"
+                difficulty: easy
+
+          - concept_code: COA_RISC_03
+            name: Instruction Formats
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - instruction_encoding
+            learning_outcomes:
+              - calculate_opcode_bits
+              - analyze_instruction_formats
+            pyq_patterns:
+              - instruction_length_questions
+            templates:
+              - pattern: "A fixed length instruction uses {{bits}} bits"
+                difficulty: medium
+
+  - name: ALU and Registers
+    topic_code: COA_CPU
+    weightage: 10
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: ALU
+        concepts:
+
+          - concept_code: COA_ALU_01
+            name: ALU Fundamentals
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_arithmetic_operations
+              - understand_logic_operations
+            pyq_patterns:
+              - alu_functions
+            templates:
+              - pattern: "ALU performs {{operations}}"
+                difficulty: easy
+
+          - concept_code: COA_ALU_02
+            name: ALU Throughput
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 20
+              MSQ: 10
+              NAT: 70
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites:
+              - alu_operations
+            learning_outcomes:
+              - calculate_operation_throughput
+            pyq_patterns:
+              - throughput_numericals
+            templates:
+              - pattern: "An ALU performs {{operations}} operations"
+                difficulty: easy
+
+      - name: Registers
+        concepts:
+
+          - concept_code: COA_REG_01
+            name: CPU Registers
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_register_location
+              - understand_register_usage
+            pyq_patterns:
+              - register_questions
+            templates:
+              - pattern: "Registers are located in {{location}}"
+                difficulty: easy

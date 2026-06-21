@@ -1,0 +1,853 @@
+{
+  "subject": "Programming and Data Structures",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "PDS_ARR_01",
+      "concept_code": "PDS_ARR_01",
+      "topic": "Arrays",
+      "subtopic": "Traversal",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the time complexity of accessing the ith element in an array?",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": true},
+        {"option_id": "B", "text": "O(log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n log n)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Arrays provide direct indexing, allowing constant-time access."
+    },
+    {
+      "question_code": "PDS_ARR_02",
+      "concept_code": "PDS_ARR_02",
+      "topic": "Arrays",
+      "subtopic": "Insertion",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "What is the worst-case time complexity of inserting an element at the beginning of an array?",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": false},
+        {"option_id": "B", "text": "O(log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n)", "is_correct": true},
+        {"option_id": "D", "text": "O(n²)", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "All elements need to be shifted by one position."
+    },
+    {
+      "question_code": "PDS_LL_01",
+      "concept_code": "PDS_LL_01",
+      "topic": "Linked Lists",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which linked list allows traversal in both directions?",
+      "options": [
+        {"option_id": "A", "text": "Singly Linked List", "is_correct": false},
+        {"option_id": "B", "text": "Circular Linked List", "is_correct": false},
+        {"option_id": "C", "text": "Doubly Linked List", "is_correct": true},
+        {"option_id": "D", "text": "Header Linked List", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Doubly linked lists store both next and previous pointers."
+    },
+    {
+      "question_code": "PDS_LL_02",
+      "concept_code": "PDS_LL_02",
+      "topic": "Linked Lists",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Insertion at the beginning of a linked list takes:",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": true},
+        {"option_id": "B", "text": "O(log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n log n)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Only pointer updates are required."
+    },
+    {
+      "question_code": "PDS_STACK_01",
+      "concept_code": "PDS_STACK_01",
+      "topic": "Stacks",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which principle does a stack follow?",
+      "options": [
+        {"option_id": "A", "text": "FIFO", "is_correct": false},
+        {"option_id": "B", "text": "LIFO", "is_correct": true},
+        {"option_id": "C", "text": "Priority", "is_correct": false},
+        {"option_id": "D", "text": "Round Robin", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Stack follows Last In First Out order."
+    },
+    {
+      "question_code": "PDS_STACK_02",
+      "concept_code": "PDS_STACK_02",
+      "topic": "Stacks",
+      "subtopic": "Applications",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which data structure is used for function call management in recursion?",
+      "options": [
+        {"option_id": "A", "text": "Queue", "is_correct": false},
+        {"option_id": "B", "text": "Heap", "is_correct": false},
+        {"option_id": "C", "text": "Stack", "is_correct": true},
+        {"option_id": "D", "text": "Tree", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "The call stack stores activation records."
+    },
+    {
+      "question_code": "PDS_QUEUE_01",
+      "concept_code": "PDS_QUEUE_01",
+      "topic": "Queues",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A queue follows which discipline?",
+      "options": [
+        {"option_id": "A", "text": "LIFO", "is_correct": false},
+        {"option_id": "B", "text": "FIFO", "is_correct": true},
+        {"option_id": "C", "text": "Priority", "is_correct": false},
+        {"option_id": "D", "text": "Random", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Queue follows First In First Out."
+    },
+    {
+      "question_code": "PDS_QUEUE_02",
+      "concept_code": "PDS_QUEUE_02",
+      "topic": "Queues",
+      "subtopic": "Circular Queue",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Circular queues are used to:",
+      "options": [
+        {"option_id": "A", "text": "Increase memory usage", "is_correct": false},
+        {"option_id": "B", "text": "Avoid wastage of space", "is_correct": true},
+        {"option_id": "C", "text": "Implement recursion", "is_correct": false},
+        {"option_id": "D", "text": "Sort data", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Circular queues reuse freed locations."
+    },
+    {
+      "question_code": "PDS_TREE_01",
+      "concept_code": "PDS_TREE_01",
+      "topic": "Trees",
+      "subtopic": "Binary Trees",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Maximum number of nodes at level k of a binary tree is:",
+      "options": [
+        {"option_id": "A", "text": "k", "is_correct": false},
+        {"option_id": "B", "text": "2^k", "is_correct": true},
+        {"option_id": "C", "text": "2k", "is_correct": false},
+        {"option_id": "D", "text": "k²", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Each level doubles the maximum nodes."
+    },
+    {
+      "question_code": "PDS_TREE_02",
+      "concept_code": "PDS_TREE_02",
+      "topic": "Trees",
+      "subtopic": "Traversal",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Inorder traversal of a BST gives:",
+      "options": [
+        {"option_id": "A", "text": "Reverse Sorted Order", "is_correct": false},
+        {"option_id": "B", "text": "Sorted Order", "is_correct": true},
+        {"option_id": "C", "text": "Random Order", "is_correct": false},
+        {"option_id": "D", "text": "Level Order", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Inorder traversal of BST visits keys in sorted order."
+    },
+    {
+      "question_code": "PDS_TREE_03",
+      "concept_code": "PDS_TREE_03",
+      "topic": "Trees",
+      "subtopic": "BST",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Average search complexity in a balanced BST is:",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": false},
+        {"option_id": "B", "text": "O(log n)", "is_correct": true},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n log n)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Balanced BST height is O(log n)."
+    },
+    {
+      "question_code": "PDS_AVL_01",
+      "concept_code": "PDS_AVL_01",
+      "topic": "AVL Trees",
+      "subtopic": "Balancing",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The balance factor of an AVL tree node can be:",
+      "options": [
+        {"option_id": "A", "text": "-1, 0, +1", "is_correct": true},
+        {"option_id": "B", "text": "-2, 0, +2", "is_correct": false},
+        {"option_id": "C", "text": "0, 1, 2", "is_correct": false},
+        {"option_id": "D", "text": "-3, 0, +3", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "AVL trees maintain balance factors within ±1."
+    },
+    {
+      "question_code": "PDS_HEAP_01",
+      "concept_code": "PDS_HEAP_01",
+      "topic": "Heaps",
+      "subtopic": "Max Heap",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "In a max heap, the root contains:",
+      "options": [
+        {"option_id": "A", "text": "Minimum Element", "is_correct": false},
+        {"option_id": "B", "text": "Median Element", "is_correct": false},
+        {"option_id": "C", "text": "Maximum Element", "is_correct": true},
+        {"option_id": "D", "text": "Random Element", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "The heap property places the largest element at the root."
+    },
+    {
+      "question_code": "PDS_HEAP_02",
+      "concept_code": "PDS_HEAP_02",
+      "topic": "Heaps",
+      "subtopic": "Operations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Insertion into a binary heap takes:",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": false},
+        {"option_id": "B", "text": "O(log n)", "is_correct": true},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n log n)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Heapify-up may traverse the height of the heap."
+    },
+    {
+      "question_code": "PDS_GRAPH_01",
+      "concept_code": "PDS_GRAPH_01",
+      "topic": "Graphs",
+      "subtopic": "Representation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which graph representation is space efficient for sparse graphs?",
+      "options": [
+        {"option_id": "A", "text": "Adjacency Matrix", "is_correct": false},
+        {"option_id": "B", "text": "Adjacency List", "is_correct": true},
+        {"option_id": "C", "text": "Incidence Matrix", "is_correct": false},
+        {"option_id": "D", "text": "Edge Matrix", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Adjacency lists require O(V+E) space."
+    },
+    {
+      "question_code": "PDS_GRAPH_02",
+      "concept_code": "PDS_GRAPH_02",
+      "topic": "Graphs",
+      "subtopic": "Traversal",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Breadth First Search uses:",
+      "options": [
+        {"option_id": "A", "text": "Stack", "is_correct": false},
+        {"option_id": "B", "text": "Queue", "is_correct": true},
+        {"option_id": "C", "text": "Heap", "is_correct": false},
+        {"option_id": "D", "text": "Tree", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "BFS explores nodes level by level using a queue."
+    },
+    {
+      "question_code": "PDS_GRAPH_03",
+      "concept_code": "PDS_GRAPH_03",
+      "topic": "Graphs",
+      "subtopic": "Traversal",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Depth First Search typically uses:",
+      "options": [
+        {"option_id": "A", "text": "Queue", "is_correct": false},
+        {"option_id": "B", "text": "Stack", "is_correct": true},
+        {"option_id": "C", "text": "Priority Queue", "is_correct": false},
+        {"option_id": "D", "text": "Array", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DFS uses recursion or an explicit stack."
+    },
+    {
+      "question_code": "PDS_HASH_01",
+      "concept_code": "PDS_HASH_01",
+      "topic": "Hashing",
+      "subtopic": "Collision Resolution",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which method resolves collisions by storing collided keys in linked lists?",
+      "options": [
+        {"option_id": "A", "text": "Linear Probing", "is_correct": false},
+        {"option_id": "B", "text": "Quadratic Probing", "is_correct": false},
+        {"option_id": "C", "text": "Chaining", "is_correct": true},
+        {"option_id": "D", "text": "Double Hashing", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Separate chaining stores collisions in linked lists."
+    },
+    {
+      "question_code": "PDS_HASH_02",
+      "concept_code": "PDS_HASH_02",
+      "topic": "Hashing",
+      "subtopic": "Complexity",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Average-case search complexity in a hash table is:",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": true},
+        {"option_id": "B", "text": "O(log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n²)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Hash tables provide expected constant-time access."
+    },
+    {
+      "question_code": "PDS_RECUR_01",
+      "concept_code": "PDS_RECUR_01",
+      "topic": "Recursion",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Every recursive function must have:",
+      "options": [
+        {"option_id": "A", "text": "A loop", "is_correct": false},
+        {"option_id": "B", "text": "A base case", "is_correct": true},
+        {"option_id": "C", "text": "A stack", "is_correct": false},
+        {"option_id": "D", "text": "A queue", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A base case prevents infinite recursion."
+    },
+    {
+      "question_code": "PDS_RECUR_02",
+      "concept_code": "PDS_RECUR_02",
+      "topic": "Recursion",
+      "subtopic": "Complexity",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The recursive Fibonacci implementation has time complexity:",
+      "options": [
+        {"option_id": "A", "text": "O(n)", "is_correct": false},
+        {"option_id": "B", "text": "O(log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(2^n)", "is_correct": true},
+        {"option_id": "D", "text": "O(n log n)", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Repeated subproblems lead to exponential growth."
+    },
+    {
+      "question_code": "PDS_C_01",
+      "concept_code": "PDS_C_01",
+      "topic": "C Programming",
+      "subtopic": "Pointers",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A pointer variable stores:",
+      "options": [
+        {"option_id": "A", "text": "Data Value", "is_correct": false},
+        {"option_id": "B", "text": "Memory Address", "is_correct": true},
+        {"option_id": "C", "text": "Function Output", "is_correct": false},
+        {"option_id": "D", "text": "Array Size", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Pointers store memory locations."
+    },
+    {
+      "question_code": "PDS_C_02",
+      "concept_code": "PDS_C_02",
+      "topic": "C Programming",
+      "subtopic": "Memory Allocation",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which function dynamically allocates memory in C?",
+      "options": [
+        {"option_id": "A", "text": "printf()", "is_correct": false},
+        {"option_id": "B", "text": "malloc()", "is_correct": true},
+        {"option_id": "C", "text": "scanf()", "is_correct": false},
+        {"option_id": "D", "text": "sizeof()", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "malloc() allocates memory at runtime."
+    },
+    {
+      "question_code": "PDS_SORT_01",
+      "concept_code": "PDS_SORT_01",
+      "topic": "Sorting",
+      "subtopic": "Bubble Sort",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Worst-case complexity of Bubble Sort is:",
+      "options": [
+        {"option_id": "A", "text": "O(n)", "is_correct": false},
+        {"option_id": "B", "text": "O(n log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n²)", "is_correct": true},
+        {"option_id": "D", "text": "O(log n)", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Nested loops lead to quadratic complexity."
+    },
+    {
+      "question_code": "PDS_SORT_02",
+      "concept_code": "PDS_SORT_02",
+      "topic": "Sorting",
+      "subtopic": "Merge Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Merge Sort follows which paradigm?",
+      "options": [
+        {"option_id": "A", "text": "Greedy", "is_correct": false},
+        {"option_id": "B", "text": "Dynamic Programming", "is_correct": false},
+        {"option_id": "C", "text": "Divide and Conquer", "is_correct": true},
+        {"option_id": "D", "text": "Backtracking", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Merge Sort recursively divides and merges subarrays."
+    },
+    {
+      "question_code": "PDS_SEARCH_01",
+      "concept_code": "PDS_SEARCH_01",
+      "topic": "Searching",
+      "subtopic": "Binary Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Binary Search requires the input array to be:",
+      "options": [
+        {"option_id": "A", "text": "Sorted", "is_correct": true},
+        {"option_id": "B", "text": "Unsorted", "is_correct": false},
+        {"option_id": "C", "text": "Circular", "is_correct": false},
+        {"option_id": "D", "text": "Linked", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Binary Search relies on sorted ordering."
+    },
+    {
+      "question_code": "PDS_SEARCH_02",
+      "concept_code": "PDS_SEARCH_02",
+      "topic": "Searching",
+      "subtopic": "Binary Search",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Worst-case complexity of Binary Search is:",
+      "options": [
+        {"option_id": "A", "text": "O(1)", "is_correct": false},
+        {"option_id": "B", "text": "O(log n)", "is_correct": true},
+        {"option_id": "C", "text": "O(n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n²)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The search interval is halved in each step."
+    },
+    {
+      "question_code": "PDS_MISC_01",
+      "concept_code": "PDS_MISC_01",
+      "topic": "Abstract Data Types",
+      "subtopic": "ADT",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "An Abstract Data Type specifies:",
+      "options": [
+        {"option_id": "A", "text": "Implementation Details", "is_correct": false},
+        {"option_id": "B", "text": "Data Structure Memory Layout", "is_correct": false},
+        {"option_id": "C", "text": "Behavior and Operations", "is_correct": true},
+        {"option_id": "D", "text": "Compiler Design", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "ADT defines what operations are supported, not how they are implemented."
+    },
+     {
+      "question_code": "PDS_ARR_03",
+      "concept_code": "PDS_ARR_03",
+      "topic": "Arrays",
+      "subtopic": "Address Calculation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "An array A[25] starts at memory address 2000. Each element occupies 2 bytes. What is the address of A[25]?",
+      "correct_answer": 2050,
+      "answer_tolerance": 0,
+      "explanation": "Address = base + index * size = 2000 + 25 * 2 = 2050."
+    },
+    {
+      "question_code": "PDS_MATH_01",
+      "concept_code": "PDS_MATH_01",
+      "topic": "Mathematics",
+      "subtopic": "Logarithms",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "Compute log₂(4096).",
+      "correct_answer": 12,
+      "answer_tolerance": 0,
+      "explanation": "2^12 = 4096, so log₂(4096) = 12."
+    },
+    {
+      "question_code": "PDS_TREE_04",
+      "concept_code": "PDS_TREE_04",
+      "topic": "Trees",
+      "subtopic": "Basic Properties",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A tree has 80 nodes. How many edges does it contain?",
+      "correct_answer": 79,
+      "answer_tolerance": 0,
+      "explanation": "A tree with n nodes has n-1 edges, so 80-1 = 79."
+    },
+    {
+      "question_code": "PDS_LL_03",
+      "concept_code": "PDS_LL_03",
+      "topic": "Linked Lists",
+      "subtopic": "Traversal",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "In a singly linked list, how many node visits are required to reach the 10th node from the head (1-based indexing)?",
+      "correct_answer": 10,
+      "answer_tolerance": 0,
+      "explanation": "Traversal requires visiting each node sequentially from the head."
+    },
+    {
+      "question_code": "PDS_TREE_05",
+      "concept_code": "PDS_TREE_05",
+      "topic": "Trees",
+      "subtopic": "Complete Binary Tree",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A complete binary tree has 6 levels. What is the total number of nodes?",
+      "correct_answer": 63,
+      "answer_tolerance": 0,
+      "explanation": "Total nodes = 2^h - 1 = 2^6 - 1 = 63."
+    },
+    {
+      "question_code": "PDS_TREE_06",
+      "concept_code": "PDS_TREE_06",
+      "topic": "Trees",
+      "subtopic": "BST Search",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "In a balanced BST with 15 nodes, what is the maximum number of comparisons required for a search?",
+      "correct_answer": 4,
+      "answer_tolerance": 0,
+      "explanation": "Height is floor(log2(15)) + 1 = 3 + 1 = 4 comparisons."
+    },
+    {
+      "question_code": "PDS_HEAP_03",
+      "concept_code": "PDS_HEAP_03",
+      "topic": "Heaps",
+      "subtopic": "Array Representation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "In a binary heap stored in an array (0-based indexing), what is the parent index of node at index 19?",
+      "correct_answer": 9,
+      "answer_tolerance": 0,
+      "explanation": "Parent index = floor((i-1)/2) = floor((19-1)/2) = 9."
+    },
+    {
+      "question_code": "PDS_RECUR_03",
+      "concept_code": "PDS_RECUR_03",
+      "topic": "Recursion",
+      "subtopic": "Function Calls",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "How many recursive calls are made in computing factorial of 5 using a standard recursive implementation (including base case call)?",
+      "correct_answer": 5,
+      "answer_tolerance": 0,
+      "explanation": "Calls are made for 5, 4, 3, 2, 1."
+    },
+    {
+      "question_code": "PDS_GRAPH_04",
+      "concept_code": "PDS_GRAPH_04",
+      "topic": "Graphs",
+      "subtopic": "Representation",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "An undirected graph has 120 edges. What is the total number of entries in its adjacency list representation?",
+      "correct_answer": 240,
+      "answer_tolerance": 0,
+      "explanation": "Each edge is stored twice in adjacency lists, so total entries = 2E = 240."
+    },
+    {
+      "question_code": "PDS_SEARCH_03",
+      "concept_code": "PDS_SEARCH_03",
+      "topic": "Searching",
+      "subtopic": "Binary Search",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "In the worst case, how many comparisons are required in binary search for an array of size 31?",
+      "correct_answer": 5,
+      "answer_tolerance": 0,
+      "explanation": "Worst-case comparisons = floor(log2(31)) + 1 = 4 + 1 = 5."
+    },
+  {
+    "question_code": "PDS_ARR_03",
+    "concept_code": "PDS_ARR_01",
+    "topic": "Arrays",
+    "subtopic": "Traversal",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about arrays are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Array elements are stored in contiguous memory locations",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Random access is possible using index computation",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "All elements of an array must be of the same data type",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Array size can always be changed dynamically without cost",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Arrays are homogeneous and stored in contiguous memory, enabling O(1) indexed access. Dynamic resizing is costly."
+  },
+  {
+    "question_code": "PDS_ARR_04",
+    "concept_code": "PDS_ARR_02",
+    "topic": "Arrays",
+    "subtopic": "Insertion",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about insertion in arrays are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Insertion at the beginning of a full array requires shifting elements",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Worst-case time complexity of insertion in an array is O(n)",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Insertion at the end of a dynamic array (amortized) is O(1)",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Insertion in an array always takes constant time",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Insertion may require shifting elements. Worst-case is O(n), while dynamic arrays support amortized O(1) append."
+  },
+  {
+    "question_code": "PDS_LL_03",
+    "concept_code": "PDS_LL_01",
+    "topic": "Linked Lists",
+    "subtopic": "Basics",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about linked lists are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Nodes are stored in non-contiguous memory locations",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Each node contains a data field and a pointer/reference",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Random access is efficient in linked lists",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "Traversal requires sequential access from the head node",
+        "is_correct": true
+      }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "Linked lists use dynamic memory allocation with pointers and require sequential traversal."
+  },
+  {
+    "question_code": "PDS_LL_04",
+    "concept_code": "PDS_LL_02",
+    "topic": "Linked Lists",
+    "subtopic": "Operations",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following operations on a singly linked list have O(1) time complexity (given pointer to the relevant node)?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Insertion at the beginning",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Deletion at the beginning",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Insertion after a given node",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Searching for an element",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Pointer updates allow O(1) insertion/deletion at head or after a given node. Searching requires O(n)."
+  },
+  {
+    "question_code": "PDS_STACK_02",
+    "concept_code": "PDS_STACK_01",
+    "topic": "Stacks",
+    "subtopic": "Operations",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following applications use stack data structure?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Expression evaluation",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Function call management (recursion)",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Undo operations in text editors",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Breadth First Search traversal",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Stacks are used in recursion, expression evaluation, and undo mechanisms. BFS uses a queue, not a stack."
+  }
+  ]
+}

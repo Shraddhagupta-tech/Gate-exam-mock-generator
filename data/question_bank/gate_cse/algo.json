@@ -1,0 +1,971 @@
+{
+  "subject": "Algorithms",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "ALG_COMP_01",
+      "concept_code": "ALG_COMP_01",
+      "topic": "Asymptotic Analysis",
+      "subtopic": "Recurrence Relations",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Solve T(n) = 2T(n/2) + n using the Master Theorem.",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "O(n log n)",
+          "is_correct": true
+        },
+        {
+          "option_id": "B",
+          "text": "O(n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "C",
+          "text": "O(log n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "D",
+          "text": "O(n²)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Here a=2, b=2, f(n)=n. Since n^(log_b(a)) = n, this is Master Theorem Case 2. Therefore T(n)=Θ(n log n)."
+    },
+    {
+      "question_code": "ALG_GRAPH_01",
+      "concept_code": "ALG_GRAPH_01",
+      "topic": "Graph Algorithms",
+      "subtopic": "Breadth First Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which data structure is primarily used in Breadth First Search (BFS)?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Queue",
+          "is_correct": true
+        },
+        {
+          "option_id": "B",
+          "text": "Stack",
+          "is_correct": false
+        },
+        {
+          "option_id": "C",
+          "text": "Heap",
+          "is_correct": false
+        },
+        {
+          "option_id": "D",
+          "text": "Tree",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "BFS explores vertices level by level using a queue."
+    },
+    {
+      "question_code": "ALG_SORT_01",
+      "concept_code": "ALG_SORT_01",
+      "topic": "Sorting",
+      "subtopic": "Merge Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "What is the worst-case time complexity of Merge Sort?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "O(n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "B",
+          "text": "O(n log n)",
+          "is_correct": true
+        },
+        {
+          "option_id": "C",
+          "text": "O(log n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "D",
+          "text": "O(n²)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Merge Sort recursively divides the array and merges in O(n) time at each level, resulting in O(n log n)."
+    },
+    {
+      "question_code": "ALG_DP_01",
+      "concept_code": "ALG_DP_01",
+      "topic": "Dynamic Programming",
+      "subtopic": "Longest Common Subsequence",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The time complexity of the dynamic programming solution for LCS of strings of lengths m and n is:",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "O(m+n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "B",
+          "text": "O(mn)",
+          "is_correct": true
+        },
+        {
+          "option_id": "C",
+          "text": "O(m log n)",
+          "is_correct": false
+        },
+        {
+          "option_id": "D",
+          "text": "O(2^n)",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The DP table has m×n entries and each entry is computed in constant time."
+    },
+    {
+      "question_code": "ALG_GREEDY_01",
+      "concept_code": "ALG_GREEDY_01",
+      "topic": "Greedy Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which algorithm uses the Disjoint Set Union (Union-Find) data structure extensively?",
+      "options": [
+        {
+          "option_id": "A",
+          "text": "Dijkstra's Algorithm",
+          "is_correct": false
+        },
+        {
+          "option_id": "B",
+          "text": "Bellman-Ford Algorithm",
+          "is_correct": false
+        },
+        {
+          "option_id": "C",
+          "text": "Kruskal's Algorithm",
+          "is_correct": true
+        },
+        {
+          "option_id": "D",
+          "text": "Floyd-Warshall Algorithm",
+          "is_correct": false
+        }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Kruskal's algorithm uses Union-Find to efficiently detect cycles while building the MST."
+    },
+    {
+      "question_code": "ALG_SORT_02",
+      "concept_code": "ALG_SORT_02",
+      "topic": "Sorting",
+      "subtopic": "Quick Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "What is the worst-case time complexity of Quick Sort?",
+      "options": [
+        {"option_id": "A", "text": "O(n log n)", "is_correct": false},
+        {"option_id": "B", "text": "O(n²)", "is_correct": true},
+        {"option_id": "C", "text": "O(log n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Worst case occurs when partitioning is highly unbalanced."
+    },
+    {
+      "question_code": "ALG_SORT_03",
+      "concept_code": "ALG_SORT_03",
+      "topic": "Sorting",
+      "subtopic": "Heap Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Heap Sort is based on which data structure?",
+      "options": [
+        {"option_id": "A", "text": "Queue", "is_correct": false},
+        {"option_id": "B", "text": "Heap", "is_correct": true},
+        {"option_id": "C", "text": "Stack", "is_correct": false},
+        {"option_id": "D", "text": "BST", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Heap Sort uses a binary heap."
+    },
+    {
+      "question_code": "ALG_GRAPH_02",
+      "concept_code": "ALG_GRAPH_02",
+      "topic": "Graph Algorithms",
+      "subtopic": "DFS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which data structure is used in Depth First Search?",
+      "options": [
+        {"option_id": "A", "text": "Queue", "is_correct": false},
+        {"option_id": "B", "text": "Stack", "is_correct": true},
+        {"option_id": "C", "text": "Heap", "is_correct": false},
+        {"option_id": "D", "text": "Graph", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DFS uses recursion or an explicit stack."
+    },
+    {
+      "question_code": "ALG_GRAPH_03",
+      "concept_code": "ALG_GRAPH_03",
+      "topic": "Graph Algorithms",
+      "subtopic": "Dijkstra",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Dijkstra's algorithm cannot handle:",
+      "options": [
+        {"option_id": "A", "text": "Undirected graphs", "is_correct": false},
+        {"option_id": "B", "text": "Positive edge weights", "is_correct": false},
+        {"option_id": "C", "text": "Negative edge weights", "is_correct": true},
+        {"option_id": "D", "text": "Sparse graphs", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Negative weights can invalidate Dijkstra's greedy choice."
+    },
+    {
+      "question_code": "ALG_GRAPH_04",
+      "concept_code": "ALG_GRAPH_04",
+      "topic": "Graph Algorithms",
+      "subtopic": "Bellman Ford",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Bellman-Ford algorithm can detect:",
+      "options": [
+        {"option_id": "A", "text": "Positive cycles", "is_correct": false},
+        {"option_id": "B", "text": "Negative cycles", "is_correct": true},
+        {"option_id": "C", "text": "Euler cycles", "is_correct": false},
+        {"option_id": "D", "text": "Hamiltonian cycles", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "An additional relaxation step reveals negative cycles."
+    },
+    {
+      "question_code": "ALG_GRAPH_05",
+      "concept_code": "ALG_GRAPH_05",
+      "topic": "Graph Algorithms",
+      "subtopic": "Topological Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Topological sorting is applicable only to:",
+      "options": [
+        {"option_id": "A", "text": "Trees", "is_correct": false},
+        {"option_id": "B", "text": "DAGs", "is_correct": true},
+        {"option_id": "C", "text": "Undirected graphs", "is_correct": false},
+        {"option_id": "D", "text": "Complete graphs", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "A graph must be acyclic for a topological order to exist."
+    },
+    {
+      "question_code": "ALG_GREEDY_02",
+      "concept_code": "ALG_GREEDY_02",
+      "topic": "Greedy Algorithms",
+      "subtopic": "Activity Selection",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Activity Selection Problem is solved optimally using:",
+      "options": [
+        {"option_id": "A", "text": "Greedy Strategy", "is_correct": true},
+        {"option_id": "B", "text": "Backtracking", "is_correct": false},
+        {"option_id": "C", "text": "Branch and Bound", "is_correct": false},
+        {"option_id": "D", "text": "Divide and Conquer", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Selecting the activity with earliest finish time is optimal."
+    },
+    {
+      "question_code": "ALG_GREEDY_03",
+      "concept_code": "ALG_GREEDY_03",
+      "topic": "Greedy Algorithms",
+      "subtopic": "Huffman Coding",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Huffman Coding is used for:",
+      "options": [
+        {"option_id": "A", "text": "Data Compression", "is_correct": true},
+        {"option_id": "B", "text": "Encryption", "is_correct": false},
+        {"option_id": "C", "text": "Hashing", "is_correct": false},
+        {"option_id": "D", "text": "Sorting", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Huffman coding produces variable-length prefix codes."
+    },
+    {
+      "question_code": "ALG_DP_02",
+      "concept_code": "ALG_DP_02",
+      "topic": "Dynamic Programming",
+      "subtopic": "Knapsack",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The classical 0/1 Knapsack problem is solved using:",
+      "options": [
+        {"option_id": "A", "text": "Greedy", "is_correct": false},
+        {"option_id": "B", "text": "Dynamic Programming", "is_correct": true},
+        {"option_id": "C", "text": "DFS", "is_correct": false},
+        {"option_id": "D", "text": "Hashing", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Optimal substructure and overlapping subproblems make DP suitable."
+    },
+    {
+      "question_code": "ALG_DP_03",
+      "concept_code": "ALG_DP_03",
+      "topic": "Dynamic Programming",
+      "subtopic": "Matrix Chain Multiplication",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Matrix Chain Multiplication minimizes:",
+      "options": [
+        {"option_id": "A", "text": "Memory Usage", "is_correct": false},
+        {"option_id": "B", "text": "Number of Scalar Multiplications", "is_correct": true},
+        {"option_id": "C", "text": "Matrix Size", "is_correct": false},
+        {"option_id": "D", "text": "Recursion Depth", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The DP solution finds the optimal parenthesization."
+    },
+    {
+      "question_code": "ALG_DP_04",
+      "concept_code": "ALG_DP_04",
+      "topic": "Dynamic Programming",
+      "subtopic": "Fibonacci",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Memoization is an example of:",
+      "options": [
+        {"option_id": "A", "text": "Top-down DP", "is_correct": true},
+        {"option_id": "B", "text": "Bottom-up DP", "is_correct": false},
+        {"option_id": "C", "text": "Greedy", "is_correct": false},
+        {"option_id": "D", "text": "Backtracking", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Memoization stores previously computed results."
+    },
+    {
+      "question_code": "ALG_COMP_02",
+      "concept_code": "ALG_COMP_02",
+      "topic": "Complexity Analysis",
+      "subtopic": "Asymptotic Notation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Big-O notation represents:",
+      "options": [
+        {"option_id": "A", "text": "Lower Bound", "is_correct": false},
+        {"option_id": "B", "text": "Average Bound", "is_correct": false},
+        {"option_id": "C", "text": "Upper Bound", "is_correct": true},
+        {"option_id": "D", "text": "Exact Bound", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Big-O provides an asymptotic upper bound."
+    },
+    {
+      "question_code": "ALG_COMP_03",
+      "concept_code": "ALG_COMP_03",
+      "topic": "Complexity Analysis",
+      "subtopic": "Master Theorem",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The recurrence T(n)=T(n/2)+1 has complexity:",
+      "options": [
+        {"option_id": "A", "text": "O(log n)", "is_correct": true},
+        {"option_id": "B", "text": "O(n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n log n)", "is_correct": false},
+        {"option_id": "D", "text": "O(1)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "The recurrence expands for log n levels."
+    },
+    {
+      "question_code": "ALG_BACK_01",
+      "concept_code": "ALG_BACK_01",
+      "topic": "Backtracking",
+      "subtopic": "N Queens",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "N-Queens problem is commonly solved using:",
+      "options": [
+        {"option_id": "A", "text": "Greedy", "is_correct": false},
+        {"option_id": "B", "text": "Backtracking", "is_correct": true},
+        {"option_id": "C", "text": "DP", "is_correct": false},
+        {"option_id": "D", "text": "BFS", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Backtracking explores valid queen placements."
+    },
+    {
+      "question_code": "ALG_BACK_02",
+      "concept_code": "ALG_BACK_02",
+      "topic": "Backtracking",
+      "subtopic": "Subset Sum",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Subset Sum is an example of:",
+      "options": [
+        {"option_id": "A", "text": "NP-Complete Problem", "is_correct": true},
+        {"option_id": "B", "text": "P Problem", "is_correct": false},
+        {"option_id": "C", "text": "Sorting Problem", "is_correct": false},
+        {"option_id": "D", "text": "Graph Traversal", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Subset Sum is one of the classical NP-complete problems."
+    },
+    {
+      "question_code": "ALG_STRING_01",
+      "concept_code": "ALG_STRING_01",
+      "topic": "String Algorithms",
+      "subtopic": "KMP",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "KMP algorithm is used for:",
+      "options": [
+        {"option_id": "A", "text": "Pattern Matching", "is_correct": true},
+        {"option_id": "B", "text": "Sorting", "is_correct": false},
+        {"option_id": "C", "text": "Compression", "is_correct": false},
+        {"option_id": "D", "text": "Encryption", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "KMP performs efficient string pattern matching."
+    },
+    {
+      "question_code": "ALG_STRING_02",
+      "concept_code": "ALG_STRING_02",
+      "topic": "String Algorithms",
+      "subtopic": "Rabin-Karp",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Rabin-Karp algorithm primarily uses:",
+      "options": [
+        {"option_id": "A", "text": "Hashing", "is_correct": true},
+        {"option_id": "B", "text": "Greedy", "is_correct": false},
+        {"option_id": "C", "text": "DP", "is_correct": false},
+        {"option_id": "D", "text": "DFS", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Hash values are compared before exact matching."
+    },
+    {
+      "question_code": "ALG_GRAPH_06",
+      "concept_code": "ALG_GRAPH_06",
+      "topic": "Graph Algorithms",
+      "subtopic": "Minimum Spanning Tree",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Prim's algorithm is used to find:",
+      "options": [
+        {"option_id": "A", "text": "Shortest Path", "is_correct": false},
+        {"option_id": "B", "text": "MST", "is_correct": true},
+        {"option_id": "C", "text": "Topological Order", "is_correct": false},
+        {"option_id": "D", "text": "Connected Components", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Prim's algorithm constructs a minimum spanning tree."
+    },
+    {
+      "question_code": "ALG_GRAPH_07",
+      "concept_code": "ALG_GRAPH_07",
+      "topic": "Graph Algorithms",
+      "subtopic": "Floyd Warshall",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "The time complexity of Floyd-Warshall algorithm is:",
+      "options": [
+        {"option_id": "A", "text": "O(V²)", "is_correct": false},
+        {"option_id": "B", "text": "O(V³)", "is_correct": true},
+        {"option_id": "C", "text": "O(E log V)", "is_correct": false},
+        {"option_id": "D", "text": "O(V+E)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Three nested loops over all vertices."
+    },
+    {
+      "question_code": "ALG_COMP_04",
+      "concept_code": "ALG_COMP_04",
+      "topic": "Complexity Analysis",
+      "subtopic": "Recurrence",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "T(n)=2T(n/2)+n² has complexity:",
+      "options": [
+        {"option_id": "A", "text": "O(n²)", "is_correct": true},
+        {"option_id": "B", "text": "O(n log n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n³)", "is_correct": false},
+        {"option_id": "D", "text": "O(log n)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Master theorem case 3 applies."
+    },
+    {
+      "question_code": "ALG_DIV_01",
+      "concept_code": "ALG_DIV_01",
+      "topic": "Divide and Conquer",
+      "subtopic": "Binary Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Binary Search requires the array to be:",
+      "options": [
+        {"option_id": "A", "text": "Sorted", "is_correct": true},
+        {"option_id": "B", "text": "Reversed", "is_correct": false},
+        {"option_id": "C", "text": "Unsorted", "is_correct": false},
+        {"option_id": "D", "text": "Circular", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Binary search relies on sorted order."
+    },
+    {
+      "question_code": "ALG_DIV_02",
+      "concept_code": "ALG_DIV_02",
+      "topic": "Divide and Conquer",
+      "subtopic": "Binary Search",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Time complexity of Binary Search is:",
+      "options": [
+        {"option_id": "A", "text": "O(log n)", "is_correct": true},
+        {"option_id": "B", "text": "O(n)", "is_correct": false},
+        {"option_id": "C", "text": "O(n log n)", "is_correct": false},
+        {"option_id": "D", "text": "O(1)", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "The search space is halved every iteration."
+    },
+    {
+      "question_code": "ALG_NP_01",
+      "concept_code": "ALG_NP_01",
+      "topic": "Computational Complexity",
+      "subtopic": "NP Completeness",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "SAT was the first problem proven to be:",
+      "options": [
+        {"option_id": "A", "text": "P", "is_correct": false},
+        {"option_id": "B", "text": "NP-Complete", "is_correct": true},
+        {"option_id": "C", "text": "NP-Hard", "is_correct": false},
+        {"option_id": "D", "text": "Undecidable", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Cook's theorem established SAT as NP-complete."
+    },
+    {
+      "question_code": "ALG_NP_02",
+      "concept_code": "ALG_NP_02",
+      "topic": "Computational Complexity",
+      "subtopic": "Complexity Classes",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Every problem in P is also in:",
+      "options": [
+        {"option_id": "A", "text": "NP", "is_correct": true},
+        {"option_id": "B", "text": "NP-Hard", "is_correct": false},
+        {"option_id": "C", "text": "Undecidable", "is_correct": false},
+        {"option_id": "D", "text": "Co-NP only", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "P is a subset of NP."
+    },
+    {
+      "question_code": "ALG_RANDOM_01",
+      "concept_code": "ALG_RANDOM_01",
+      "topic": "Randomized Algorithms",
+      "subtopic": "Randomized Quick Sort",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Expected time complexity of Randomized Quick Sort is:",
+      "options": [
+        {"option_id": "A", "text": "O(n²)", "is_correct": false},
+        {"option_id": "B", "text": "O(n log n)", "is_correct": true},
+        {"option_id": "C", "text": "O(log n)", "is_correct": false},
+        {"option_id": "D", "text": "O(n)", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Randomized pivot selection gives expected O(n log n) performance."
+    },
+  {
+    "question_code": "ALG_COMP_05",
+    "concept_code": "ALG_COMP_05",
+    "topic": "Asymptotic Analysis",
+    "subtopic": "Recurrence Relations",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Using Master Theorem, determine the exponent k in Θ(n^k) for T(n)=4T(n/2)+n. Enter k.",
+    "correct_answer": 2.0,
+    "answer_tolerance": 0.01,
+    "explanation": "a=4, b=2 ⇒ log₂4 = 2. Since f(n)=n=O(n^(2-1)), Case 1 applies. T(n)=Θ(n²)."
+  },
+  {
+    "question_code": "ALG_GRAPH_08",
+    "concept_code": "ALG_GRAPH_08",
+    "topic": "Graph Algorithms",
+    "subtopic": "Breadth First Search",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "A connected graph has 15 vertices and 20 edges. Starting BFS from any vertex, how many vertices will be visited?",
+    "correct_answer": 15.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Since the graph is connected, BFS visits all 15 vertices."
+  },
+  {
+    "question_code": "ALG_SORT_04",
+    "concept_code": "ALG_SORT_04",
+    "topic": "Sorting",
+    "subtopic": "Merge Sort",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For an array of size 1024, how many levels of recursion are present in Merge Sort? (Assume root level counted as level 0)",
+    "correct_answer": 10.0,
+    "answer_tolerance": 0.01,
+    "explanation": "1024 = 2^10, therefore recursion depth is log₂(1024)=10."
+  },
+  {
+    "question_code": "ALG_DP_05",
+    "concept_code": "ALG_DP_05",
+    "topic": "Dynamic Programming",
+    "subtopic": "Longest Common Subsequence",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For strings of lengths 50 and 40, how many entries are present in the DP table used by the standard LCS algorithm (excluding extra initialization row and column)?",
+    "correct_answer": 2000.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The DP table contains 50 × 40 = 2000 entries."
+  },
+  {
+    "question_code": "ALG_GREEDY_04",
+    "concept_code": "ALG_GREEDY_04",
+    "topic": "Greedy Algorithms",
+    "subtopic": "Minimum Spanning Tree",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "A connected graph has 25 vertices. How many edges will any Minimum Spanning Tree of this graph contain?",
+    "correct_answer": 24.0,
+    "answer_tolerance": 0.01,
+    "explanation": "An MST on n vertices always contains n−1 edges."
+  },
+  {
+    "question_code": "ALG_GRAPH_09",
+    "concept_code": "ALG_GRAPH_09",
+    "topic": "Graph Algorithms",
+    "subtopic": "Dijkstra",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A shortest path from source S to vertex V contains edges with weights 2, 5, 3 and 8. What is the shortest path distance to V?",
+    "correct_answer": 18.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Distance = 2 + 5 + 3 + 8 = 18."
+  },
+  {
+    "question_code": "ALG_COMP_06",
+    "concept_code": "ALG_COMP_06",
+    "topic": "Complexity Analysis",
+    "subtopic": "Logarithms",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "Compute log₂(256).",
+    "correct_answer": 8.0,
+    "answer_tolerance": 0.01,
+    "explanation": "256 = 2^8."
+  },
+  {
+    "question_code": "ALG_DIV_03",
+    "concept_code": "ALG_DIV_03",
+    "topic": "Divide and Conquer",
+    "subtopic": "Binary Search",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "In the worst case, how many comparisons are required to search an element in a sorted array of size 1024 using Binary Search?",
+    "correct_answer": 11.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Worst-case comparisons = log₂(1024) + 1 = 10 + 1 = 11."
+  },
+  {
+    "question_code": "ALG_GRAPH_10",
+    "concept_code": "ALG_GRAPH_10",
+    "topic": "Graph Algorithms",
+    "subtopic": "Floyd Warshall",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Ignoring constant factors, how many iterations are executed by the three nested loops of Floyd-Warshall algorithm for a graph with 20 vertices?",
+    "correct_answer": 8000.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The algorithm performs V³ iterations. For V=20, 20³=8000."
+  },
+  {
+    "question_code": "ALG_DP_06",
+    "concept_code": "ALG_DP_06",
+    "topic": "Dynamic Programming",
+    "subtopic": "Fibonacci",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "Using Fibonacci sequence F(0)=0 and F(1)=1, find F(10).",
+    "correct_answer": 55.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The 10th Fibonacci number is 55."
+  },
+  {
+    "question_code": "ALG_COMP_02",
+    "concept_code": "ALG_COMP_01",
+    "topic": "Asymptotic Analysis",
+    "subtopic": "Recurrence Relations",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "For the recurrence T(n) = 2T(n/2) + n, which of the following statements are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "a = 2 and b = 2",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "n^(log_b(a)) = n",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Master Theorem Case 2 applies",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "T(n) = Θ(n²)",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Here a=2, b=2 and f(n)=n. Since n^(log₂2)=n, Master Theorem Case 2 applies, giving T(n)=Θ(n log n)."
+  },
+  {
+    "question_code": "ALG_GRAPH_02",
+    "concept_code": "ALG_GRAPH_01",
+    "topic": "Graph Algorithms",
+    "subtopic": "Breadth First Search",
+    "question_type": "MSQ",
+    "difficulty": "easy",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about Breadth First Search (BFS) are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "BFS uses a queue data structure",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "BFS finds shortest paths in an unweighted graph",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "BFS explores vertices level by level",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "BFS always requires a priority queue",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "BFS uses a queue, explores vertices level-wise, and computes shortest paths in unweighted graphs."
+  },
+  {
+    "question_code": "ALG_SORT_02",
+    "concept_code": "ALG_SORT_01",
+    "topic": "Sorting",
+    "subtopic": "Merge Sort",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following properties are true for Merge Sort?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Worst-case time complexity is O(n log n)",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Merge Sort is a divide-and-conquer algorithm",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Merge Sort is stable",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Worst-case time complexity is O(n²)",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Merge Sort recursively divides the input, merges sorted halves efficiently, runs in O(n log n) time, and is stable."
+  },
+  {
+    "question_code": "ALG_DP_02",
+    "concept_code": "ALG_DP_01",
+    "topic": "Dynamic Programming",
+    "subtopic": "Longest Common Subsequence",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "For the dynamic programming solution of the Longest Common Subsequence (LCS) problem, which statements are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "The DP table contains O(mn) entries",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "The time complexity is O(mn)",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "The space complexity of the standard DP solution is O(mn)",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "The time complexity is O(2^n)",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "The standard DP solution fills an m×n table, leading to O(mn) time and O(mn) space complexity."
+  },
+  {
+    "question_code": "ALG_GREEDY_02",
+    "concept_code": "ALG_GREEDY_01",
+    "topic": "Greedy Algorithms",
+    "subtopic": "Minimum Spanning Tree",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about Kruskal's Algorithm are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "It is a greedy algorithm",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "It uses Union-Find (Disjoint Set Union) to detect cycles",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Edges are processed in non-decreasing order of weight",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "It requires all edge weights to be distinct",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Kruskal's algorithm greedily selects the smallest available edge that does not form a cycle, using DSU for efficient cycle detection. Distinct edge weights are not required."
+  }
+]
+}

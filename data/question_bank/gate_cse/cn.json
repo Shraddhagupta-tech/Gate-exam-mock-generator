@@ -1,0 +1,891 @@
+{
+  "subject": "Computer Networks",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "CN_PHY_01",
+      "concept_code": "CN_PHY_01",
+      "topic": "Physical Layer",
+      "subtopic": "Transmission Media",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which transmission medium provides the highest bandwidth among the following?",
+      "options": [
+        {"option_id": "A", "text": "Twisted Pair Cable", "is_correct": false},
+        {"option_id": "B", "text": "Coaxial Cable", "is_correct": false},
+        {"option_id": "C", "text": "Optical Fiber", "is_correct": true},
+        {"option_id": "D", "text": "Microwave", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Optical fiber offers very high bandwidth and low attenuation."
+    },
+    {
+      "question_code": "CN_DLL_01",
+      "concept_code": "CN_DLL_01",
+      "topic": "Data Link Layer",
+      "subtopic": "Error Detection",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which error detection technique is widely used in Ethernet frames?",
+      "options": [
+        {"option_id": "A", "text": "Parity Bit", "is_correct": false},
+        {"option_id": "B", "text": "Checksum", "is_correct": false},
+        {"option_id": "C", "text": "CRC", "is_correct": true},
+        {"option_id": "D", "text": "Hamming Code", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Ethernet uses Cyclic Redundancy Check (CRC) for error detection."
+    },
+    {
+      "question_code": "CN_DLL_02",
+      "concept_code": "CN_DLL_02",
+      "topic": "Data Link Layer",
+      "subtopic": "MAC Protocols",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "CSMA/CD is primarily used in:",
+      "options": [
+        {"option_id": "A", "text": "Ethernet LANs", "is_correct": true},
+        {"option_id": "B", "text": "Wi-Fi Networks", "is_correct": false},
+        {"option_id": "C", "text": "Bluetooth", "is_correct": false},
+        {"option_id": "D", "text": "Token Ring", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "CSMA/CD is used in traditional shared-medium Ethernet networks."
+    },
+    {
+      "question_code": "CN_NET_01",
+      "concept_code": "CN_NET_01",
+      "topic": "Network Layer",
+      "subtopic": "IPv4",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "How many bits are present in an IPv4 address?",
+      "options": [
+        {"option_id": "A", "text": "16", "is_correct": false},
+        {"option_id": "B", "text": "32", "is_correct": true},
+        {"option_id": "C", "text": "64", "is_correct": false},
+        {"option_id": "D", "text": "128", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "IPv4 addresses are 32 bits long."
+    },
+    {
+      "question_code": "CN_NET_02",
+      "concept_code": "CN_NET_02",
+      "topic": "Network Layer",
+      "subtopic": "Routing",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which routing algorithm is used by OSPF?",
+      "options": [
+        {"option_id": "A", "text": "Distance Vector", "is_correct": false},
+        {"option_id": "B", "text": "Bellman-Ford", "is_correct": false},
+        {"option_id": "C", "text": "Link State", "is_correct": true},
+        {"option_id": "D", "text": "Flooding", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "OSPF uses a link-state routing algorithm based on Dijkstra's shortest path."
+    },
+    {
+      "question_code": "CN_NET_03",
+      "concept_code": "CN_NET_03",
+      "topic": "Network Layer",
+      "subtopic": "Subnetting",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "How many usable host addresses are available in a /27 subnet?",
+      "options": [
+        {"option_id": "A", "text": "30", "is_correct": true},
+        {"option_id": "B", "text": "32", "is_correct": false},
+        {"option_id": "C", "text": "62", "is_correct": false},
+        {"option_id": "D", "text": "14", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "A /27 subnet has 32 addresses, with 2 reserved for network and broadcast."
+    },
+    {
+      "question_code": "CN_TRANS_01",
+      "concept_code": "CN_TRANS_01",
+      "topic": "Transport Layer",
+      "subtopic": "TCP",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "TCP is a:",
+      "options": [
+        {"option_id": "A", "text": "Connectionless Protocol", "is_correct": false},
+        {"option_id": "B", "text": "Connection-Oriented Protocol", "is_correct": true},
+        {"option_id": "C", "text": "Routing Protocol", "is_correct": false},
+        {"option_id": "D", "text": "Physical Layer Protocol", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "TCP establishes a connection before data transmission."
+    },
+    {
+      "question_code": "CN_TRANS_02",
+      "concept_code": "CN_TRANS_02",
+      "topic": "Transport Layer",
+      "subtopic": "TCP Congestion Control",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which TCP phase increases congestion window exponentially?",
+      "options": [
+        {"option_id": "A", "text": "Congestion Avoidance", "is_correct": false},
+        {"option_id": "B", "text": "Fast Recovery", "is_correct": false},
+        {"option_id": "C", "text": "Slow Start", "is_correct": true},
+        {"option_id": "D", "text": "Fast Retransmit", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "During Slow Start, the congestion window doubles every RTT."
+    },
+    {
+      "question_code": "CN_APP_01",
+      "concept_code": "CN_APP_01",
+      "topic": "Application Layer",
+      "subtopic": "DNS",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "DNS primarily maps:",
+      "options": [
+        {"option_id": "A", "text": "IP addresses to MAC addresses", "is_correct": false},
+        {"option_id": "B", "text": "Domain names to IP addresses", "is_correct": true},
+        {"option_id": "C", "text": "Ports to Processes", "is_correct": false},
+        {"option_id": "D", "text": "URLs to Routers", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "DNS translates human-readable domain names into IP addresses."
+    },
+    {
+      "question_code": "CN_APP_02",
+      "concept_code": "CN_APP_02",
+      "topic": "Application Layer",
+      "subtopic": "HTTP",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The default port number used by HTTP is:",
+      "options": [
+        {"option_id": "A", "text": "21", "is_correct": false},
+        {"option_id": "B", "text": "23", "is_correct": false},
+        {"option_id": "C", "text": "80", "is_correct": true},
+        {"option_id": "D", "text": "443", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "HTTP uses port 80 by default, whereas HTTPS uses port 443."
+    },
+    {
+      "question_code": "CN_PHY_02",
+      "concept_code": "CN_PHY_02",
+      "topic": "Physical Layer",
+      "subtopic": "Multiplexing",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which multiplexing technique allocates different frequency bands to different signals?",
+      "options": [
+        {"option_id": "A", "text": "TDM", "is_correct": false},
+        {"option_id": "B", "text": "FDM", "is_correct": true},
+        {"option_id": "C", "text": "CDMA", "is_correct": false},
+        {"option_id": "D", "text": "PCM", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Frequency Division Multiplexing assigns separate frequency ranges to different signals."
+    },
+    {
+      "question_code": "CN_PHY_03",
+      "concept_code": "CN_PHY_03",
+      "topic": "Physical Layer",
+      "subtopic": "Transmission Delay",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Transmission delay depends on:",
+      "options": [
+        {"option_id": "A", "text": "Distance and propagation speed", "is_correct": false},
+        {"option_id": "B", "text": "Packet length and bandwidth", "is_correct": true},
+        {"option_id": "C", "text": "Router count", "is_correct": false},
+        {"option_id": "D", "text": "RTT", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Transmission delay = Packet Length / Bandwidth."
+    },
+    {
+      "question_code": "CN_DLL_03",
+      "concept_code": "CN_DLL_03",
+      "topic": "Data Link Layer",
+      "subtopic": "Flow Control",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which protocol allows sending multiple frames before receiving acknowledgements?",
+      "options": [
+        {"option_id": "A", "text": "Stop-and-Wait", "is_correct": false},
+        {"option_id": "B", "text": "Sliding Window", "is_correct": true},
+        {"option_id": "C", "text": "ALOHA", "is_correct": false},
+        {"option_id": "D", "text": "CSMA", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Sliding window protocols improve channel utilization."
+    },
+    {
+      "question_code": "CN_DLL_04",
+      "concept_code": "CN_DLL_04",
+      "topic": "Data Link Layer",
+      "subtopic": "Error Correction",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Hamming code is primarily used for:",
+      "options": [
+        {"option_id": "A", "text": "Encryption", "is_correct": false},
+        {"option_id": "B", "text": "Error Correction", "is_correct": true},
+        {"option_id": "C", "text": "Compression", "is_correct": false},
+        {"option_id": "D", "text": "Routing", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Hamming codes can detect and correct single-bit errors."
+    },
+    {
+      "question_code": "CN_DLL_05",
+      "concept_code": "CN_DLL_05",
+      "topic": "Data Link Layer",
+      "subtopic": "Ethernet",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "An Ethernet MAC address contains how many bits?",
+      "options": [
+        {"option_id": "A", "text": "32", "is_correct": false},
+        {"option_id": "B", "text": "48", "is_correct": true},
+        {"option_id": "C", "text": "64", "is_correct": false},
+        {"option_id": "D", "text": "128", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Standard MAC addresses are 48 bits long."
+    },
+    {
+      "question_code": "CN_NET_04",
+      "concept_code": "CN_NET_04",
+      "topic": "Network Layer",
+      "subtopic": "IPv6",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The size of an IPv6 address is:",
+      "options": [
+        {"option_id": "A", "text": "32 bits", "is_correct": false},
+        {"option_id": "B", "text": "64 bits", "is_correct": false},
+        {"option_id": "C", "text": "128 bits", "is_correct": true},
+        {"option_id": "D", "text": "256 bits", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "IPv6 uses 128-bit addresses."
+    },
+    {
+      "question_code": "CN_NET_05",
+      "concept_code": "CN_NET_05",
+      "topic": "Network Layer",
+      "subtopic": "ARP",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "ARP maps:",
+      "options": [
+        {"option_id": "A", "text": "IP Address to MAC Address", "is_correct": true},
+        {"option_id": "B", "text": "MAC Address to IP Address", "is_correct": false},
+        {"option_id": "C", "text": "Port to Process", "is_correct": false},
+        {"option_id": "D", "text": "Hostname to IP", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Address Resolution Protocol resolves IP addresses to MAC addresses."
+    },
+    {
+      "question_code": "CN_NET_06",
+      "concept_code": "CN_NET_06",
+      "topic": "Network Layer",
+      "subtopic": "ICMP",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "The ping utility uses:",
+      "options": [
+        {"option_id": "A", "text": "TCP", "is_correct": false},
+        {"option_id": "B", "text": "UDP", "is_correct": false},
+        {"option_id": "C", "text": "ICMP", "is_correct": true},
+        {"option_id": "D", "text": "ARP", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Ping uses ICMP Echo Request and Echo Reply messages."
+    },
+    {
+      "question_code": "CN_NET_07",
+      "concept_code": "CN_NET_07",
+      "topic": "Network Layer",
+      "subtopic": "Routing Algorithms",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "RIP routing protocol is based on:",
+      "options": [
+        {"option_id": "A", "text": "Link State", "is_correct": false},
+        {"option_id": "B", "text": "Distance Vector", "is_correct": true},
+        {"option_id": "C", "text": "Flooding", "is_correct": false},
+        {"option_id": "D", "text": "Source Routing", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "RIP uses Bellman-Ford distance vector routing."
+    },
+    {
+      "question_code": "CN_NET_08",
+      "concept_code": "CN_NET_08",
+      "topic": "Network Layer",
+      "subtopic": "CIDR",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A /24 network contains how many addresses?",
+      "options": [
+        {"option_id": "A", "text": "128", "is_correct": false},
+        {"option_id": "B", "text": "256", "is_correct": true},
+        {"option_id": "C", "text": "512", "is_correct": false},
+        {"option_id": "D", "text": "1024", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "2^(32−24) = 256 total addresses."
+    },
+    {
+      "question_code": "CN_TRANS_03",
+      "concept_code": "CN_TRANS_03",
+      "topic": "Transport Layer",
+      "subtopic": "UDP",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which protocol provides unreliable connectionless communication?",
+      "options": [
+        {"option_id": "A", "text": "TCP", "is_correct": false},
+        {"option_id": "B", "text": "UDP", "is_correct": true},
+        {"option_id": "C", "text": "HTTP", "is_correct": false},
+        {"option_id": "D", "text": "FTP", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "UDP does not provide acknowledgements or retransmissions."
+    },
+    {
+      "question_code": "CN_TRANS_04",
+      "concept_code": "CN_TRANS_04",
+      "topic": "Transport Layer",
+      "subtopic": "TCP Handshake",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "TCP connection establishment uses:",
+      "options": [
+        {"option_id": "A", "text": "2-way handshake", "is_correct": false},
+        {"option_id": "B", "text": "3-way handshake", "is_correct": true},
+        {"option_id": "C", "text": "4-way handshake", "is_correct": false},
+        {"option_id": "D", "text": "5-way handshake", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "TCP uses SYN, SYN-ACK and ACK."
+    },
+    {
+      "question_code": "CN_TRANS_05",
+      "concept_code": "CN_TRANS_05",
+      "topic": "Transport Layer",
+      "subtopic": "Flow Control",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "TCP flow control is implemented using:",
+      "options": [
+        {"option_id": "A", "text": "Congestion Window", "is_correct": false},
+        {"option_id": "B", "text": "Receiver Window", "is_correct": true},
+        {"option_id": "C", "text": "TTL", "is_correct": false},
+        {"option_id": "D", "text": "Checksum", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "The receiver advertises the available buffer space."
+    },
+    {
+      "question_code": "CN_TRANS_06",
+      "concept_code": "CN_TRANS_06",
+      "topic": "Transport Layer",
+      "subtopic": "Ports",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "HTTPS uses which default port number?",
+      "options": [
+        {"option_id": "A", "text": "80", "is_correct": false},
+        {"option_id": "B", "text": "25", "is_correct": false},
+        {"option_id": "C", "text": "443", "is_correct": true},
+        {"option_id": "D", "text": "53", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "HTTPS runs over TCP port 443."
+    },
+    {
+      "question_code": "CN_APP_03",
+      "concept_code": "CN_APP_03",
+      "topic": "Application Layer",
+      "subtopic": "Email",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "SMTP is used for:",
+      "options": [
+        {"option_id": "A", "text": "File Transfer", "is_correct": false},
+        {"option_id": "B", "text": "Email Transmission", "is_correct": true},
+        {"option_id": "C", "text": "Name Resolution", "is_correct": false},
+        {"option_id": "D", "text": "Remote Login", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "SMTP transfers email between mail servers."
+    },
+    {
+      "question_code": "CN_APP_04",
+      "concept_code": "CN_APP_04",
+      "topic": "Application Layer",
+      "subtopic": "FTP",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "FTP uses how many TCP connections during a session?",
+      "options": [
+        {"option_id": "A", "text": "1", "is_correct": false},
+        {"option_id": "B", "text": "2", "is_correct": true},
+        {"option_id": "C", "text": "3", "is_correct": false},
+        {"option_id": "D", "text": "4", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "FTP uses separate control and data connections."
+    },
+    {
+      "question_code": "CN_APP_05",
+      "concept_code": "CN_APP_05",
+      "topic": "Application Layer",
+      "subtopic": "DNS",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "DNS typically uses which transport protocol for standard queries?",
+      "options": [
+        {"option_id": "A", "text": "TCP", "is_correct": false},
+        {"option_id": "B", "text": "UDP", "is_correct": true},
+        {"option_id": "C", "text": "SCTP", "is_correct": false},
+        {"option_id": "D", "text": "ICMP", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Most DNS queries use UDP port 53."
+    },
+    {
+      "question_code": "CN_SEC_01",
+      "concept_code": "CN_SEC_01",
+      "topic": "Network Security",
+      "subtopic": "Cryptography",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which cryptographic algorithm is asymmetric?",
+      "options": [
+        {"option_id": "A", "text": "AES", "is_correct": false},
+        {"option_id": "B", "text": "DES", "is_correct": false},
+        {"option_id": "C", "text": "RSA", "is_correct": true},
+        {"option_id": "D", "text": "3DES", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "RSA uses a public-private key pair."
+    },
+    {
+      "question_code": "CN_SEC_02",
+      "concept_code": "CN_SEC_02",
+      "topic": "Network Security",
+      "subtopic": "SSL/TLS",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "TLS is primarily used to provide:",
+      "options": [
+        {"option_id": "A", "text": "Routing", "is_correct": false},
+        {"option_id": "B", "text": "Reliable Delivery", "is_correct": false},
+        {"option_id": "C", "text": "Secure Communication", "is_correct": true},
+        {"option_id": "D", "text": "Address Resolution", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "TLS provides confidentiality, integrity, and authentication."
+    },
+    {
+      "question_code": "CN_WIRELESS_01",
+      "concept_code": "CN_WIRELESS_01",
+      "topic": "Wireless Networks",
+      "subtopic": "Wi-Fi",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "IEEE 802.11 standards are associated with:",
+      "options": [
+        {"option_id": "A", "text": "Ethernet", "is_correct": false},
+        {"option_id": "B", "text": "Wi-Fi", "is_correct": true},
+        {"option_id": "C", "text": "Bluetooth", "is_correct": false},
+        {"option_id": "D", "text": "Token Ring", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "IEEE 802.11 defines wireless LAN technologies."
+    },
+  {
+    "question_code": "CN_PHY_04",
+    "concept_code": "CN_PHY_04",
+    "topic": "Physical Layer",
+    "subtopic": "Transmission Delay",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A 12000-bit packet is transmitted over a link with bandwidth 3 Mbps. Find the transmission delay in milliseconds.",
+    "correct_answer": 4.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Transmission delay = Packet Size / Bandwidth = 12000/(3×10^6) = 0.004 s = 4 ms."
+  },
+  {
+    "question_code": "CN_NET_09",
+    "concept_code": "CN_NET_09",
+    "topic": "Network Layer",
+    "subtopic": "IPv4",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "How many bits are available for host addressing in an IPv4 network with prefix length /24?",
+    "correct_answer": 8.0,
+    "answer_tolerance": 0.01,
+    "explanation": "IPv4 has 32 bits. Host bits = 32 − 24 = 8."
+  },
+  {
+    "question_code": "CN_NET_10",
+    "concept_code": "CN_NET_10",
+    "topic": "Network Layer",
+    "subtopic": "Subnetting",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A /28 subnet contains how many usable host addresses?",
+    "correct_answer": 14.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Total addresses = 2^(32−28)=16. Usable hosts = 16−2 = 14."
+  },
+  {
+    "question_code": "CN_DLL_06",
+    "concept_code": "CN_DLL_06",
+    "topic": "Data Link Layer",
+    "subtopic": "Ethernet",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "An Ethernet MAC address is 48 bits long. How many bytes does it occupy?",
+    "correct_answer": 6.0,
+    "answer_tolerance": 0.01,
+    "explanation": "48 bits = 48/8 = 6 bytes."
+  },
+  {
+    "question_code": "CN_TRANS_07",
+    "concept_code": "CN_TRANS_07",
+    "topic": "Transport Layer",
+    "subtopic": "TCP Congestion Control",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A TCP connection starts with congestion window size 1 MSS. During slow start, after 4 RTTs, what is the congestion window size in MSS?",
+    "correct_answer": 16.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Slow start doubles cwnd every RTT: 1 → 2 → 4 → 8 → 16."
+  },
+  {
+    "question_code": "CN_APP_06",
+    "concept_code": "CN_APP_06",
+    "topic": "Application Layer",
+    "subtopic": "DNS",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "DNS uses port number 53. If a server listens on both TCP and UDP port 53, how many transport-layer endpoints are being used?",
+    "correct_answer": 2.0,
+    "answer_tolerance": 0.01,
+    "explanation": "One endpoint for TCP and one for UDP."
+  },
+  {
+    "question_code": "CN_NET_11",
+    "concept_code": "CN_NET_11",
+    "topic": "Network Layer",
+    "subtopic": "Routing",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "In a routing table, there are 15 entries. If each entry requires 32 bytes of storage, how many bytes are needed in total?",
+    "correct_answer": 480.0,
+    "answer_tolerance": 0.01,
+    "explanation": "15 × 32 = 480 bytes."
+  },
+  {
+    "question_code": "CN_DLL_07",
+    "concept_code": "CN_DLL_07",
+    "topic": "Data Link Layer",
+    "subtopic": "Flow Control",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A sliding window protocol uses a window size of 7. How many frames can be sent before receiving an acknowledgment?",
+    "correct_answer": 7.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The sender can transmit up to the window size worth of frames."
+  },
+  {
+    "question_code": "CN_SEC_03",
+    "concept_code": "CN_SEC_03",
+    "topic": "Network Security",
+    "subtopic": "Cryptography",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "An AES key has length 128 bits. What is its size in bytes?",
+    "correct_answer": 16.0,
+    "answer_tolerance": 0.01,
+    "explanation": "128 bits = 128/8 = 16 bytes."
+  },
+  {
+    "question_code": "CN_WIRELESS_02",
+    "concept_code": "CN_WIRELESS_02",
+    "topic": "Wireless Networks",
+    "subtopic": "Wi-Fi",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "A Wi-Fi access point supports a maximum data rate of 150 Mbps. How many megabits can theoretically be transmitted in 2 seconds?",
+    "correct_answer": 300.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Data transmitted = Rate × Time = 150 × 2 = 300 megabits."
+  },
+  {
+    "question_code": "CN_PHY_02",
+    "concept_code": "CN_PHY_01",
+    "topic": "Physical Layer",
+    "subtopic": "Transmission Media",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about Optical Fiber are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "It provides very high bandwidth",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "It is immune to electromagnetic interference",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "It has lower attenuation compared to copper cables",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "It transmits signals using electrical currents",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Optical fiber uses light for transmission, offers very high bandwidth, low attenuation, and immunity to electromagnetic interference."
+  },
+  {
+    "question_code": "CN_DLL_03",
+    "concept_code": "CN_DLL_01",
+    "topic": "Data Link Layer",
+    "subtopic": "Error Detection",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are error detection techniques used in data communication?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Parity Check",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Checksum",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "CRC",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "Dijkstra's Algorithm",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Parity, Checksum, and CRC are error detection techniques, whereas Dijkstra's algorithm is used for shortest-path routing."
+  },
+  {
+    "question_code": "CN_DLL_04",
+    "concept_code": "CN_DLL_02",
+    "topic": "Data Link Layer",
+    "subtopic": "MAC Protocols",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about CSMA/CD are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "It is used in traditional shared Ethernet networks",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "CD stands for Collision Detection",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A station listens before transmitting",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "It is the primary MAC protocol used in Wi-Fi",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "CSMA/CD uses carrier sensing and collision detection in shared-medium Ethernet. Wi-Fi uses CSMA/CA instead."
+  },
+  {
+    "question_code": "CN_NET_03",
+    "concept_code": "CN_NET_01",
+    "topic": "Network Layer",
+    "subtopic": "IPv4",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about IPv4 are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "An IPv4 address is 32 bits long",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "IPv4 addresses are commonly represented in dotted-decimal notation",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "IPv4 supports subnetting",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "An IPv4 address is 128 bits long",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "IPv4 uses 32-bit addresses, represented in dotted-decimal notation, and supports subnetting. IPv6 uses 128-bit addresses."
+  },
+  {
+    "question_code": "CN_NET_04",
+    "concept_code": "CN_NET_02",
+    "topic": "Network Layer",
+    "subtopic": "Routing",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about OSPF are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "OSPF is a link-state routing protocol",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "OSPF uses Dijkstra's shortest path algorithm",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "Routers maintain a link-state database",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "OSPF is based entirely on the Bellman-Ford algorithm",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "OSPF is a link-state protocol that uses Dijkstra's SPF algorithm and maintains a link-state database. Bellman-Ford is associated with distance-vector routing protocols."
+  }
+]
+}

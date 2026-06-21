@@ -1,0 +1,692 @@
+subject: Linear Algebra
+exam: GATE DA
+subject_weightage: 15
+
+topics:
+
+  - name: Matrices
+    topic_code: LA_MATRIX
+    weightage: 35
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basics
+        concepts:
+
+          - concept_code: LA_MATRIX_01
+            name: Matrix Basics
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 2
+            prerequisites: []
+            learning_outcomes:
+              - identify_matrix_definition
+              - distinguish_matrix_structure
+            pyq_patterns:
+              - matrix_definition
+            templates:
+              - pattern: "A matrix is defined as:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_02
+            name: Matrix Order
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 2
+            prerequisites: []
+            learning_outcomes:
+              - determine_order
+            pyq_patterns:
+              - matrix_order
+            templates:
+              - pattern: "The order of a matrix with {{rows}} rows and {{cols}} columns is:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_03
+            name: Matrix Addition Conditions
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 2
+            prerequisites: []
+            learning_outcomes:
+              - validate_matrix_addition
+            pyq_patterns:
+              - matrix_addition_conditions
+            templates:
+              - pattern: "Matrix addition is defined only when:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_04
+            name: Matrix Multiplication
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 2
+            prerequisites:
+              - matrix_dimensions
+            learning_outcomes:
+              - check_multiplication_feasibility
+            pyq_patterns:
+              - matrix_multiplication_condition
+            templates:
+              - pattern: "Matrix multiplication is possible when:"
+                difficulty: medium
+
+          - concept_code: LA_MATRIX_05
+            name: Identity Matrix
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_identity_matrix
+            pyq_patterns:
+              - identity_matrix_properties
+            templates:
+              - pattern: "Identity matrix has:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_06
+            name: Determinant Basics
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - square_matrix
+            learning_outcomes:
+              - understand_determinant_scope
+            pyq_patterns:
+              - determinant_definition
+            templates:
+              - pattern: "Determinant is defined only for:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_07
+            name: Singular Matrix
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - determinant
+            learning_outcomes:
+              - identify_singular_matrix
+            pyq_patterns:
+              - singular_matrix_condition
+            templates:
+              - pattern: "A matrix is singular if:"
+                difficulty: medium
+
+          - concept_code: LA_MATRIX_08
+            name: Transpose
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compute_transpose
+            pyq_patterns:
+              - transpose_definition
+            templates:
+              - pattern: "Transpose of a matrix is obtained by:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_09
+            name: Symmetric Matrix
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - transpose
+            learning_outcomes:
+              - identify_symmetric_property
+            pyq_patterns:
+              - symmetric_matrix_condition
+            templates:
+              - pattern: "A symmetric matrix satisfies:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_10
+            name: Skew-Symmetric Matrix
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - transpose
+            learning_outcomes:
+              - identify_skew_symmetric_property
+            pyq_patterns:
+              - skew_symmetric_condition
+            templates:
+              - pattern: "A skew-symmetric matrix satisfies:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_11
+            name: Determinant (2x2)
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - determinant
+            learning_outcomes:
+              - compute_determinant_2x2
+            pyq_patterns:
+              - determinant_calculation
+            templates:
+              - pattern: "Find the determinant of the matrix [[a, b], [c, d]]."
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_12
+            name: Trace
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - square_matrix
+            learning_outcomes:
+              - compute_trace
+            pyq_patterns:
+              - trace_calculation
+            templates:
+              - pattern: "Find the trace of the matrix:"
+                difficulty: easy
+
+          - concept_code: LA_MATRIX_13
+            name: Determinant (Triangular Matrix)
+            weightage: 3
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - determinant
+            learning_outcomes:
+              - compute_triangular_determinant
+            pyq_patterns:
+              - triangular_matrix_determinant
+            templates:
+              - pattern: "Find the determinant of the triangular matrix:"
+                difficulty: easy
+
+
+  - name: Vectors
+    topic_code: LA_VECTOR
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Vector Operations
+        concepts:
+
+          - concept_code: LA_VECTOR_01
+            name: Vector Basics
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - define_vector
+            pyq_patterns:
+              - vector_definition
+            templates:
+              - pattern: "A vector represents:"
+                difficulty: easy
+
+          - concept_code: LA_VECTOR_02
+            name: Dot Product
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - vector_basics
+            learning_outcomes:
+              - compute_dot_product
+            pyq_patterns:
+              - dot_product_properties
+            templates:
+              - pattern: "Dot product of orthogonal vectors is:"
+                difficulty: medium
+
+          - concept_code: LA_VECTOR_03
+            name: Cross Product
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - vector_basics
+            learning_outcomes:
+              - compute_cross_product
+            pyq_patterns:
+              - cross_product_properties
+            templates:
+              - pattern: "Cross product of two parallel vectors is:"
+                difficulty: medium
+
+          - concept_code: LA_VECTOR_04
+            name: Vector Magnitude
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - vector_basics
+            learning_outcomes:
+              - compute_magnitude
+            pyq_patterns:
+              - vector_magnitude
+            templates:
+              - pattern: "Find the magnitude of vector:"
+                difficulty: easy
+
+          - concept_code: LA_VECTOR_05
+            name: Dot Product Computation
+            weightage: 4
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - vector_basics
+            learning_outcomes:
+              - compute_dot_product_numerical
+            pyq_patterns:
+              - dot_product_numerical
+            templates:
+              - pattern: "Find the dot product of vectors:"
+                difficulty: medium
+
+
+  - name: Linear Equations
+    topic_code: LA_SYSTEM
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Systems of Equations
+        concepts:
+
+          - concept_code: LA_SYSTEM_01
+            name: Consistency
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - determine_consistency
+            pyq_patterns:
+              - system_consistency
+            templates:
+              - pattern: "A system of equations is consistent if:"
+                difficulty: medium
+
+          - concept_code: LA_SYSTEM_02
+            name: Unique Solution Condition
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - determinant
+            learning_outcomes:
+              - determine_unique_solution
+            pyq_patterns:
+              - unique_solution_condition
+            templates:
+              - pattern: "A system has a unique solution when:"
+                difficulty: medium
+
+          - concept_code: LA_SYSTEM_03
+            name: Solving Linear System
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - substitution_method
+            learning_outcomes:
+              - solve_linear_system
+            pyq_patterns:
+              - linear_system_solution
+            templates:
+              - pattern: "Solve for x in the system:"
+                difficulty: medium
+
+
+  - name: Eigenvalues and Eigenvectors
+    topic_code: LA_EIG
+    weightage: 15
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Eigen Concepts
+        concepts:
+
+          - concept_code: LA_EIG_01
+            name: Eigenvalues
+            weightage: 7
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - determinant
+            learning_outcomes:
+              - solve_characteristic_equation
+            pyq_patterns:
+              - eigenvalue_equation
+            templates:
+              - pattern: "Eigenvalues are found by solving:"
+                difficulty: medium
+
+          - concept_code: LA_EIG_02
+            name: Eigenvectors
+            weightage: 8
+            gate_frequency: very_high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - eigenvalues
+            learning_outcomes:
+              - compute_eigenvector
+            pyq_patterns:
+              - eigenvector_definition
+            templates:
+              - pattern: "Eigenvector satisfies:"
+                difficulty: medium
+
+          - concept_code: LA_EIG_03
+            name: Eigenvalues (Diagonal Matrix)
+            weightage: 6
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - matrix_basics
+            learning_outcomes:
+              - identify_diagonal_eigenvalues
+            pyq_patterns:
+              - diagonal_matrix_eigenvalues
+            templates:
+              - pattern: "Find the largest eigenvalue of:"
+                difficulty: easy
+
+          - concept_code: LA_EIG_04
+            name: Eigenvalues (Applications)
+            weightage: 6
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - eigenvalues
+            learning_outcomes:
+              - apply_eigenvalue_properties
+            pyq_patterns:
+              - eigenvalue_application
+            templates:
+              - pattern: "Find eigenvalue of matrix:"
+                difficulty: easy
+
+
+  - name: Matrix Rank
+    topic_code: LA_RANK
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Rank Concepts
+        concepts:
+
+          - concept_code: LA_RANK_01
+            name: Rank Basics
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_linear_independence
+            pyq_patterns:
+              - rank_definition
+            templates:
+              - pattern: "Rank of a matrix represents:"
+                difficulty: easy
+
+          - concept_code: LA_RANK_02
+            name: Full Rank
+            weightage: 5
+            gate_frequency: high
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - rank_basics
+            learning_outcomes:
+              - identify_full_rank
+            pyq_patterns:
+              - full_rank_condition
+            templates:
+              - pattern: "A matrix is full rank if:"
+                difficulty: easy
+
+          - concept_code: LA_RANK_03
+            name: Rank Computation
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - row_reduction
+            learning_outcomes:
+              - compute_rank
+            pyq_patterns:
+              - rank_calculation
+            templates:
+              - pattern: "Find the rank of the matrix:"
+                difficulty: easy
+
+
+  - name: Linear Transformations
+    topic_code: LA_TRANSFORM
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Transform Basics
+        concepts:
+
+          - concept_code: LA_TRANSFORM_01
+            name: Linear Transformation
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              MCQ: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 60
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - understand_linearity
+            pyq_patterns:
+              - linear_transformation_properties
+            templates:
+              - pattern: "A linear transformation preserves:"
+                difficulty: medium
+
+          - concept_code: LA_TRANSFORM_02
+            name: Matrix Transformation Computation
+            weightage: 5
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+            estimated_questions_per_year: 1
+            prerequisites:
+              - matrix_multiplication
+            learning_outcomes:
+              - compute_Ax
+            pyq_patterns:
+              - matrix_vector_multiplication
+            templates:
+              - pattern: "Find the result of Ax and sum its components:"
+                difficulty: medium

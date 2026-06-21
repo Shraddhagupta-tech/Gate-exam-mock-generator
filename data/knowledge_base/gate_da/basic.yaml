@@ -1,0 +1,642 @@
+subject: Basic AI (Search, Logic, Reasoning)
+exam: GATE DA
+subject_weightage: 15
+
+topics:
+
+  - name: Search
+    topic_code: AI_SEARCH
+    weightage: 35
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Uninformed Search
+
+        concepts:
+
+          - concept_code: AI_SEARCH_01
+            name: Breadth First Search
+            weightage: 6
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites: []
+
+            learning_outcomes:
+              - level_order_traversal
+              - expand_nodes_level_by_level
+              - identify_shortest_path_in_unweighted_graph
+
+            pyq_patterns:
+              - level_order_expansion
+              - shortest_path_unweighted_graph
+
+            templates:
+              - pattern: "Which search algorithm explores nodes level by level?"
+                difficulty: easy
+
+          - concept_code: AI_SEARCH_02
+            name: Depth First Search
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - stack_based_traversal
+              - recursive_exploration
+              - backtracking_behavior
+
+            pyq_patterns:
+              - dfs_stack_usage
+              - recursion_based_traversal
+
+            templates:
+              - pattern: "DFS uses which data structure?"
+                difficulty: easy
+
+          - concept_code: AI_SEARCH_03
+            name: Uniform Cost Search
+            weightage: 6
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - priority_queue
+
+            learning_outcomes:
+              - expand_lowest_cost_path
+              - compute_optimal_path_cost
+              - apply_priority_queue_based_search
+
+            pyq_patterns:
+              - path_cost_expansion
+              - optimal_cost_selection
+
+            templates:
+              - pattern: "Uniform Cost Search expands nodes based on:"
+                difficulty: medium
+
+      - name: Informed Search
+
+        concepts:
+
+          - concept_code: AI_SEARCH_04
+            name: A Star Search
+            weightage: 7
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites:
+              - heuristic_search
+
+            learning_outcomes:
+              - compute_f_n_values
+              - combine_cost_and_heuristic
+              - apply_optimal_search_strategy
+
+            pyq_patterns:
+              - a_star_evaluation_function
+              - optimal_path_finding
+
+            templates:
+              - pattern: "A* search uses which evaluation function?"
+                difficulty: medium
+
+          - concept_code: AI_SEARCH_05
+            name: Heuristic Functions
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites: []
+
+            learning_outcomes:
+              - estimate_goal_distance
+              - design_heuristic_functions
+              - improve_search_efficiency
+
+            pyq_patterns:
+              - heuristic_estimation
+              - goal_distance_approximation
+
+            templates:
+              - pattern: "A heuristic function estimates:"
+                difficulty: easy
+
+          - concept_code: AI_SEARCH_06
+            name: Greedy Best First Search
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - heuristic_search
+
+            learning_outcomes:
+              - select_min_heuristic_node
+              - understand_greedy_decisions
+              - compare_with_a_star
+
+            pyq_patterns:
+              - heuristic_only_selection
+              - greedy_search_behavior
+
+            templates:
+              - pattern: "Greedy best-first search uses:"
+                difficulty: medium
+
+          - concept_code: AI_SEARCH_07
+            name: Optimality in Search
+            weightage: 7
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - a_star_search
+
+            learning_outcomes:
+              - identify_admissible_heuristic
+              - determine_optimal_algorithms
+              - analyze_search_optimality
+
+            pyq_patterns:
+              - admissible_heuristic_property
+              - optimality_conditions
+
+            templates:
+              - pattern: "Which algorithm is optimal if heuristic is admissible?"
+                difficulty: medium
+
+
+  - name: Logic
+    topic_code: AI_LOGIC
+    weightage: 30
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Propositional Logic
+
+        concepts:
+
+          - concept_code: AI_LOGIC_01
+            name: Propositions
+            weightage: 4
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites: []
+
+            learning_outcomes:
+              - identify_truth_valued_statements
+              - distinguish_propositions_from_non_propositions
+
+            pyq_patterns:
+              - proposition_identification
+
+            templates:
+              - pattern: "A proposition is:"
+                difficulty: easy
+
+          - concept_code: AI_LOGIC_02
+            name: Logical AND
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - propositions
+
+            learning_outcomes:
+              - evaluate_conjunction
+              - interpret_truth_table
+
+            pyq_patterns:
+              - and_truth_table
+
+            templates:
+              - pattern: "P AND Q is true when:"
+                difficulty: easy
+
+          - concept_code: AI_LOGIC_03
+            name: Logical OR
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - propositions
+
+            learning_outcomes:
+              - evaluate_disjunction
+              - interpret_truth_conditions
+
+            pyq_patterns:
+              - or_truth_table
+
+            templates:
+              - pattern: "P OR Q is false when:"
+                difficulty: easy
+
+          - concept_code: AI_LOGIC_04
+            name: Implication
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites:
+              - propositional_logic
+
+            learning_outcomes:
+              - evaluate_implication_truth_table
+              - identify_false_case
+
+            pyq_patterns:
+              - implication_false_condition
+
+            templates:
+              - pattern: "P → Q is false when:"
+                difficulty: medium
+
+          - concept_code: AI_LOGIC_05
+            name: Negation
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - propositions
+
+            learning_outcomes:
+              - invert_truth_values
+
+            pyq_patterns:
+              - negation_basic
+
+            templates:
+              - pattern: "Negation of true is:"
+                difficulty: easy
+
+          - concept_code: AI_LOGIC_06
+            name: Tautology
+            weightage: 4
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - propositional_logic
+
+            learning_outcomes:
+              - identify_always_true_statements
+
+            pyq_patterns:
+              - tautology_identification
+
+            templates:
+              - pattern: "A tautology is:"
+                difficulty: medium
+
+
+  - name: Reasoning
+    topic_code: AI_REASON
+    weightage: 35
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Types of Reasoning
+
+        concepts:
+
+          - concept_code: AI_REASON_01
+            name: Deductive Reasoning
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - apply_general_rules_to_specific_cases
+
+            pyq_patterns:
+              - deduction_direction
+
+            templates:
+              - pattern: "Deductive reasoning goes from:"
+                difficulty: easy
+
+          - concept_code: AI_REASON_02
+            name: Inductive Reasoning
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - generalize_from_examples
+
+            pyq_patterns:
+              - induction_pattern
+
+            templates:
+              - pattern: "Inductive reasoning goes from:"
+                difficulty: easy
+
+          - concept_code: AI_REASON_03
+            name: Abductive Reasoning
+            weightage: 5
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - find_best_explanation
+
+            pyq_patterns:
+              - abduction_reasoning
+
+            templates:
+              - pattern: "Abductive reasoning is:"
+                difficulty: medium
+
+          - concept_code: AI_REASON_04
+            name: Inference
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 2
+
+            prerequisites: []
+
+            learning_outcomes:
+              - derive_conclusions_from_facts
+
+            pyq_patterns:
+              - inference_definition
+
+            templates:
+              - pattern: "Inference in AI means:"
+                difficulty: medium
+
+          - concept_code: AI_REASON_05
+            name: Knowledge Representation
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 0
+
+            difficulty_distribution:
+              easy: 100
+              medium: 0
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - represent_knowledge_formally
+
+            pyq_patterns:
+              - knowledge_representation_usage
+
+            templates:
+              - pattern: "Knowledge representation in AI is used for:"
+                difficulty: easy
+
+          - concept_code: AI_REASON_06
+            name: Resolution
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 0
+              hard: 100
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - propositional_logic
+
+            learning_outcomes:
+              - apply_resolution_proof_method
+              - derive_conclusions_logically
+
+            pyq_patterns:
+              - resolution_proof_steps
+
+            templates:
+              - pattern: "Resolution in logic is used for:"
+                difficulty: hard
+
+          - concept_code: AI_REASON_07
+            name: Forward Chaining
+            weightage: 4
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 100
+              hard: 0
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - rule_based_systems
+
+            learning_outcomes:
+              - derive_new_facts_from_rules
+              - data_driven_inference
+
+            pyq_patterns:
+              - chaining_methods
+
+            templates:
+              - pattern: "Forward chaining is:"
+                difficulty: medium

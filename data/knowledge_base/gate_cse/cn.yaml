@@ -1,0 +1,703 @@
+subject: Computer Networks
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: Physical Layer
+    topic_code: CN_PHY
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Transmission Media
+        concepts:
+          - concept_code: CN_PHY_01
+            name: Transmission Media and Bandwidth Characteristics
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              MSQ: 10
+              NAT: 20
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - compare_transmission_media
+              - evaluate_bandwidth_limits
+              - analyze_attenuation
+            pyq_patterns:
+              - medium_selection
+              - bandwidth_comparison
+            templates:
+              - pattern: "Which transmission medium provides highest bandwidth?"
+                difficulty: easy
+
+      - name: Multiplexing
+        concepts:
+          - concept_code: CN_PHY_02
+            name: Frequency and Time Division Multiplexing
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - distinguish_fdm_tdm
+              - analyze_channel_allocation
+            pyq_patterns:
+              - multiplexing_identification
+            templates:
+              - pattern: "Which multiplexing technique allocates frequency bands?"
+                difficulty: easy
+
+      - name: Delay Analysis
+        concepts:
+          - concept_code: CN_PHY_03
+            name: Transmission Delay Fundamentals
+            weightage: 3
+            gate_frequency: very_high
+            question_types:
+              MCQ: 50
+              NAT: 50
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            prerequisites:
+              - basic_network_metrics
+            learning_outcomes:
+              - compute_transmission_delay
+              - distinguish_network_delays
+            pyq_patterns:
+              - delay_calculation
+            templates:
+              - pattern: "Transmission delay depends on which parameters?"
+                difficulty: medium
+
+          - concept_code: CN_PHY_04
+            name: Numerical Problems on Transmission Delay
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            prerequisites:
+              - CN_PHY_03
+            learning_outcomes:
+              - calculate_packet_transmission_time
+              - solve_bandwidth_delay_problems
+            pyq_patterns:
+              - packet_delay_numerical
+            templates:
+              - pattern: "A {{packet_size}} bit packet is sent over {{bandwidth}} Mbps link."
+                difficulty: medium
+
+  - name: Data Link Layer
+    topic_code: CN_DLL
+    weightage: 18
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Error Detection
+        concepts:
+          - concept_code: CN_DLL_01
+            name: CRC and Ethernet Error Detection
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - understand_crc
+              - detect_frame_errors
+            pyq_patterns:
+              - crc_detection
+              - ethernet_crc
+            templates:
+              - pattern: "Which error detection method is used in Ethernet?"
+                difficulty: easy
+
+      - name: MAC Protocols
+        concepts:
+          - concept_code: CN_DLL_02
+            name: CSMA/CD and Shared Medium Ethernet
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 80
+              NAT: 20
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - analyze_collision_detection
+              - compare_mac_protocols
+            pyq_patterns:
+              - csma_cd_behavior
+            templates:
+              - pattern: "CSMA/CD is primarily used in?"
+                difficulty: easy
+
+      - name: Flow Control
+        concepts:
+          - concept_code: CN_DLL_03
+            name: Sliding Window Protocols
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - explain_sliding_window
+              - compute_window_efficiency
+            pyq_patterns:
+              - window_size_analysis
+            templates:
+              - pattern: "Which protocol allows multiple frames before acknowledgment?"
+                difficulty: easy
+
+          - concept_code: CN_DLL_07
+            name: Sliding Window Numerical Problems
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+            prerequisites:
+              - CN_DLL_03
+            learning_outcomes:
+              - compute_frames_in_flight
+              - analyze_sender_window
+            pyq_patterns:
+              - window_size_numerical
+            templates:
+              - pattern: "Window size is {{window_size}}. How many frames can be sent?"
+                difficulty: medium
+
+      - name: Error Correction
+        concepts:
+          - concept_code: CN_DLL_04
+            name: Hamming Code and Error Correction
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 50
+              NAT: 50
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            prerequisites:
+              - binary_arithmetic
+            learning_outcomes:
+              - detect_single_bit_errors
+              - correct_single_bit_errors
+            pyq_patterns:
+              - hamming_code_generation
+            templates:
+              - pattern: "Hamming code is primarily used for?"
+                difficulty: easy
+
+      - name: Ethernet
+        concepts:
+          - concept_code: CN_DLL_05
+            name: Ethernet MAC Addressing
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - understand_mac_structure
+              - identify_mac_length
+            pyq_patterns:
+              - mac_address_questions
+            templates:
+              - pattern: "An Ethernet MAC address contains how many bits?"
+                difficulty: easy
+
+          - concept_code: CN_DLL_06
+            name: MAC Address Numerical Representation
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 60
+              medium: 30
+              hard: 10
+            prerequisites:
+              - CN_DLL_05
+            learning_outcomes:
+              - convert_bits_to_bytes
+            pyq_patterns:
+              - address_size_calculation
+            templates:
+              - pattern: "A 48-bit MAC address occupies how many bytes?"
+                difficulty: easy
+
+  - name: Network Layer
+    topic_code: CN_NET
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: IPv4 and IPv6
+        concepts:
+          - concept_code: CN_NET_01
+            name: IPv4 Address Structure
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - understand_ipv4_structure
+              - determine_address_space
+            pyq_patterns:
+              - ipv4_length
+            templates:
+              - pattern: "How many bits are present in an IPv4 address?"
+                difficulty: easy
+
+          - concept_code: CN_NET_09
+            name: IPv4 Prefix Length and Host Bits
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            prerequisites:
+              - CN_NET_01
+            learning_outcomes:
+              - calculate_host_bits
+            pyq_patterns:
+              - prefix_length_calculation
+            templates:
+              - pattern: "How many host bits exist in a /{{prefix}} network?"
+                difficulty: easy
+
+          - concept_code: CN_NET_04
+            name: IPv6 Addressing
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 40
+              medium: 40
+              hard: 20
+            prerequisites:
+              - ipv4_basics
+            learning_outcomes:
+              - compare_ipv4_ipv6
+            pyq_patterns:
+              - ipv6_size_questions
+            templates:
+              - pattern: "The size of an IPv6 address is?"
+                difficulty: easy
+
+      - name: Routing
+        concepts:
+          - concept_code: CN_NET_02
+            name: Link State Routing and OSPF
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              MSQ: 20
+              NAT: 20
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            prerequisites:
+              - graph_theory
+            learning_outcomes:
+              - apply_dijkstra_algorithm
+              - understand_ospf
+            pyq_patterns:
+              - shortest_path_routing
+            templates:
+              - pattern: "Which routing algorithm is used by OSPF?"
+                difficulty: medium
+
+          - concept_code: CN_NET_07
+            name: Distance Vector Routing and RIP
+            weightage: 4
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+            prerequisites: []
+            learning_outcomes:
+              - understand_bellman_ford
+              - analyze_rip_updates
+            pyq_patterns:
+              - rip_behavior
+            templates:
+              - pattern: "RIP routing protocol is based on?"
+                difficulty: easy
+
+          - concept_code: CN_NET_11
+            name: Routing Table Storage Calculations
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 40
+              medium: 50
+              hard: 10
+            prerequisites: []
+            learning_outcomes:
+              - estimate_routing_table_memory
+            pyq_patterns:
+              - routing_storage_numerical
+            templates:
+              - pattern: "Each routing entry requires {{size}} bytes."
+                difficulty: medium
+
+      - name: Subnetting and CIDR
+        concepts:
+          - concept_code: CN_NET_03
+            name: Subnetting and Host Calculation
+            weightage: 5
+            gate_frequency: very_high
+            question_types:
+              MCQ: 50
+              NAT: 50
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            prerequisites:
+              - binary_math
+            learning_outcomes:
+              - calculate_usable_hosts
+              - identify_network_ranges
+            pyq_patterns:
+              - subnet_host_count
+            templates:
+              - pattern: "How many usable host addresses are available in a /{{prefix}} subnet?"
+                difficulty: medium
+
+          - concept_code: CN_NET_10
+            name: Subnetting Numerical Problems
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              NAT: 100
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+            prerequisites:
+              - CN_NET_03
+            learning_outcomes:
+              - solve_subnetting_numericals
+            pyq_patterns:
+              - host_address_calculation
+            templates:
+              - pattern: "A /{{prefix}} subnet contains how many usable hosts?"
+                difficulty: medium
+
+          - concept_code: CN_NET_08
+            name: CIDR Address Allocation
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 50
+              NAT: 50
+            difficulty_distribution:
+              easy: 20
+              medium: 40
+              hard: 40
+            prerequisites:
+              - subnetting
+            learning_outcomes:
+              - compute_total_addresses
+              - understand_prefix_lengths
+            pyq_patterns:
+              - cidr_calculation
+            templates:
+              - pattern: "A /24 network contains how many addresses?"
+                difficulty: medium
+
+      - name: Address Resolution and Diagnostics
+        concepts:
+          - concept_code: CN_NET_05
+            name: Address Resolution Protocol (ARP)
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 80
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            learning_outcomes:
+              - resolve_mac_addresses
+            pyq_patterns:
+              - arp_mapping
+            templates:
+              - pattern: "ARP maps which addresses?"
+                difficulty: easy
+
+          - concept_code: CN_NET_06
+            name: ICMP and Ping Utility
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 80
+              NAT: 20
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+            learning_outcomes:
+              - understand_icmp
+              - analyze_ping_messages
+            pyq_patterns:
+              - ping_protocol
+            templates:
+              - pattern: "The ping utility uses which protocol?"
+                difficulty: easy
+
+  - name: Transport Layer
+    topic_code: CN_TRANS
+    weightage: 17
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: TCP and UDP
+        concepts:
+          - concept_code: CN_TRANS_01
+            name: TCP Fundamentals
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            learning_outcomes:
+              - understand_connection_oriented_communication
+              - analyze_tcp_services
+
+          - concept_code: CN_TRANS_03
+            name: UDP Fundamentals
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            learning_outcomes:
+              - understand_connectionless_communication
+              - compare_tcp_udp
+
+      - name: TCP Connection Management
+        concepts:
+          - concept_code: CN_TRANS_04
+            name: TCP Three-Way Handshake
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 80
+              NAT: 20
+            learning_outcomes:
+              - analyze_connection_establishment
+              - understand_syn_ack_exchange
+
+      - name: Flow and Congestion Control
+        concepts:
+          - concept_code: CN_TRANS_02
+            name: TCP Slow Start and Congestion Control
+            weightage: 4
+            gate_frequency: very_high
+            question_types:
+              MCQ: 60
+              NAT: 40
+            learning_outcomes:
+              - understand_slow_start
+              - analyze_cwnd_growth
+
+          - concept_code: CN_TRANS_07
+            name: Congestion Window Numerical Analysis
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - compute_cwnd_after_rtts
+
+          - concept_code: CN_TRANS_05
+            name: TCP Receiver Window Flow Control
+            weightage: 3
+            gate_frequency: high
+            question_types:
+              MCQ: 70
+              NAT: 30
+            learning_outcomes:
+              - understand_receiver_advertisement
+
+      - name: Port Numbers
+        concepts:
+          - concept_code: CN_TRANS_06
+            name: Well Known Transport Layer Ports
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              MCQ: 90
+              NAT: 10
+            learning_outcomes:
+              - identify_service_ports
+
+  - name: Application Layer
+    topic_code: CN_APP
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: DNS
+        concepts:
+          - concept_code: CN_APP_01
+            name: DNS Name Resolution
+            weightage: 3
+            gate_frequency: very_high
+
+          - concept_code: CN_APP_05
+            name: DNS Transport Protocols
+            weightage: 2
+            gate_frequency: high
+
+          - concept_code: CN_APP_06
+            name: DNS Port and Endpoint Numericals
+            weightage: 2
+            gate_frequency: medium
+
+      - name: Web Protocols
+        concepts:
+          - concept_code: CN_APP_02
+            name: HTTP and Default Ports
+            weightage: 2
+            gate_frequency: high
+
+      - name: Email Systems
+        concepts:
+          - concept_code: CN_APP_03
+            name: SMTP Protocol
+            weightage: 2
+            gate_frequency: high
+
+      - name: File Transfer
+        concepts:
+          - concept_code: CN_APP_04
+            name: FTP Control and Data Connections
+            weightage: 2
+            gate_frequency: medium
+
+  - name: Network Security
+    topic_code: CN_SEC
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Cryptography
+        concepts:
+          - concept_code: CN_SEC_01
+            name: RSA and Asymmetric Cryptography
+            weightage: 5
+            gate_frequency: very_high
+
+          - concept_code: CN_SEC_03
+            name: AES Key Size Calculations
+            weightage: 2
+            gate_frequency: medium
+
+      - name: Secure Communication
+        concepts:
+          - concept_code: CN_SEC_02
+            name: TLS and Secure Channels
+            weightage: 5
+            gate_frequency: high
+
+  - name: Wireless Networks
+    topic_code: CN_WIRELESS
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Wi-Fi Standards
+        concepts:
+          - concept_code: CN_WIRELESS_01
+            name: IEEE 802.11 Wireless LAN Standards
+            weightage: 3
+            gate_frequency: high
+
+          - concept_code: CN_WIRELESS_02
+            name: Wi-Fi Throughput Calculations
+            weightage: 2
+            gate_frequency: medium
+            question_types:
+              NAT: 100
+            learning_outcomes:
+              - calculate_data_transmission
+            pyq_patterns:
+              - throughput_numerical
+            templates:
+              - pattern: "An access point supports {{rate}} Mbps. How much data is sent in {{time}} seconds?"
+                difficulty: easy

@@ -1,0 +1,853 @@
+{
+  "subject": "Database Management Systems",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "DBMS_SQL_01",
+      "concept_code": "DBMS_SQL_01",
+      "topic": "SQL",
+      "subtopic": "Basic Queries",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which SQL clause is used to filter rows based on a condition?",
+      "options": [
+        {"option_id": "A", "text": "GROUP BY", "is_correct": false},
+        {"option_id": "B", "text": "ORDER BY", "is_correct": false},
+        {"option_id": "C", "text": "WHERE", "is_correct": true},
+        {"option_id": "D", "text": "HAVING", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "The WHERE clause filters rows before grouping."
+    },
+    {
+      "question_code": "DBMS_SQL_02",
+      "concept_code": "DBMS_SQL_02",
+      "topic": "SQL",
+      "subtopic": "Aggregate Functions",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which SQL function returns the number of rows?",
+      "options": [
+        {"option_id": "A", "text": "SUM()", "is_correct": false},
+        {"option_id": "B", "text": "AVG()", "is_correct": false},
+        {"option_id": "C", "text": "COUNT()", "is_correct": true},
+        {"option_id": "D", "text": "MAX()", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "COUNT() returns the number of rows matching a query."
+    },
+    {
+      "question_code": "DBMS_SQL_03",
+      "concept_code": "DBMS_SQL_03",
+      "topic": "SQL",
+      "subtopic": "Joins",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which join returns only matching rows from both tables?",
+      "options": [
+        {"option_id": "A", "text": "INNER JOIN", "is_correct": true},
+        {"option_id": "B", "text": "LEFT JOIN", "is_correct": false},
+        {"option_id": "C", "text": "RIGHT JOIN", "is_correct": false},
+        {"option_id": "D", "text": "FULL JOIN", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "INNER JOIN returns rows satisfying the join condition in both tables."
+    },
+    {
+      "question_code": "DBMS_ER_01",
+      "concept_code": "DBMS_ER_01",
+      "topic": "ER Model",
+      "subtopic": "Entities",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "An entity set is a collection of:",
+      "options": [
+        {"option_id": "A", "text": "Attributes", "is_correct": false},
+        {"option_id": "B", "text": "Relationships", "is_correct": false},
+        {"option_id": "C", "text": "Similar Entities", "is_correct": true},
+        {"option_id": "D", "text": "Schemas", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "An entity set contains entities of the same type."
+    },
+    {
+      "question_code": "DBMS_ER_02",
+      "concept_code": "DBMS_ER_02",
+      "topic": "ER Model",
+      "subtopic": "Keys",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A candidate key is:",
+      "options": [
+        {"option_id": "A", "text": "A superkey with no redundant attributes", "is_correct": true},
+        {"option_id": "B", "text": "Any foreign key", "is_correct": false},
+        {"option_id": "C", "text": "Primary key only", "is_correct": false},
+        {"option_id": "D", "text": "Composite key only", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "A candidate key is a minimal superkey."
+    },
+    {
+      "question_code": "DBMS_REL_01",
+      "concept_code": "DBMS_REL_01",
+      "topic": "Relational Model",
+      "subtopic": "Keys",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A foreign key is used to:",
+      "options": [
+        {"option_id": "A", "text": "Enforce Referential Integrity", "is_correct": true},
+        {"option_id": "B", "text": "Sort Data", "is_correct": false},
+        {"option_id": "C", "text": "Compress Data", "is_correct": false},
+        {"option_id": "D", "text": "Normalize Tables", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Foreign keys maintain valid references between tables."
+    },
+    {
+      "question_code": "DBMS_RA_01",
+      "concept_code": "DBMS_RA_01",
+      "topic": "Relational Algebra",
+      "subtopic": "Selection",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which relational algebra operator filters tuples based on a condition?",
+      "options": [
+        {"option_id": "A", "text": "Projection", "is_correct": false},
+        {"option_id": "B", "text": "Selection", "is_correct": true},
+        {"option_id": "C", "text": "Join", "is_correct": false},
+        {"option_id": "D", "text": "Union", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Selection (σ) filters rows based on predicates."
+    },
+    {
+      "question_code": "DBMS_RA_02",
+      "concept_code": "DBMS_RA_02",
+      "topic": "Relational Algebra",
+      "subtopic": "Projection",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Projection operation removes:",
+      "options": [
+        {"option_id": "A", "text": "Rows", "is_correct": false},
+        {"option_id": "B", "text": "Columns", "is_correct": false},
+        {"option_id": "C", "text": "Unwanted Attributes", "is_correct": true},
+        {"option_id": "D", "text": "Tables", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Projection (π) selects specific attributes."
+    },
+    {
+      "question_code": "DBMS_NORM_01",
+      "concept_code": "DBMS_NORM_01",
+      "topic": "Normalization",
+      "subtopic": "1NF",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "First Normal Form requires:",
+      "options": [
+        {"option_id": "A", "text": "Atomic Attributes", "is_correct": true},
+        {"option_id": "B", "text": "No Transitive Dependency", "is_correct": false},
+        {"option_id": "C", "text": "No Partial Dependency", "is_correct": false},
+        {"option_id": "D", "text": "BCNF Compliance", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "1NF requires all attribute values to be atomic."
+    },
+    {
+      "question_code": "DBMS_NORM_02",
+      "concept_code": "DBMS_NORM_02",
+      "topic": "Normalization",
+      "subtopic": "2NF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Second Normal Form removes:",
+      "options": [
+        {"option_id": "A", "text": "Transitive Dependencies", "is_correct": false},
+        {"option_id": "B", "text": "Partial Dependencies", "is_correct": true},
+        {"option_id": "C", "text": "Multivalued Dependencies", "is_correct": false},
+        {"option_id": "D", "text": "Join Dependencies", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "2NF eliminates partial dependency on candidate keys."
+    },
+    {
+      "question_code": "DBMS_NORM_03",
+      "concept_code": "DBMS_NORM_03",
+      "topic": "Normalization",
+      "subtopic": "3NF",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Third Normal Form removes:",
+      "options": [
+        {"option_id": "A", "text": "Partial Dependencies", "is_correct": false},
+        {"option_id": "B", "text": "Transitive Dependencies", "is_correct": true},
+        {"option_id": "C", "text": "Multivalued Dependencies", "is_correct": false},
+        {"option_id": "D", "text": "Functional Dependencies", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "3NF eliminates transitive dependencies."
+    },
+    {
+      "question_code": "DBMS_NORM_04",
+      "concept_code": "DBMS_NORM_04",
+      "topic": "Normalization",
+      "subtopic": "BCNF",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "BCNF requires that:",
+      "options": [
+        {"option_id": "A", "text": "Every determinant is a candidate key", "is_correct": true},
+        {"option_id": "B", "text": "No transitive dependency exists", "is_correct": false},
+        {"option_id": "C", "text": "All attributes are atomic", "is_correct": false},
+        {"option_id": "D", "text": "No multivalued dependency exists", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "BCNF is stricter than 3NF."
+    },
+    {
+      "question_code": "DBMS_TXN_01",
+      "concept_code": "DBMS_TXN_01",
+      "topic": "Transactions",
+      "subtopic": "ACID",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which ACID property ensures that all operations of a transaction occur or none occur?",
+      "options": [
+        {"option_id": "A", "text": "Consistency", "is_correct": false},
+        {"option_id": "B", "text": "Isolation", "is_correct": false},
+        {"option_id": "C", "text": "Atomicity", "is_correct": true},
+        {"option_id": "D", "text": "Durability", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Atomicity treats a transaction as an indivisible unit."
+    },
+    {
+      "question_code": "DBMS_TXN_02",
+      "concept_code": "DBMS_TXN_02",
+      "topic": "Transactions",
+      "subtopic": "Schedules",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A schedule that produces the same result as a serial schedule is called:",
+      "options": [
+        {"option_id": "A", "text": "Recoverable", "is_correct": false},
+        {"option_id": "B", "text": "Serializable", "is_correct": true},
+        {"option_id": "C", "text": "Cascadeless", "is_correct": false},
+        {"option_id": "D", "text": "Strict", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Serializable schedules preserve correctness."
+    },
+    {
+      "question_code": "DBMS_TXN_03",
+      "concept_code": "DBMS_TXN_03",
+      "topic": "Concurrency Control",
+      "subtopic": "Locking",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Two-Phase Locking guarantees:",
+      "options": [
+        {"option_id": "A", "text": "Deadlock Freedom", "is_correct": false},
+        {"option_id": "B", "text": "Conflict Serializability", "is_correct": true},
+        {"option_id": "C", "text": "Recoverability", "is_correct": false},
+        {"option_id": "D", "text": "Durability", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "2PL ensures conflict-serializable schedules."
+    },
+    {
+      "question_code": "DBMS_TXN_04",
+      "concept_code": "DBMS_TXN_04",
+      "topic": "Concurrency Control",
+      "subtopic": "Deadlocks",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A cycle in a wait-for graph indicates:",
+      "options": [
+        {"option_id": "A", "text": "Starvation", "is_correct": false},
+        {"option_id": "B", "text": "Deadlock", "is_correct": true},
+        {"option_id": "C", "text": "Rollback", "is_correct": false},
+        {"option_id": "D", "text": "Commit", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Cycles in wait-for graphs imply deadlocks."
+    },
+    {
+      "question_code": "DBMS_REC_01",
+      "concept_code": "DBMS_REC_01",
+      "topic": "Recovery",
+      "subtopic": "Logging",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Write-Ahead Logging requires:",
+      "options": [
+        {"option_id": "A", "text": "Data written before log", "is_correct": false},
+        {"option_id": "B", "text": "Log written before data", "is_correct": true},
+        {"option_id": "C", "text": "Checkpoint before commit", "is_correct": false},
+        {"option_id": "D", "text": "Undo before redo", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "WAL ensures recovery information is preserved."
+    },
+    {
+      "question_code": "DBMS_INDEX_01",
+      "concept_code": "DBMS_INDEX_01",
+      "topic": "Indexing",
+      "subtopic": "B+ Trees",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "In a B+ tree, actual data records are stored in:",
+      "options": [
+        {"option_id": "A", "text": "Root Node", "is_correct": false},
+        {"option_id": "B", "text": "Internal Nodes", "is_correct": false},
+        {"option_id": "C", "text": "Leaf Nodes", "is_correct": true},
+        {"option_id": "D", "text": "All Nodes", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Leaf nodes contain data pointers/records."
+    },
+    {
+      "question_code": "DBMS_INDEX_02",
+      "concept_code": "DBMS_INDEX_02",
+      "topic": "Indexing",
+      "subtopic": "Hashing",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Hash indexing is most efficient for:",
+      "options": [
+        {"option_id": "A", "text": "Range Queries", "is_correct": false},
+        {"option_id": "B", "text": "Equality Search", "is_correct": true},
+        {"option_id": "C", "text": "Sorting", "is_correct": false},
+        {"option_id": "D", "text": "Joins", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Hashing provides fast equality lookups."
+    },
+    {
+      "question_code": "DBMS_DEP_01",
+      "concept_code": "DBMS_DEP_01",
+      "topic": "Functional Dependencies",
+      "subtopic": "Closure",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Attribute closure is used to determine:",
+      "options": [
+        {"option_id": "A", "text": "Candidate Keys", "is_correct": true},
+        {"option_id": "B", "text": "Transactions", "is_correct": false},
+        {"option_id": "C", "text": "Indexes", "is_correct": false},
+        {"option_id": "D", "text": "Locks", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Attribute closure helps identify superkeys and candidate keys."
+    },
+    {
+      "question_code": "DBMS_DEP_02",
+      "concept_code": "DBMS_DEP_02",
+      "topic": "Functional Dependencies",
+      "subtopic": "Armstrong's Axioms",
+      "question_type": "MCQ",
+      "difficulty": "hard",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which is not an Armstrong axiom?",
+      "options": [
+        {"option_id": "A", "text": "Reflexivity", "is_correct": false},
+        {"option_id": "B", "text": "Augmentation", "is_correct": false},
+        {"option_id": "C", "text": "Transitivity", "is_correct": false},
+        {"option_id": "D", "text": "Normalization", "is_correct": true}
+      ],
+      "correct_answer": ["D"],
+      "explanation": "Normalization is not an Armstrong axiom."
+    },
+    {
+      "question_code": "DBMS_SQL_04",
+      "concept_code": "DBMS_SQL_04",
+      "topic": "SQL",
+      "subtopic": "Grouping",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "HAVING clause is applied:",
+      "options": [
+        {"option_id": "A", "text": "Before GROUP BY", "is_correct": false},
+        {"option_id": "B", "text": "After GROUP BY", "is_correct": true},
+        {"option_id": "C", "text": "Before WHERE", "is_correct": false},
+        {"option_id": "D", "text": "Before SELECT", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "HAVING filters grouped records."
+    },
+    {
+      "question_code": "DBMS_SQL_05",
+      "concept_code": "DBMS_SQL_05",
+      "topic": "SQL",
+      "subtopic": "Nested Queries",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A subquery nested inside another query is called:",
+      "options": [
+        {"option_id": "A", "text": "Derived Query", "is_correct": false},
+        {"option_id": "B", "text": "Nested Query", "is_correct": true},
+        {"option_id": "C", "text": "Join Query", "is_correct": false},
+        {"option_id": "D", "text": "Recursive Query", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Subqueries are nested within outer queries."
+    },
+    {
+      "question_code": "DBMS_TXN_05",
+      "concept_code": "DBMS_TXN_05",
+      "topic": "Transactions",
+      "subtopic": "ACID",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which ACID property ensures committed data survives system failures?",
+      "options": [
+        {"option_id": "A", "text": "Atomicity", "is_correct": false},
+        {"option_id": "B", "text": "Consistency", "is_correct": false},
+        {"option_id": "C", "text": "Durability", "is_correct": true},
+        {"option_id": "D", "text": "Isolation", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Durability guarantees persistence of committed transactions."
+    },
+    {
+      "question_code": "DBMS_REC_02",
+      "concept_code": "DBMS_REC_02",
+      "topic": "Recovery",
+      "subtopic": "Checkpointing",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Checkpointing primarily reduces:",
+      "options": [
+        {"option_id": "A", "text": "Query Time", "is_correct": false},
+        {"option_id": "B", "text": "Recovery Time", "is_correct": true},
+        {"option_id": "C", "text": "Index Size", "is_correct": false},
+        {"option_id": "D", "text": "Transaction Size", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Checkpoints reduce the amount of log to process during recovery."
+    },
+    {
+      "question_code": "DBMS_INDEX_03",
+      "concept_code": "DBMS_INDEX_03",
+      "topic": "Indexing",
+      "subtopic": "Dense Index",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A dense index contains:",
+      "options": [
+        {"option_id": "A", "text": "One entry per block", "is_correct": false},
+        {"option_id": "B", "text": "One entry per search-key value", "is_correct": true},
+        {"option_id": "C", "text": "Only leaf entries", "is_correct": false},
+        {"option_id": "D", "text": "Only root entries", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Dense indexes have entries for every search-key value."
+    },
+    {
+      "question_code": "DBMS_RA_03",
+      "concept_code": "DBMS_RA_03",
+      "topic": "Relational Algebra",
+      "subtopic": "Join",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Natural join automatically joins on:",
+      "options": [
+        {"option_id": "A", "text": "Primary Keys", "is_correct": false},
+        {"option_id": "B", "text": "Foreign Keys", "is_correct": false},
+        {"option_id": "C", "text": "Attributes with Same Names", "is_correct": true},
+        {"option_id": "D", "text": "All Attributes", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Natural join uses common attribute names."
+    },
+    {
+      "question_code": "DBMS_ARCH_01",
+      "concept_code": "DBMS_ARCH_01",
+      "topic": "DBMS Architecture",
+      "subtopic": "Three Schema Architecture",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which level describes how data is physically stored?",
+      "options": [
+        {"option_id": "A", "text": "External Level", "is_correct": false},
+        {"option_id": "B", "text": "Conceptual Level", "is_correct": false},
+        {"option_id": "C", "text": "Internal Level", "is_correct": true},
+        {"option_id": "D", "text": "View Level", "is_correct": false}
+      ],
+      "correct_answer": ["C"],
+      "explanation": "The internal level describes physical storage structures."
+    },
+    {
+      "question_code": "DBMS_NUM_01",
+      "concept_code": "DBMS_SQL_01",
+      "topic": "SQL",
+      "subtopic": "Filtering and Selection",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A table contains 1200 rows. After applying a WHERE clause, 35% of the rows satisfy the condition. How many rows are returned?",
+      "correct_answer": 420.0,
+      "answer_tolerance": 0.01,
+      "explanation": "35% of 1200 = 0.35 × 1200 = 420."
+    },
+    {
+      "question_code": "DBMS_NUM_02",
+      "concept_code": "DBMS_SQL_02",
+      "topic": "SQL",
+      "subtopic": "Aggregate Functions",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A table has 500 rows. A COUNT(*) query is executed after a filter that removes 80 rows. What is the result?",
+      "correct_answer": 420.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Remaining rows = 500 - 80 = 420."
+    },
+    {
+      "question_code": "DBMS_NUM_03",
+      "concept_code": "DBMS_SQL_03",
+      "topic": "SQL",
+      "subtopic": "Joins",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "Two tables A and B contain 50 and 60 rows respectively. If an INNER JOIN produces 30 matching rows, how many rows are in the result?",
+      "correct_answer": 30.0,
+      "answer_tolerance": 0.01,
+      "explanation": "INNER JOIN returns only matching rows."
+    },
+    {
+      "question_code": "DBMS_NUM_04",
+      "concept_code": "DBMS_ER_01",
+      "topic": "ER Model",
+      "subtopic": "Entity Sets",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "An entity set contains 250 employees. If each employee has exactly one department, how many department references exist in total?",
+      "correct_answer": 250.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Each employee contributes one department reference → 250."
+    },
+    {
+      "question_code": "DBMS_NUM_05",
+      "concept_code": "DBMS_ER_02",
+      "topic": "ER Model",
+      "subtopic": "Keys",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A relation has 4 candidate keys. If each candidate key contains 3 attributes, what is the total number of attribute occurrences across all candidate keys?",
+      "correct_answer": 12.0,
+      "answer_tolerance": 0.01,
+      "explanation": "4 × 3 = 12 attribute occurrences."
+    },
+    {
+      "question_code": "DBMS_NUM_06",
+      "concept_code": "DBMS_REL_01",
+      "topic": "Relational Model",
+      "subtopic": "Referential Integrity",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A foreign key column has 900 rows. If 10% of values are NULL, how many non-NULL references exist?",
+      "correct_answer": 810.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Non-NULL = 90% of 900 = 810."
+    },
+    {
+      "question_code": "DBMS_NUM_07",
+      "concept_code": "DBMS_RA_01",
+      "topic": "Relational Algebra",
+      "subtopic": "Selection",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A relation has 2000 tuples. A selection condition σ removes 60% of tuples. How many tuples remain?",
+      "correct_answer": 800.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Remaining = 40% of 2000 = 800."
+    },
+    {
+      "question_code": "DBMS_NUM_08",
+      "concept_code": "DBMS_RA_02",
+      "topic": "Relational Algebra",
+      "subtopic": "Projection",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A relation has 150 tuples. After projection on attribute A, only 90 distinct values remain. How many duplicates were eliminated?",
+      "correct_answer": 60.0,
+      "answer_tolerance": 0.01,
+      "explanation": "150 - 90 = 60 duplicates removed."
+    },
+    {
+      "question_code": "DBMS_NUM_09",
+      "concept_code": "DBMS_NORM_01",
+      "topic": "Normalization",
+      "subtopic": "1NF",
+      "question_type": "NAT",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0,
+      "question_text": "A relation has 300 rows. If 20% of rows violate 1NF and are removed, how many valid rows remain?",
+      "correct_answer": 240.0,
+      "answer_tolerance": 0.01,
+      "explanation": "Valid rows = 80% of 300 = 240."
+    },
+    {
+      "question_code": "DBMS_NUM_10",
+      "concept_code": "DBMS_NORM_02",
+      "topic": "Normalization",
+      "subtopic": "2NF",
+      "question_type": "NAT",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0,
+      "question_text": "A relation is decomposed into 5 relations during 2NF normalization. If one relation is later merged back due to redundancy, how many relations remain?",
+      "correct_answer": 4.0,
+      "answer_tolerance": 0.01,
+      "explanation": "5 - 1 = 4 relations remain."
+    },
+  {
+    "question_code": "DBMS_SQL_04",
+    "concept_code": "DBMS_SQL_01",
+    "topic": "SQL",
+    "subtopic": "Basic Queries",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Consider the SQL query: SELECT * FROM Employee WHERE salary > 50000 AND dept = 'Sales'. Which of the following statements are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "Rows are filtered before projection",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Only employees in the Sales department with salary greater than 50000 are returned",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "The WHERE clause may contain comparison operators",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "The query necessarily returns all attributes of all employees",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "WHERE filters tuples satisfying the condition before producing the final result. Only qualifying tuples are returned."
+  },
+  {
+    "question_code": "DBMS_SQL_05",
+    "concept_code": "DBMS_SQL_02",
+    "topic": "SQL",
+    "subtopic": "Aggregate Functions",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about SQL aggregate functions are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "COUNT(*) counts all rows, including rows containing NULL values",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "COUNT(column_name) ignores NULL values in that column",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "AVG(column_name) ignores NULL values",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "SUM(column_name) treats NULL values as 0 before aggregation",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Aggregate functions generally ignore NULL values except COUNT(*), which counts all rows."
+  },
+  {
+    "question_code": "DBMS_SQL_06",
+    "concept_code": "DBMS_SQL_03",
+    "topic": "SQL",
+    "subtopic": "Joins",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Let R(A,B) and S(B,C) be two relations. Which of the following statements about joins are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "An INNER JOIN returns only tuples satisfying the join condition",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "A LEFT OUTER JOIN includes unmatched tuples from the left relation",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "A NATURAL JOIN automatically joins on attributes with the same name",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "A CROSS JOIN requires a join predicate",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "CROSS JOIN produces the Cartesian product and does not require a join condition."
+  },
+  {
+    "question_code": "DBMS_ER_03",
+    "concept_code": "DBMS_ER_01",
+    "topic": "ER Model",
+    "subtopic": "Entities",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about entity sets in the ER model are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "An entity set is a collection of similar entities",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "Each entity in an entity set has the same set of attributes",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "An entity set may participate in relationships with other entity sets",
+        "is_correct": true
+      },
+      {
+        "option_id": "D",
+        "text": "An entity set is equivalent to a relationship set",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Entity sets and relationship sets are distinct concepts in the ER model."
+  },
+  {
+    "question_code": "DBMS_ER_04",
+    "concept_code": "DBMS_ER_02",
+    "topic": "ER Model",
+    "subtopic": "Keys",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Consider a relation R(A, B, C, D) with functional dependencies {A→B, B→C, C→D}. Which of the following statements are correct?",
+    "options": [
+      {
+        "option_id": "A",
+        "text": "A is a candidate key",
+        "is_correct": true
+      },
+      {
+        "option_id": "B",
+        "text": "A is a superkey",
+        "is_correct": true
+      },
+      {
+        "option_id": "C",
+        "text": "B is a candidate key",
+        "is_correct": false
+      },
+      {
+        "option_id": "D",
+        "text": "There exists a candidate key with fewer attributes than A",
+        "is_correct": false
+      }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "From A→B→C→D, attribute A functionally determines all attributes of R. Therefore A is a minimal superkey (candidate key). B cannot determine A and hence is not a candidate key."
+  }
+  ]  
+}

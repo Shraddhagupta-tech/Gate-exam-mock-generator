@@ -1,0 +1,321 @@
+subject: Compiler Design
+exam: GATE CSE
+subject_weightage: 15
+
+topics:
+
+  - name: Lexical Analysis
+    topic_code: CD_LA
+    weightage: 20
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Tokens and Input Processing
+
+        concepts:
+
+          - concept_code: CD_LA_01
+            name: Tokens
+            weightage: 5
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 10, NAT: 20}
+            difficulty_distribution: {easy: 60, medium: 30, hard: 10}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - identify_tokens
+              - classify_lexemes
+              - distinguish_keywords_identifiers
+            pyq_patterns:
+              - token_identification
+              - lexical_scanning
+            templates:
+              - pattern: "Lexical analysis produces:"
+                difficulty: easy
+
+          - concept_code: CD_LA_02
+            name: Input Processing
+            weightage: 4
+            gate_frequency: high
+            question_types: {MCQ: 80, MSQ: 10, NAT: 10}
+            difficulty_distribution: {easy: 70, medium: 25, hard: 5}
+            estimated_questions_per_year: 1
+            prerequisites: []
+            learning_outcomes:
+              - remove_whitespace_comments
+              - preprocess_input_stream
+            pyq_patterns:
+              - compiler_phases
+              - preprocessing
+            templates:
+              - pattern: "Which phase removes whitespace and comments?"
+                difficulty: easy
+
+      - name: Regular Expressions and DFA
+
+        concepts:
+
+          - concept_code: CD_LA_03
+            name: Regular Expressions
+            weightage: 6
+            gate_frequency: very_high
+            question_types: {MCQ: 60, MSQ: 20, NAT: 20}
+            difficulty_distribution: {easy: 40, medium: 40, hard: 20}
+            prerequisites: [automata_theory]
+            learning_outcomes:
+              - write_regular_expressions
+              - model_token_patterns
+            pyq_patterns:
+              - regex_matching
+            templates:
+              - pattern: "Lexical analyzers are based on:"
+                difficulty: easy
+
+          - concept_code: CD_LA_04
+            name: DFA Implementation
+            weightage: 7
+            gate_frequency: very_high
+            question_types: {MCQ: 50, MSQ: 20, NAT: 30}
+            difficulty_distribution: {easy: 30, medium: 50, hard: 20}
+            prerequisites: [regular_expressions, automata_theory]
+            learning_outcomes:
+              - construct_dfa
+              - minimize_dfa
+              - implement_lexer
+            pyq_patterns:
+              - regex_to_dfa
+            templates:
+              - pattern: "Lexical analyzers are implemented using:"
+                difficulty: medium
+
+          - concept_code: CD_LA_05
+            name: Identifier Recognition
+            weightage: 3
+            gate_frequency: medium
+            question_types: {MCQ: 60, MSQ: 10, NAT: 30}
+            difficulty_distribution: {easy: 60, medium: 30, hard: 10}
+            prerequisites: [tokens]
+            learning_outcomes:
+              - classify_identifiers
+              - distinguish_keywords_and_identifiers
+            pyq_patterns:
+              - token_classification
+            templates:
+              - pattern: "Identifier is an example of:"
+                difficulty: easy
+
+          - concept_code: CD_LA_06
+            name: Symbol Table
+            weightage: 5
+            gate_frequency: high
+            question_types: {MCQ: 70, MSQ: 20, NAT: 10}
+            difficulty_distribution: {easy: 60, medium: 30, hard: 10}
+            learning_outcomes:
+              - manage_identifiers
+              - store_attributes
+            pyq_patterns:
+              - symbol_table_operations
+            templates:
+              - pattern: "Symbol table stores:"
+                difficulty: easy
+
+          - concept_code: CD_LA_07
+            name: Token Counting
+            weightage: 3
+            gate_frequency: medium
+            question_types: {MCQ: 20, MSQ: 10, NAT: 70}
+            difficulty_distribution: {easy: 60, medium: 30, hard: 10}
+            learning_outcomes:
+              - count_tokens
+              - analyze_token_stream
+            pyq_patterns:
+              - token_counting
+            templates:
+              - pattern: "Compute total tokens generated."
+                difficulty: easy
+
+          - concept_code: CD_LA_08
+            name: DFA State Analysis
+            weightage: 3
+            gate_frequency: medium
+            question_types: {MCQ: 20, MSQ: 10, NAT: 70}
+            difficulty_distribution: {easy: 20, medium: 60, hard: 20}
+            learning_outcomes:
+              - analyze_dfa_structure
+              - compute_state_metrics
+            pyq_patterns:
+              - dfa_metrics
+            templates:
+              - pattern: "A DFA has N states and M transitions."
+                difficulty: medium
+
+
+  - name: Syntax Analysis
+    topic_code: CD_SY
+    weightage: 30
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Parsing Fundamentals
+
+        concepts:
+
+          - concept_code: CD_SY_01
+            name: Parsing Basics
+            weightage: 4
+
+          - concept_code: CD_SY_02
+            name: Top Down Parsing
+            weightage: 6
+
+          - concept_code: CD_SY_05
+            name: Recursive Descent Parsing
+            weightage: 5
+
+          - concept_code: CD_SY_07
+            name: Recursive Descent Parser Construction
+            weightage: 3
+
+      - name: Bottom Up Parsing
+
+        concepts:
+
+          - concept_code: CD_SY_03
+            name: LR Parsing
+            weightage: 7
+
+          - concept_code: CD_SY_04
+            name: Shift Reduce Parsing
+            weightage: 6
+
+          - concept_code: CD_SY_08
+            name: Parser Action Analysis
+            weightage: 4
+
+
+  - name: Context Free Grammar
+    topic_code: CD_CFG
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Grammar Fundamentals
+
+        concepts:
+
+          - concept_code: CD_CFG_01
+            name: CFG Basics
+            weightage: 5
+
+          - concept_code: CD_CFG_02
+            name: Ambiguity
+            weightage: 5
+
+          - concept_code: CD_CFG_03
+            name: Derivations
+            weightage: 4
+
+          - concept_code: CD_CFG_04
+            name: Parse Trees
+            weightage: 5
+
+          - concept_code: CD_CFG_07
+            name: Parse Tree Properties
+            weightage: 3
+
+      - name: FIRST FOLLOW and Predictive Parsing
+
+        concepts:
+
+          - concept_code: CD_CFG_05
+            name: FIRST Set
+            weightage: 5
+
+          - concept_code: CD_CFG_06
+            name: FOLLOW Set
+            weightage: 5
+
+          - concept_code: CD_CFG_08
+            name: FIRST Set Computation
+            weightage: 2
+
+          - concept_code: CD_CFG_09
+            name: FOLLOW Set Computation
+            weightage: 2
+
+
+  - name: Code Optimization
+    topic_code: CD_OPT
+    weightage: 15
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Optimization Techniques
+
+        concepts:
+
+          - concept_code: CD_OPT_01
+            name: Optimization Basics
+            weightage: 4
+
+          - concept_code: CD_OPT_02
+            name: Loop Optimization
+            weightage: 5
+
+          - concept_code: CD_OPT_03
+            name: Loop Unrolling Analysis
+            weightage: 3
+
+          - concept_code: CD_OPT_04
+            name: Basic Blocks and CFG Metrics
+            weightage: 3
+
+
+  - name: Error Handling
+    topic_code: CD_ERR
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Error Recovery
+
+        concepts:
+
+          - concept_code: CD_SY_06
+            name: Error Recovery Techniques
+            weightage: 5
+
+
+  - name: Symbol Table and Runtime Environment
+    topic_code: CD_ST
+    weightage: 5
+
+    subtopics:
+
+      - name: Symbol Table
+
+        concepts:
+
+          - concept_code: CD_LA_06
+            name: Symbol Table
+            weightage: 5
+
+
+  - name: Code Generation
+    topic_code: CD_CG
+    weightage: 10
+
+    subtopics:
+
+      - name: Intermediate Code Generation
+
+        concepts:
+
+          - concept_code: CD_CG_01
+            name: Three Address Code
+            weightage: 10

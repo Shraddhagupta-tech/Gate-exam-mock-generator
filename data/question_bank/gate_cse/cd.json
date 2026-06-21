@@ -1,0 +1,622 @@
+{
+  "subject": "Compiler Design",
+  "exam": "GATE CSE",
+  "question_bank": [
+    {
+      "question_code": "CD_01",
+      "concept_code": "CD_LA_01",
+      "topic": "Lexical Analysis",
+      "subtopic": "Tokens",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Lexical analysis produces:",
+      "options": [
+        {"option_id": "A", "text": "Parse tree", "is_correct": false},
+        {"option_id": "B", "text": "Tokens", "is_correct": true},
+        {"option_id": "C", "text": "Machine code", "is_correct": false},
+        {"option_id": "D", "text": "Symbol table", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Lexical analysis converts source code into tokens."
+    },
+    {
+      "question_code": "CD_02",
+      "concept_code": "CD_LA_02",
+      "topic": "Lexical Analysis",
+      "subtopic": "Input Processing",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which phase of compiler removes whitespace and comments?",
+      "options": [
+        {"option_id": "A", "text": "Syntax analysis", "is_correct": false},
+        {"option_id": "B", "text": "Lexical analysis", "is_correct": true},
+        {"option_id": "C", "text": "Code generation", "is_correct": false},
+        {"option_id": "D", "text": "Optimization", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Lexer removes whitespace and comments."
+    },
+    {
+      "question_code": "CD_03",
+      "concept_code": "CD_LA_03",
+      "topic": "Lexical Analysis",
+      "subtopic": "Regular Expressions",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Lexical analyzers are based on:",
+      "options": [
+        {"option_id": "A", "text": "Context-free grammar", "is_correct": false},
+        {"option_id": "B", "text": "Regular expressions", "is_correct": true},
+        {"option_id": "C", "text": "Turing machines", "is_correct": false},
+        {"option_id": "D", "text": "Pushdown automata", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Lexical analysis uses regular expressions."
+    },
+    {
+      "question_code": "CD_04",
+      "concept_code": "CD_SY_01",
+      "topic": "Syntax Analysis",
+      "subtopic": "Parsing",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Syntax analysis is also called:",
+      "options": [
+        {"option_id": "A", "text": "Lexing", "is_correct": false},
+        {"option_id": "B", "text": "Parsing", "is_correct": true},
+        {"option_id": "C", "text": "Optimization", "is_correct": false},
+        {"option_id": "D", "text": "Execution", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Syntax analysis = parsing phase."
+    },
+    {
+      "question_code": "CD_05",
+      "concept_code": "CD_SY_02",
+      "topic": "Syntax Analysis",
+      "subtopic": "Parser",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which of the following is a top-down parser?",
+      "options": [
+        {"option_id": "A", "text": "LR parser", "is_correct": false},
+        {"option_id": "B", "text": "LL parser", "is_correct": true},
+        {"option_id": "C", "text": "Shift-reduce parser", "is_correct": false},
+        {"option_id": "D", "text": "Operator precedence parser", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "LL parsing is top-down."
+    },
+    {
+      "question_code": "CD_06",
+      "concept_code": "CD_SY_03",
+      "topic": "Syntax Analysis",
+      "subtopic": "Bottom-up Parsing",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "LR parsing is:",
+      "options": [
+        {"option_id": "A", "text": "Top-down", "is_correct": false},
+        {"option_id": "B", "text": "Bottom-up", "is_correct": true},
+        {"option_id": "C", "text": "Random parsing", "is_correct": false},
+        {"option_id": "D", "text": "Recursive descent", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "LR parsers are bottom-up."
+    },
+    {
+      "question_code": "CD_07",
+      "concept_code": "CD_CFG_01",
+      "topic": "Context Free Grammar",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "CFG is used to describe:",
+      "options": [
+        {"option_id": "A", "text": "Machine code", "is_correct": false},
+        {"option_id": "B", "text": "Programming language syntax", "is_correct": true},
+        {"option_id": "C", "text": "Memory layout", "is_correct": false},
+        {"option_id": "D", "text": "CPU design", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "CFG defines language syntax."
+    },
+    {
+      "question_code": "CD_08",
+      "concept_code": "CD_CFG_02",
+      "topic": "Context Free Grammar",
+      "subtopic": "Ambiguity",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "A grammar is ambiguous if:",
+      "options": [
+        {"option_id": "A", "text": "It has no rules", "is_correct": false},
+        {"option_id": "B", "text": "It generates multiple parse trees for a string", "is_correct": true},
+        {"option_id": "C", "text": "It is regular", "is_correct": false},
+        {"option_id": "D", "text": "It is deterministic", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Ambiguous grammar has multiple parse trees."
+    },
+    {
+      "question_code": "CD_09",
+      "concept_code": "CD_CFG_03",
+      "topic": "Context Free Grammar",
+      "subtopic": "Derivation",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Leftmost derivation expands:",
+      "options": [
+        {"option_id": "A", "text": "Rightmost non-terminal", "is_correct": false},
+        {"option_id": "B", "text": "Leftmost non-terminal", "is_correct": true},
+        {"option_id": "C", "text": "Random symbol", "is_correct": false},
+        {"option_id": "D", "text": "Terminal symbols", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Leftmost derivation expands leftmost non-terminal."
+    },
+    {
+      "question_code": "CD_10",
+      "concept_code": "CD_CFG_04",
+      "topic": "Context Free Grammar",
+      "subtopic": "Parse Tree",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Parse tree represents:",
+      "options": [
+        {"option_id": "A", "text": "Execution flow", "is_correct": false},
+        {"option_id": "B", "text": "Syntactic structure", "is_correct": true},
+        {"option_id": "C", "text": "Memory allocation", "is_correct": false},
+        {"option_id": "D", "text": "CPU instructions", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Parse tree shows syntax structure."
+    },
+    {
+      "question_code": "CD_11",
+      "concept_code": "CD_CFG_05",
+      "topic": "Context Free Grammar",
+      "subtopic": "First and Follow",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "FIRST set contains:",
+      "options": [
+        {"option_id": "A", "text": "Last terminals", "is_correct": false},
+        {"option_id": "B", "text": "Starting terminals", "is_correct": true},
+        {"option_id": "C", "text": "All variables", "is_correct": false},
+        {"option_id": "D", "text": "Only epsilon", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "FIRST set contains possible starting terminals."
+    },
+    {
+      "question_code": "CD_12",
+      "concept_code": "CD_CFG_06",
+      "topic": "Context Free Grammar",
+      "subtopic": "Follow Set",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "FOLLOW set contains:",
+      "options": [
+        {"option_id": "A", "text": "Prefixes", "is_correct": false},
+        {"option_id": "B", "text": "Possible next terminals", "is_correct": true},
+        {"option_id": "C", "text": "Only start symbols", "is_correct": false},
+        {"option_id": "D", "text": "Only epsilon", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "FOLLOW set shows what can appear next."
+    },
+    {
+      "question_code": "CD_13",
+      "concept_code": "CD_SY_04",
+      "topic": "Syntax Analysis",
+      "subtopic": "Shift Reduce",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Shift-reduce parsing is:",
+      "options": [
+        {"option_id": "A", "text": "Top-down", "is_correct": false},
+        {"option_id": "B", "text": "Bottom-up", "is_correct": true},
+        {"option_id": "C", "text": "Hybrid", "is_correct": false},
+        {"option_id": "D", "text": "Recursive", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Shift-reduce is bottom-up parsing."
+    },
+    {
+      "question_code": "CD_14",
+      "concept_code": "CD_LA_04",
+      "topic": "Lexical Analysis",
+      "subtopic": "DFA",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Lexical analyzers are implemented using:",
+      "options": [
+        {"option_id": "A", "text": "PDA", "is_correct": false},
+        {"option_id": "B", "text": "DFA", "is_correct": true},
+        {"option_id": "C", "text": "Turing machine", "is_correct": false},
+        {"option_id": "D", "text": "Stack", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Lexical analysis uses DFA."
+    },
+    {
+      "question_code": "CD_15",
+      "concept_code": "CD_LA_05",
+      "topic": "Lexical Analysis",
+      "subtopic": "Tokens",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Identifier is an example of:",
+      "options": [
+        {"option_id": "A", "text": "Token", "is_correct": true},
+        {"option_id": "B", "text": "Keyword only", "is_correct": false},
+        {"option_id": "C", "text": "Operator", "is_correct": false},
+        {"option_id": "D", "text": "Grammar rule", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Identifiers are tokens."
+    },
+    {
+      "question_code": "CD_16",
+      "concept_code": "CD_SY_05",
+      "topic": "Syntax Analysis",
+      "subtopic": "Parser Types",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Recursive descent parsing is:",
+      "options": [
+        {"option_id": "A", "text": "Bottom-up", "is_correct": false},
+        {"option_id": "B", "text": "Top-down", "is_correct": true},
+        {"option_id": "C", "text": "Graph-based", "is_correct": false},
+        {"option_id": "D", "text": "Table-driven only", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Recursive descent is top-down parsing."
+    },
+    {
+      "question_code": "CD_17",
+      "concept_code": "CD_OPT_01",
+      "topic": "Code Optimization",
+      "subtopic": "Basics",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Code optimization aims to:",
+      "options": [
+        {"option_id": "A", "text": "Increase runtime", "is_correct": false},
+        {"option_id": "B", "text": "Improve efficiency", "is_correct": true},
+        {"option_id": "C", "text": "Increase errors", "is_correct": false},
+        {"option_id": "D", "text": "Remove syntax rules", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Optimization improves performance."
+    },
+    {
+      "question_code": "CD_18",
+      "concept_code": "CD_OPT_02",
+      "topic": "Code Optimization",
+      "subtopic": "Loop Optimization",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Loop unrolling is used to:",
+      "options": [
+        {"option_id": "A", "text": "Reduce iterations", "is_correct": true},
+        {"option_id": "B", "text": "Increase recursion", "is_correct": false},
+        {"option_id": "C", "text": "Increase memory", "is_correct": false},
+        {"option_id": "D", "text": "Add variables", "is_correct": false}
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Loop unrolling reduces loop overhead."
+    },
+    {
+      "question_code": "CD_19",
+      "concept_code": "CD_SY_06",
+      "topic": "Syntax Analysis",
+      "subtopic": "Error Recovery",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Panic mode recovery is used in:",
+      "options": [
+        {"option_id": "A", "text": "Lexical analysis", "is_correct": false},
+        {"option_id": "B", "text": "Syntax error handling", "is_correct": true},
+        {"option_id": "C", "text": "Code generation", "is_correct": false},
+        {"option_id": "D", "text": "Optimization", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Panic mode is error recovery technique."
+    },
+    {
+      "question_code": "CD_20",
+      "concept_code": "CD_LA_06",
+      "topic": "Lexical Analysis",
+      "subtopic": "Symbol Table",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Symbol table stores:",
+      "options": [
+        {"option_id": "A", "text": "Keywords only", "is_correct": false},
+        {"option_id": "B", "text": "Identifiers and attributes", "is_correct": true},
+        {"option_id": "C", "text": "Machine code", "is_correct": false},
+        {"option_id": "D", "text": "Stack values", "is_correct": false}
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Symbol table stores variable info."
+    },
+  {
+    "question_code": "CD_21",
+    "concept_code": "CD_LA_07",
+    "topic": "Lexical Analysis",
+    "subtopic": "Tokens",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "A source program contains 25 identifiers, 10 keywords and 15 operators. Assuming each is recognized as a separate token, how many tokens are generated?",
+    "correct_answer": 50.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Total tokens = 25 + 10 + 15 = 50."
+  },
+  {
+    "question_code": "CD_22",
+    "concept_code": "CD_CFG_07",
+    "topic": "Context Free Grammar",
+    "subtopic": "Parse Tree",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For a full binary parse tree with 8 leaf nodes, how many internal nodes are present?",
+    "correct_answer": 7.0,
+    "answer_tolerance": 0.01,
+    "explanation": "In a full binary tree, internal nodes = leaf nodes - 1."
+  },
+  {
+    "question_code": "CD_23",
+    "concept_code": "CD_SY_07",
+    "topic": "Syntax Analysis",
+    "subtopic": "Recursive Descent Parsing",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A recursive descent parser has one procedure per non-terminal. If a grammar contains 12 non-terminals, how many parser procedures are required?",
+    "correct_answer": 12.0,
+    "answer_tolerance": 0.01,
+    "explanation": "One procedure is needed for each non-terminal."
+  },
+  {
+    "question_code": "CD_24",
+    "concept_code": "CD_CFG_08",
+    "topic": "Context Free Grammar",
+    "subtopic": "FIRST Set",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "If FIRST(A) = {a,b,c,d,e}, how many terminals are present in FIRST(A)?",
+    "correct_answer": 5.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The FIRST set contains five terminals."
+  },
+  {
+    "question_code": "CD_25",
+    "concept_code": "CD_CFG_09",
+    "topic": "Context Free Grammar",
+    "subtopic": "FOLLOW Set",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "If FOLLOW(S) = {$, ), ;}, determine the number of symbols in the FOLLOW set.",
+    "correct_answer": 3.0,
+    "answer_tolerance": 0.01,
+    "explanation": "The FOLLOW set contains three symbols."
+  },
+  {
+    "question_code": "CD_26",
+    "concept_code": "CD_LA_08",
+    "topic": "Lexical Analysis",
+    "subtopic": "DFA",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A DFA used in lexical analysis has 18 states and 27 transitions. Compute the value of (states + transitions).",
+    "correct_answer": 45.0,
+    "answer_tolerance": 0.01,
+    "explanation": "18 + 27 = 45."
+  },
+  {
+    "question_code": "CD_27",
+    "concept_code": "CD_OPT_03",
+    "topic": "Code Optimization",
+    "subtopic": "Loop Optimization",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A loop executes 100 iterations. After loop unrolling by a factor of 4, how many loop-control iterations remain?",
+    "correct_answer": 25.0,
+    "answer_tolerance": 0.01,
+    "explanation": "100 / 4 = 25 loop-control iterations."
+  },
+  {
+    "question_code": "CD_28",
+    "concept_code": "CD_SY_08",
+    "topic": "Syntax Analysis",
+    "subtopic": "Shift Reduce Parsing",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "During parsing of an expression, 15 shift operations and 14 reduce operations are performed. Find the total number of parser actions.",
+    "correct_answer": 29.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Total actions = shifts + reduces = 15 + 14 = 29."
+  },
+  {
+    "question_code": "CD_29",
+    "concept_code": "CD_OPT_04",
+    "topic": "Code Optimization",
+    "subtopic": "Basic Blocks",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A control flow graph contains 14 nodes and 18 edges. Compute E − N.",
+    "correct_answer": 4.0,
+    "answer_tolerance": 0.01,
+    "explanation": "18 - 14 = 4."
+  },
+  {
+    "question_code": "CD_30",
+    "concept_code": "CD_CG_01",
+    "topic": "Code Generation",
+    "subtopic": "Three Address Code",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "For the expression a+b+c+d+e, assuming each binary addition generates one three-address statement, how many three-address statements are required?",
+    "correct_answer": 4.0,
+    "answer_tolerance": 0.01,
+    "explanation": "Five operands require four binary additions, producing four three-address statements."
+  },
+  {
+    "question_code": "CD_06",
+    "concept_code": "CD_LA_01",
+    "topic": "Lexical Analysis",
+    "subtopic": "Tokens",
+    "question_type": "MSQ",
+    "difficulty": "easy",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are valid categories of tokens recognized by a lexical analyzer?",
+    "options": [
+      {"option_id": "A", "text": "Keywords", "is_correct": true},
+      {"option_id": "B", "text": "Identifiers", "is_correct": true},
+      {"option_id": "C", "text": "Operators", "is_correct": true},
+      {"option_id": "D", "text": "Parse Trees", "is_correct": false}
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Keywords, identifiers, and operators are token categories. Parse trees are generated during syntax analysis."
+  },
+  {
+    "question_code": "CD_07",
+    "concept_code": "CD_LA_02",
+    "topic": "Lexical Analysis",
+    "subtopic": "Input Processing",
+    "question_type": "MSQ",
+    "difficulty": "easy",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following tasks are typically performed during lexical analysis?",
+    "options": [
+      {"option_id": "A", "text": "Removing comments", "is_correct": true},
+      {"option_id": "B", "text": "Ignoring whitespace", "is_correct": true},
+      {"option_id": "C", "text": "Generating tokens", "is_correct": true},
+      {"option_id": "D", "text": "Constructing parse trees", "is_correct": false}
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "The lexical analyzer removes comments, ignores unnecessary whitespace, and produces tokens. Parse tree construction belongs to syntax analysis."
+  },
+  {
+    "question_code": "CD_08",
+    "concept_code": "CD_LA_03",
+    "topic": "Lexical Analysis",
+    "subtopic": "Regular Expressions",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about regular expressions in lexical analysis are correct?",
+    "options": [
+      {"option_id": "A", "text": "Regular expressions are used to specify token patterns", "is_correct": true},
+      {"option_id": "B", "text": "Regular expressions can be converted into finite automata", "is_correct": true},
+      {"option_id": "C", "text": "Regular expressions are used extensively in lexer generators such as Lex", "is_correct": true},
+      {"option_id": "D", "text": "Regular expressions can describe all context-free languages", "is_correct": false}
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Regular expressions define token patterns and can be implemented using finite automata. They cannot describe all context-free languages."
+  },
+  {
+    "question_code": "CD_09",
+    "concept_code": "CD_SY_01",
+    "topic": "Syntax Analysis",
+    "subtopic": "Parsing",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following statements about syntax analysis are correct?",
+    "options": [
+      {"option_id": "A", "text": "It checks whether the token sequence follows grammar rules", "is_correct": true},
+      {"option_id": "B", "text": "It is also known as parsing", "is_correct": true},
+      {"option_id": "C", "text": "It usually produces a parse tree or syntax tree", "is_correct": true},
+      {"option_id": "D", "text": "It directly generates machine code", "is_correct": false}
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Syntax analysis verifies grammatical correctness and constructs parse structures. Machine code generation occurs in later phases."
+  },
+  {
+    "question_code": "CD_10",
+    "concept_code": "CD_SY_02",
+    "topic": "Syntax Analysis",
+    "subtopic": "Parser",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0.67,
+    "question_text": "Which of the following are examples of top-down parsing techniques?",
+    "options": [
+      {"option_id": "A", "text": "Recursive Descent Parser", "is_correct": true},
+      {"option_id": "B", "text": "LL(1) Parser", "is_correct": true},
+      {"option_id": "C", "text": "Predictive Parser", "is_correct": true},
+      {"option_id": "D", "text": "LR Parser", "is_correct": false}
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Recursive descent, predictive parsing, and LL parsers are top-down techniques. LR parsers are bottom-up parsers."
+  }
+
+  ]
+}

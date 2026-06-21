@@ -1,0 +1,621 @@
+{
+  "subject": "Python Programming",
+  "exam": "GATE DA",
+  "question_bank": [
+    {
+      "question_code": "PY_01",
+      "concept_code": "PY_BASIC_01",
+      "topic": "Basics",
+      "subtopic": "Variables",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the output of: print(type(10))",
+      "options": [
+        { "option_id": "A", "text": "<class 'float'>", "is_correct": false },
+        { "option_id": "B", "text": "<class 'int'>", "is_correct": true },
+        { "option_id": "C", "text": "<class 'str'>", "is_correct": false },
+        { "option_id": "D", "text": "<class 'bool'>", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "10 is an integer in Python."
+    },
+    {
+      "question_code": "PY_02",
+      "concept_code": "PY_BASIC_02",
+      "topic": "Basics",
+      "subtopic": "Data Types",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which of the following is immutable?",
+      "options": [
+        { "option_id": "A", "text": "List", "is_correct": false },
+        { "option_id": "B", "text": "Dictionary", "is_correct": false },
+        { "option_id": "C", "text": "Tuple", "is_correct": true },
+        { "option_id": "D", "text": "Set", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "Tuples are immutable in Python."
+    },
+    {
+      "question_code": "PY_03",
+      "concept_code": "PY_BASIC_03",
+      "topic": "Basics",
+      "subtopic": "Operators",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the output of 3 ** 2 in Python?",
+      "options": [
+        { "option_id": "A", "text": "6", "is_correct": false },
+        { "option_id": "B", "text": "9", "is_correct": true },
+        { "option_id": "C", "text": "8", "is_correct": false },
+        { "option_id": "D", "text": "12", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "** is exponent operator."
+    },
+    {
+      "question_code": "PY_04",
+      "concept_code": "PY_CONTROL_01",
+      "topic": "Control Flow",
+      "subtopic": "If-Else",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What is the output of: if 5 > 3: print('A') else: print('B')",
+      "options": [
+        { "option_id": "A", "text": "A", "is_correct": true },
+        { "option_id": "B", "text": "B", "is_correct": false },
+        { "option_id": "C", "text": "Error", "is_correct": false },
+        { "option_id": "D", "text": "None", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Condition is true so A is printed."
+    },
+    {
+      "question_code": "PY_05",
+      "concept_code": "PY_LOOP_01",
+      "topic": "Loops",
+      "subtopic": "For Loop",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "What does range(3) produce?",
+      "options": [
+        { "option_id": "A", "text": "[1,2,3]", "is_correct": false },
+        { "option_id": "B", "text": "[0,1,2]", "is_correct": true },
+        { "option_id": "C", "text": "[0,1,2,3]", "is_correct": false },
+        { "option_id": "D", "text": "[1,2]", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "range(3) generates 0 to 2."
+    },
+    {
+      "question_code": "PY_06",
+      "concept_code": "PY_LOOP_02",
+      "topic": "Loops",
+      "subtopic": "While Loop",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "What is output of: i=0; while i<3: i+=1; print(i)",
+      "options": [
+        { "option_id": "A", "text": "0 1 2", "is_correct": false },
+        { "option_id": "B", "text": "1 2 3", "is_correct": true },
+        { "option_id": "C", "text": "0 1 2 3", "is_correct": false },
+        { "option_id": "D", "text": "Infinite loop", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "i increments before printing each time."
+    },
+    {
+      "question_code": "PY_07",
+      "concept_code": "PY_FUNC_01",
+      "topic": "Functions",
+      "subtopic": "Definition",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which keyword defines a function in Python?",
+      "options": [
+        { "option_id": "A", "text": "func", "is_correct": false },
+        { "option_id": "B", "text": "define", "is_correct": false },
+        { "option_id": "C", "text": "def", "is_correct": true },
+        { "option_id": "D", "text": "function", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "def is used to define functions."
+    },
+    {
+      "question_code": "PY_08",
+      "concept_code": "PY_FUNC_02",
+      "topic": "Functions",
+      "subtopic": "Return Value",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "What does a function return if no return statement is used?",
+      "options": [
+        { "option_id": "A", "text": "0", "is_correct": false },
+        { "option_id": "B", "text": "None", "is_correct": true },
+        { "option_id": "C", "text": "Error", "is_correct": false },
+        { "option_id": "D", "text": "False", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Default return is None."
+    },
+    {
+      "question_code": "PY_09",
+      "concept_code": "PY_DS_01",
+      "topic": "Data Structures",
+      "subtopic": "Lists",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which method adds element to list?",
+      "options": [
+        { "option_id": "A", "text": "add()", "is_correct": false },
+        { "option_id": "B", "text": "append()", "is_correct": true },
+        { "option_id": "C", "text": "insert()", "is_correct": false },
+        { "option_id": "D", "text": "push()", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "append() adds element at end."
+    },
+    {
+      "question_code": "PY_10",
+      "concept_code": "PY_DS_02",
+      "topic": "Data Structures",
+      "subtopic": "Tuples",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Tuple is:",
+      "options": [
+        { "option_id": "A", "text": "Mutable", "is_correct": false },
+        { "option_id": "B", "text": "Immutable", "is_correct": true },
+        { "option_id": "C", "text": "Unordered", "is_correct": false },
+        { "option_id": "D", "text": "Dynamic only", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Tuples cannot be modified."
+    },
+    {
+      "question_code": "PY_11",
+      "concept_code": "PY_DS_03",
+      "topic": "Data Structures",
+      "subtopic": "Dictionary",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Dictionary stores data in:",
+      "options": [
+        { "option_id": "A", "text": "Key-value pairs", "is_correct": true },
+        { "option_id": "B", "text": "Only values", "is_correct": false },
+        { "option_id": "C", "text": "Only keys", "is_correct": false },
+        { "option_id": "D", "text": "Arrays", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Dictionaries use key-value mapping."
+    },
+    {
+      "question_code": "PY_12",
+      "concept_code": "PY_DS_04",
+      "topic": "Data Structures",
+      "subtopic": "Set",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "A set contains:",
+      "options": [
+        { "option_id": "A", "text": "Duplicates allowed", "is_correct": false },
+        { "option_id": "B", "text": "Unique elements only", "is_correct": true },
+        { "option_id": "C", "text": "Ordered elements", "is_correct": false },
+        { "option_id": "D", "text": "Index-based data", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Sets remove duplicates."
+    },
+    {
+      "question_code": "PY_13",
+      "concept_code": "PY_OOP_01",
+      "topic": "OOP",
+      "subtopic": "Class",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "Which keyword is used to define a class?",
+      "options": [
+        { "option_id": "A", "text": "class", "is_correct": true },
+        { "option_id": "B", "text": "object", "is_correct": false },
+        { "option_id": "C", "text": "struct", "is_correct": false },
+        { "option_id": "D", "text": "define", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "class keyword defines classes."
+    },
+    {
+      "question_code": "PY_14",
+      "concept_code": "PY_OOP_02",
+      "topic": "OOP",
+      "subtopic": "Object",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "An object is:",
+      "options": [
+        { "option_id": "A", "text": "Instance of class", "is_correct": true },
+        { "option_id": "B", "text": "Function", "is_correct": false },
+        { "option_id": "C", "text": "Variable only", "is_correct": false },
+        { "option_id": "D", "text": "Module", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Object is instance of class."
+    },
+    {
+      "question_code": "PY_15",
+      "concept_code": "PY_OOP_03",
+      "topic": "OOP",
+      "subtopic": "Inheritance",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Inheritance allows:",
+      "options": [
+        { "option_id": "A", "text": "Code reuse", "is_correct": true },
+        { "option_id": "B", "text": "Memory deletion", "is_correct": false },
+        { "option_id": "C", "text": "Compilation", "is_correct": false },
+        { "option_id": "D", "text": "Looping", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Inheritance enables reuse of code."
+    },
+    {
+      "question_code": "PY_16",
+      "concept_code": "PY_OOP_04",
+      "topic": "OOP",
+      "subtopic": "Polymorphism",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Polymorphism means:",
+      "options": [
+        { "option_id": "A", "text": "One form only", "is_correct": false },
+        { "option_id": "B", "text": "Many forms", "is_correct": true },
+        { "option_id": "C", "text": "Data hiding", "is_correct": false },
+        { "option_id": "D", "text": "Encapsulation", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "Polymorphism = multiple forms."
+    },
+    {
+      "question_code": "PY_17",
+      "concept_code": "PY_EXC_01",
+      "topic": "Exceptions",
+      "subtopic": "Try-Except",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which block handles exceptions?",
+      "options": [
+        { "option_id": "A", "text": "try-except", "is_correct": true },
+        { "option_id": "B", "text": "if-else", "is_correct": false },
+        { "option_id": "C", "text": "for-while", "is_correct": false },
+        { "option_id": "D", "text": "switch-case", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "Exceptions handled using try-except."
+    },
+    {
+      "question_code": "PY_18",
+      "concept_code": "PY_FILE_01",
+      "topic": "File Handling",
+      "subtopic": "Open File",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which mode is used to read file?",
+      "options": [
+        { "option_id": "A", "text": "r", "is_correct": true },
+        { "option_id": "B", "text": "w", "is_correct": false },
+        { "option_id": "C", "text": "a", "is_correct": false },
+        { "option_id": "D", "text": "x", "is_correct": false }
+      ],
+      "correct_answer": ["A"],
+      "explanation": "'r' mode is for reading."
+    },
+    {
+      "question_code": "PY_19",
+      "concept_code": "PY_FILE_02",
+      "topic": "File Handling",
+      "subtopic": "Write File",
+      "question_type": "MCQ",
+      "difficulty": "medium",
+      "marks": 2,
+      "negative_marks": 0.67,
+      "question_text": "Which mode overwrites file?",
+      "options": [
+        { "option_id": "A", "text": "a", "is_correct": false },
+        { "option_id": "B", "text": "r", "is_correct": false },
+        { "option_id": "C", "text": "w", "is_correct": true },
+        { "option_id": "D", "text": "rb", "is_correct": false }
+      ],
+      "correct_answer": ["C"],
+      "explanation": "'w' mode overwrites file."
+    },
+    {
+      "question_code": "PY_20",
+      "concept_code": "PY_IMPORT_01",
+      "topic": "Modules",
+      "subtopic": "Import",
+      "question_type": "MCQ",
+      "difficulty": "easy",
+      "marks": 1,
+      "negative_marks": 0.33,
+      "question_text": "How do you import math module?",
+      "options": [
+        { "option_id": "A", "text": "include math", "is_correct": false },
+        { "option_id": "B", "text": "import math", "is_correct": true },
+        { "option_id": "C", "text": "using math", "is_correct": false },
+        { "option_id": "D", "text": "require math", "is_correct": false }
+      ],
+      "correct_answer": ["B"],
+      "explanation": "import keyword is used."
+    },
+  {
+    "question_code": "PY_21",
+    "concept_code": "PY_BASIC_04",
+    "topic": "Basics",
+    "subtopic": "Operators",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "What is the output of the Python expression: 17 // 5 ?",
+    "correct_answer": 3,
+    "answer_tolerance": 0.0,
+    "explanation": "Floor division returns the integer quotient. 17 // 5 = 3."
+  },
+  {
+    "question_code": "PY_22",
+    "concept_code": "PY_LOOP_03",
+    "topic": "Loops",
+    "subtopic": "For Loop",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "What is the value of s after executing: s=0; for i in range(1,6): s += i ?",
+    "correct_answer": 15,
+    "answer_tolerance": 0.0,
+    "explanation": "Sum = 1+2+3+4+5 = 15."
+  },
+  {
+    "question_code": "PY_23",
+    "concept_code": "PY_FUNC_03",
+    "topic": "Functions",
+    "subtopic": "Recursion",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A recursive function computes factorial(n). What is factorial(5)?",
+    "correct_answer": 120,
+    "answer_tolerance": 0.0,
+    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+  },
+  {
+    "question_code": "PY_24",
+    "concept_code": "PY_DS_05",
+    "topic": "Data Structures",
+    "subtopic": "Lists",
+    "question_type": "NAT",
+    "difficulty": "easy",
+    "marks": 1,
+    "negative_marks": 0,
+    "question_text": "What is the length of the list [1, 2, 3, 4, 5, 6]?",
+    "correct_answer": 6,
+    "answer_tolerance": 0.0,
+    "explanation": "The list contains 6 elements."
+  },
+  {
+    "question_code": "PY_25",
+    "concept_code": "PY_DS_06",
+    "topic": "Data Structures",
+    "subtopic": "Dictionary",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Given d = {'a':2, 'b':3, 'c':5}, compute d['a'] + d['b'] + d['c'].",
+    "correct_answer": 10,
+    "answer_tolerance": 0.0,
+    "explanation": "2 + 3 + 5 = 10."
+  },
+  {
+    "question_code": "PY_26",
+    "concept_code": "PY_OOP_05",
+    "topic": "OOP",
+    "subtopic": "Objects",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A class Student is instantiated 7 times. How many objects of Student are created?",
+    "correct_answer": 7,
+    "answer_tolerance": 0.0,
+    "explanation": "Each instantiation creates one object."
+  },
+  {
+    "question_code": "PY_27",
+    "concept_code": "PY_STRING_01",
+    "topic": "Strings",
+    "subtopic": "Indexing",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "What is the index of character 't' in the string 'python' using zero-based indexing?",
+    "correct_answer": 2,
+    "answer_tolerance": 0.0,
+    "explanation": "Indices are p=0, y=1, t=2, h=3, o=4, n=5."
+  },
+  {
+    "question_code": "PY_28",
+    "concept_code": "PY_FILE_03",
+    "topic": "File Handling",
+    "subtopic": "File Operations",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A text file contains 125 characters. If 25 more characters are appended, how many characters will the file contain?",
+    "correct_answer": 150,
+    "answer_tolerance": 0.0,
+    "explanation": "125 + 25 = 150."
+  },
+  {
+    "question_code": "PY_29",
+    "concept_code": "PY_NUMPY_01",
+    "topic": "Python for Data Science",
+    "subtopic": "Arrays",
+    "question_type": "NAT",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A NumPy array has shape (4, 5). How many total elements does it contain?",
+    "correct_answer": 20,
+    "answer_tolerance": 0.0,
+    "explanation": "Total elements = 4 × 5 = 20."
+  },
+  {
+    "question_code": "PY_30",
+    "concept_code": "PY_PANDAS_01",
+    "topic": "Python for Data Science",
+    "subtopic": "DataFrames",
+    "question_type": "NAT",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "A DataFrame has 250 rows. After removing 12% of the rows due to missing values, how many rows remain?",
+    "correct_answer": 220,
+    "answer_tolerance": 0.01,
+    "explanation": "Rows removed = 0.12 × 250 = 30. Remaining = 250 − 30 = 220."
+  },
+  {
+    "question_code": "PY_06",
+    "concept_code": "PY_BASIC_01",
+    "topic": "Basics",
+    "subtopic": "Variables",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following Python expressions evaluate to an object of type int?",
+    "options": [
+      { "option_id": "A", "text": "10", "is_correct": true },
+      { "option_id": "B", "text": "5 + 3", "is_correct": true },
+      { "option_id": "C", "text": "10.0", "is_correct": false },
+      { "option_id": "D", "text": "True", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "10 and 5+3 evaluate to integers. 10.0 is a float, while True is of type bool."
+  },
+  {
+    "question_code": "PY_07",
+    "concept_code": "PY_BASIC_02",
+    "topic": "Basics",
+    "subtopic": "Data Types",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following Python data types are immutable?",
+    "options": [
+      { "option_id": "A", "text": "Tuple", "is_correct": true },
+      { "option_id": "B", "text": "String", "is_correct": true },
+      { "option_id": "C", "text": "List", "is_correct": false },
+      { "option_id": "D", "text": "Dictionary", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "Tuples and strings are immutable. Lists and dictionaries are mutable objects."
+  },
+  {
+    "question_code": "PY_08",
+    "concept_code": "PY_BASIC_03",
+    "topic": "Basics",
+    "subtopic": "Operators",
+    "question_type": "MSQ",
+    "difficulty": "medium",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following expressions evaluate to 9 in Python?",
+    "options": [
+      { "option_id": "A", "text": "3 ** 2", "is_correct": true },
+      { "option_id": "B", "text": "pow(3, 2)", "is_correct": true },
+      { "option_id": "C", "text": "3 * 3", "is_correct": true },
+      { "option_id": "D", "text": "3 ^ 2", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B", "C"],
+    "explanation": "Exponentiation can be done using ** or pow(). 3*3 also equals 9. The ^ operator performs bitwise XOR, giving 1."
+  },
+  {
+    "question_code": "PY_09",
+    "concept_code": "PY_CONTROL_01",
+    "topic": "Control Flow",
+    "subtopic": "If-Else",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following conditions evaluate to True in Python?",
+    "options": [
+      { "option_id": "A", "text": "5 > 3", "is_correct": true },
+      { "option_id": "B", "text": "10 == 10", "is_correct": true },
+      { "option_id": "C", "text": "7 < 2", "is_correct": false },
+      { "option_id": "D", "text": "4 != 4", "is_correct": false }
+    ],
+    "correct_answer": ["A", "B"],
+    "explanation": "5 > 3 and 10 == 10 are True. The other two expressions evaluate to False."
+  },
+  {
+    "question_code": "PY_10",
+    "concept_code": "PY_LOOP_01",
+    "topic": "Loops",
+    "subtopic": "For Loop",
+    "question_type": "MSQ",
+    "difficulty": "hard",
+    "marks": 2,
+    "negative_marks": 0,
+    "question_text": "Which of the following statements about range(3) are correct?",
+    "options": [
+      { "option_id": "A", "text": "It generates the sequence 0, 1, 2", "is_correct": true },
+      { "option_id": "B", "text": "len(range(3)) is 3", "is_correct": true },
+      { "option_id": "C", "text": "The value 3 is included in the sequence", "is_correct": false },
+      { "option_id": "D", "text": "list(range(3)) returns [0, 1, 2]", "is_correct": true }
+    ],
+    "correct_answer": ["A", "B", "D"],
+    "explanation": "range(3) starts at 0 and stops before 3, producing 0, 1, 2. Therefore its length is 3 and list(range(3)) returns [0, 1, 2]."
+  }
+]
+}

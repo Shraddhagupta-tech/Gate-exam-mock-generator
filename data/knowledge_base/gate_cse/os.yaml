@@ -1,0 +1,871 @@
+subject: Operating Systems
+exam: GATE CSE
+subject_weightage: 20
+
+topics:
+
+  - name: Processes
+    topic_code: OS_PROC
+    weightage: 10
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Process States and Lifecycle
+        concepts:
+
+          - concept_code: OS_PROC_01
+            name: Process States
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+
+            estimated_questions_per_year: 1
+
+            prerequisites: []
+
+            learning_outcomes:
+              - identify_process_states
+              - analyze_state_transitions
+              - distinguish_valid_and_invalid_states
+
+            pyq_patterns:
+              - process_state_identification
+              - process_transition_analysis
+              - invalid_state_detection
+
+            templates:
+              - pattern: "Which of the following is NOT a standard process state?"
+                difficulty: easy
+
+      - name: Process Control Block
+        concepts:
+
+          - concept_code: OS_PROC_02
+            name: Process Control Block (PCB)
+            weightage: 5
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 40
+              medium: 50
+              hard: 10
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_PROC_01
+
+            learning_outcomes:
+              - understand_pcb_structure
+              - identify_process_metadata
+              - analyze_context_switch_information
+
+            pyq_patterns:
+              - pcb_definition_based_questions
+              - pcb_contents_identification
+
+            templates:
+              - pattern: "PCB stands for ___"
+                difficulty: easy
+
+  - name: CPU Scheduling
+    topic_code: OS_SCH
+    weightage: 18
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Basic Scheduling Algorithms
+        concepts:
+
+          - concept_code: OS_SCH_01
+            name: First Come First Serve (FCFS)
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 30
+              medium: 50
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_PROC_01
+
+            learning_outcomes:
+              - understand_fcfs_behavior
+              - compute_waiting_time
+              - compute_turnaround_time
+
+            pyq_patterns:
+              - scheduling_order_questions
+              - gantt_chart_construction
+
+            templates:
+              - pattern: "FCFS scheduling is based on ___"
+                difficulty: easy
+
+          - concept_code: OS_SCH_02
+            name: Shortest Job First (SJF)
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 80
+              NAT: 20
+
+            difficulty_distribution:
+              easy: 20
+              medium: 50
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_SCH_01
+
+            learning_outcomes:
+              - analyze_average_waiting_time
+              - compare_scheduling_algorithms
+
+            pyq_patterns:
+              - optimal_scheduling_questions
+              - waiting_time_minimization
+
+            templates:
+              - pattern: "Which scheduling algorithm gives minimum average waiting time theoretically?"
+                difficulty: medium
+
+          - concept_code: OS_SCH_03
+            name: Round Robin Scheduling
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_SCH_01
+
+            learning_outcomes:
+              - understand_time_quantum_usage
+              - compute_response_time
+              - evaluate_context_switch_overhead
+
+            pyq_patterns:
+              - time_quantum_based_questions
+              - round_robin_execution_analysis
+
+            templates:
+              - pattern: "Round Robin scheduling primarily uses ___"
+                difficulty: medium
+
+          - concept_code: OS_SCH_04
+            name: FCFS Waiting Time Computation
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 70
+              hard: 30
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_SCH_01
+
+            learning_outcomes:
+              - compute_average_waiting_time
+              - construct_gantt_chart
+
+            pyq_patterns:
+              - numerical_waiting_time
+              - fcfs_calculation
+
+            templates:
+              - pattern: "Compute average waiting time using FCFS scheduling."
+                difficulty: medium
+
+          - concept_code: OS_SCH_05
+            name: FCFS Turnaround Time Computation
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 0
+              medium: 60
+              hard: 40
+
+            estimated_questions_per_year: 1
+
+            prerequisites:
+              - OS_SCH_04
+
+            learning_outcomes:
+              - compute_turnaround_time
+              - analyze_completion_time
+
+            pyq_patterns:
+              - numerical_turnaround_time
+
+            templates:
+              - pattern: "Compute average turnaround time using FCFS scheduling."
+                difficulty: medium
+
+  - name: Threads and Synchronization
+    topic_code: OS_SYNC
+    weightage: 14
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Threads
+        concepts:
+
+          - concept_code: OS_THREAD_01
+            name: Thread Basics
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 50
+              medium: 40
+              hard: 10
+
+            learning_outcomes:
+              - identify_shared_resources
+              - differentiate_thread_components
+              - compare_processes_and_threads
+
+            pyq_patterns:
+              - resource_sharing_questions
+
+            templates:
+              - pattern: "Threads of the same process share ___"
+                difficulty: easy
+
+      - name: Process Synchronization
+        concepts:
+
+          - concept_code: OS_SYNC_01
+            name: Critical Section Problem
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_concurrent_execution_issues
+              - identify_race_conditions
+
+            templates:
+              - pattern: "The critical section problem arises due to ___"
+                difficulty: easy
+
+          - concept_code: OS_SYNC_02
+            name: Semaphores
+            weightage: 4
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            learning_outcomes:
+              - understand_wait_signal_operations
+              - solve_synchronization_problems
+
+            pyq_patterns:
+              - semaphore_operation_questions
+              - producer_consumer
+
+            templates:
+              - pattern: "Which operations are associated with semaphores?"
+                difficulty: medium
+
+          - concept_code: OS_SYNC_03
+            name: Mutex Locks
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_mutual_exclusion
+              - compare_mutex_and_semaphore
+
+            pyq_patterns:
+              - mutex_usage_questions
+
+            templates:
+              - pattern: "A mutex allows access to a shared resource by ___"
+                difficulty: medium
+
+  - name: Deadlocks
+    topic_code: OS_DEAD
+    weightage: 12
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Deadlock Fundamentals
+        concepts:
+
+          - concept_code: OS_DEAD_01
+            name: Coffman Conditions
+            weightage: 5
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 20
+              medium: 60
+              hard: 20
+
+            learning_outcomes:
+              - identify_deadlock_conditions
+              - analyze_resource_allocation
+
+            pyq_patterns:
+              - deadlock_condition_questions
+
+            templates:
+              - pattern: "Which is NOT a Coffman deadlock condition?"
+                difficulty: medium
+
+          - concept_code: OS_DEAD_02
+            name: Banker's Algorithm
+            weightage: 7
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            difficulty_distribution:
+              easy: 10
+              medium: 50
+              hard: 40
+
+            learning_outcomes:
+              - understand_deadlock_avoidance
+              - determine_safe_sequences
+              - evaluate_safe_states
+
+            pyq_patterns:
+              - bankers_algorithm_tables
+              - safe_state_detection
+
+            templates:
+              - pattern: "Banker's algorithm is used for ___"
+                difficulty: hard
+
+  - name: Memory Management
+    topic_code: OS_MEM
+    weightage: 25
+    gate_frequency: very_high
+
+    subtopics:
+
+      - name: Paging and Segmentation
+        concepts:
+
+          - concept_code: OS_MEM_01
+            name: Paging
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 80
+              NAT: 20
+
+            learning_outcomes:
+              - understand_page_management
+              - analyze_fragmentation
+
+            templates:
+              - pattern: "Paging eliminates ___"
+                difficulty: easy
+
+          - concept_code: OS_MEM_02
+            name: Segmentation
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_logical_memory_division
+              - compare_segmentation_and_paging
+
+            templates:
+              - pattern: "Segmentation supports ___"
+                difficulty: medium
+
+          - concept_code: OS_MEM_03
+            name: Virtual Memory
+            weightage: 4
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            learning_outcomes:
+              - understand_virtual_memory_benefits
+              - analyze_address_space_expansion
+
+            templates:
+              - pattern: "Virtual memory enables ___"
+                difficulty: medium
+
+          - concept_code: OS_MEM_04
+            name: Page Fault
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              MCQ: 80
+              NAT: 20
+
+            learning_outcomes:
+              - understand_page_fault_mechanism
+              - analyze_page_fault_handling
+
+            templates:
+              - pattern: "A page fault occurs when ___"
+                difficulty: easy
+
+          - concept_code: OS_MEM_05
+            name: LRU Page Replacement
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            learning_outcomes:
+              - understand_lru_policy
+              - compare_replacement_algorithms
+
+            templates:
+              - pattern: "LRU page replacement removes ___"
+                difficulty: medium
+
+          - concept_code: OS_MEM_06
+            name: LRU Page Fault Calculation
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - calculate_page_faults
+              - simulate_lru_algorithm
+
+            pyq_patterns:
+              - page_replacement_numericals
+
+            templates:
+              - pattern: "Compute total page faults using LRU."
+                difficulty: hard
+
+          - concept_code: OS_MEM_07
+            name: Page Fault Rate Analysis
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - compute_page_fault_rate
+              - analyze_memory_performance
+
+            templates:
+              - pattern: "Compute page fault rate percentage."
+                difficulty: medium
+
+          - concept_code: OS_MEM_08
+            name: Paging Address Translation
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - compute_page_number
+              - perform_address_translation
+
+            templates:
+              - pattern: "Find page number for a given logical address."
+                difficulty: easy
+
+          - concept_code: OS_QA_10
+            name: Address Translation Numericals
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - calculate_page_number
+              - solve_translation_problems
+
+            templates:
+              - pattern: "Given page size and logical address, determine page number."
+                difficulty: medium
+
+  - name: Disk Scheduling
+    topic_code: OS_DISK
+    weightage: 8
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Disk Scheduling Algorithms
+        concepts:
+
+          - concept_code: OS_DISK_01
+            name: FCFS Disk Scheduling
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_disk_fcfs
+
+            templates:
+              - pattern: "Which disk scheduling algorithm services requests in arrival order?"
+                difficulty: easy
+
+          - concept_code: OS_DISK_02
+            name: SSTF Scheduling
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_seek_time_optimization
+
+            templates:
+              - pattern: "SSTF stands for ___"
+                difficulty: medium
+
+          - concept_code: OS_DISK_03
+            name: SSTF Head Movement Calculation
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - compute_total_head_movement
+              - simulate_sstf_execution
+
+            templates:
+              - pattern: "Using SSTF, compute total head movement."
+                difficulty: hard
+
+  - name: File Systems
+    topic_code: OS_FILE
+    weightage: 6
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: File Organization and Allocation
+        concepts:
+
+          - concept_code: OS_FILE_01
+            name: File Basics
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_file_definition
+
+            templates:
+              - pattern: "A file is ___"
+                difficulty: easy
+
+          - concept_code: OS_FILE_02
+            name: Contiguous Allocation
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_allocation_fragmentation
+              - compare_allocation_methods
+
+            templates:
+              - pattern: "Which file allocation method suffers from external fragmentation?"
+                difficulty: medium
+
+  - name: Inter Process Communication
+    topic_code: OS_IPC
+    weightage: 7
+    gate_frequency: high
+
+    subtopics:
+
+      - name: IPC Mechanisms
+        concepts:
+
+          - concept_code: OS_IPC_01
+            name: Pipes
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_pipe_usage
+
+            templates:
+              - pattern: "A pipe is primarily used for ___"
+                difficulty: easy
+
+          - concept_code: OS_IPC_02
+            name: Shared Memory
+            weightage: 4
+            gate_frequency: high
+
+            question_types:
+              MCQ: 70
+              NAT: 30
+
+            learning_outcomes:
+              - compare_ipc_mechanisms
+              - analyze_ipc_performance
+
+            templates:
+              - pattern: "Fastest IPC mechanism is generally ___"
+                difficulty: medium
+
+  - name: System Calls and OS Architecture
+    topic_code: OS_SYS_ARCH
+    weightage: 10
+    gate_frequency: high
+
+    subtopics:
+
+      - name: System Calls
+        concepts:
+
+          - concept_code: OS_SYS_01
+            name: System Calls Basics
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_os_interface
+
+            templates:
+              - pattern: "System calls provide an interface between ___"
+                difficulty: easy
+
+          - concept_code: OS_SYS_02
+            name: fork() System Call
+            weightage: 3
+            gate_frequency: very_high
+
+            question_types:
+              MCQ: 60
+              NAT: 40
+
+            learning_outcomes:
+              - understand_process_creation
+              - analyze_fork_execution
+
+            templates:
+              - pattern: "The fork() system call creates ___"
+                difficulty: medium
+
+          - concept_code: OS_SYS_03
+            name: Process Count After fork()
+            weightage: 2
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            learning_outcomes:
+              - compute_process_count
+              - solve_fork_numericals
+
+            templates:
+              - pattern: "A process executes fork() multiple times."
+                difficulty: easy
+
+      - name: Operating System Architecture
+        concepts:
+
+          - concept_code: OS_ARCH_01
+            name: Kernel
+            weightage: 1
+            gate_frequency: high
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_kernel_role
+
+            templates:
+              - pattern: "The core component of an operating system is called ___"
+                difficulty: easy
+
+          - concept_code: OS_ARCH_02
+            name: Monolithic Kernel
+            weightage: 1
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_kernel_types
+
+            templates:
+              - pattern: "In a monolithic kernel ___"
+                difficulty: medium
+
+  - name: Protection and Security
+    topic_code: OS_SEC
+    weightage: 5
+    gate_frequency: medium
+
+    subtopics:
+
+      - name: Access Control and Authentication
+        concepts:
+
+          - concept_code: OS_SEC_01
+            name: Access Matrix
+            weightage: 3
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            difficulty_distribution:
+              easy: 10
+              medium: 50
+              hard: 40
+
+            learning_outcomes:
+              - understand_access_control_models
+              - analyze_permissions
+
+            templates:
+              - pattern: "The access matrix model is used for ___"
+                difficulty: hard
+
+          - concept_code: OS_SEC_02
+            name: Authentication
+            weightage: 2
+            gate_frequency: medium
+
+            question_types:
+              MCQ: 100
+
+            learning_outcomes:
+              - understand_authentication_process
+              - distinguish_authentication_and_authorization
+
+            templates:
+              - pattern: "Authentication verifies ___"
+                difficulty: easy
+
+  - name: Quantitative OS Numericals
+    topic_code: OS_NUM
+    weightage: 3
+    gate_frequency: high
+
+    subtopics:
+
+      - name: Performance Metrics
+        concepts:
+
+          - concept_code: OS_NUM_01
+            name: CPU Utilization
+            weightage: 3
+            gate_frequency: high
+
+            question_types:
+              NAT: 100
+
+            difficulty_distribution:
+              easy: 20
+              medium: 70
+              hard: 10
+
+            learning_outcomes:
+              - calculate_cpu_utilization
+              - analyze_system_performance
+
+            pyq_patterns:
+              - utilization_based_numericals
+
+            templates:
+              - pattern: "Compute CPU utilization percentage."
+                difficulty: medium
