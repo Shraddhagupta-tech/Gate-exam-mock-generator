@@ -1,5 +1,4 @@
 from decimal import Decimal
-
 from passlib.context import CryptContext
 from app.database.db_connection import Base,engine,Session, get_db
 from jose import jwt,JWTError
