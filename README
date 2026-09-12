@@ -164,7 +164,7 @@ The database is designed to support:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/gate-mock-platform.git
+git clone https://github.com/Shraddhagupta-tech/Gate-exam-mock-generator
 ```
 
 ```bash
